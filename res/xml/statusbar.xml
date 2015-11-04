@@ -10,6 +10,12 @@
             android:icon="@drawable/ic_traffic"
             android:title="@string/traffic_title" />
 
+        <Preference
+            android:key="status_bar_clock"
+            android:fragment="com.dot.dotextras.ClockDateSettings"
+            android:icon="@drawable/ic_statusbarclock"
+            android:title="@string/status_bar_clock_title" />
+
         <ListPreference
         android:key="ticker_mode"
         android:entries="@array/ticker_mode_entries"
