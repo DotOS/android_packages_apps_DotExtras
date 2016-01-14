@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+		  xmlns:pure="http://schemas.android.com/apk/res-auto" >
 
-    <PreferenceCategory android:title="Lockscreen">
+    <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
+        android:key="block_on_secure_keyguard"
+        android:title="@string/block_on_secure_keyguard_title"
+        android:summary="@string/block_on_secure_keyguard_summary"
+        android:persistent="false"
+        android:defaultValue="true"/>
 
-    </PreferenceCategory>
 </PreferenceScreen>
