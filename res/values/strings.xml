@@ -120,6 +120,11 @@
     <string name="disable_fc_notifications_title">Disable force close</string>
     <string name="disable_fc_notifications_summary">Hide all force close notification dialogs</string>
 
+<!-- LOCKSCREEN SECTION -->
+	<!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
 <!-- APP PREFERENCES -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -218,6 +223,5 @@
     <string name="dotos_vx_x">DotOS vX.X</string>
     <string name="build_version_s">Build Version : %s</string>
     <string name="device_s">Device : %s</string>
-
 
 </resources>
