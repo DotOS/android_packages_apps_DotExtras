@@ -591,4 +591,8 @@
   <string name="lockscreen_date_selection_default">Default (bigger size)</string>
   <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
   <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+  
+  <!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_title">Lockscreen visualizer</string>
+    <string name="lockscreen_visualizer_summary">Displays a live design on lockscreen while music is playing</string>
 </resources>

@@ -736,5 +736,9 @@
 	<!-- Vibrate on plugged -->
     <string name="vibration_on_charge_state_changed_title">Vibrate on plug</string>
     <string name="vibration_on_charge_state_changed_summary">Vibrate device when device connected to power source</string>
+	
+	<!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_title">Lockscreen visualizer</string>
+    <string name="lockscreen_visualizer_summary">Displays a live design on lockscreen while music is playing</string>
 
 </resources>
