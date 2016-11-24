@@ -74,7 +74,7 @@
 	<com.dotos.dotextras.preferences.SecureSettingSwitchPreference
         android:key="qs_easy_toggle"
         android:title="@string/qs_easy_toggle_title"
-        android:icon="@drawable/ic_dot_sysreboot"
+        android:icon="@drawable/ic_dot_statusbar"
         android:summary="@string/qs_easy_toggle_summary"
         android:defaultValue="false" />
 

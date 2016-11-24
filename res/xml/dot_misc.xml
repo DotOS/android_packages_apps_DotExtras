@@ -36,5 +36,13 @@
             android:summary="@string/camera_sounds_summary"
             android:defaultValue="true" />
 
+	<com.dotos.dotextras.preferences.SystemSettingSwitchPreference
+         android:key="three_finger_gesture"
+         android:title="@string/three_finger_gesture"
+         android:summary="@string/three_finger_gesture_summary"
+         android:icon="@drawable/ic_dot_misc"
+         android:defaultValue="false" />
+		
+			
     </PreferenceCategory>
 </PreferenceScreen>
