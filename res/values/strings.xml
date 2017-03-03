@@ -101,6 +101,11 @@
     <string name="qs_columns_title">No. of Columns</string>
     <string name="qs_columns_rows_title">Adjust the number of rows and columns</string>
 
+<!-- MISC SECTION -->
+    <!-- Disable FC notifications -->
+    <string name="disable_fc_notifications_title">Disable force close</string>
+    <string name="disable_fc_notifications_summary">Hide all force close notification dialogs</string>
+
 <!-- APP PREFERENCES -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
