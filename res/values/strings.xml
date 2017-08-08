@@ -547,9 +547,20 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
+<<<<<<< HEAD
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+=======
+    <string name="weather_title">Weather</string>
+    <string name="weather_summary">Weather settings</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
+
+</resources>
+>>>>>>> 9a956ae... Extensions:Sensor block per-package switch[2/2]
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
@@ -633,4 +644,8 @@
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Opacity</string>
     <string name="qs_opacity_category">QS panel opacity</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
 </resources>
