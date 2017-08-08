@@ -26,6 +26,12 @@
             android:summary="@string/toast_icon_summary"
             android:defaultValue="false" />
 
+        <com.dot.dotextras.preference.SystemSettingSwitchPreference
+            android:key="sensor_block"
+            android:title="@string/sensor_block_title"
+            android:summary="@string/sensor_block_summary"
+            android:defaultValue="false" />
+
         <ListPreference
             android:key="headset_connect_player"
             android:title="@string/headset_connect_player_title"
