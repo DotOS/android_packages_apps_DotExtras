@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Welcome">
+        <menu>
+            <item
+                android:id="@+id/nav_dot_hello"
+                android:icon="@android:color/transparent"
+                android:title="Hello" />
+        </menu>
+    </item>
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:title="Statusbar"
+                android:icon="@drawable/ic_dot_statusbar"
+                android:id="@+id/nav_dot_statusbar" />
+            <item
+                android:title="Buttons"
+                android:icon="@drawable/ic_dot_buttons"
+                android:id="@+id/nav_dot_buttons" />
+            <item
+                android:title="Display"
+                android:icon="@drawable/ic_dot_display"
+                android:id="@+id/nav_dot_display" />
+            <item
+                android:title="Lockscreen"
+                android:icon="@drawable/ic_dot_lockscreen"
+                android:id="@+id/nav_dot_lockscreen" />
+            <item
+                android:title="Recents"
+                android:icon="@drawable/ic_dot_recents"
+                android:id="@+id/nav_dot_recents" />
+            <item
+                android:title="Misc"
+                android:icon="@drawable/ic_dot_misc"
+                android:id="@+id/nav_dot_misc" />
+            <item
+                android:title="Powermenu"
+                android:icon="@drawable/ic_dot_powermenu"
+                android:id="@+id/nav_dot_powermenu" />
+            <item
+                android:title="NavigationBar"
+                android:icon="@drawable/ic_dot_navbar"
+                android:id="@+id/nav_dot_navbar" />
+        </menu>
+    </item>
+
+    <item android:title="About Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_about_extras"
+                android:icon="@android:color/transparent"
+                android:title="About Dot Extras app" />
+        </menu>
+    </item>
+
+</menu>
