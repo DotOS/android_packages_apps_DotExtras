@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Welcome">
+    <item android:title="Main">
         <menu>
             <item
-                android:id="@+id/nav_dot_hello"
+                android:id="@+id/nav_dot_main"
                 android:icon="@android:color/transparent"
-                android:title="Hello" />
+                android:title="Main Page" />
         </menu>
     </item>
     <item android:title="Extras">

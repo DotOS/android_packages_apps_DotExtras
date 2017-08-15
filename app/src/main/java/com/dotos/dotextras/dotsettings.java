@@ -95,7 +95,16 @@ public class dotsettings extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_dot_hello) {
+        if (id == R.id.nav_dot_main) {
+            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View layout = inflater.inflate(R.layout.pref_view, null);
+            mainLayout.removeAllViews();
+            mainLayout.addView(layout);
+            getFragmentManager().beginTransaction()
+                    .replace(R.id.pref_view_layout, new PrefsFragment())
+                    .commitAllowingStateLoss();
+        } else if (id == R.id.nav_about_extras) {
             CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.content_dotsettings, null);
