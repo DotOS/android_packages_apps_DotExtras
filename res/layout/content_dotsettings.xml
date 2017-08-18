@@ -8,14 +8,6 @@
     tools:context="com.dotos.dotextras.dotsettings">
 
     <include
-        layout="@layout/pref_cardview0"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/include2"
-        android:layout_centerHorizontal="true"
-        android:visibility="visible" />
-
-    <include
         android:id="@+id/include2"
         layout="@layout/card_hello"
         android:layout_width="match_parent"
@@ -26,10 +18,10 @@
 
     <include
         layout="@layout/pref_cardview_main"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/include" />
+        android:id="@+id/include"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
