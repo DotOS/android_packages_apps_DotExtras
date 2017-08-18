@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="About App">
+        <Preference
+            android:title="Version"
+            android:summary="app_ver"
+            android:shouldDisableView="false"
+            android:enabled="false"
+            android:key="version">
+        </Preference>
+        <Preference
+            android:title="DotOS Version"
+            android:shouldDisableView="false"
+            android:enabled="false"
+            android:summary="ro.dot.version">
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Updates">
+        <Preference
+            android:title="DotOS Updates"
+            android:summary="Align the Dots up to date">
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
