@@ -1,13 +1,11 @@
 package com.dotos.dotextras;
 
 import android.content.Context;
-import android.os.AsyncTask;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -18,15 +16,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
-
+// Impoort Dots Fragments
 import com.dotos.dotextras.fragments.AboutExtrasFragment;
 import com.dotos.dotextras.fragments.ButtonFragment;
 import com.dotos.dotextras.fragments.DisplayFragment;
 import com.dotos.dotextras.fragments.LockScreenFragment;
 import com.dotos.dotextras.fragments.MiscFragment;
+import com.dotos.dotextras.fragments.NavbarFragment;
 import com.dotos.dotextras.fragments.PowerMenuFragment;
 import com.dotos.dotextras.fragments.RecentsFragment;
 import com.dotos.dotextras.fragments.StatusbarFragment;
+import com.dotos.dotextras.fragments.SupportedDevicesFragment;
 
 import eu.chainfire.libsuperuser.Shell;
 
@@ -37,7 +37,6 @@ public class dotsettings extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_main);
-		
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -47,7 +46,6 @@ public class dotsettings extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
-
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -57,37 +55,44 @@ public class dotsettings extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.dotsettings, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_sysreboot) {
             SuShell.run("pkill -TERM -f com.android.systemui");
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
-
+    public void openGit(View v){
+        Uri uri = Uri.parse("https://www.github.com/DotOS");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+    public void openTelegram(View v){
+        Uri uri = Uri.parse("https://t.me/dotos");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+    public void openGPlus(View v){
+        Uri uri = Uri.parse("https://plus.google.com/communities/101137692192340076065?sqinv=T2lpMjQtWFBBVFVmdnNkT053VWlkeXJkdGJrVmNB");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+    public void openDonate(View v){
+        Toast.makeText(getBaseContext(), "Donation Link comming soon...", Toast.LENGTH_LONG);
+    }
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
         int id = item.getItemId();
-
-if (id == R.id.nav_dot_main) {
+        if (id == R.id.nav_dot_main) {
             CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.content_dotsettings, null);
@@ -165,15 +170,6 @@ if (id == R.id.nav_dot_main) {
             getFragmentManager().beginTransaction()
                     .replace(R.id.pref_view_layout, new AboutExtrasFragment())
                     .commitAllowingStateLoss();
-        } else if (id == R.id.nav_dot_misc) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
-            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View layout = inflater.inflate(R.layout.pref_view, null);
-            mainLayout.removeAllViews();
-            mainLayout.addView(layout);
-            getFragmentManager().beginTransaction()
-                    .replace(R.id.pref_view_layout, new MiscFragment())
-                    .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_navbar) {
             CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -181,22 +177,20 @@ if (id == R.id.nav_dot_main) {
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
             getFragmentManager().beginTransaction()
-                    .replace(R.id.pref_view_layout, new MiscFragment())
+                    .replace(R.id.pref_view_layout, new NavbarFragment())
                     .commitAllowingStateLoss();
-        } else if (id == R.id.nav_about_extras) {
+        } else if (id == R.id.nav_dot_support) {
             CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_about, null);
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
             getFragmentManager().beginTransaction()
-                    .replace(R.id.pref_about_layout, new MiscFragment())
+                    .replace(R.id.pref_about_layout, new SupportedDevicesFragment())
                     .commitAllowingStateLoss();
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
 }

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andorid="http://schemas.android.com/tools">
+
+    <PreferenceScreen
+        android:summary="DOT-N-V1.0-20170819"
+        android:title="Latest DotOS Version"
+        android:enabled="false"
+        android:shouldDisableView="false"
+        andorid:icon="@mipmap/ic_launcher" />
+    <PreferenceScreen
+        android:summary="Check all our OFFICIAL Device Maintainers list"/>
+    <PreferenceCategory
+        android:title="Devices &amp; Maintainers">
+        <PreferenceScreen
+            android:summary="mohancm100 &amp; ganeshi4u"
+            android:title="Lenovo K4 Note (A7010a48)"
+            android:enabled="false"
+            android:shouldDisableView="false"
+            andorid:icon="@drawable/ic_default_device_icon" />
+        <PreferenceScreen
+            android:summary="Iacob Ionut"
+            android:title="Gionee S Plus (wbl7511)"
+            android:enabled="false"
+            android:shouldDisableView="false"
+            andorid:icon="@drawable/ic_default_device_icon" />
+        <PreferenceScreen
+            android:summary="Chinmay Gupta"
+            android:title="Moto G5 Plus (Potter)"
+            android:enabled="false"
+            android:shouldDisableView="false"
+            andorid:icon="@drawable/ic_default_device_icon" />
+        <PreferenceScreen
+            android:summary="Chinmay Gupta"
+            android:title="Moto G Turbo Edition (Merlin)"
+            android:enabled="false"
+            android:shouldDisableView="false"
+            andorid:icon="@drawable/ic_default_device_icon" />
+        <PreferenceScreen
+            android:summary="Sayan Biswas (Reapergod35)"
+            android:title="Coolpad Note 3/Lite (CPN3/CPN3L)"
+            android:enabled="false"
+            android:shouldDisableView="false"
+            andorid:icon="@drawable/ic_default_device_icon" />
+        <PreferenceScreen
+            android:summary="Sayan Biswas (Reapergod35)"
+            android:title="Sprout 4 &amp; 8 (sprout4/sprout8)"
+            android:enabled="false"
+            android:shouldDisableView="false"
+            andorid:icon="@drawable/ic_default_device_icon" />
+    </PreferenceCategory>
+</PreferenceScreen>

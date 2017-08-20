@@ -45,7 +45,14 @@
                 android:id="@+id/nav_dot_navbar" />
         </menu>
     </item>
-
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/nav_dot_support"
+                android:icon="@drawable/supported_devices"
+                android:title="Supported Devices" />
+        </menu>
+    </item>
     <item android:title="About Extras">
         <menu>
             <item

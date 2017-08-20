@@ -20,14 +20,14 @@
                 style="@style/Widget.AppCompat.ImageButton"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginBottom="38dp"
-                android:layout_marginEnd="37dp"
-                android:layout_toStartOf="@+id/paypal"
+                android:layout_marginStart="45dp"
                 android:background="@android:color/transparent"
                 android:onClick="openTelegram"
                 android:scaleType="centerInside"
-                app:srcCompat="@drawable/telegram" />
+                app:srcCompat="@drawable/telegram"
+                android:layout_marginTop="17dp"
+                android:layout_below="@+id/dot_logo_main"
+                android:layout_alignParentStart="true" />
 
             <ImageButton
                 android:id="@+id/paypal"
@@ -35,8 +35,8 @@
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_alignTop="@+id/telegram"
-                android:layout_marginEnd="25dp"
-                android:layout_toStartOf="@+id/google_plus"
+                android:layout_marginStart="23dp"
+                android:layout_toEndOf="@+id/telegram"
                 android:background="@android:color/transparent"
                 android:onClick="openDonate"
                 android:scaleType="centerCrop"
@@ -47,9 +47,9 @@
                 style="@style/Widget.AppCompat.ImageButton"
                 android:layout_width="60dp"
                 android:layout_height="64dp"
-                android:layout_alignEnd="@+id/github"
                 android:layout_alignTop="@+id/paypal"
-                android:layout_marginEnd="97dp"
+                android:layout_marginStart="23dp"
+                android:layout_toEndOf="@+id/paypal"
                 android:adjustViewBounds="false"
                 android:background="@android:color/transparent"
                 android:cropToPadding="false"
@@ -63,16 +63,16 @@
                 style="@style/Widget.AppCompat.ImageButton"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_marginEnd="278dp"
+                android:layout_alignTop="@+id/google_plus"
+                android:layout_marginStart="21dp"
+                android:layout_toEndOf="@+id/google_plus"
                 android:adjustViewBounds="false"
                 android:background="@android:color/transparent"
                 android:cropToPadding="false"
                 android:onClick="openGit"
                 android:scaleType="centerInside"
                 android:visibility="visible"
-                app:srcCompat="@drawable/github"
-                android:layout_alignTop="@+id/google_plus"
-                android:layout_alignParentEnd="true" />
+                app:srcCompat="@drawable/github" />
 
             <ImageView
                 android:id="@+id/dot_logo_main"
