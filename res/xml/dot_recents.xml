@@ -19,7 +19,7 @@
      </PreferenceCategory>
 
      <PreferenceCategory
-         android:title="@string/visuals">
+         android:title="Recents visual tweaks">
 
 	    <ListPreference
             android:key="immersive_recents"

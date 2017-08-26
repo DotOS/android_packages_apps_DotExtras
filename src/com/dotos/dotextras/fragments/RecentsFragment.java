@@ -56,6 +56,7 @@ public class RecentsFragment extends PreferenceFragment {
             Activity activity = getActivity();
             ContentResolver resolver = getActivity().getContentResolver();
 
+	    // Clear all location
             mRecentsClearAllLocation = (ListPreference) prefSet.findPreference(RECENTS_CLEAR_ALL_LOCATION);
             int location = Settings.System.getIntForUser(resolver,
                     Settings.System.RECENTS_CLEAR_ALL_LOCATION, 3, UserHandle.USER_CURRENT);
@@ -64,7 +65,7 @@ public class RecentsFragment extends PreferenceFragment {
             mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
 
 	    // Immersive recents
-            mImmersiveRecents = (ListPreference) findPreference(IMMERSIVE_RECENTS);
+            mImmersiveRecents = (ListPreference) prefSet.findPreference(IMMERSIVE_RECENTS);
             mImmersiveRecents.setValue(String.valueOf(Settings.System.getInt(
                     resolver, Settings.System.IMMERSIVE_RECENTS, 0)));
             mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
