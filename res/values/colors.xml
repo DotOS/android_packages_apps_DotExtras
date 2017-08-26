@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#eeeeee</color>
-    <color name="colorAccent">#7c4dff</color>
+    <color name="colorAccent">#34495e</color>
     <color name="toolbarText">#000</color>
 	<color name="overlayBackground">#00ffffff</color>
     <color name="seekbar_dot_color">@color/colorPrimary</color>
