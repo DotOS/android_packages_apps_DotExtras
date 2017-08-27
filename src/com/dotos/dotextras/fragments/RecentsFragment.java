@@ -28,14 +28,14 @@ public class RecentsFragment extends PreferenceFragment {
         super.onCreate(savedInstanceState);
 
         getActivity().getFragmentManager().beginTransaction()
-                .replace(R.id.pref_view_layout, new RecentsFragment())
+                .replace(R.id.pref_view_layout, new RecentsPreferenceFragment())
                 .commit();
     }
 
-    public static class RecentsFragment extends PreferenceFragment
+    public static class RecentsPreferenceFragment extends PreferenceFragment
             implements OnPreferenceChangeListener {
 
-        public RecentsFragment() {
+        public RecentsPreferenceFragment() {
         }
 
         private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
