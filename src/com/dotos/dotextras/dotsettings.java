@@ -30,6 +30,8 @@ import com.dotos.dotextras.fragments.SupportedDevicesFragment;
 
 import eu.chainfire.libsuperuser.Shell;
 
+import com.dotos.R;
+
 public class dotsettings extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 

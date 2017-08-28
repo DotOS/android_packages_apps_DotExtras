@@ -18,7 +18,7 @@ import android.provider.Settings;
 import android.support.v4.app.Fragment;
 import android.widget.Toast;
 
-import com.dotos.dotextras.R;
+import com.dotos.R;
 
 
 public class RecentsFragment extends PreferenceFragment {

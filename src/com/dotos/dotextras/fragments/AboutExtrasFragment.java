@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 
-import com.dotos.dotextras.R;
+import com.dotos.R;
 
 
 public class AboutExtrasFragment extends PreferenceFragment implements Preference.OnPreferenceChangeListener {

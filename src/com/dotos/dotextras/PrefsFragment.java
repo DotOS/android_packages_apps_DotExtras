@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 
+import com.dotos.R;
+
 public class PrefsFragment extends PreferenceFragment {
 
     @Override
