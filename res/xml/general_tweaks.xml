@@ -85,6 +85,18 @@
 
     </PreferenceCategory>
 
+        <PreferenceCategory
+            android:key="blocker_options"
+            android:title="@string/blocker_category" >
+
+        <Preference
+             android:key="alarm_blocker"
+             android:fragment="com.dot.dotextras.AlarmBlocker"
+             android:title="@string/alarm_blocker"
+             android:summary="@string/alarm_blocker_summary" />
+
+        </PreferenceCategory>
+
     <PreferenceCategory
         android:key="light_category"
         android:title="@string/light_category">
