@@ -6,7 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorPrimary">@color/toolbarText</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -50,6 +51,12 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Widget.Design.NavigationView" parent="">
+        <item name="android:background">?android:attr/windowBackground</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:maxWidth">@dimen/design_navigation_max_width</item>
     </style>
 
     <!-- SeekBarPreferenceCham value popup -->

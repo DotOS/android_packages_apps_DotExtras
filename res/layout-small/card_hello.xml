@@ -25,6 +25,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="27dp"
                     android:text="Welcome to DotOS Extras"
+                    android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
@@ -35,7 +36,6 @@
                     android:layout_below="@+id/wlcm_1"
                     android:layout_centerHorizontal="true"
                     android:text="Align the Dots how u want , Customize Dot Interface with many features"
-                    android:textAlignment="center"
                     android:textSize="16sp"
                     android:textStyle="italic" />
 

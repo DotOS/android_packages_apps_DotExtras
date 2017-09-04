@@ -1,5 +1,7 @@
 package com.dotos.dotextras;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -11,10 +13,17 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.Switch;
 import android.widget.Toast;
 // Impoort Dots Fragments
 import com.dotos.dotextras.fragments.AboutExtrasFragment;
@@ -29,8 +38,6 @@ import com.dotos.dotextras.fragments.StatusbarFragment;
 import com.dotos.dotextras.fragments.SupportedDevicesFragment;
 
 import eu.chainfire.libsuperuser.Shell;
-
-import com.dotos.R;
 
 public class dotsettings extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -67,7 +74,7 @@ public class dotsettings extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_sysreboot) {
-            SuShell.run("pkill -TERM -f com.android.systemui");
+            Toast.makeText(getBaseContext(), "Debug Version : " + BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -76,6 +83,38 @@ public class dotsettings extends AppCompatActivity
         Uri uri = Uri.parse("https://www.github.com/DotOS");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
+    }
+    public void show_cm(View v){
+        Button show = (Button) findViewById(R.id.btn_show);
+        show.setVisibility(View.GONE);
+        Button hide = (Button) findViewById(R.id.btn_hide);
+        hide.setVisibility(View.VISIBLE);
+        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.cm_layouts);
+        show_layout.setVisibility(View.VISIBLE);
+    }
+    public void hide_cm(View v){
+        Button hide = (Button) findViewById(R.id.btn_hide);
+        hide.setVisibility(View.GONE);
+        Button show = (Button) findViewById(R.id.btn_show);
+        show.setVisibility(View.VISIBLE);
+        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.cm_layouts);
+        show_layout.setVisibility(View.GONE);
+    }
+    public void show_pref(View v){
+        Button show = (Button) findViewById(R.id.btn_pref_show);
+        show.setVisibility(View.GONE);
+        Button hide = (Button) findViewById(R.id.btn_pref_hide);
+        hide.setVisibility(View.VISIBLE);
+        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.pref_layouts);
+        show_layout.setVisibility(View.VISIBLE);
+    }
+    public void hide_pref(View v){
+        Button hide = (Button) findViewById(R.id.btn_pref_hide);
+        hide.setVisibility(View.GONE);
+        Button show = (Button) findViewById(R.id.btn_pref_show);
+        show.setVisibility(View.VISIBLE);
+        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.pref_layouts);
+        show_layout.setVisibility(View.GONE);
     }
     public void openTelegram(View v){
         Uri uri = Uri.parse("https://t.me/dotos");
@@ -88,7 +127,7 @@ public class dotsettings extends AppCompatActivity
         startActivity(intent);
     }
     public void openDonate(View v){
-        Toast.makeText(getBaseContext(), "Donation Link comming soon...", Toast.LENGTH_LONG);
+        Toast.makeText(getBaseContext(), "Donation Link comming soon...", Toast.LENGTH_LONG).show();
     }
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

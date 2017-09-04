@@ -15,14 +15,21 @@
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
-        android:layout_width="220dp"
+        android:layout_width="413dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_dotsettings"
+        android:maxWidth="500dp"
         app:itemIconTint="@color/colorAccent"
-        app:itemTextAppearance="@style/TextAppearance.Small"
-        app:itemTextColor="@android:color/black"
-        app:menu="@menu/layout_main_drawer" />
+        app:itemTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:itemTextColor="@color/toolbarText"
+        app:menu="@menu/layout_main_drawer">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+    </android.support.design.widget.NavigationView>
 
 </android.support.v4.widget.DrawerLayout>

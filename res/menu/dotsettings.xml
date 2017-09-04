@@ -4,8 +4,7 @@
 
     <item
         android:id="@+id/action_sysreboot"
-        android:icon="@drawable/ic_dot_sysreboot"
         android:orderInCategory="3"
-        android:title="SysReboot"
+        android:title="debug"
         app:showAsAction="ifRoom" />
 </menu>
