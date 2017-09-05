@@ -8,60 +8,61 @@
     android:layout_height="match_parent">
 
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardElevation="5dp"
-        android:id="@+id/cardView2">
-
-        <RelativeLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="5dp">
 
-            <ImageView
-                android:id="@+id/imageView"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                app:srcCompat="@color/default_Card_color" />
+                android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="100dp"
-                android:layout_height="140dp"
-                android:layout_alignBottom="@+id/imageView"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginEnd="32dp"
-                app:srcCompat="@drawable/logo" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@color/default_Card_color" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="27dp"
-                android:layout_marginTop="64dp"
-                android:text="@string/main_title"
-                android:textColor="@color/colorWhite"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="32dp"
+                    app:srcCompat="@drawable/logo" />
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/textView"
-                android:layout_below="@+id/textView"
-                android:text="@string/main_desc"
-                android:textColor="@color/secondary_text_material_light"
-                android:layout_toStartOf="@+id/imageView2" />
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="64dp"
+                    android:text="@string/main_title"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-        </RelativeLayout>
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView"
+                    android:layout_below="@+id/textView"
+                    android:layout_toStartOf="@+id/imageView2"
+                    android:text="@string/main_desc"
+                    android:textColor="@color/secondary_text_material_light" />
 
-    </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             android:id="@+id/spacer"
@@ -81,7 +82,8 @@
             android:id="@+id/comunity_0"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/spacer">
+            android:layout_below="@id/spacer"
+            app:cardCornerRadius="0dp">
 
             <RelativeLayout
                 android:id="@+id/rl1"
@@ -103,7 +105,8 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignTop="@+id/c0_t1"
                         android:onClick="show_cm"
-                        android:text="@string/show_btn" />
+                        android:text="@string/show_btn"
+                        android:textColor="?attr/colorAccent" />
 
                     <Button
                         android:id="@+id/btn_hide"
@@ -135,7 +138,7 @@
                     android:layout_toEndOf="@+id/imageView6"
                     android:fontFamily="ubuntu-family"
                     android:text="@string/cm_title"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="?attr/colorAccent"
                     android:textSize="18sp" />
 
                 <TextView
@@ -167,7 +170,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_below="@+id/imageView6"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <android.support.v7.widget.CardView
                         android:id="@+id/github_card"
@@ -212,7 +215,7 @@
                                 android:layout_toEndOf="@+id/imageView12"
                                 android:fontFamily="ubuntu-family"
                                 android:text="@string/git_title"
-                                android:textColor="@color/colorAccent"
+                                android:textColor="?attr/colorAccent"
                                 android:textSize="18sp" />
 
                             <Button
@@ -275,7 +278,7 @@
                                 android:layout_toEndOf="@+id/imageView8"
                                 android:fontFamily="ubuntu-family"
                                 android:text="@string/tg_title"
-                                android:textColor="@color/colorAccent"
+                                android:textColor="?attr/colorAccent"
                                 android:textSize="18sp" />
 
                             <Button
@@ -322,7 +325,8 @@
             android:id="@+id/pref_1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/spacers">
+            android:layout_below="@id/spacers"
+            app:cardCornerRadius="0dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -333,9 +337,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignBottom="@+id/imageView9"
+                    android:layout_alignParentTop="true"
                     android:layout_toEndOf="@+id/c1_t2"
-                    android:orientation="vertical"
-                    android:layout_alignParentTop="true">
+                    android:orientation="vertical">
 
                     <Button
                         android:id="@+id/btn_pref_show"
@@ -345,7 +349,8 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignTop="@+id/c0_t1"
                         android:onClick="show_pref"
-                        android:text="@string/show_btn" />
+                        android:text="@string/show_btn"
+                        android:textColor="?attr/colorAccent" />
 
                     <Button
                         android:id="@+id/btn_pref_hide"
@@ -377,7 +382,7 @@
                     android:layout_toEndOf="@+id/imageView9"
                     android:fontFamily="ubuntu-family"
                     android:text="@string/app_pref"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="?attr/colorAccent"
                     android:textSize="18sp" />
 
                 <TextView
@@ -409,7 +414,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_below="@+id/linearLayout"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <android.support.v7.widget.CardView
                         android:id="@+id/nav_full"
@@ -420,33 +425,20 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
-                            <TextView
-                                android:id="@+id/textView9"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
+                            <ImageView
+                                android:id="@+id/imageView18"
+                                android:layout_width="25dp"
+                                android:layout_height="80dp"
                                 android:layout_alignParentEnd="true"
-                                android:layout_centerVertical="true"
-                                android:layout_marginEnd="8dp"
-                                android:text="NOT FINISHED"
-                                android:textAlignment="center"
-                                android:textColor="@android:color/holo_red_dark"
-                                android:textSize="36sp"
-                                android:textStyle="bold"
-                                android:visibility="visible" />
+                                android:layout_alignParentTop="true"
+                                app:srcCompat="@android:color/transparent" />
 
-                            <LinearLayout
+                            <Switch
+                                android:id="@+id/nav_set_full"
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_alignBottom="@+id/textView14"
-                                android:layout_alignParentEnd="true"
-                                android:layout_toEndOf="@+id/textView14"
-                                android:orientation="vertical">
-
-                                <Switch
-                                    android:id="@+id/nav_set_full"
-                                    android:layout_width="64dp"
-                                    android:layout_height="77dp" />
-                            </LinearLayout>
+                                android:layout_height="77dp"
+                                android:layout_toStartOf="@+id/imageView18"
+                                android:checked="true" />
 
                             <TextView
                                 android:id="@+id/textView14"
@@ -466,7 +458,7 @@
                                 android:layout_toEndOf="@+id/imageView20"
                                 android:fontFamily="ubuntu-family"
                                 android:text="Fullscreen NavView"
-                                android:textColor="@color/colorAccent"
+                                android:textColor="?attr/colorAccent"
                                 android:textSize="18sp" />
 
                             <ImageView
@@ -490,41 +482,45 @@
                                 android:layout_alignParentTop="true"
                                 android:layout_toEndOf="@+id/imageView21"
                                 app:srcCompat="@drawable/ic_nav_view" />
+
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
 
                     <android.support.v7.widget.CardView
                         android:id="@+id/set_accent"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/nav_full">
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/nav_full">
 
                         <RelativeLayout
+                            android:id="@+id/acc_card"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
-
-                            <TextView
-                                android:id="@+id/textView8"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_alignBaseline="@+id/textView11"
-                                android:layout_alignBottom="@+id/textView11"
-                                android:layout_alignParentStart="true"
-                                android:text="NOT FINISHED"
-                                android:textAlignment="center"
-                                android:textColor="@android:color/holo_red_dark"
-                                android:textSize="36sp"
-                                android:textStyle="bold"
-                                android:visibility="visible" />
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_alignParentBottom="true"
-                                android:layout_alignParentEnd="true"
-                                android:layout_toEndOf="@+id/textView11"
                                 android:orientation="vertical">
 
+                                <Button
+                                    android:id="@+id/btn_acc_hide"
+                                    style="@style/Widget.AppCompat.Button.Borderless"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="77dp"
+                                    android:layout_alignBottom="@+id/imageView15"
+                                    android:layout_alignParentTop="true"
+                                    android:onClick="hide_acc"
+                                    android:visibility="gone" />
+
+                                <Button
+                                    android:id="@+id/btn_acc"
+                                    style="@style/Widget.AppCompat.Button.Borderless"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="77dp"
+                                    android:layout_alignBottom="@+id/imageView15"
+                                    android:layout_alignParentTop="true"
+                                    android:onClick="show_acc" />
                             </LinearLayout>
 
                             <TextView
@@ -533,7 +529,7 @@
                                 android:layout_height="35dp"
                                 android:layout_below="@+id/textView10"
                                 android:layout_toEndOf="@+id/imageView15"
-                                android:text="Customize AccentColor how u want"
+                                android:text="Be free to change colors"
                                 android:textSize="14sp" />
 
                             <TextView
@@ -544,8 +540,8 @@
                                 android:layout_marginTop="20dp"
                                 android:layout_toEndOf="@+id/imageView15"
                                 android:fontFamily="ubuntu-family"
-                                android:text="Set Accent Color"
-                                android:textColor="@color/colorAccent"
+                                android:text="Customize Aplication Color"
+                                android:textColor="?attr/colorAccent"
                                 android:textSize="18sp" />
 
                             <ImageView
@@ -569,7 +565,41 @@
                                 android:layout_alignParentTop="true"
                                 android:layout_toEndOf="@+id/imageView16"
                                 app:srcCompat="@drawable/ic_palette" />
+
+                            <RelativeLayout
+                                android:id="@+id/acc_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/imageView15"
+                                android:visibility="visible">
+
+                                <android.support.v7.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <RelativeLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <Spinner
+                                            android:id="@+id/acc_spinner"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentTop="true"
+                                            android:layout_marginEnd="100dp"
+                                            android:layout_marginStart="100dp"
+                                            android:entries="@array/theme_array"
+                                            android:popupBackground="@color/default_accent"
+                                            android:spinnerMode="dialog" />
+                                    </RelativeLayout>
+                                </android.support.v7.widget.CardView>
+
+                            </RelativeLayout>
+
                         </RelativeLayout>
+
                     </android.support.v7.widget.CardView>
 
                 </RelativeLayout>

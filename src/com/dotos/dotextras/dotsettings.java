@@ -1,9 +1,8 @@
 package com.dotos.dotextras;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
@@ -13,17 +12,14 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.Switch;
+import android.widget.Spinner;
 import android.widget.Toast;
 // Impoort Dots Fragments
 import com.dotos.dotextras.fragments.AboutExtrasFragment;
@@ -36,15 +32,19 @@ import com.dotos.dotextras.fragments.PowerMenuFragment;
 import com.dotos.dotextras.fragments.RecentsFragment;
 import com.dotos.dotextras.fragments.StatusbarFragment;
 import com.dotos.dotextras.fragments.SupportedDevicesFragment;
+import com.dotos.dotextras.utils.Utils;
 
-import eu.chainfire.libsuperuser.Shell;
 
 public class dotsettings extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    private Spinner spThemes;
+    private SharedPreferences prefs;
+    private String prefName = "spinner_value";
+    int id=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Utils.onActivityCreateSetTheme(this);
         setContentView(R.layout.layout_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -54,10 +54,43 @@ public class dotsettings extends AppCompatActivity
         toggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        Utils.onActivityCreateSetTheme(this);
+        setupSpinnerItemSelection();
+        spThemes = (Spinner) findViewById(R.id.acc_spinner);
+        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
+        id=prefs.getInt("last_val",0);
+        spThemes.setSelection(id);
+    }
+    private void setupSpinnerItemSelection() {
+        spThemes = (Spinner) findViewById(R.id.acc_spinner);
+        spThemes.setSelection(ThemeApplication.currentPosition);
+        ThemeApplication.currentPosition = spThemes.getSelectedItemPosition();
+        spThemes.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view,
+                                       int position, long id) {
+                if (ThemeApplication.currentPosition != position) {
+
+                    prefs = getSharedPreferences(prefName, MODE_PRIVATE);
+                    SharedPreferences.Editor editor = prefs.edit();
+                    editor.putInt("last_val", position);
+                    editor.commit();
+                    Utils.changeToTheme(dotsettings.this, position);
+                }ThemeApplication.currentPosition = position;}
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+
     }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        spThemes = (Spinner) findViewById(R.id.acc_spinner);
+        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
+        id=prefs.getInt("last_val",0);
+        spThemes.setSelection(id);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -68,16 +101,32 @@ public class dotsettings extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.dotsettings, menu);
+        spThemes = (Spinner) findViewById(R.id.acc_spinner);
+        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
+        id=prefs.getInt("last_val",0);
+        spThemes.setSelection(id);
         return true;
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+        spThemes = (Spinner) findViewById(R.id.acc_spinner);
+        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
+        id=prefs.getInt("last_val",0);
+        spThemes.setSelection(id);
         if (id == R.id.action_sysreboot) {
             Toast.makeText(getBaseContext(), "Debug Version : " + BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+    @Override
+    public void onResume() {
+        super.onResume();
+        spThemes = (Spinner) findViewById(R.id.acc_spinner);
+        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
+        id=prefs.getInt("last_val",0);
+        spThemes.setSelection(id);
     }
     public void openGit(View v){
         Uri uri = Uri.parse("https://www.github.com/DotOS");
@@ -116,6 +165,22 @@ public class dotsettings extends AppCompatActivity
         RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.pref_layouts);
         show_layout.setVisibility(View.GONE);
     }
+    public void show_acc(View v){
+        Button show = (Button) findViewById(R.id.btn_acc);
+        show.setVisibility(View.GONE);
+        Button hide = (Button) findViewById(R.id.btn_acc_hide);
+        hide.setVisibility(View.VISIBLE);
+        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.acc_layout);
+        show_layout.setVisibility(View.VISIBLE);
+    }
+    public void hide_acc(View v){
+        Button show = (Button) findViewById(R.id.btn_acc);
+        show.setVisibility(View.VISIBLE);
+        Button hide = (Button) findViewById(R.id.btn_acc_hide);
+        hide.setVisibility(View.GONE);
+        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.acc_layout);
+        show_layout.setVisibility(View.GONE);
+    }
     public void openTelegram(View v){
         Uri uri = Uri.parse("https://t.me/dotos");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
@@ -139,6 +204,8 @@ public class dotsettings extends AppCompatActivity
             View layout = inflater.inflate(R.layout.content_dotsettings, null);
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
+            getApplicationContext();
+            setupSpinnerItemSelection();
         } else if (id == R.id.nav_dot_statusbar) {
             CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);

@@ -19,7 +19,11 @@
     <color name="default_Card_color">@android:color/holo_blue_dark</color>
     <!-- Gesture Anywhere -->
     <color name="ga_gesture_color">@android:color/holo_blue_light</color>
-
+    <!-- Color Changer -->
+    <color name="default_accent">#00897b</color>
+    <color name="blue">@android:color/holo_blue_dark</color>
+    <color name="lgreen">#00e676</color>
+    <color name="black">#000000</color>
     <!-- Switch Bar Text Color -->
     <color name="switchbar_text_color">#ffffffff</color>
     <color name="switch_accent_color">#ff7fcac3</color>

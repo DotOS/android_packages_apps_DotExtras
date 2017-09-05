@@ -20,7 +20,7 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         android:maxWidth="500dp"
-        app:itemIconTint="@color/colorAccent"
+        app:itemIconTint="?attr/colorAccent"
         app:itemTextAppearance="@style/TextAppearance.AppCompat.Body1"
         app:itemTextColor="@color/toolbarText"
         app:menu="@menu/layout_main_drawer">
