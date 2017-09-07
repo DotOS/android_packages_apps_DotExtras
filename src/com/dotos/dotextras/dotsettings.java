@@ -34,6 +34,8 @@ import com.dotos.dotextras.fragments.StatusbarFragment;
 import com.dotos.dotextras.fragments.SupportedDevicesFragment;
 import com.dotos.dotextras.utils.Utils;
 
+import com.dotos.R;
+
 
 public class dotsettings extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

@@ -3,7 +3,7 @@ package com.dotos.dotextras.utils;
 import android.app.Activity;
 import android.content.Intent;
 
-import com.dotos.dotextras.R;
+import com.dotos.R;
 
 public class Utils {
     private static int sTheme;
