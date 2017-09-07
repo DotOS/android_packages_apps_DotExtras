@@ -446,7 +446,7 @@
                                 android:layout_height="35dp"
                                 android:layout_below="@+id/textView15"
                                 android:layout_toEndOf="@+id/imageView20"
-                                android:text="Set NavigationView size to fullscreen"
+                                android:text="@string/nav_full"
                                 android:textSize="14sp" />
 
                             <TextView
@@ -457,7 +457,7 @@
                                 android:layout_marginTop="20dp"
                                 android:layout_toEndOf="@+id/imageView20"
                                 android:fontFamily="ubuntu-family"
-                                android:text="Fullscreen NavView"
+                                android:text="@string/nav_full_summary"
                                 android:textColor="?attr/colorAccent"
                                 android:textSize="18sp" />
 
@@ -529,7 +529,7 @@
                                 android:layout_height="35dp"
                                 android:layout_below="@+id/textView10"
                                 android:layout_toEndOf="@+id/imageView15"
-                                android:text="Be free to change colors"
+                                android:text="@string/colors_summary"
                                 android:textSize="14sp" />
 
                             <TextView
@@ -540,7 +540,7 @@
                                 android:layout_marginTop="20dp"
                                 android:layout_toEndOf="@+id/imageView15"
                                 android:fontFamily="ubuntu-family"
-                                android:text="Customize Aplication Color"
+                                android:text="@string/colors_header"
                                 android:textColor="?attr/colorAccent"
                                 android:textSize="18sp" />
 
