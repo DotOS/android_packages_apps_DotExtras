@@ -116,10 +116,10 @@ public class dotsettings extends AppCompatActivity
         prefs = getSharedPreferences(prefName, MODE_PRIVATE);
         id=prefs.getInt("last_val",0);
         spThemes.setSelection(id);
-        if (id == R.id.action_sysreboot) {
-            Toast.makeText(getBaseContext(), "Debug Version : " + BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
-            return true;
-        }
+     //   if (id == R.id.action_sysreboot) {
+     //       Toast.makeText(getBaseContext(), "Debug Version : " + BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
+     //       return true;
+     //   }
         return super.onOptionsItemSelected(item);
     }
     @Override
