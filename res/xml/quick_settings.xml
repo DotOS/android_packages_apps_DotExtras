@@ -41,4 +41,8 @@
 
     </PreferenceCategory>
 
+    <Preference
+        android:key="qs_rows_columns"
+        android:fragment="com.dot.dotextras.QsRowsColumns"
+        android:title="@string/qs_rows_columns_title"/>
 </PreferenceScreen>
