@@ -83,6 +83,9 @@
 	<!-- Buttons -->
     <string name="buttons_title">Buttons</string>
 	
+	<!-- Gestures -->
+    <string name="gestures_category">Gestures</string>
+	
 	<!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -141,4 +144,8 @@
 	<string name="battery_style_dotted_circle">Dotted circle</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
+
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
 </resources>
