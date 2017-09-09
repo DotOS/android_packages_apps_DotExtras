@@ -5,9 +5,9 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <Preference
-            android:key="lockscreen_ui"
-            android:fragment="com.dot.dotextras.LockscreenUI"
-            android:icon="@drawable/ic_lockscreen_ui"
-            android:title="@string/lockscreen_ui_title" />
+    <Preference
+        android:key="lockscreen_ui"
+        android:fragment="com.dot.dotextras.LockscreenUI"
+        android:icon="@drawable/ic_lockscreen_ui"
+        android:title="@string/lockscreen_ui_title" />
 </PreferenceScreen>
