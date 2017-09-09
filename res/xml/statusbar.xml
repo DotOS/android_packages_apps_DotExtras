@@ -4,6 +4,12 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 	
+     <com.dot.dotextras.preference.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_to_sleep_title"
+        android:summary="@string/double_tap_to_sleep_summary"
+        android:defaultValue="true" />
+
 	<Preference
             android:key="systemui_tuner_statusbar"
             android:title="@string/statusbar_items_category"
