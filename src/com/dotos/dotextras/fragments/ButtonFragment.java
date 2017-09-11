@@ -4,12 +4,11 @@ import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.content.ContentResolver;
-import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.Preference.OnPreferenceChangeListener;
-import android.support.v7.preference.PreferenceScreen;
+import android.preference.ListPreference;
+import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceScreen;
 import android.provider.Settings;
-import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 import com.dotos.R;
 
@@ -33,11 +32,6 @@ public class ButtonFragment extends PreferenceFragment implements Preference.OnP
         mVolumeKeyCursorControl = initActionList(KEY_VOLUME_KEY_CURSOR_CONTROL,
                 cursorControlAction);
 
-    }
-
-    @Override
-    protected int getMetricsCategory() {
-        return MetricsEvent.DOT_EXTRAS;
     }
 
     private ListPreference initActionList(String key, int value) {
