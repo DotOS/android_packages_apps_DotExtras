@@ -31,4 +31,16 @@
             android:fragment="com.dot.dotextras.GeneralTweaks"
             android:icon="@drawable/ic_general_tweaks"
             android:title="@string/general_tweaks_title" />
+			
+		
+	<PreferenceCategory
+        android:key="light_category"
+        android:title="@string/light_category">
+
+     <Preference
+         android:key="battery_charging_light"
+         android:fragment="com.dot.dotextras.BatteryLightSettings"
+         android:title="@string/battery_light_settings" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
