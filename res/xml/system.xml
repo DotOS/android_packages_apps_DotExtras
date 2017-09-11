@@ -27,5 +27,10 @@
             android:icon="@drawable/ic_buttons"
             android:title="@string/buttons_title" />
 
+         <Preference
+            android:key="general_tweaks"
+            android:fragment="com.dot.dotextras.GeneralTweaks"
+            android:icon="@drawable/ic_general_tweaks"
+            android:title="@string/general_tweaks_title" />
 
 </PreferenceScreen>
