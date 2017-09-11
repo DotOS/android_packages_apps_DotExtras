@@ -24,8 +24,10 @@ appcompat_dir := ../../../$(SUPPORT_LIBRARY_ROOT)/v7/appcompat/res
 cardview_dir := ../../../$(SUPPORT_LIBRARY_ROOT)/v7/cardview/res
 recyclerview_dir := ../../../$(SUPPORT_LIBRARY_ROOT)/v7/recyclerview/res
 design_dir := ../../../$(SUPPORT_LIBRARY_ROOT)/design/res
+preference_v7_dir := ../../../$(SUPPORT_LIBRARY_ROOT)/v7/preference/res
+preference_v14_dir := ../../../$(SUPPORT_LIBRARY_ROOT)/v14/preference/res
 
-res_dirs := res $(appcompat_dir) $(cardview_dir) $(recyclerview_dir) $(design_dir)
+res_dirs := res $(appcompat_dir) $(cardview_dir) $(recyclerview_dir) $(design_dir) $(preference_v7_dir) $(preference_v14_dir)
 
 
 ##################################################
@@ -42,9 +44,12 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v7-appcompat \
     android-support-v7-recyclerview \
     android-support-v7-cardview \
+    android-support-v7-preference \
+    android-support-v14-preference \
     android-support-v13 \
     android-support-design \
     libsuperuser \
+    jsr305 \
     org.cyanogenmod.platform.internal
 
 LOCAL_JAVA_LIBRARIES := org.cyanogenmod.hardware
@@ -54,7 +59,7 @@ LOCAL_JAVA_LIBRARIES := org.apache.http.legacy
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
 LOCAL_AAPT_FLAGS := --auto-add-overlay
-LOCAL_AAPT_FLAGS += --extra-packages android.support.v7.appcompat:android.support.v7.cardview:android.support.v7.recyclerview:android.support.design
+LOCAL_AAPT_FLAGS += --extra-packages android.support.v7.appcompat:android.support.v7.cardview:android.support.v7.recyclerview:android.support.design:android.support.v7.preference:android.support.v14.preference:android.support.v17.preference
 
 
 include $(BUILD_PACKAGE)
