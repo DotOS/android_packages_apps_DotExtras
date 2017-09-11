@@ -35,5 +35,8 @@
     <string name="power_menu">Power Menu</string>
     <string name="lockscreen">Lockscreen</string>
 	<string name="system">System</string>
-
+	
+	<!-- Frags -->
+    <!-- General Tweaks -->
+    <string name="general_tweaks_title">General Tweaks</string>
 </resources>
