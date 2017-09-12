@@ -81,6 +81,18 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
+	<!-- Status bar - Network traffic -->
+    <string name="traffic_title">Traffic indicators</string>
+	
+	 <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+	
     <!-- Status bar - Brightness -->
     <string name="status_bar_brightness_category">Brightness</string>
     <string name="status_bar_brightness_slider_title">Brightness slider</string>
