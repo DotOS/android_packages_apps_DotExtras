@@ -7,5 +7,11 @@
             android:fragment="com.dot.dotextras.MiscExtras"
             android:icon="@drawable/ic_misc_extras"
             android:title="@string/misc_extras_title" />
+			
+		<Preference
+        android:key="traffic"
+        android:fragment="com.dot.dotextras.fragments.Traffic"
+        android:icon="@drawable/ic_traffic"
+        android:title="@string/traffic_title" />
 
 </PreferenceScreen>
