@@ -60,6 +60,7 @@
         <item>2</item>
     </string-array>
 
+<!-- STATUS BAR SECTION -->
     <!-- Status bar -->
     <string-array name="status_bar_clock_position_entries" translatable="false">
         <item>@string/status_bar_clock_position_right</item>
@@ -138,4 +139,14 @@
         <item>2</item>
     </string-array>
 
+<!-- POWER MENU SECTION -->
+    <string-array name="power_menu_actions_array" translatable="false">
+        <item>power</item>
+        <item>restart</item>
+        <item>screenshot</item>
+        <item>airplane</item>
+        <item>users</item>
+        <item>bugreport</item>
+        <item>silent</item>
+    </string-array>
 </resources>
