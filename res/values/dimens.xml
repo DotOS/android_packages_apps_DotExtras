@@ -19,4 +19,6 @@
 
     <dimen name="header_icon_width">28dp</dimen>
 
+    <dimen name="picker_circle_preview_size">26dp</dimen>
+
 </resources>
