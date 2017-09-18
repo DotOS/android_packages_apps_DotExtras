@@ -70,6 +70,12 @@
 
     <!-- Notifications -->
     <string name="notifications_title">Notifications</string>
+	
+    <!-- Recents UI -->
+    <string name="recents_ui_title">Recents UI</string>
+
+    <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Statusbar items</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
