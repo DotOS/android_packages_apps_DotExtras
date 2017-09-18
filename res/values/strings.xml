@@ -35,7 +35,10 @@
     <string name="recents">Recents</string>
     <string name="power_menu">Power Menu</string>
     <string name="lockscreen">Lockscreen</string>
-	<string name="system">System</string>
+    <string name="system">System</string>
+    <string name="general_category">General</string>
+    <string name="notifications_panel_category">Notifications</string>
+  
 
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -43,6 +46,9 @@
 
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
