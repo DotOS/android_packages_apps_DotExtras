@@ -58,12 +58,18 @@
      <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Other</string>
 
+    <string name="general_category">General</string>
+    <string name="notifications_panel_category">Notifications</string>
+
     <!-- Frags -->
     <!-- General Tweaks -->
     <string name="general_tweaks_title">General Tweaks</string>
 
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
