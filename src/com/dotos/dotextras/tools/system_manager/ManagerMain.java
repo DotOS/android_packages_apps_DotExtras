@@ -19,7 +19,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.dotos.dotextras.R;
+import com.dotos.R;
 import com.dotos.dotextras.dotsettings;
 import com.dotos.dotextras.tools.system_manager.components.MainComponent;
 import com.dotos.dotextras.tools.system_manager.settings.ManagerPrefs;

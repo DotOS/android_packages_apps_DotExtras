@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import com.dotos.dotextras.R;
+import com.dotos.R;
 import com.dotos.dotextras.dotsettings;
 
 public class Tools_Flasher extends AppCompatActivity {

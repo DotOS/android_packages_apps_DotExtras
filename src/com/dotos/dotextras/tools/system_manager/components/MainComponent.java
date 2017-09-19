@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.dotos.dotextras.R;
+import com.dotos.R;
 import com.dotos.dotextras.utils.SystemProperties;
 
 import static com.dotos.dotextras.tools.system_manager.ManagerMain.getAvailableExternalMemorySize;
