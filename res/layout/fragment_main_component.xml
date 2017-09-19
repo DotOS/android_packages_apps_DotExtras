@@ -36,7 +36,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:padding="9dp"
-                    android:text="Phone Informations"
+                    android:text="@string/phone_info"
                     android:textColor="?attr/textColorTitles"
                     android:textSize="16sp" />
 
@@ -106,7 +106,7 @@
                                     android:layout_alignParentStart="true"
                                     android:layout_alignParentTop="true"
                                     android:padding="6dp"
-                                    android:text="Android Version : %s"
+                                    android:text="@string/android_ver"
                                     android:textColor="?attr/textColorTitles"
                                     android:textSize="14sp"
                                     android:textStyle="italic" />
@@ -128,7 +128,7 @@
                                     android:layout_alignParentStart="true"
                                     android:layout_alignParentTop="true"
                                     android:padding="6dp"
-                                    android:text="SDK Version : %s"
+                                    android:text="@string/sdk_ver"
                                     android:textColor="?attr/textColorTitles"
                                     android:textSize="14sp"
                                     android:textStyle="italic" />
@@ -152,7 +152,7 @@
                                     android:layout_alignParentTop="true"
                                     android:layout_weight="1"
                                     android:padding="6dp"
-                                    android:text="Chipset : %s"
+                                    android:text="@string/chipset"
                                     android:textColor="?attr/textColorTitles"
                                     android:textSize="14sp"
                                     android:textStyle="italic" />
@@ -186,7 +186,7 @@
                     android:layout_below="@+id/title"
                     android:paddingBottom="5dp"
                     android:paddingStart="9dp"
-                    android:text="Tweak the DotOS more than is necessary with prebuilt configs" />
+                    android:text="@string/main_desc" />
 
                 <TextView
                     android:id="@+id/title"
@@ -199,7 +199,7 @@
                     android:paddingRight="9dp"
                     android:paddingStart="9dp"
                     android:paddingTop="9dp"
-                    android:text="Control Center"
+                    android:text="@string/control_center"
                     android:textColor="?attr/textColorTitles"
                     android:textSize="16sp" />
 
@@ -230,7 +230,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="18dp"
                         android:layout_marginTop="20dp"
-                        android:text="Prebuilt Profiles"
+                        android:text="@string/custom_profiles"
                         android:textColor="?attr/textColorTitles"
                         android:textSize="16sp" />
 
@@ -240,7 +240,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignStart="@+id/textView12"
                         android:layout_below="@+id/textView12"
-                        android:text="Back to Default" />
+                        android:text="@string/default" />
 
                     <RadioButton
                         android:id="@+id/radioButton4"
@@ -248,7 +248,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignStart="@+id/radioButton3"
                         android:layout_below="@+id/radioButton3"
-                        android:text="Like a V8 Supercar" />
+                        android:text="@string/supercar" />
 
                     <RadioButton
                         android:id="@+id/radioButton5"
@@ -256,7 +256,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignStart="@+id/radioButton4"
                         android:layout_below="@+id/radioButton4"
-                        android:text="A bit lazy but excelent lifetime" />
+                        android:text="@string/lazy" />
 
                     <TextView
                         android:id="@+id/textView17"
@@ -264,7 +264,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignStart="@+id/radioButton5"
                         android:layout_below="@+id/radioButton5"
-                        android:text="Custom Profiles"
+                        android:text="@string/custom_profiles"
                         android:textColor="?attr/textColorTitles"
                         android:textSize="16sp" />
 
@@ -275,7 +275,7 @@
                         android:layout_alignStart="@+id/textView17"
                         android:layout_below="@+id/textView17"
                         android:padding="10dp"
-                        android:text="SOON"
+                        android:text="@string/wip"
                         android:textColor="@android:color/holo_red_dark"
                         android:textSize="18sp"
                         android:textStyle="bold" />

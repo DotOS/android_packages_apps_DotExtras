@@ -97,6 +97,8 @@
 <!-- APP PREFERENCES -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_full_header">Set NavigationView size to fullscreen</string>
+    <string name="nav_full_summary">Fullscreen NavView</string>
 
     <string name="sys_sucess">SystemUI Successfuly rebooted</string>
     <string name="action_settings">Settings</string>
@@ -114,7 +116,25 @@
     <string name="tg_Desc">Stay up to date</string>
     <string name="tg_title">Telegram Comunity Group</string>
     <string name="app_pref">App Preferences</string>
-    <string name="app_pref_desc">Customize Apllication Settings</string>
+    <string name="app_pref_desc">Customize Application Settings</string>
+    <string name="phone_info">Phone info</string>
+    <string name="android_ver">Android Version : </string>
+    <string name="sdk_ver">SDK Version : </string>
+    <string name="chipset">Chipset : </string>
+    <string name="control_center">Control Center</string>
+    <string name="prebuilt_profiles">Prebuilt Profiles</string>
+    <string name="default">Back to Default</string>
+    <string name="supercar">Like a V8 Supercar</string>
+    <string name="lazy">A bit lazy but excelent lifetime</string>
+    <string name="custom_profiles">Custom Profiles</string>
+    <string name="wip">Work in Progress</string>
+    <string name="dotos_ver">dotOS : </string>
+    <string name="build_ver">Build Version : </string>
+    <string name="device">Device : </string>
+
+    <!-- Dot colors -->
+    <string name="colors_header">Feel free to change the colors</string>
+    <string name="app_theme">Set Application Theme</string>
 
     <!-- Drawer Strings -->
     <string name="action_settings">Settings</string>
