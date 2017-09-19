@@ -128,7 +128,7 @@
     <string name="chipset">Chipset : </string>
     <string name="control_center">Control Center</string>
     <string name="prebuilt_profiles">Prebuilt Profiles</string>
-    <string name="default">Back to Default</string>
+    <string name="back">Back to Default</string>
     <string name="supercar">Like a V8 Supercar</string>
     <string name="lazy">A bit lazy but excelent lifetime</string>
     <string name="custom_profiles">Custom Profiles</string>

@@ -240,7 +240,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignStart="@+id/textView12"
                         android:layout_below="@+id/textView12"
-                        android:text="@string/default" />
+                        android:text="@string/back" />
 
                     <RadioButton
                         android:id="@+id/radioButton4"
