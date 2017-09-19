@@ -50,6 +50,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-design \
     libsuperuser \
     jsr305 \
+    constraint \
     org.cyanogenmod.platform.internal
 
 LOCAL_JAVA_LIBRARIES := org.cyanogenmod.hardware
@@ -65,6 +66,8 @@ include $(BUILD_PACKAGE)
 
 include $(CLEAR_VARS)
 
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := libsuperuser:lib/libsuperuser.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
+	libsuperuser:lib/libsuperuser.jar \
+        constraint:lib/constraint.jar
 
 include $(BUILD_MULTI_PREBUILT)
