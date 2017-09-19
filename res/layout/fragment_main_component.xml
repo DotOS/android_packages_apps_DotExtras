@@ -1,14 +1,16 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/component_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.dotos.dotextras.system_manager.components.MainComponent">
+    android:animateLayoutChanges="true"
+    tools:context="com.dotos.dotextras.tools.system_manager.components.MainComponent">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="500dp">
+        android:layout_height="500dp"
+        android:animateLayoutChanges="true">
 
         <android.support.v7.widget.CardView
             android:id="@+id/phn_inf"
@@ -16,17 +18,20 @@
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="16dp">
+            android:layout_marginTop="16dp"
+            android:animateLayoutChanges="true">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true">
 
                 <ImageView
                     android:id="@+id/imageView23"
                     android:layout_width="match_parent"
                     android:layout_height="0.7dp"
                     android:layout_below="@+id/textView8"
+                    android:contentDescription="@string/todo"
                     app:srcCompat="@color/cardview_shadow_start_color" />
 
                 <TextView
@@ -36,7 +41,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:padding="9dp"
-                    android:text="@string/phone_info"
+                    android:text="@string/phone_informations"
                     android:textColor="?attr/textColorTitles"
                     android:textSize="16sp" />
 
@@ -46,7 +51,8 @@
                     android:layout_height="match_parent"
                     android:layout_alignBottom="@+id/textView8"
                     android:layout_alignParentTop="true"
-                    android:layout_toEndOf="@+id/textView8">
+                    android:layout_toEndOf="@+id/textView8"
+                    android:animateLayoutChanges="false">
 
                     <ImageButton
                         android:id="@+id/expand_more_info"
@@ -55,10 +61,12 @@
                         android:layout_alignParentEnd="true"
                         android:layout_toEndOf="@+id/expand_less_info"
                         android:background="@android:color/transparent"
+                        android:contentDescription="@string/todo"
                         android:paddingEnd="6dp"
                         android:scaleType="fitEnd"
                         android:visibility="visible"
-                        app:srcCompat="@drawable/ic_expand_more" />
+                        app:srcCompat="@drawable/ic_expand_more"
+                        tools:ignore="RtlSymmetry" />
 
                     <ImageButton
                         android:id="@+id/expand_less_info"
@@ -68,10 +76,12 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:background="@android:color/transparent"
+                        android:contentDescription="@string/todo"
                         android:paddingEnd="6dp"
                         android:scaleType="fitEnd"
                         android:visibility="gone"
-                        app:srcCompat="@drawable/ic_expand_less" />
+                        app:srcCompat="@drawable/ic_expand_less"
+                        tools:ignore="RtlSymmetry" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -79,24 +89,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_below="@+id/imageView23"
-                    android:visibility="gone">
+                    android:animateLayoutChanges="true"
+                    android:visibility="visible">
 
                     <android.support.v7.widget.CardView
                         android:id="@+id/cardView3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true">
+                        android:layout_alignParentTop="true"
+                        android:animateLayoutChanges="true">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:animateLayoutChanges="true">
 
                             <LinearLayout
                                 android:id="@+id/android_ver"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:clickable="true"
+                                android:focusable="true"
                                 android:orientation="horizontal">
 
                                 <TextView
@@ -106,10 +120,11 @@
                                     android:layout_alignParentStart="true"
                                     android:layout_alignParentTop="true"
                                     android:padding="6dp"
-                                    android:text="@string/android_ver"
+                                    android:text="@string/android_version_s"
                                     android:textColor="?attr/textColorTitles"
                                     android:textSize="14sp"
-                                    android:textStyle="italic" />
+                                    android:textStyle="italic"
+                                    tools:ignore="ObsoleteLayoutParam" />
 
                             </LinearLayout>
 
@@ -119,6 +134,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/android_ver"
                                 android:clickable="true"
+                                android:focusable="true"
                                 android:orientation="horizontal">
 
                                 <TextView
@@ -128,10 +144,11 @@
                                     android:layout_alignParentStart="true"
                                     android:layout_alignParentTop="true"
                                     android:padding="6dp"
-                                    android:text="@string/sdk_ver"
+                                    android:text="@string/sdk_version_s"
                                     android:textColor="?attr/textColorTitles"
                                     android:textSize="14sp"
-                                    android:textStyle="italic" />
+                                    android:textStyle="italic"
+                                    tools:ignore="ObsoleteLayoutParam" />
 
                             </LinearLayout>
 
@@ -142,6 +159,7 @@
                                 android:layout_alignParentStart="true"
                                 android:layout_below="@+id/sdk_ver"
                                 android:clickable="true"
+                                android:focusable="true"
                                 android:orientation="horizontal">
 
                                 <TextView
@@ -152,10 +170,11 @@
                                     android:layout_alignParentTop="true"
                                     android:layout_weight="1"
                                     android:padding="6dp"
-                                    android:text="@string/chipset"
+                                    android:text="@string/chipset_s"
                                     android:textColor="?attr/textColorTitles"
                                     android:textSize="14sp"
-                                    android:textStyle="italic" />
+                                    android:textStyle="italic"
+                                    tools:ignore="InefficientWeight,ObsoleteLayoutParam" />
                             </LinearLayout>
 
                         </RelativeLayout>
@@ -172,11 +191,13 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/phn_inf"
-            android:layout_marginTop="6dp">
+            android:layout_marginTop="6dp"
+            android:animateLayoutChanges="true">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp">
+                android:layout_height="300dp"
+                android:animateLayoutChanges="true">
 
                 <TextView
                     android:id="@+id/textView13"
@@ -186,7 +207,8 @@
                     android:layout_below="@+id/title"
                     android:paddingBottom="5dp"
                     android:paddingStart="9dp"
-                    android:text="@string/main_desc" />
+                    android:text="@string/tweak_the_dotos_more_than_is_necessary_with_prebuilt_configs"
+                    tools:ignore="RtlSymmetry" />
 
                 <TextView
                     android:id="@+id/title"
@@ -207,12 +229,14 @@
                     android:id="@+id/spacer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView13">
+                    android:layout_below="@+id/textView13"
+                    android:animateLayoutChanges="true">
 
                     <ImageView
                         android:id="@+id/imageView19"
                         android:layout_width="match_parent"
                         android:layout_height="0.7dp"
+                        android:contentDescription="@string/todo"
                         app:srcCompat="@color/cardview_shadow_start_color" />
                 </RelativeLayout>
 
@@ -220,7 +244,8 @@
                     android:id="@+id/content"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_below="@+id/spacer">
+                    android:layout_below="@+id/spacer"
+                    android:animateLayoutChanges="true">
 
                     <TextView
                         android:id="@+id/textView12"
@@ -230,55 +255,9 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="18dp"
                         android:layout_marginTop="20dp"
-                        android:text="@string/custom_profiles"
+                        android:text="@string/prebuilt_profiles"
                         android:textColor="?attr/textColorTitles"
                         android:textSize="16sp" />
-
-                    <RadioButton
-                        android:id="@+id/radioButton3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@+id/textView12"
-                        android:layout_below="@+id/textView12"
-                        android:text="@string/back" />
-
-                    <RadioButton
-                        android:id="@+id/radioButton4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@+id/radioButton3"
-                        android:layout_below="@+id/radioButton3"
-                        android:text="@string/supercar" />
-
-                    <RadioButton
-                        android:id="@+id/radioButton5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@+id/radioButton4"
-                        android:layout_below="@+id/radioButton4"
-                        android:text="@string/lazy" />
-
-                    <TextView
-                        android:id="@+id/textView17"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@+id/radioButton5"
-                        android:layout_below="@+id/radioButton5"
-                        android:text="@string/custom_profiles"
-                        android:textColor="?attr/textColorTitles"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/textView18"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@+id/textView17"
-                        android:layout_below="@+id/textView17"
-                        android:padding="10dp"
-                        android:text="@string/wip"
-                        android:textColor="@android:color/holo_red_dark"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
 
                 </RelativeLayout>
             </RelativeLayout>

@@ -33,7 +33,7 @@
             android:layout_below="@+id/cardView"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:focusable="true"
+            android:focusable="auto"
             android:focusableInTouchMode="true" >
 
             <RelativeLayout

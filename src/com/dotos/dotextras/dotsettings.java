@@ -1,5 +1,7 @@
 package com.dotos.dotextras;
 
+import android.animation.ValueAnimator;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,6 +10,7 @@ import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -17,11 +20,14 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.Animation;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 // Impoort Dots Fragments
 import com.dotos.dotextras.fragments.AboutExtrasFragment;
@@ -132,6 +138,16 @@ public class dotsettings extends AppCompatActivity
         Uri uri = Uri.parse("https://www.github.com/DotOS");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
+    }
+    public void black_magic(View v){
+        final Snackbar snackBar = Snackbar.make(getCurrentFocus(),"No Easteregg Found, nice try", Snackbar.LENGTH_INDEFINITE);
+                snackBar.setAction("Ok...", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        snackBar.dismiss();
+                    }
+                });
+                snackBar.show();
     }
     public void show_cm(View v){
         ImageButton show = (ImageButton) findViewById(R.id.imageButton3);

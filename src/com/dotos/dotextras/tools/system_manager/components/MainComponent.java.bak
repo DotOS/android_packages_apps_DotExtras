@@ -28,15 +28,15 @@ public class MainComponent extends Fragment implements OnClickListener {
         final View v = inflater.inflate(R.layout.fragment_main_component, container, false);
         //TextView sd_memory = v.findViewById(R.id.sd_free);
         //sd_memory.setText("Free: " +getAvailableExternalMemorySize() + "\n" + "Total: " + getTotalExternalMemorySize());
-        ImageButton show_more = getActivity().findViewById(R.id.expand_more_info);
+        ImageButton show_more = v.findViewById(R.id.expand_more_info);
         show_more.setOnClickListener(this);
-        ImageButton hide_more = getActivity().findViewById(R.id.expand_less_info);
+        ImageButton hide_more = v.findViewById(R.id.expand_less_info);
         hide_more.setOnClickListener(this);
-        TextView android_ver = getActivity().findViewById(R.id.text_androidver);
+        TextView android_ver = v.findViewById(R.id.text_androidver);
         android_ver.setText("Android Version : " + SystemProperties.get("ro.build.version.release"));
-        TextView sdk_ver = getActivity().findViewById(R.id.text_sdk_ver);
+        TextView sdk_ver = v.findViewById(R.id.text_sdk_ver);
         sdk_ver.setText("SDK Version : " + SystemProperties.get("ro.build.version.sdk"));
-        TextView chip = getActivity().findViewById(R.id.text_chip);
+        TextView chip = v.findViewById(R.id.text_chip);
         chip.setText("Chipset : " + SystemProperties.get("ro.product.board"));
         return v;
     }
@@ -46,20 +46,20 @@ public class MainComponent extends Fragment implements OnClickListener {
         switch (v.getId()) {
             case R.id.expand_more_info:
                 getContext();
-                RelativeLayout memory_layout3 = getActivity().findViewById(R.id.expand_info);
+                RelativeLayout memory_layout3 = getView().findViewById(R.id.expand_info);
                 memory_layout3.setVisibility(View.VISIBLE);
-                ImageButton internal_more3 = getActivity().findViewById(R.id.expand_more_info);
+                ImageButton internal_more3 = getView().findViewById(R.id.expand_more_info);
                 internal_more3.setVisibility(View.GONE);
-                ImageButton inthidee = getActivity().findViewById(R.id.expand_less_info);
+                ImageButton inthidee = getView().findViewById(R.id.expand_less_info);
                 inthidee.setVisibility(View.VISIBLE);
                 break;
             case R.id.expand_less_info:
                 getContext();
-                RelativeLayout memory_layout2 = getActivity().findViewById(R.id.expand_info);
+                RelativeLayout memory_layout2 = getView().findViewById(R.id.expand_info);
                 memory_layout2.setVisibility(View.GONE);
-                ImageButton internal_more2 = getActivity().findViewById(R.id.expand_more_info);
+                ImageButton internal_more2 = getView().findViewById(R.id.expand_more_info);
                 internal_more2.setVisibility(View.VISIBLE);
-                ImageButton inthide = getActivity().findViewById(R.id.expand_less_info);
+                ImageButton inthide = getView().findViewById(R.id.expand_less_info);
                 inthide.setVisibility(View.GONE);
                 break;
         }

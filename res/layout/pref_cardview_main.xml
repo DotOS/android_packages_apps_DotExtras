@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_main_dot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,6 +20,13 @@
             app:cardCornerRadius="0dp"
             app:cardElevation="5dp">
 
+            <Button
+                android:id="@+id/black_magic"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="black_magic" />
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -29,7 +37,8 @@
                     android:layout_height="180dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    app:srcCompat="?attr/mainBackgroundColor" />
+                    app:srcCompat="?attr/mainBackgroundColor"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -41,7 +50,8 @@
                     android:layout_marginBottom="14dp"
                     android:layout_marginEnd="14dp"
                     android:layout_marginTop="14dp"
-                    app:srcCompat="@drawable/dot_logo" />
+                    app:srcCompat="@drawable/dot_logo"
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -81,7 +91,8 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@color/cardview_shadow_start_color" />
+                app:srcCompat="@color/cardview_shadow_start_color"
+                android:contentDescription="@string/todo" />
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
@@ -103,7 +114,7 @@
                     android:layout_alignEnd="@+id/textView10"
                     android:layout_below="@+id/textView10"
                     android:layout_toEndOf="@+id/imageView15"
-                    android:text="@string/colors_header"
+                    android:text="@string/be_free_to_change_colors"
                     android:textSize="14sp" />
 
                 <TextView
@@ -114,7 +125,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_toEndOf="@+id/imageView15"
                     android:fontFamily="ubuntu-family"
-                    android:text="@string/app_theme"
+                    android:text="@string/set_application_theme"
                     android:textColor="?attr/colorAccent"
                     android:textSize="18sp" />
 
@@ -124,13 +135,15 @@
                     android:layout_height="80dp"
                     android:layout_alignParentTop="true"
                     android:layout_toEndOf="@+id/imageView17"
-                    app:srcCompat="@android:color/transparent" />
+                    app:srcCompat="@android:color/transparent"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:id="@+id/imageView16"
                     android:layout_width="25dp"
                     android:layout_height="80dp"
-                    app:srcCompat="@android:color/transparent" />
+                    app:srcCompat="@android:color/transparent"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:id="@+id/imageView17"
@@ -138,7 +151,8 @@
                     android:layout_height="80dp"
                     android:layout_alignParentTop="true"
                     android:layout_toEndOf="@+id/imageView16"
-                    app:srcCompat="@drawable/ic_palette" />
+                    app:srcCompat="@drawable/ic_palette"
+                    android:contentDescription="@string/todo" />
 
                 <Spinner
                     android:id="@+id/acc_spinner"
@@ -148,7 +162,9 @@
                     android:layout_centerVertical="true"
                     android:layout_toEndOf="@+id/textView11"
                     android:entries="@array/theme_array"
-                    android:paddingStart="8dp" />
+                    android:paddingStart="8dp"
+                    android:spinnerMode="dialog"
+                    tools:ignore="RtlSymmetry" />
 
             </RelativeLayout>
 
@@ -164,7 +180,7 @@
                 android:id="@+id/imageView24"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                app:srcCompat="@color/cardview_shadow_start_color" />
+                app:srcCompat="@color/cardview_shadow_start_color" android:contentDescription="@string/todo" />
 
         </android.support.v7.widget.CardView>
 
@@ -199,12 +215,14 @@
                         android:layout_marginTop="7dp"
                         android:adjustViewBounds="false"
                         android:background="@android:color/transparent"
+                        android:contentDescription="@string/todo"
                         android:cropToPadding="false"
                         android:onClick="show_cm"
                         android:paddingEnd="6dp"
                         android:scaleType="fitEnd"
                         android:visibility="visible"
-                        app:srcCompat="@drawable/ic_expand_more" />
+                        app:srcCompat="@drawable/ic_expand_more"
+                        tools:ignore="ObsoleteLayoutParam,RtlSymmetry" />
 
                     <ImageButton
                         android:id="@+id/imageButton4"
@@ -213,12 +231,14 @@
                         android:layout_marginTop="7dp"
                         android:adjustViewBounds="false"
                         android:background="@android:color/transparent"
+                        android:contentDescription="@string/todo"
                         android:cropToPadding="false"
                         android:onClick="hide_cm"
                         android:paddingEnd="6dp"
                         android:scaleType="fitEnd"
                         android:visibility="gone"
-                        app:srcCompat="@drawable/ic_expand_less" />
+                        app:srcCompat="@drawable/ic_expand_less"
+                        tools:ignore="RtlSymmetry" />
 
                 </LinearLayout>
 
@@ -228,6 +248,7 @@
                     android:layout_height="80dp"
                     android:layout_alignParentTop="true"
                     android:layout_toEndOf="@+id/imageView4"
+                    android:contentDescription="@string/todo"
                     app:srcCompat="@android:color/transparent" />
 
                 <TextView
@@ -255,6 +276,7 @@
                     android:id="@+id/separator"
                     android:layout_width="25dp"
                     android:layout_height="80dp"
+                    android:contentDescription="@string/todo"
                     app:srcCompat="@android:color/transparent" />
 
                 <ImageView
@@ -263,6 +285,7 @@
                     android:layout_height="80dp"
                     android:layout_alignParentTop="true"
                     android:layout_toEndOf="@+id/separator"
+                    android:contentDescription="@string/todo"
                     app:srcCompat="@drawable/ic_public" />
 
                 <RelativeLayout
@@ -300,12 +323,14 @@
                                 android:layout_height="80dp"
                                 android:layout_alignParentTop="true"
                                 android:layout_toEndOf="@+id/imageView14"
+                                android:contentDescription="@string/todo"
                                 app:srcCompat="@android:color/transparent" />
 
                             <ImageView
                                 android:id="@+id/imageView13"
                                 android:layout_width="25dp"
                                 android:layout_height="80dp"
+                                android:contentDescription="@string/todo"
                                 app:srcCompat="@android:color/transparent" />
 
                             <TextView
@@ -333,6 +358,7 @@
                                 android:layout_height="80dp"
                                 android:layout_alignParentTop="true"
                                 android:layout_toEndOf="@+id/imageView13"
+                                android:contentDescription="@string/todo"
                                 app:srcCompat="@drawable/github" />
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -363,12 +389,14 @@
                                 android:layout_height="80dp"
                                 android:layout_alignParentTop="true"
                                 android:layout_toEndOf="@+id/imageView11"
+                                android:contentDescription="@string/todo"
                                 app:srcCompat="@android:color/transparent" />
 
                             <ImageView
                                 android:id="@+id/imageView10"
                                 android:layout_width="25dp"
                                 android:layout_height="80dp"
+                                android:contentDescription="@string/todo"
                                 app:srcCompat="@android:color/transparent" />
 
                             <TextView
@@ -399,6 +427,7 @@
                                 android:layout_height="80dp"
                                 android:layout_alignParentTop="true"
                                 android:layout_toEndOf="@+id/imageView10"
+                                android:contentDescription="@string/todo"
                                 app:srcCompat="@drawable/telegram" />
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -444,7 +473,9 @@
                         android:paddingEnd="6dp"
                         android:scaleType="fitEnd"
                         android:visibility="visible"
-                        app:srcCompat="@drawable/ic_expand_more" />
+                        app:srcCompat="@drawable/ic_expand_more"
+                        android:contentDescription="@string/todo"
+                        tools:ignore="RtlSymmetry" />
 
                     <ImageButton
                         android:id="@+id/imageButton2"
@@ -458,7 +489,9 @@
                         android:paddingEnd="6dp"
                         android:scaleType="fitEnd"
                         android:visibility="gone"
-                        app:srcCompat="@drawable/ic_expand_less" />
+                        app:srcCompat="@drawable/ic_expand_less"
+                        android:contentDescription="@string/todo"
+                        tools:ignore="RtlSymmetry" />
 
                 </RelativeLayout>
 
@@ -468,7 +501,8 @@
                     android:layout_height="80dp"
                     android:layout_alignParentTop="true"
                     android:layout_toEndOf="@+id/imageView7"
-                    app:srcCompat="@android:color/transparent" />
+                    app:srcCompat="@android:color/transparent"
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/c1_t1"
@@ -495,7 +529,8 @@
                     android:id="@+id/separator2"
                     android:layout_width="25dp"
                     android:layout_height="80dp"
-                    app:srcCompat="@android:color/transparent" />
+                    app:srcCompat="@android:color/transparent"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:id="@+id/imageView7"
@@ -504,7 +539,8 @@
                     android:layout_alignBottom="@+id/imageView9"
                     android:layout_alignParentTop="true"
                     android:layout_toEndOf="@+id/separator2"
-                    app:srcCompat="@drawable/ic_settings" />
+                    app:srcCompat="@drawable/ic_settings"
+                    android:contentDescription="@string/todo" />
 
                 <RelativeLayout
                     android:id="@+id/pref_layouts"
@@ -529,7 +565,8 @@
                                 android:layout_height="80dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_alignParentTop="true"
-                                app:srcCompat="@android:color/transparent" />
+                                app:srcCompat="@android:color/transparent"
+                                android:contentDescription="@string/todo" />
 
                             <Switch
                                 android:id="@+id/nav_set_full"
@@ -544,7 +581,7 @@
                                 android:layout_height="35dp"
                                 android:layout_below="@+id/textView15"
                                 android:layout_toEndOf="@+id/imageView20"
-                                android:text="@string/nav_full_header"
+                                android:text="@string/set_navigationview_size_to_fullscreen"
                                 android:textSize="14sp" />
 
                             <TextView
@@ -555,7 +592,7 @@
                                 android:layout_marginTop="20dp"
                                 android:layout_toEndOf="@+id/imageView20"
                                 android:fontFamily="ubuntu-family"
-                                android:text="@string/nav_full_summary"
+                                android:text="@string/fullscreen_navview"
                                 android:textColor="?attr/colorAccent"
                                 android:textSize="18sp" />
 
@@ -565,13 +602,15 @@
                                 android:layout_height="80dp"
                                 android:layout_alignParentTop="true"
                                 android:layout_toEndOf="@+id/imageView22"
-                                app:srcCompat="@android:color/transparent" />
+                                app:srcCompat="@android:color/transparent"
+                                android:contentDescription="@string/todo" />
 
                             <ImageView
                                 android:id="@+id/imageView21"
                                 android:layout_width="25dp"
                                 android:layout_height="80dp"
-                                app:srcCompat="@android:color/transparent" />
+                                app:srcCompat="@android:color/transparent"
+                                android:contentDescription="@string/todo" />
 
                             <ImageView
                                 android:id="@+id/imageView22"
@@ -579,7 +618,8 @@
                                 android:layout_height="80dp"
                                 android:layout_alignParentTop="true"
                                 android:layout_toEndOf="@+id/imageView21"
-                                app:srcCompat="@drawable/ic_nav_view" />
+                                app:srcCompat="@drawable/ic_nav_view"
+                                android:contentDescription="@string/todo" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>

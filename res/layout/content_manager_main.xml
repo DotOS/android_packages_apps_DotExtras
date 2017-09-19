@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.dotos.dotextras.system_manager.ManagerMain"
+    tools:context="com.dotos.dotextras.tools.system_manager.ManagerMain"
     tools:showIn="@layout/app_bar_manager_main">
 
 </RelativeLayout>
