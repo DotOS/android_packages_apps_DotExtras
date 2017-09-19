@@ -94,11 +94,6 @@
     <string name="status_bar_icons_title">Status bar icons</string>
     <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
 
-<!-- LOCKSCREEN SECTION -->
-    <!-- Quick settings disable on lockscreen -->
-    <string name="block_on_secure_keyguard_title">Disable quick settings on lockscreen</string>
-    <string name="block_on_secure_keyguard_summary">Disables quick settings in the keyguard for a secure lock only</string>
-
 <!-- APP PREFERENCES -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -190,5 +185,6 @@
     <string name="dotos_vx_x">DotOS vX.X</string>
     <string name="build_version_s">Build Version : %s</string>
     <string name="device_s">Device : %s</string>
+
 
 </resources>
