@@ -26,4 +26,5 @@
     <!-- Changelog -->
     <dimen name="changelog_header_big">22sp</dimen>
     <dimen name="changelog_header_small">16sp</dimen>
+    <dimen name="design_navigation_max_width">500dp</dimen>
 </resources>

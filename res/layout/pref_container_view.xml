@@ -2,29 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container_view"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:cardCornerRadius="6dp"
     app:cardElevation="2dp"
     app:contentPadding="8dp">
 
-    <include
-        layout="@layout/pref_view_extend0"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <include
-        layout="@layout/pref_view_extend1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <include
-        layout="@layout/pref_view_extend2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <include
-        layout="@layout/pref_view_extend3"
-        layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 </LinearLayout>

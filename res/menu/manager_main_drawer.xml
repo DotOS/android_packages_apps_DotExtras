@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="System Tools">
+        <menu>
+            <item android:id="@+id/main_tools"
+                  android:title="Main"
+                  android:icon="@android:color/transparent"/>
+        </menu>
+    </item>
+    <item android:title="Manager Preferences">
+        <menu>
+            <item android:id="@+id/pref_manager"
+                android:title="Settings"
+                android:icon="@drawable/ic_settings"/>
+        </menu>
+    </item>
+    <item android:title="Back to DotExtras">
+        <menu>
+            <item android:id="@+id/go_back"
+                android:title="Go Back"
+                android:icon="@drawable/dot_logo"/>
+        </menu>
+    </item>
+</menu>

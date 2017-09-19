@@ -1,24 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- DotExtras Themes -->
     <style name="AppTheme.Blue" parent="Theme.AppCompat.Light">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/blue</item>
+        <item name="mainBackgroundColor">#bdbdbd</item>
+        <item name="mainTitleColor">@color/dslv_float_cackground_color</item>
         <item name="android:textColorPrimary">@color/blue</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
-    <style name="AppTheme.LGreen" parent="Theme.AppCompat.Light">
+    <style name="AppTheme.DPurple" parent="Theme.AppCompat.Light">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/lgreen</item>
-        <item name="android:textColorPrimary">@color/lgreen</item>
+        <item name="colorAccent">@color/dpurple</item>
+        <item name="mainBackgroundColor">#bdbdbd</item>
+        <item name="mainTitleColor">@color/dslv_float_cackground_color</item>
+        <item name="android:textColorPrimary">@color/dpurple</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
-    <style name="AppTheme.Black" parent="Theme.AppCompat.Light">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/black</item>
-        <item name="android:textColorPrimary">@color/black</item>
-        <item name="android:windowLightStatusBar">true</item>
+    <style name="AppTheme.Teal.Black" parent="Theme.AppCompat">->
+    <item name="colorPrimary">@color/colorPrimary_Amoled</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark_Amoled</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="mainBackgroundColor">#424242</item>
+    <item name="mainTitleColor">@color/white</item>
+    <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    <item name="android:windowLightStatusBar">false</item>
+
+</style>
+    <style name="AppTheme.Blue.Black" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary_Amoled</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Amoled</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="mainBackgroundColor">#424242</item>
+        <item name="mainTitleColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+    <style name="AppTheme.DPurple.Black" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary_Amoled</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Amoled</item>
+        <item name="colorAccent">@color/dpurple</item>
+        <item name="mainBackgroundColor">#424242</item>
+        <item name="mainTitleColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/dpurple</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- System Manager Themes -->
+    <style name="Primary.Blue" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary_Amoled</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_Amoled</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="textColorTitles">@color/white</item>
+        <item name="android:textColorPrimary">@color/blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 </resources>

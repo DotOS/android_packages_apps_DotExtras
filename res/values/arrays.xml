@@ -35,16 +35,16 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-	
-	<string-array name="theme_array">
-        <item>Teal (White Theme)</item>
-        <item>Pixel Blue (White Theme)</item>
-        <item>Light Green (White Theme)</item>
-        <item>Black (White Theme)</item>
-        <item>Teal (Amoled Theme)</item>
-        <item>Pixel Blue (Amoled Theme)</item>
-        <item>Light Green (Amoled Theme)</item>
-    </string-array>
+
+	<!-- Droid Engine -->
+    <string-array name="theme_array">
+        <item>Select</item>
+        <item>Teal (White)</item>
+        <item>Pixel Blue (White)</item>
+        <item>Deep Purple (White)</item>
+        <item>Teal (Dark)</item>
+        <item>Pixel Blue (Dark)</item>
+        <item>Deep Purple (Dark)</item>
 
 <!-- BUTTONS SECTION -->
     <!-- Volume key cursor control -->

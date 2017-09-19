@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="colorAccent" format="color"/>
+    <attr name="textColorTitles" format="color"/>
+    <attr name="mainBackgroundColor" format="color"/>
+    <attr name="mainTitleColor" format="color"/>
 </resources>

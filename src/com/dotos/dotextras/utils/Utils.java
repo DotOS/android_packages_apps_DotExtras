@@ -2,16 +2,20 @@ package com.dotos.dotextras.utils;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.design.widget.Snackbar;
 
 import com.dotos.R;
+import com.dotos.dotextras.dotsettings;
 
 public class Utils {
     private static int sTheme;
-
-    public final static int DEFAULT = 0;
-    public final static int PIXEL = 1;
-    public final static int LGREEN = 2;
-    public final static int BLACK = 3;
+    public final static int SELECT_THEME = 0;
+    public final static int DEFAULT = 1;
+    public final static int PIXEL = 2;
+    public final static int DPURPLE = 3;
+    public final static int DEFAULT_BLACK = 4;
+    public final static int PIXEL_BLACK = 5;
+    public final static int DPURPLE_BLACK = 6;
 
 
     public static void changeToTheme(Activity activity, int theme) {
@@ -25,18 +29,28 @@ public class Utils {
     public static void onActivityCreateSetTheme(Activity activity) {
         switch (sTheme) {
             default:
+            case SELECT_THEME:
+                break;
             case DEFAULT:
                 activity.setTheme(R.style.AppTheme);
                 break;
             case PIXEL:
                 activity.setTheme(R.style.AppTheme_Blue);
                 break;
-            case LGREEN:
-                activity.setTheme(R.style.AppTheme_LGreen);
+            case DPURPLE:
+                activity.setTheme(R.style.AppTheme_DPurple);
                 break;
-            case BLACK:
-                activity.setTheme(R.style.AppTheme_Black);
+            case DEFAULT_BLACK:
+                activity.setTheme(R.style.AppTheme_Teal_Black);
+                break;
+            case PIXEL_BLACK:
+                activity.setTheme(R.style.AppTheme_Blue_Black);
+                break;
+            case DPURPLE_BLACK:
+                activity.setTheme(R.style.AppTheme_DPurple_Black);
                 break;
         }
     }
+
+
 }

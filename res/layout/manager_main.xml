@@ -9,20 +9,18 @@
     tools:openDrawer="start">
 
     <include
-        layout="@layout/app_bar_dotsettings"
+        layout="@layout/app_bar_manager_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="visible" />
+        android:layout_height="match_parent" />
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
-        android:layout_width="match_parent"
+        android:layout_width="415dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:headerLayout="@layout/nav_header_dotsettings"
+        android:fitsSystemWindows="true"
         app:itemIconTint="?attr/colorAccent"
-        app:menu="@menu/layout_main_drawer">
-
-    </android.support.design.widget.NavigationView>
+        app:itemTextColor="?android:attr/textColorAlertDialogListItem"
+        app:menu="@menu/manager_main_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

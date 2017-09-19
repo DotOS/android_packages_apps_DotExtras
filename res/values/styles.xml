@@ -6,8 +6,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="mainBackgroundColor">#bdbdbd</item>
+        <item name="mainTitleColor">@color/dslv_float_cackground_color</item>
         <item name="android:textColorPrimary">@color/colorAccent</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightStatusBar">true</item>>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -15,9 +20,12 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">?attr/colorAccent</item>
+    </style>
 
-     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
 
     <!-- Dialog theming -->
     <style name="DialogStyle" parent="android:Theme.Material.Dialog">
@@ -29,7 +37,9 @@
 
     <!-- Switch bar -->
     <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Material.Small" />
+
     <style name="TextAppearance.Switch" parent="@android:style/TextAppearance.Material.Title" />
+
     <style name="TextAppearance.Small.SwitchBar">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:textStyle">normal</item>

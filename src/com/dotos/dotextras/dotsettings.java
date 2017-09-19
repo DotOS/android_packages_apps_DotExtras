@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,6 +18,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageButton;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
@@ -32,6 +34,9 @@ import com.dotos.dotextras.fragments.PowerMenuFragment;
 import com.dotos.dotextras.fragments.RecentsFragment;
 import com.dotos.dotextras.fragments.StatusbarFragment;
 import com.dotos.dotextras.fragments.SupportedDevicesFragment;
+import com.dotos.dotextras.tools.flasher.Tools_Flasher;
+import com.dotos.dotextras.tools.system_manager.ManagerMain;
+import com.dotos.dotextras.utils.StaticReload;
 import com.dotos.dotextras.utils.Utils;
 
 import com.dotos.R;
@@ -49,6 +54,7 @@ public class dotsettings extends AppCompatActivity
         Utils.onActivityCreateSetTheme(this);
         setContentView(R.layout.layout_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -111,24 +117,16 @@ public class dotsettings extends AppCompatActivity
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        spThemes = (Spinner) findViewById(R.id.acc_spinner);
+        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
+        id=prefs.getInt("last_val",0);
+        spThemes.setSelection(id);
         int id = item.getItemId();
-        spThemes = (Spinner) findViewById(R.id.acc_spinner);
-        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
-        id=prefs.getInt("last_val",0);
-        spThemes.setSelection(id);
-     //   if (id == R.id.action_sysreboot) {
-     //       Toast.makeText(getBaseContext(), "Debug Version : " + BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
-     //       return true;
-     //   }
+        /*if (id == R.id.action_sysreboot) {
+            Toast.makeText(getBaseContext(), "Debug Version : " + BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
+            return true;
+        }*/
         return super.onOptionsItemSelected(item);
-    }
-    @Override
-    public void onResume() {
-        super.onResume();
-        spThemes = (Spinner) findViewById(R.id.acc_spinner);
-        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
-        id=prefs.getInt("last_val",0);
-        spThemes.setSelection(id);
     }
     public void openGit(View v){
         Uri uri = Uri.parse("https://www.github.com/DotOS");
@@ -136,52 +134,52 @@ public class dotsettings extends AppCompatActivity
         startActivity(intent);
     }
     public void show_cm(View v){
-        Button show = (Button) findViewById(R.id.btn_show);
+        ImageButton show = (ImageButton) findViewById(R.id.imageButton3);
         show.setVisibility(View.GONE);
-        Button hide = (Button) findViewById(R.id.btn_hide);
+        ImageButton hide = (ImageButton) findViewById(R.id.imageButton4);
         hide.setVisibility(View.VISIBLE);
-        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.cm_layouts);
+        final RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.cm_layouts);
         show_layout.setVisibility(View.VISIBLE);
     }
     public void hide_cm(View v){
-        Button hide = (Button) findViewById(R.id.btn_hide);
-        hide.setVisibility(View.GONE);
-        Button show = (Button) findViewById(R.id.btn_show);
+        ImageButton show = (ImageButton) findViewById(R.id.imageButton3);
         show.setVisibility(View.VISIBLE);
+        ImageButton hide = (ImageButton) findViewById(R.id.imageButton4);
+        hide.setVisibility(View.GONE);
         RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.cm_layouts);
         show_layout.setVisibility(View.GONE);
     }
     public void show_pref(View v){
-        Button show = (Button) findViewById(R.id.btn_pref_show);
+        ImageButton show = (ImageButton) findViewById(R.id.imageButton);
         show.setVisibility(View.GONE);
-        Button hide = (Button) findViewById(R.id.btn_pref_hide);
+        ImageButton hide = (ImageButton) findViewById(R.id.imageButton2);
         hide.setVisibility(View.VISIBLE);
-        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.pref_layouts);
+        final RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.pref_layouts);
         show_layout.setVisibility(View.VISIBLE);
     }
     public void hide_pref(View v){
-        Button hide = (Button) findViewById(R.id.btn_pref_hide);
+        ImageButton hide = (ImageButton) findViewById(R.id.imageButton2);
         hide.setVisibility(View.GONE);
-        Button show = (Button) findViewById(R.id.btn_pref_show);
+        ImageButton show = (ImageButton) findViewById(R.id.imageButton);
         show.setVisibility(View.VISIBLE);
-        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.pref_layouts);
+        final RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.pref_layouts);
         show_layout.setVisibility(View.GONE);
     }
     public void show_acc(View v){
-        Button show = (Button) findViewById(R.id.btn_acc);
-        show.setVisibility(View.GONE);
-        Button hide = (Button) findViewById(R.id.btn_acc_hide);
-        hide.setVisibility(View.VISIBLE);
-        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.acc_layout);
-        show_layout.setVisibility(View.VISIBLE);
+        //Button show = (Button) findViewById(R.id.btn_acc);
+        //show.setVisibility(View.GONE);
+        //Button hide = (Button) findViewById(R.id.btn_acc_hide);
+        //hide.setVisibility(View.VISIBLE);
+       // RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.acc_layout);
+        //show_layout.setVisibility(View.VISIBLE);
     }
     public void hide_acc(View v){
-        Button show = (Button) findViewById(R.id.btn_acc);
-        show.setVisibility(View.VISIBLE);
-        Button hide = (Button) findViewById(R.id.btn_acc_hide);
-        hide.setVisibility(View.GONE);
-        RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.acc_layout);
-        show_layout.setVisibility(View.GONE);
+        //Button show = (Button) findViewById(R.id.btn_acc);
+        //show.setVisibility(View.VISIBLE);
+        //Button hide = (Button) findViewById(R.id.btn_acc_hide);
+        //hide.setVisibility(View.GONE);
+        //RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.acc_layout);
+        //show_layout.setVisibility(View.GONE);
     }
     public void openTelegram(View v){
         Uri uri = Uri.parse("https://t.me/dotos");
@@ -201,15 +199,21 @@ public class dotsettings extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.nav_dot_main) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View layout = inflater.inflate(R.layout.content_dotsettings, null);
+            View layout = inflater.inflate(R.layout.pref_cardview_main, null);
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
             getApplicationContext();
             setupSpinnerItemSelection();
+        } else if (id == R.id.nav_flasher) {
+            finish();
+            startActivity(new Intent(this, Tools_Flasher.class));
+        } else if (id == R.id.nav_sys_manager) {
+            finish();
+            startActivity(new Intent(this, ManagerMain.class));
         } else if (id == R.id.nav_dot_statusbar) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -218,7 +222,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new StatusbarFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_buttons) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -227,7 +231,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new ButtonFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_display) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -236,7 +240,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new DisplayFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_lockscreen) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -245,7 +249,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new LockScreenFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_powermenu) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -254,7 +258,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new PowerMenuFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_misc) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -263,7 +267,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new MiscFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_recents) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -272,7 +276,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new RecentsFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_about_extras) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -281,7 +285,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new AboutExtrasFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_navbar) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -290,7 +294,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new NavbarFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_support) {
-            CoordinatorLayout mainLayout = (CoordinatorLayout) findViewById(R.id.app_bar_dot);
+            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_about, null);
             mainLayout.removeAllViews();
@@ -303,4 +307,5 @@ public class dotsettings extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 }

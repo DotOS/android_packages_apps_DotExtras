@@ -8,22 +8,38 @@
     <color name="seekbar_dot_color">@color/colorPrimary</color>
     <color name="navDrawerBg">@color/background_material_dark</color>
     <color name="navDrawerText">@android:color/white</color>
-    <color name="navDrawerTextChecked">@color/colorAccent</color>
+    <color name="navDrawerTextChecked">?attr/colorAccent</color>
+	
+	<!-- Incomming needed colors... -->
+    <color name="batterymeter_frame_color">#4DFFFFFF</color>
+    <color name="batterymeter_charge_color">#FFFFFFFF</color>
+    <color name="batterymeter_bolt_color">?attr/colorAccent</color>
+    <color name="qs_batterymeter_frame_color">#FF404040</color>
 
     <color name="background_material_dark">#FF303030</color>
     <color name="foreground_material_dark">#FFFFFFFF</color>
     <color name="primary_text_material_dark">#FFFFFFFF</color>
     <color name="primary_text_material_light">#DE000000</color>
     <color name="secondary_text_material_dark">#B3FFFFFF</color>
-    <color name="secondary_text_material_light">#8A000000</color>
+    <color name="secondary_text_material_light">#e0e0e0</color>
     <color name="default_Card_color">@android:color/holo_blue_dark</color>
     <!-- Gesture Anywhere -->
     <color name="ga_gesture_color">@android:color/holo_blue_light</color>
-    <!-- Color Changer -->
+     <!-- Droid Engine -->
     <color name="default_accent">#00897b</color>
     <color name="blue">@android:color/holo_blue_dark</color>
-    <color name="lgreen">#00e676</color>
+    <color name="dpurple">#6200ea</color>
     <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary_Amoled">#212121</color>
+    <color name="colorPrimaryDark_Amoled">#000000</color>
+
+    <!-- Interface Misc -->
+    <color name="default_Card_color">#e2e2e2</color>
+
+    <!-- Gesture Anywhere -->
+    <color name="ga_gesture_color">@android:color/holo_blue_light</color>
+
     <!-- Switch Bar Text Color -->
     <color name="switchbar_text_color">#ffffffff</color>
     <color name="switch_accent_color">#ff7fcac3</color>
@@ -36,5 +52,5 @@
 
     <!-- DSLV colors -->
     <color name="dslv_icon_dark">#ff009688</color>
-    <color name="dslv_float_cackground_color">#ff616161</color>
+    <color name="dslv_float_cackground_color">#616161</color>
 </resources>

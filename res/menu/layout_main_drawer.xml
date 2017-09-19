@@ -1,65 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Main">
+    <item
+        android:id="@+id/nav_dot_main"
+        android:icon="@android:color/transparent"
+        android:title="@string/home" />
+
+    <item android:title="@string/tools">
         <menu>
             <item
-                android:id="@+id/nav_dot_main"
-                android:icon="@android:color/transparent"
-                android:title="Main Page" />
+                android:id="@+id/nav_flasher"
+                android:icon="@drawable/ic_flash_manager"
+                android:enabled="false"
+                android:visible="false"
+                android:title="@string/in_built_flasher" />
+            <item
+                android:id="@+id/nav_sys_manager"
+                android:enabled="true"
+                android:visible="true"
+                android:icon="@drawable/ic_sys_icon"
+                android:title="@string/system_manager" />
         </menu>
     </item>
-    <item android:title="Extras">
+    <item android:title="@string/extras">
         <menu>
             <item
-                android:title="Statusbar"
+                android:title="@string/statusbar"
                 android:icon="@drawable/ic_dot_statusbar"
                 android:id="@+id/nav_dot_statusbar" />
             <item
-                android:title="Buttons"
+                android:title="@string/buttons"
                 android:icon="@drawable/ic_dot_buttons"
                 android:id="@+id/nav_dot_buttons" />
             <item
-                android:title="Display"
+                android:title="@string/display"
                 android:icon="@drawable/ic_dot_display"
                 android:id="@+id/nav_dot_display" />
             <item
-                android:title="Lockscreen"
+                android:title="@string/lockscreen"
                 android:icon="@drawable/ic_dot_lockscreen"
                 android:id="@+id/nav_dot_lockscreen" />
             <item
-                android:title="Recents"
+                android:title="@string/recents"
                 android:icon="@drawable/ic_dot_recents"
                 android:id="@+id/nav_dot_recents" />
             <item
-                android:title="Misc"
+                android:title="@string/misc"
                 android:icon="@drawable/ic_dot_misc"
                 android:id="@+id/nav_dot_misc" />
             <item
-                android:title="Powermenu"
+                android:title="@string/powermenu"
                 android:icon="@drawable/ic_dot_powermenu"
                 android:id="@+id/nav_dot_powermenu" />
             <item
-                android:title="NavigationBar"
+                android:title="@string/navigationbar"
                 android:icon="@drawable/ic_dot_navbar"
                 android:id="@+id/nav_dot_navbar" />
         </menu>
     </item>
-    <item android:title="Support">
+    <item android:title="@string/support" android:visible="false">
         <menu>
             <item
                 android:id="@+id/nav_dot_support"
+                android:visible="false"
                 android:icon="@drawable/supported_devices"
-                android:title="Supported Devices" />
+                android:title="@string/supported_devices" />
         </menu>
     </item>
-    <item android:title="About Extras">
+    <item
+        android:title="@string/about_extras"
+        android:visible="false">
         <menu>
             <item
                 android:id="@+id/nav_about_extras"
+                android:enabled="false"
                 android:icon="@android:color/transparent"
-                android:title="About Dot Extras app" />
+                android:title="@string/about_dot_extras_app" />
         </menu>
     </item>
-
 </menu>

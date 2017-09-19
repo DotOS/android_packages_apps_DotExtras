@@ -127,19 +127,13 @@
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
 
-<!-- APP PREFERENCES -->
+    <!-- APP PREFERENCES -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="sys_sucess">SystemUI Successfuly rebooted</string>
     <string name="action_settings">Settings</string>
-
-    <string name="welcome_text">Welcome to DotOS Extras</string>
-    <string name="tagline">Align the Dots the way you want , Customize Dot Interface with many features</string>
-    <string name="nav_full">Set NavigationView size to fullscreen</string>
-    <string name="nav_full_summary">Fullscreen NavView</string>
-    <string name="colors_header">Customize DotExtras Color</string>
-    <string name="colors_summary">Play around with the colors</string>	
+    <string name="title_activity_manager_main">Droid Manager</string>
     <!-- Buttons -->
     <string name="hide_btn">Hide</string>
     <string name="show_btn">Show</string>
@@ -153,6 +147,42 @@
     <string name="tg_Desc">Stay up to date</string>
     <string name="tg_title">Telegram Comunity Group</string>
     <string name="app_pref">App Preferences</string>
-    <string name="app_pref_desc">Customize Aplication Settings</string>
+    <string name="app_pref_desc">Customize Apllication Settings</string>
+
+    <!-- Drawer Strings -->
+    <string name="action_settings">Settings</string>
+    <string name="main">Main</string>
+    <string name="home">Home</string>
+    <string name="management">Management</string>
+    <string name="system_manager">Droid Manager</string>
+    <string name="tools">Tools</string>
+    <string name="in_built_flasher">In-Built Flasher</string>
+    <string name="extras">Extras</string>
+    <string name="statusbar">Statusbar</string>
+    <string name="buttons">Buttons</string>
+    <string name="display">Display</string>
+    <string name="lockscreen">Lockscreen</string>
+    <string name="recents">Recents</string>
+    <string name="misc">Misc</string>
+    <string name="powermenu">Powermenu</string>
+    <string name="navigationbar">NavigationBar</string>
+    <string name="support">Support</string>
+    <string name="about_extras">About Extras</string>
+    <string name="supported_devices">Supported Devices</string>
+    <string name="about_dot_extras_app">About Dot Extras app</string>
+
+    <!-- Path data for portrait battery -->
+    <string name="battery_portrait_path_full" translatable="false">M 5 2 H 19 V 21 H 5 V 2 Z</string>
+    <string name="battery_portrait_path_empty" translatable="false">M 5 21 H 19 V 21 H 5 V 21 Z</string>
+    <string name="battery_portrait_clip_path" translatable="false">M6,21V4h3V2h6v2h3v17H6z</string>
+
+    <!-- Path data for landscape battery -->
+    <string name="battery_landscape_path_full" translatable="false">M 1 4 H 25 V 20 H 1 V 4 Z</string>
+    <string name="battery_landscape_path_empty" translatable="false">M 1 4 H 1 V 20 H 1 V 4 Z</string>
+    <string name="battery_landscape_clip_path" translatable="false">M25,16h-2v4H1V4h22v4h2V16z</string>
+
+    <!-- Path data for circle battery -->
+    <string name="battery_circle_path" translatable="false">M 12 3.5 C 16.6944203736 3.5 20.5 7.30557962644 20.5 12 C 20.5 16.6944203736 16.6944203736 20.5 12 20.5 C 7.30557962644 20.5 3.5 16.6944203736 3.5 12 C 3.5 7.30557962644 7.30557962644 3.5 12 3.5 Z</string>
+
 
 </resources>
