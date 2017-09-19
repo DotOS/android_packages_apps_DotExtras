@@ -46,14 +46,6 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".dotextras.tools.system_manager.ManagerMain"
-            android:label="@string/title_activity_manager_main"
-            android:theme="@style/Primary.Blue" />
-        <!--<activity
-            android:name=".dotextras.tools.flasher.Tools_Flasher"
-			android:label="Flash ZIPs"
-            android:theme="@style/Primary.Blue"/>-->
     </application>
 
 </manifest>

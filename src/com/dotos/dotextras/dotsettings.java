@@ -41,7 +41,6 @@ import com.dotos.dotextras.fragments.RecentsFragment;
 import com.dotos.dotextras.fragments.StatusbarFragment;
 import com.dotos.dotextras.fragments.SupportedDevicesFragment;
 import com.dotos.dotextras.tools.flasher.Tools_Flasher;
-import com.dotos.dotextras.tools.system_manager.ManagerMain;
 import com.dotos.dotextras.utils.StaticReload;
 import com.dotos.dotextras.utils.Utils;
 
@@ -225,9 +224,6 @@ public class dotsettings extends AppCompatActivity
         } else if (id == R.id.nav_flasher) {
             finish();
             startActivity(new Intent(this, Tools_Flasher.class));
-        } else if (id == R.id.nav_sys_manager) {
-            finish();
-            startActivity(new Intent(this, ManagerMain.class));
         } else if (id == R.id.nav_dot_statusbar) {
             ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
