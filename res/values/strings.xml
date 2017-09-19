@@ -34,7 +34,6 @@
     <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
 
-<!-- STATUS BAR SECTION -->
     <!-- Status bar -->
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
@@ -95,39 +94,7 @@
     <string name="status_bar_icons_title">Status bar icons</string>
     <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
 
-<!-- POWER MENU SECTION -->
-    <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_reboot_title">Restart menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_settings_title">Settings shortcut</string>
-    <string name="power_menu_lockdown_title">Device lockdown</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_sound_title">Sound panel</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-
-    <string name="volume_keys_control_ring_stream_title">Control ringtone volume</string>
-    <string name="volume_keys_control_ring_stream_summary_on">Volume keys control ringtone volume</string>
-    <string name="volume_keys_control_ring_stream_summary_off">Volume keys control media volume</string>
-
-    <string name="camera_double_tap_power_gesture_title">Press power button twice for camera</string>
-
-    <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-    <string name="camera_double_tap_power_gesture_desc">Quickly open camera without unlocking your screen</string>
-
-    <string name="torch_long_press_power_gesture_title">Long press for torch</string>
-    <string name="torch_long_press_power_gesture_desc">Activate the torch by long pressing the power button while the display is off</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
-
-    <!-- APP PREFERENCES -->
+<!-- APP PREFERENCES -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
