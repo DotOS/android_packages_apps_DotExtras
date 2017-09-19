@@ -173,7 +173,22 @@
     <string name="battery_landscape_path_empty" translatable="false">M 1 4 H 1 V 20 H 1 V 4 Z</string>
     <string name="battery_landscape_clip_path" translatable="false">M25,16h-2v4H1V4h22v4h2V16z</string>
 
-    <!-- Path data for circle battery -->
+        <!-- Path data for circle battery -->
     <string name="battery_circle_path" translatable="false">M 12 3.5 C 16.6944203736 3.5 20.5 7.30557962644 20.5 12 C 20.5 16.6944203736 16.6944203736 20.5 12 20.5 C 7.30557962644 20.5 3.5 16.6944203736 3.5 12 C 3.5 7.30557962644 7.30557962644 3.5 12 3.5 Z</string>
+    <string name="phone_informations">Phone Informations</string>
+    <string name="todo">TODO</string>
+    <string name="android_version_s">Android Version : %s</string>
+    <string name="sdk_version_s">SDK Version : %s</string>
+    <string name="chipset_s">Chipset : %s</string>
+    <string name="tweak_the_dotos_more_than_is_necessary_with_prebuilt_configs">Tweak the DotOS more than is necessary with prebuilt configs</string>
+    <string name="control_center">Control Center</string>
+    <string name="prebuilt_profiles">Prebuilt Profiles</string>
+    <string name="be_free_to_change_colors">Be free to change colors</string>
+    <string name="set_application_theme">Set Application Theme</string>
+    <string name="set_navigationview_size_to_fullscreen">Set NavigationView size to fullscreen</string>
+    <string name="fullscreen_navview">Fullscreen NavView</string>
+    <string name="dotos_vx_x">DotOS vX.X</string>
+    <string name="build_version_s">Build Version : %s</string>
+    <string name="device_s">Device : %s</string>
 
 </resources>
