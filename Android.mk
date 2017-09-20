@@ -39,8 +39,6 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROGUARD_ENABLED := disabled
 
-LOCAL_STATIC_JAVA_AAR_LIBRARIES:= constraint 
-
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
     android-support-v7-appcompat \
@@ -52,7 +50,6 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-design \
     libsuperuser \
     jsr305 \
-    constraint-layout-solver \
     org.cyanogenmod.platform.internal
 
 LOCAL_JAVA_LIBRARIES := org.cyanogenmod.hardware
@@ -70,7 +67,5 @@ include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
 	libsuperuser:lib/libsuperuser.jar \
-        constraint:lib/constraint.aar \
-        constraint-layout-solver:lib/constraint-layout-solver.jar
 
 include $(BUILD_MULTI_PREBUILT)

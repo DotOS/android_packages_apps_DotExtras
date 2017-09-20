@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -214,7 +213,7 @@ public class dotsettings extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.nav_dot_main) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_cardview_main, null);
             mainLayout.removeAllViews();
@@ -225,7 +224,7 @@ public class dotsettings extends AppCompatActivity
             finish();
             startActivity(new Intent(this, Tools_Flasher.class));
         } else if (id == R.id.nav_dot_statusbar) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -234,7 +233,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new StatusbarFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_buttons) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -243,7 +242,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new ButtonFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_display) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -252,7 +251,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new DisplayFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_lockscreen) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -261,7 +260,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new LockScreenFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_powermenu) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -270,7 +269,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new PowerMenuFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_misc) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -279,7 +278,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new MiscFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_recents) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -288,7 +287,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new RecentsFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_about_extras) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -297,7 +296,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new AboutExtrasFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_navbar) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_view, null);
             mainLayout.removeAllViews();
@@ -306,7 +305,7 @@ public class dotsettings extends AppCompatActivity
                     .replace(R.id.pref_view_layout, new NavbarFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_support) {
-            ConstraintLayout mainLayout = (ConstraintLayout) findViewById(R.id.main_layout);
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.pref_about, null);
             mainLayout.removeAllViews();
