@@ -60,8 +60,9 @@
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
 
+    <!-- Buttons -->
+    <string name="buttons_title">Buttons</string>
 
-    
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
