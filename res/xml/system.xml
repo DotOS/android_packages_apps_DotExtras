@@ -22,7 +22,7 @@
 
          <Preference
             android:key="buttons"
-            android:fragment="com.dot.dotextras.Buttons"
+            android:fragment="com.dot.dotextras.fragments.Buttons"
             android:icon="@drawable/ic_buttons"
             android:title="@string/buttons_title" />
 
@@ -31,5 +31,4 @@
             android:fragment="com.dot.dotextras.GeneralTweaks"
             android:icon="@drawable/ic_general_tweaks"
             android:title="@string/general_tweaks_title" />
-
 </PreferenceScreen>
