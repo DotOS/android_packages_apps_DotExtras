@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     
     <string name="dotextras_title">DotExtras</string>
-	<string name="build_tweaks_summary_title">Align the Dots In your Style</string>
+    <string name="build_tweaks_summary_title">Align the Dots In your Style</string>
     <string name="add">Add</string>
     <string name="advanced">Advanced</string>
     <string name="cancel">Cancel</string>
@@ -45,5 +45,8 @@
     <string name="powermenu_category_other">Other</string>
     <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+
+    <!-- Buttons -->
+    <string name="buttons_title">Buttons</string>
 
 </resources>
