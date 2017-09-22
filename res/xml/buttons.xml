@@ -58,6 +58,13 @@
 
     </PreferenceCategory>
 	
+	<Preference
+            android:key="button_brightness"
+            android:title="@string/button_backlight_title"
+            android:summary="@string/button_backlight_summary"
+            android:persistent="false"
+            android:fragment="com.dot.dotextras.ButtonBrightnessSettings" />
+	
 	<PreferenceCategory
          android:key="hardware_keys"
 	 android:title="@string/hardware_keys_category">

@@ -54,10 +54,11 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
 
     private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
-
+    private static final String KEY_BUTTON_LIGHT = "button_brightness";
     private ListPreference mVolumeKeyCursorControl;
 
     private SwitchPreference mHwKeyDisable;
+    private Preference mButtonLight;
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -85,6 +86,10 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        final int deviceKeys = getResources().getInteger(
+                com.android.internal.R.integer.config_deviceHardwareKeys);
+        final boolean buttonLights = getResources().getBoolean(
+                com.android.internal.R.bool.config_button_brightness_support);
 
         // volume key cursor control
         mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
@@ -94,6 +99,12 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
             mVolumeKeyCursorControl.setValue(Integer.toString(volumeRockerCursorControl));
            mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
+        }
+
+        mButtonLight = prefScreen.findPreference(KEY_BUTTON_LIGHT);
+
+        if (!buttonLights || deviceKeys == 0) {
+            keysCategory.removePreference(mButtonLight);
         }
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
