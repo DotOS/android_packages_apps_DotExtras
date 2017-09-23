@@ -220,10 +220,30 @@
     <string name="fling_keyboard_cursors_title">Dynamic keyboard cursors action</string>
     <string name="fling_keyboard_cursors_summary">Double tap left and right actions becomes left and right keyboard cursor actions if keyboard is open</string>
     <string name="fling_logo_opacity_title">Fling logo opacity</string>
-	
+
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Power menu when locked</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
+
+    <string name="recents_show_membar_title">Memory bar</string>
+    <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+
+    <!-- Brightness icon-->
+    <string name="brightness_icon_title">Brightness icon </string>
+    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Quick pulldown</string>
+    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+    <string name="quick_pulldown_always">Always</string>
 
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_summary">Pulse does not work with some audio sources when listening on device speaker</string>
