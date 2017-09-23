@@ -114,6 +114,7 @@
     <string name="powermenu_users">Users</string>
 	<string name="powermenu_torch">Flashlight</string>
 
+<<<<<<< HEAD
     <!-- DUI -->
     <!-- Navigation -->
     <string name="navigationbar_settings_title">Navigation bar</string>
@@ -211,6 +212,14 @@
     <string name="fling_keyboard_cursors_title">Dynamic keyboard cursors action</string>
     <string name="fling_keyboard_cursors_summary">Double tap left and right actions becomes left and right keyboard cursor actions if keyboard is open</string>
     <string name="fling_logo_opacity_title">Fling logo opacity</string>
+=======
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Power menu when locked</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
+
+    <string name="recents_show_membar_title">Memory bar</string>
+    <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+>>>>>>> 3e189ac1... disable power menu on secure lock screen [2/2]
 
     <!-- Brightness icon-->
     <string name="brightness_icon_title">Brightness icon </string>
