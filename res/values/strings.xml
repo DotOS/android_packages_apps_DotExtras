@@ -49,6 +49,18 @@
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
 
+    <!-- Misc Extras -->
+    <string name="misc_extras_title">Misc Extras</string>
+
+    <!-- Recents UI -->
+    <string name="recents_ui_title">Recents UI</string>
+
+    <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Lockscreen UI</string>
+
+    <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Statusbar items</string>
+
     <!-- Notifications -->
     <string name="notifications_title">Notifications</string>
 	
@@ -57,6 +69,12 @@
 
     <!-- Statusbar Iten -->
     <string name="statusbar_items_category">Statusbar items</string>
+
+    <!-- Quick Settings -->
+    <string name="quick_settings_title">Quick Settings</string>
+
+    <!-- Navigation -->
+    <string name="navigationbar_settings_title">Navigation bar</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
@@ -228,9 +246,6 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Power menu when locked</string>
     <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
-
-    <string name="recents_show_membar_title">Memory bar</string>
-    <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
 
     <!-- Brightness icon-->
     <string name="brightness_icon_title">Brightness icon </string>
