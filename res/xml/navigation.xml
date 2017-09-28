@@ -27,5 +27,4 @@
             android:icon="@drawable/ic_navigation"
             android:title="@string/navigationbar_settings_title" />
 
-
 </PreferenceScreen>
