@@ -313,4 +313,9 @@
 
    <!-- Navbar tuner -->
    <string name="navbar_tuner_title">Navbar Tuner</string>
+
+   <!-- Lockscreen Tweaks -->
+   <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
+   <string name="lockscreen_category">Lockscreen</string>
+   <string name="lockscreen_ui_title">Lockscreen UI</string>
 </resources>
