@@ -102,9 +102,10 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 	
-	         <Preference
+	<Preference
             android:key="traffic"
             android:fragment="com.dotos.dotextras.Traffic"
             android:icon="@drawable/ic_traffic"
             android:title="@string/traffic_title" />
+	
 </PreferenceScreen>

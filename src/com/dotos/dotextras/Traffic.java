@@ -41,15 +41,17 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.dotos.R
+import com.android.settings.R;
+import com.dotos.R;
+import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.Utils;
 
-import com.dotos.dotextras.preference.CustomSeekBarPreference;
-import com.dotos.dotextras.preference.SystemSettingSwitchPreference;
+import com.dotos.dotextras.preferences.CustomSeekBarPreference;
+import com.dotos.dotextras.preferences.SystemSettingSwitchPreference;
 
 
-public class Traffic extends PreferenceFragment implements OnPreferenceChangeListener {
+public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
 
     private CustomSeekBarPreference mThreshold;
