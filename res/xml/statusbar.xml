@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/statusbar"
+<!--  Copyright (C) 2018 Project dotOS
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/status_bar_category"
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+     <Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_category"
+            android:icon="@drawable/ic_systemui_tuner_statusbaritems" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+    </Preference>
 
          <Preference
             android:key="traffic"
             android:fragment="com.dot.dotextras.Traffic"
             android:icon="@drawable/ic_traffic"
             android:title="@string/traffic_title" />
+
+         <Preference
+            android:key="misc_extensions"
+            android:fragment="com.dot.dotextras.MiscExtensions"
+            android:icon="@drawable/ic_misc_extensions"
+            android:title="@string/misc_extensions_title" />
 
 </PreferenceScreen>
