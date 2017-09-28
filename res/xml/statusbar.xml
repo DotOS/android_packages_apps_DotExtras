@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/statusbar"
+    android:layout="@layout/tab"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+			
+		<Preference
+            android:key="misc_extras"
+            android:fragment="com.dot.dotextras.MiscExtras"
+            android:icon="@drawable/ic_misc_extras"
+            android:title="@string/misc_extras_title" />
 
 </PreferenceScreen>

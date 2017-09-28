@@ -34,9 +34,27 @@
     <string name="recents">Recents</string>
     <string name="power_menu">Power Menu</string>
     <string name="lockscreen">Lockscreen</string>
-	<string name="system">System</string>
-	
-	<!-- Frags -->
+
+    <string name="system">System</string>
+
+
+    <string name="general_category">General</string>
+    <string name="lockscreen_category">Lockscreen</string>
+    <string name="notifications_panel_category">Notifications</string>
+
+    <!-- Frags -->
     <!-- General Tweaks -->
     <string name="general_tweaks_title">General Tweaks</string>
+
+    <!-- Misc Extensions -->
+    <string name="misc_extras_title">Misc Extras</string>
+
+    <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Lockscreen UI</string>
+
+    <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Statusbar items</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
 </resources>
