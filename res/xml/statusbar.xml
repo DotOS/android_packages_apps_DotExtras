@@ -13,10 +13,16 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
-         <Preference
+        <Preference
             android:key="traffic"
             android:fragment="com.dot.dotextras.Traffic"
             android:icon="@drawable/ic_traffic"
             android:title="@string/traffic_title" />
+			
+		<Preference
+            android:key="misc_extras"
+            android:fragment="com.dot.dotextras.MiscExtras"
+            android:icon="@drawable/ic_misc_extras"
+            android:title="@string/misc_extras_title" />
 
 </PreferenceScreen>

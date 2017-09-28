@@ -39,6 +39,7 @@
     <string name="lockscreen">Lockscreen</string>
     <string name="system">System</string>
     <string name="general_category">General</string>
+    <string name="lockscreen_category">Lockscreen</string>
     <string name="notifications_panel_category">Notifications</string>
   
 
@@ -49,14 +50,20 @@
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
 
-    <!-- Notifications -->
-    <string name="notifications_title">Notifications</string>
-	
+    <!-- Misc Extensions -->
+    <string name="misc_extras_title">Misc Extras</string>
+
     <!-- Recents UI -->
     <string name="recents_ui_title">Recents UI</string>
 
+    <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Lockscreen UI</string>
+
     <!-- Statusbar Iten -->
     <string name="statusbar_items_category">Statusbar items</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
