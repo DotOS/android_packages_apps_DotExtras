@@ -10,8 +10,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-    <PreferenceCategory
-      android:title="@string/network_traffic_title">
+		  
+<PreferenceScreen
+    android:title="@string/network_traffic_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_state"
@@ -33,4 +36,4 @@
         settings:min="0"
         settings:units="" />
 
-    </PreferenceCategory>
+</PreferenceScreen>	
