@@ -371,6 +371,7 @@
 
     <!-- Lockscreen Tweaks -->
     <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
+    <string name="hide_lockscreen_items_title">Lockscreen items</string>
  
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
@@ -549,4 +550,9 @@
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+
 </resources>
