@@ -62,6 +62,13 @@
         android:title="@string/volume_rocker_wake_title"
         android:defaultValue="false" />
 
+    <com.dot.dotextras.preference.SystemSettingSwitchPreference
+        android:key="call_volume_answer"
+        android:title="@string/volume_answer_call_title"
+        android:summary="@string/volume_answer_call_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
+
