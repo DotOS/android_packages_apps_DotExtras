@@ -34,6 +34,14 @@
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false" />
+		
+	
+	<ListPreference
+        android:dialogTitle="@string/volume_key_cursor_control_title"
+        android:entries="@array/volume_key_cursor_control_entries"
+        android:entryValues="@array/volume_key_cursor_control_values"
+        android:key="volume_key_cursor_control"
+        android:title="@string/volume_key_cursor_control_title" />
 
 
     <com.dot.dotextras.preference.SystemSettingSwitchPreference
