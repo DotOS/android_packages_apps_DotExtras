@@ -446,4 +446,8 @@
     <string name="battery_percent_none">Don\'t show</string>
     <string name="battery_percent_outside">Show near icon</string>
     <string name="battery_percent_inside">Show inside icon</string>
+
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Launch music app on headset connection</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
 </resources>
