@@ -76,7 +76,7 @@
     <!-- Recents UI -->
     <string name="recents_ui_title">Recents UI</string>
     <string name="aosp_recents_category">AOSP recents</string>
-
+    
     <!-- Lockscreen UI -->
     <string name="lockscreen_ui_title">Lockscreen UI</string>
 
@@ -618,4 +618,12 @@
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
 
+    <!-- Features Strings - Recents --> 
+    <string name="recent_settings_title">Recents</string> 
+    <string name="recents_icon_pack_title">Icon Pack</string> 
+    <string name="recents_icon_pack_summary">Apply a custom icon pack for Recents panel</string> 
+    <string name="no_iconpacks_summary">No icon packs installed</string> 
+    <string name="dialog_pick_iconpack_title">Pick icon pack</string> 
+    <string name="default_iconpack_title">Default icons</string> 
+ 
 </resources>
