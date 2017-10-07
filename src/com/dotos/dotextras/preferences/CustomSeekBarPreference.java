@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The Dirty Unicorns Project
+ * Copyright (C) 2017 AIMROM Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -50,7 +51,7 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         final TypedArray a = context.obtainStyledAttributes(
                 attrs, R.styleable.CustomSeekBarPreference);
 
-        mMax = attrs.getAttributeIntValue(SETTINGS_NS, "max", 100);
+        mMax = attrs.getAttributeIntValue(ANDROIDNS, "max", 100);
         mMin = attrs.getAttributeIntValue(SETTINGS_NS, "min", 0);
         mDefaultValue = attrs.getAttributeIntValue(ANDROIDNS, "defaultValue", -1);
         mUnits = getAttributeStringValue(attrs, SETTINGS_NS, "units", "");
@@ -139,10 +140,12 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
 
     public void setMax(int max) {
         mMax = max;
+        mSeekBar.setMax(mMax - mMin);
     }
 
     public void setMin(int min) {
         mMin = min;
+        mSeekBar.setMax(mMax - mMin);
     }
 
     public void setIntervalValue(int value) {

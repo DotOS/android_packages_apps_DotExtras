@@ -6,11 +6,16 @@
     <attr name="mainTitleColor" format="color"/>
 
     <!-- Base attributes available to CustomSeekBarPreference. -->
-    <declare-styleable name="CustomSeekBarPreference">
-        <attr name="interval" format="integer" />
+  
+<declare-styleable name="SeekBarPreference">
+  <attr name="interval" format="integer" />
+  <attr name="minimum" format="integer" />
+  <attr name="unitsLeft" format="string|reference" />
+  <attr name="unitsRight" format="string|reference" />
         <attr name="min" format="integer" />
         <attr name="max" format="integer" />
         <attr name="units" format="string|reference" />
-    </declare-styleable>
+
+ </declare-styleable>
 	
 </resources>
