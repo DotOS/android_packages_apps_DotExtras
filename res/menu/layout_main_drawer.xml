@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
+    <item android:title="@string/home">
+        <menu>
+
+         <item
         android:id="@+id/nav_dot_main"
         android:icon="@android:color/transparent"
-        android:title="@string/home" />
+        android:title="@string/back_home" />
 
-    <item android:title="@string/tools">
-        <menu>
-            <item
-                android:id="@+id/nav_flasher"
-                android:icon="@drawable/ic_flash_manager"
-                android:enabled="false"
-                android:visible="false"
-                android:title="@string/in_built_flasher" />
-            <item
-                android:id="@+id/nav_sys_manager"
-                android:enabled="true"
-                android:visible="true"
-                android:icon="@drawable/ic_sys_icon"
-                android:title="@string/system_manager" />
         </menu>
     </item>
     <item android:title="@string/extras">
@@ -58,24 +47,5 @@
                 android:id="@+id/nav_dot_navbar" />
         </menu>
     </item>
-    <item android:title="@string/support" android:visible="false">
-        <menu>
-            <item
-                android:id="@+id/nav_dot_support"
-                android:visible="false"
-                android:icon="@drawable/supported_devices"
-                android:title="@string/supported_devices" />
-        </menu>
-    </item>
-    <item
-        android:title="@string/about_extras"
-        android:visible="false">
-        <menu>
-            <item
-                android:id="@+id/nav_about_extras"
-                android:enabled="false"
-                android:icon="@android:color/transparent"
-                android:title="@string/about_dot_extras_app" />
-        </menu>
-    </item>
+
 </menu>

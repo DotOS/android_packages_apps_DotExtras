@@ -9,7 +9,7 @@
         <item name="mainBackgroundColor">#bdbdbd</item>
         <item name="mainTitleColor">@color/dslv_float_cackground_color</item>
         <item name="android:textColorPrimary">@color/colorAccent</item>
-        <item name="android:windowLightStatusBar">true</item>>
+        <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowDisablePreview">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

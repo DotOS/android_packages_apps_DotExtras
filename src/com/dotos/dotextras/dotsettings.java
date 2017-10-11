@@ -1,19 +1,17 @@
 package com.dotos.dotextras;
 
-import android.animation.ValueAnimator;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -28,7 +26,8 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-// Impoort Dots Fragments
+
+import com.dotos.dotextras.drill.TheDrill;
 import com.dotos.dotextras.fragments.AboutExtrasFragment;
 import com.dotos.dotextras.fragments.ButtonFragment;
 import com.dotos.dotextras.fragments.DisplayFragment;
@@ -39,8 +38,7 @@ import com.dotos.dotextras.fragments.PowerMenuFragment;
 import com.dotos.dotextras.fragments.RecentsFragment;
 import com.dotos.dotextras.fragments.StatusbarFragment;
 import com.dotos.dotextras.fragments.SupportedDevicesFragment;
-import com.dotos.dotextras.tools.flasher.Tools_Flasher;
-import com.dotos.dotextras.utils.StaticReload;
+import com.dotos.dotextras.utils.SystemProperties;
 import com.dotos.dotextras.utils.Utils;
 
 import com.dotos.R;
@@ -72,9 +70,36 @@ public class dotsettings extends AppCompatActivity
         prefs = getSharedPreferences(prefName, MODE_PRIVATE);
         id=prefs.getInt("last_val",0);
         spThemes.setSelection(id);
+        setBuildVersion();
+        displayDotVersion();
+    }
+
+    public void setBuildVersion() {
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        View v = navigationView.getHeaderView(0);
+        TextView t1 = v.findViewById(R.id.build_ver);
+        t1.setText("Build Version : " + BuildConfig.VERSION_NAME);
+    }
+
+    public void displayDotVersion() {
+        TextView d_ver = (TextView) findViewById(R.id.dot_version);
+        if (SystemProperties.get("ro.dot.version").contains("V1.0")) {
+            d_ver.setText("DotOS v1.0");
+        } else if (SystemProperties.get("ro.dot.version").contains("V1.1")) {
+            d_ver.setText("DotOS v1.1");
+        } else if (SystemProperties.get("ro.dot.version").contains("V1.2")) {
+            d_ver.setText("DotOS v1.2");
+        } else {
+            CardView c2 = (CardView) findViewById(R.id.caution);
+            c2.setVisibility(View.VISIBLE);
+            d_ver.setText("Unsupported ROM");
+
+        }
     }
     private void setupSpinnerItemSelection() {
-        spThemes = (Spinner) findViewById(R.id.acc_spinner);
+        setBuildVersion();
+        displayDotVersion();
+        spThemes = findViewById(R.id.acc_spinner);
         spThemes.setSelection(ThemeApplication.currentPosition);
         ThemeApplication.currentPosition = spThemes.getSelectedItemPosition();
         spThemes.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -89,6 +114,7 @@ public class dotsettings extends AppCompatActivity
                     editor.putInt("last_val", position);
                     editor.commit();
                     Utils.changeToTheme(dotsettings.this, position);
+                    displayDotVersion();
                 }ThemeApplication.currentPosition = position;}
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
@@ -99,6 +125,10 @@ public class dotsettings extends AppCompatActivity
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        spThemes = findViewById(R.id.acc_spinner);
+        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
+        id=prefs.getInt("last_val",0);
+        spThemes.setSelection(id);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -134,14 +164,15 @@ public class dotsettings extends AppCompatActivity
         startActivity(intent);
     }
     public void black_magic(View v){
-        final Snackbar snackBar = Snackbar.make(getCurrentFocus(),"No Easteregg Found, nice try", Snackbar.LENGTH_INDEFINITE);
+        /*final Snackbar snackBar = Snackbar.make(getCurrentFocus(),"No Easteregg Found, nice try", Snackbar.LENGTH_INDEFINITE);
                 snackBar.setAction("Ok...", new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         snackBar.dismiss();
                     }
                 });
-                snackBar.show();
+                snackBar.show();*/
+        startActivity(new Intent(dotsettings.this, TheDrill.class));
     }
     public void show_cm(View v){
         ImageButton show = (ImageButton) findViewById(R.id.imageButton3);
@@ -158,38 +189,6 @@ public class dotsettings extends AppCompatActivity
         hide.setVisibility(View.GONE);
         RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.cm_layouts);
         show_layout.setVisibility(View.GONE);
-    }
-    public void show_pref(View v){
-        ImageButton show = (ImageButton) findViewById(R.id.imageButton);
-        show.setVisibility(View.GONE);
-        ImageButton hide = (ImageButton) findViewById(R.id.imageButton2);
-        hide.setVisibility(View.VISIBLE);
-        final RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.pref_layouts);
-        show_layout.setVisibility(View.VISIBLE);
-    }
-    public void hide_pref(View v){
-        ImageButton hide = (ImageButton) findViewById(R.id.imageButton2);
-        hide.setVisibility(View.GONE);
-        ImageButton show = (ImageButton) findViewById(R.id.imageButton);
-        show.setVisibility(View.VISIBLE);
-        final RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.pref_layouts);
-        show_layout.setVisibility(View.GONE);
-    }
-    public void show_acc(View v){
-        //Button show = (Button) findViewById(R.id.btn_acc);
-        //show.setVisibility(View.GONE);
-        //Button hide = (Button) findViewById(R.id.btn_acc_hide);
-        //hide.setVisibility(View.VISIBLE);
-       // RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.acc_layout);
-        //show_layout.setVisibility(View.VISIBLE);
-    }
-    public void hide_acc(View v){
-        //Button show = (Button) findViewById(R.id.btn_acc);
-        //show.setVisibility(View.VISIBLE);
-        //Button hide = (Button) findViewById(R.id.btn_acc_hide);
-        //hide.setVisibility(View.GONE);
-        //RelativeLayout show_layout = (RelativeLayout) findViewById(R.id.acc_layout);
-        //show_layout.setVisibility(View.GONE);
     }
     public void openTelegram(View v){
         Uri uri = Uri.parse("https://t.me/dotos");
@@ -216,9 +215,8 @@ public class dotsettings extends AppCompatActivity
             mainLayout.addView(layout);
             getApplicationContext();
             setupSpinnerItemSelection();
-        } else if (id == R.id.nav_flasher) {
-            finish();
-            startActivity(new Intent(this, Tools_Flasher.class));
+        } else if (id == R.id.nav_tools_reschanger) {
+
         } else if (id == R.id.nav_dot_statusbar) {
             RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -282,15 +280,6 @@ public class dotsettings extends AppCompatActivity
             getFragmentManager().beginTransaction()
                     .replace(R.id.pref_view_layout, new RecentsFragment())
                     .commitAllowingStateLoss();
-        } else if (id == R.id.nav_about_extras) {
-            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
-            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View layout = inflater.inflate(R.layout.pref_view, null);
-            mainLayout.removeAllViews();
-            mainLayout.addView(layout);
-            getFragmentManager().beginTransaction()
-                    .replace(R.id.pref_view_layout, new AboutExtrasFragment())
-                    .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_navbar) {
             RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -299,15 +288,6 @@ public class dotsettings extends AppCompatActivity
             mainLayout.addView(layout);
             getFragmentManager().beginTransaction()
                     .replace(R.id.pref_view_layout, new NavbarFragment())
-                    .commitAllowingStateLoss();
-        } else if (id == R.id.nav_dot_support) {
-            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
-            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View layout = inflater.inflate(R.layout.pref_about, null);
-            mainLayout.removeAllViews();
-            mainLayout.addView(layout);
-            getFragmentManager().beginTransaction()
-                    .replace(R.id.pref_about_layout, new SupportedDevicesFragment())
                     .commitAllowingStateLoss();
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
