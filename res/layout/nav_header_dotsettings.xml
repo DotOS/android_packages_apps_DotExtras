@@ -65,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Build Version"
+                android:text="@string/build_ver"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
         </RelativeLayout>

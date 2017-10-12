@@ -130,12 +130,15 @@
     <string name="control_center">Control Center</string>
     <string name="prebuilt_profiles">Prebuilt Profiles</string>
     <string name="back">Back to Default</string>
+	<string name="back_home">Back to Home</string>
     <string name="supercar">Like a V8 Supercar</string>
     <string name="lazy">A bit lazy but excelent lifetime</string>
     <string name="custom_profiles">Custom Profiles</string>
     <string name="wip">Work in Progress</string>
     <string name="dotos_ver">dotOS : </string>
     <string name="build_ver">Build Version : </string>
+	<string name="dot_ver">Dot Version : </string>
+	<string name="rom_check_msg">Please Install DotOS to use DotExtras</string>
     <string name="device">Device : </string>
 
     <!-- Dot colors -->

@@ -123,7 +123,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginStart="14dp"
                     android:layout_toEndOf="@+id/imageView18"
-                    android:text="dot_version" />
+                    android:text="@string/dot_ver" />
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
@@ -506,7 +506,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="Please Install DotOS to can use DotExtras"
+                    android:text="@string/rom_check_msg"
                     android:textColor="@android:color/holo_red_dark"
                     android:textSize="18sp" />
 
