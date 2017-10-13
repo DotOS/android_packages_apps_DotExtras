@@ -75,19 +75,25 @@ public class dotsettings extends AppCompatActivity
     }
 
     public void setBuildVersion() {
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        View v = navigationView.getHeaderView(0);
-        TextView t1 = v.findViewById(R.id.build_ver);
-        t1.setText("Build Version : " + BuildConfig.VERSION_NAME);
+        try {
+            String versionName = getBaseContext().getPackageManager()
+                    .getPackageInfo(getBaseContext().getPackageName(), 0).versionName;
+            NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+            View v = (View) navigationView.getHeaderView(0);
+            TextView t1 = (TextView) v.findViewById(R.id.build_ver);
+            t1.setText("Build Version : " + versionName);
+        } catch (Exception ignored) {
+
+        }
     }
 
     public void displayDotVersion() {
         TextView d_ver = (TextView) findViewById(R.id.dot_version);
-        if (SystemProperties.get("ro.dot.version").contains("V1.0")) {
+        if (SystemProperties.get("ro.dot.version").contains("v1.0")) {
             d_ver.setText("DotOS v1.0");
-        } else if (SystemProperties.get("ro.dot.version").contains("V1.1")) {
+        } else if (SystemProperties.get("ro.dot.version").contains("v1.1")) {
             d_ver.setText("DotOS v1.1");
-        } else if (SystemProperties.get("ro.dot.version").contains("V1.2")) {
+        } else if (SystemProperties.get("ro.dot.version").contains("v1.2")) {
             d_ver.setText("DotOS v1.2");
         } else {
             CardView c2 = (CardView) findViewById(R.id.caution);
@@ -96,10 +102,11 @@ public class dotsettings extends AppCompatActivity
 
         }
     }
+
     private void setupSpinnerItemSelection() {
         setBuildVersion();
         displayDotVersion();
-        spThemes = findViewById(R.id.acc_spinner);
+        spThemes = (Spinner) findViewById(R.id.acc_spinner);
         spThemes.setSelection(ThemeApplication.currentPosition);
         ThemeApplication.currentPosition = spThemes.getSelectedItemPosition();
         spThemes.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -125,7 +132,7 @@ public class dotsettings extends AppCompatActivity
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        spThemes = findViewById(R.id.acc_spinner);
+        spThemes = (Spinner) findViewById(R.id.acc_spinner);
         prefs = getSharedPreferences(prefName, MODE_PRIVATE);
         id=prefs.getInt("last_val",0);
         spThemes.setSelection(id);

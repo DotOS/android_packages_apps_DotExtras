@@ -140,6 +140,7 @@
 	<string name="dot_ver">Dot Version : </string>
 	<string name="rom_check_msg">Please Install DotOS to use DotExtras</string>
     <string name="device">Device : </string>
+	<string name="res_changer">Resolution Change</string>
 
     <!-- Dot colors -->
     <string name="colors_header">Feel free to change the colors</string>

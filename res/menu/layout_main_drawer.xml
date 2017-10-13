@@ -4,10 +4,28 @@
     <item android:title="@string/home">
         <menu>
 
-         <item
-        android:id="@+id/nav_dot_main"
-        android:icon="@android:color/transparent"
-        android:title="@string/back_home" />
+            <item
+                android:id="@+id/nav_dot_main"
+                android:icon="@drawable/dot_logo"
+                android:title="@string/back_home" />
+
+        </menu>
+    </item>
+
+    <item android:title="Tools" android:visible="false">
+        <menu>
+
+            <item
+                android:id="@+id/nav_tools_reschanger"
+                android:icon="@drawable/ic_res_changer"
+                android:visible="false"
+                android:title="@string/res_changer" />
+
+            <item
+                android:id="@+id/nav_tools_dpichanger"
+                android:visible="false"
+                android:icon="@drawable/ic_tools_dpichanger"
+                android:title="@string/res_changer" />
 
         </menu>
     </item>
