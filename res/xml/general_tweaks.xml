@@ -41,6 +41,27 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="incall_vib_options"
+        android:title="@string/incall_vibration_category" >
+
+        <com.dot.dotextras.preference.SystemSettingSwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            android:defaultValue="false" />
+
+        <com.dot.dotextras.preference.SystemSettingSwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            android:defaultValue="false" />
+
+        <com.dot.dotextras.preference.SystemSettingSwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
             android:key="screenshot_options"
             android:title="@string/screenshot_options_category" >
 
