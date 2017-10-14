@@ -45,12 +45,14 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.settings.Utils;
+import com.dot.dotextras.Utils;
 
 public class GeneralTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private PreferenceCategory mLedsCategory;
     private Preference mChargingLeds;
+
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -70,6 +72,11 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
         }
           if (mChargingLeds == null) {
             prefSet.removePreference(mLedsCategory);
+        }
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+                prefSet.removePreference(incallVibCategory);
         }
 
     }
