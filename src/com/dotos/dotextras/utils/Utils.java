@@ -15,7 +15,7 @@ public class Utils {
     public final static int RED = 3;
     public final static int DEFAULT_BLACK = 4;
     public final static int PIXEL_BLACK = 5;
-    public final static int DPURPLE_BLACK = 6;
+    public final static int RED_BLACK = 6;
 
 
     public static void changeToTheme(Activity activity, int theme) {
