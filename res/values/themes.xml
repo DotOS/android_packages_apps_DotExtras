@@ -12,13 +12,13 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="AppTheme.DPurple" parent="Theme.AppCompat.Light">
+    <style name="AppTheme.Red" parent="Theme.AppCompat.Light">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/dpurple</item>
+        <item name="colorAccent">@color/red</item>
         <item name="mainBackgroundColor">#bdbdbd</item>
         <item name="mainTitleColor">@color/dslv_float_cackground_color</item>
-        <item name="android:textColorPrimary">@color/dpurple</item>
+        <item name="android:textColorPrimary">@color/red</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -47,13 +47,13 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBarOverlay">true</item>
     </style>
-    <style name="AppTheme.DPurple.Black" parent="Theme.AppCompat">
+    <style name="AppTheme.Red.Black" parent="Theme.AppCompat">
         <item name="colorPrimary">@color/colorPrimary_Amoled</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark_Amoled</item>
-        <item name="colorAccent">@color/dpurple</item>
+        <item name="colorAccent">@color/red</item>
         <item name="mainBackgroundColor">#424242</item>
         <item name="mainTitleColor">@color/white</item>
-        <item name="android:textColorPrimary">@color/dpurple</item>
+        <item name="android:textColorPrimary">@color/red</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

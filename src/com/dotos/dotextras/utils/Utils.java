@@ -12,7 +12,7 @@ public class Utils {
     public final static int SELECT_THEME = 0;
     public final static int DEFAULT = 1;
     public final static int PIXEL = 2;
-    public final static int DPURPLE = 3;
+    public final static int RED = 3;
     public final static int DEFAULT_BLACK = 4;
     public final static int PIXEL_BLACK = 5;
     public final static int DPURPLE_BLACK = 6;
@@ -37,8 +37,8 @@ public class Utils {
             case PIXEL:
                 activity.setTheme(R.style.AppTheme_Blue);
                 break;
-            case DPURPLE:
-                activity.setTheme(R.style.AppTheme_DPurple);
+            case RED:
+                activity.setTheme(R.style.AppTheme_Red);
                 break;
             case DEFAULT_BLACK:
                 activity.setTheme(R.style.AppTheme_Teal_Black);
@@ -46,8 +46,8 @@ public class Utils {
             case PIXEL_BLACK:
                 activity.setTheme(R.style.AppTheme_Blue_Black);
                 break;
-            case DPURPLE_BLACK:
-                activity.setTheme(R.style.AppTheme_DPurple_Black);
+            case RED_BLACK:
+                activity.setTheme(R.style.AppTheme_Red_Black);
                 break;
         }
     }

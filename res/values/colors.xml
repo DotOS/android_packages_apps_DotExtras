@@ -22,13 +22,13 @@
     <color name="primary_text_material_light">#DE000000</color>
     <color name="secondary_text_material_dark">#B3FFFFFF</color>
     <color name="secondary_text_material_light">#e0e0e0</color>
-    <color name="default_Card_color">@android:color/holo_blue_dark</color>
+    <color name="default_Card_color">#4285F4</color>
     <!-- Gesture Anywhere -->
-    <color name="ga_gesture_color">@android:color/holo_blue_light</color>
+    <color name="ga_gesture_color">#4285F4</color>
      <!-- Droid Engine -->
     <color name="default_accent">#00897b</color>
-    <color name="blue">@android:color/holo_blue_dark</color>
-    <color name="dpurple">#6200ea</color>
+    <color name="blue">#4285F4</color>
+    <color name="red">#ff555d</color>
     <color name="black">#000000</color>
     <color name="white">#ffffff</color>
     <color name="colorPrimary_Amoled">#212121</color>
@@ -38,7 +38,7 @@
     <color name="default_Card_color">#e2e2e2</color>
 
     <!-- Gesture Anywhere -->
-    <color name="ga_gesture_color">@android:color/holo_blue_light</color>
+    <color name="ga_gesture_color">#4285F4</color>
 
     <!-- Switch Bar Text Color -->
     <color name="switchbar_text_color">#ffffffff</color>
