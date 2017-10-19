@@ -35,7 +35,7 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_height="120dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:contentDescription="@string/todo"
@@ -44,13 +44,10 @@
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="140dp"
-                    android:layout_height="180dp"
-                    android:layout_alignBottom="@+id/imageView"
-                    android:layout_alignParentEnd="true"
+                    android:layout_height="120dp"
+                    android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginBottom="14dp"
-                    android:layout_marginEnd="14dp"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
                     android:contentDescription="@string/todo"
                     app:srcCompat="@drawable/dot_logo" />
 
@@ -58,460 +55,482 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginStart="27dp"
-                    android:layout_marginTop="57dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_toEndOf="@+id/imageView2"
                     android:text="@string/main_title"
                     android:textColor="?attr/mainTitleColor"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/info_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignStart="@+id/textView"
-                    android:layout_below="@+id/textView"
-                    android:layout_toStartOf="@+id/imageView2"
-                    android:text="@string/main_desc"
-                    android:textColor="?attr/colorAccent" />
-
-            </RelativeLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/spacer"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/cardView2"
-            android:layout_marginTop="30dp">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@color/cardview_shadow_start_color" />
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/infos"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_below="@+id/spacer">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:id="@+id/imageView18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="31dp"
-                    app:srcCompat="@drawable/ic_version_info" />
-
-                <TextView
-                    android:id="@+id/dot_version"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="14dp"
-                    android:layout_toEndOf="@+id/imageView18"
-                    android:text="@string/dot_ver" />
-            </RelativeLayout>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/spacer_below"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/cardView2">
-
-            <ImageView
-                android:id="@+id/imageVie"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@color/cardview_shadow_start_color" />
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/set_accent"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/spacer_below">
-
-            <RelativeLayout
-                android:id="@+id/acc_card"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="235dp"
-                    android:layout_height="35dp"
-                    android:layout_alignEnd="@+id/textView10"
-                    android:layout_below="@+id/textView10"
-                    android:layout_toEndOf="@+id/imageView15"
-                    android:text="@string/be_free_to_change_colors"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="20dp"
-                    android:layout_toEndOf="@+id/imageView15"
-                    android:text="@string/set_application_theme"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/informations"
                     android:textColor="?attr/colorAccent"
-                    android:textSize="18sp" />
+                    android:textSize="16sp" />
 
                 <ImageView
-                    android:id="@+id/imageView15"
-                    android:layout_width="10dp"
-                    android:layout_height="80dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_toEndOf="@+id/imageView17"
-                    android:contentDescription="@string/todo"
-                    app:srcCompat="@android:color/transparent" />
-
-                <ImageView
-                    android:id="@+id/imageView16"
-                    android:layout_width="25dp"
-                    android:layout_height="80dp"
-                    android:contentDescription="@string/todo"
-                    app:srcCompat="@android:color/transparent" />
-
-                <ImageView
-                    android:id="@+id/imageView17"
-                    android:layout_width="48dp"
-                    android:layout_height="80dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_toEndOf="@+id/imageView16"
-                    android:contentDescription="@string/todo"
-                    app:srcCompat="@drawable/ic_palette" />
-
-                <Spinner
-                    android:id="@+id/acc_spinner"
+                    android:id="@+id/imageView20"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_centerVertical="true"
-                    android:layout_toEndOf="@+id/textView11"
-                    android:entries="@array/theme_array"
-                    android:paddingStart="8dp"
-                    android:spinnerMode="dialog"
-                    tools:ignore="RtlSymmetry" />
-
-            </RelativeLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/spacers2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/set_accent"
-            android:animateLayoutChanges="true">
-
-            <ImageView
-                android:id="@+id/imageView24"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@color/cardview_shadow_start_color" />
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/comunity_0"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/spacers2"
-            android:animateLayoutChanges="true"
-            app:cardCornerRadius="0dp">
-
-            <RelativeLayout
-                android:id="@+id/rl1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:animateLayoutChanges="true"
-                android:longClickable="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_toEndOf="@+id/c0_t2"
-                    android:animateLayoutChanges="false"
-                    android:orientation="vertical">
-
-                    <ImageButton
-                        android:id="@+id/imageButton3"
-                        android:layout_width="match_parent"
-                        android:layout_height="32dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_below="@+id/imageButton2"
-                        android:layout_marginTop="7dp"
-                        android:adjustViewBounds="false"
-                        android:background="@android:color/transparent"
-                        android:contentDescription="@string/todo"
-                        android:cropToPadding="false"
-                        android:onClick="show_cm"
-                        android:paddingEnd="6dp"
-                        android:scaleType="fitEnd"
-                        android:visibility="visible"
-                        app:srcCompat="@drawable/ic_expand_more"
-                        tools:ignore="ObsoleteLayoutParam,RtlSymmetry" />
-
-                    <ImageButton
-                        android:id="@+id/imageButton4"
-                        android:layout_width="match_parent"
-                        android:layout_height="32dp"
-                        android:layout_marginTop="7dp"
-                        android:adjustViewBounds="false"
-                        android:background="@android:color/transparent"
-                        android:contentDescription="@string/todo"
-                        android:cropToPadding="false"
-                        android:onClick="hide_cm"
-                        android:paddingEnd="6dp"
-                        android:scaleType="fitEnd"
-                        android:visibility="gone"
-                        app:srcCompat="@drawable/ic_expand_less"
-                        tools:ignore="RtlSymmetry" />
-
-                </LinearLayout>
-
-                <ImageView
-                    android:id="@+id/imageView6"
-                    android:layout_width="10dp"
-                    android:layout_height="80dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_toEndOf="@+id/imageView4"
+                    android:layout_height="1dp"
                     android:contentDescription="@string/todo"
-                    app:srcCompat="@android:color/transparent" />
-
-                <TextView
-                    android:id="@+id/c0_t1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="19dp"
-                    android:layout_toEndOf="@+id/imageView6"
-                    android:text="@string/cm_title"
-                    android:textColor="?attr/colorAccent"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/c0_t2"
-                    android:layout_width="235dp"
-                    android:layout_height="35dp"
-                    android:layout_below="@+id/c0_t1"
-                    android:layout_toEndOf="@+id/imageView6"
-                    android:text="@string/cm_desc"
-                    android:textSize="14sp" />
-
-                <ImageView
-                    android:id="@+id/separator"
-                    android:layout_width="25dp"
-                    android:layout_height="80dp"
-                    android:contentDescription="@string/todo"
-                    app:srcCompat="@android:color/transparent" />
-
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="48dp"
-                    android:layout_height="80dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_toEndOf="@+id/separator"
-                    android:contentDescription="@string/todo"
-                    app:srcCompat="@drawable/ic_public" />
+                    app:srcCompat="@color/cardview_shadow_start_color" />
 
                 <RelativeLayout
-                    android:id="@+id/cm_layouts"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/imageView6"
-                    android:animateLayoutChanges="false"
-                    android:visibility="gone">
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginTop="6dp"
+                    android:paddingLeft="10dp">
 
-                    <android.support.v7.widget.CardView
-                        android:id="@+id/github_card"
-                        android:layout_width="match_parent"
-                        android:layout_height="80dp"
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true">
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="15dp"
+                        app:srcCompat="@drawable/ic_version_info" />
 
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:id="@+id/textView6"
-                                android:layout_width="235dp"
-                                android:layout_height="35dp"
-                                android:layout_below="@+id/textView7"
-                                android:layout_toEndOf="@+id/imageView12"
-                                android:text="@string/git_desc"
-                                android:textSize="14sp" />
-
-                            <ImageView
-                                android:id="@+id/imageView12"
-                                android:layout_width="10dp"
-                                android:layout_height="80dp"
-                                android:layout_alignParentTop="true"
-                                android:layout_toEndOf="@+id/imageView14"
-                                android:contentDescription="@string/todo"
-                                app:srcCompat="@android:color/transparent" />
-
-                            <ImageView
-                                android:id="@+id/imageView13"
-                                android:layout_width="25dp"
-                                android:layout_height="80dp"
-                                android:contentDescription="@string/todo"
-                                app:srcCompat="@android:color/transparent" />
-
-                            <TextView
-                                android:id="@+id/textView7"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginTop="20dp"
-                                android:layout_toEndOf="@+id/imageView12"
-                                android:text="@string/git_title"
-                                android:textColor="?attr/colorAccent"
-                                android:textSize="18sp" />
-
-                            <Button
-                                android:id="@+id/git_button"
-                                style="@style/Widget.AppCompat.Button.Borderless"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:onClick="openGit" />
-
-                            <ImageView
-                                android:id="@+id/imageView14"
-                                android:layout_width="48dp"
-                                android:layout_height="80dp"
-                                android:layout_alignParentTop="true"
-                                android:layout_toEndOf="@+id/imageView13"
-                                android:contentDescription="@string/todo"
-                                app:srcCompat="@drawable/github" />
-                        </RelativeLayout>
-                    </android.support.v7.widget.CardView>
-
-                    <android.support.v7.widget.CardView
-                        android:id="@+id/telegram_card"
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:id="@+id/dot_version"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/github_card"
-                        android:animateLayoutChanges="true">
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:id="@+id/textView5"
-                                android:layout_width="235dp"
-                                android:layout_height="35dp"
-                                android:layout_below="@+id/textView4"
-                                android:layout_toEndOf="@+id/imageView8"
-                                android:text="@string/tg_Desc"
-                                android:textSize="14sp" />
-
-                            <ImageView
-                                android:id="@+id/imageView8"
-                                android:layout_width="10dp"
-                                android:layout_height="80dp"
-                                android:layout_alignParentTop="true"
-                                android:layout_toEndOf="@+id/imageView11"
-                                android:contentDescription="@string/todo"
-                                app:srcCompat="@android:color/transparent" />
-
-                            <ImageView
-                                android:id="@+id/imageView10"
-                                android:layout_width="25dp"
-                                android:layout_height="80dp"
-                                android:contentDescription="@string/todo"
-                                app:srcCompat="@android:color/transparent" />
-
-                            <TextView
-                                android:id="@+id/textView4"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentTop="true"
-                                android:layout_marginTop="20dp"
-                                android:layout_toEndOf="@+id/imageView8"
-                                android:text="@string/tg_title"
-                                android:textColor="?attr/colorAccent"
-                                android:textSize="18sp" />
-
-                            <Button
-                                android:id="@+id/tg_button"
-                                style="@style/Widget.AppCompat.Button.Borderless"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_alignBottom="@+id/textView5"
-                                android:layout_alignParentStart="true"
-                                android:layout_alignParentTop="true"
-                                android:onClick="openTelegram" />
-
-                            <ImageView
-                                android:id="@+id/imageView11"
-                                android:layout_width="48dp"
-                                android:layout_height="80dp"
-                                android:layout_alignParentTop="true"
-                                android:layout_toEndOf="@+id/imageView10"
-                                android:contentDescription="@string/todo"
-                                app:srcCompat="@drawable/telegram" />
-                        </RelativeLayout>
-                    </android.support.v7.widget.CardView>
-
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="8dp"
+                        android:layout_toEndOf="@+id/imageView18"
+                        android:text="@string/dot_version" />
                 </RelativeLayout>
 
-            </RelativeLayout>
-
+            </LinearLayout>
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:id="@+id/caution"
+            android:id="@+id/cm_at"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/comunity_0"
-            android:animateLayoutChanges="true"
-            android:visibility="gone"
-            app:cardCornerRadius="0dp">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="3dp">
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:animateLayoutChanges="true">
+                android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/c1_t1"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
-                    android:text="@string/rom_check_msg"
-                    android:textColor="@android:color/holo_red_dark"
-                    android:textSize="18sp" />
+                    android:text="@string/cm_apt"
+                    android:textColor="?attr/colorAccent"
+                    android:textSize="16sp" />
 
-            </RelativeLayout>
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:contentDescription="@string/todo"
+                    app:srcCompat="@color/cardview_shadow_start_color" />
 
+                <android.support.v7.widget.CardView
+                    android:id="@+id/set_accent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/spacer_below"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/acc_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="235dp"
+                            android:layout_height="35dp"
+                            android:layout_alignEnd="@+id/textView10"
+                            android:layout_below="@+id/textView10"
+                            android:layout_toEndOf="@+id/imageView15"
+                            android:text="@string/be_free_to_change_colors"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="20dp"
+                            android:layout_toEndOf="@+id/imageView15"
+                            android:text="@string/set_application_theme"
+                            android:textColor="?attr/colorAccent"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="10dp"
+                            android:layout_height="80dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/imageView17"
+                            android:contentDescription="@string/todo"
+                            app:srcCompat="@android:color/transparent" />
+
+                        <ImageView
+                            android:id="@+id/imageView17"
+                            android:layout_width="48dp"
+                            android:layout_height="80dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="20dp"
+                            android:contentDescription="@string/todo"
+                            app:srcCompat="@drawable/ic_palette" />
+
+                        <Spinner
+                            android:id="@+id/acc_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@+id/textView11"
+                            android:entries="@array/theme_array"
+                            android:paddingStart="8dp"
+                            android:spinnerMode="dialog"
+                            tools:ignore="RtlSymmetry" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/spacers2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/set_accent"
+                    android:animateLayoutChanges="true">
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:contentDescription="@string/todo"
+                        app:srcCompat="@color/cardview_shadow_start_color" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/comunity_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/spacers2"
+                    android:animateLayoutChanges="true"
+                    app:cardCornerRadius="0dp">
+
+                    <RelativeLayout
+                        android:id="@+id/rl1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:animateLayoutChanges="true"
+                        android:longClickable="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/c0_t2"
+                            android:animateLayoutChanges="false"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/imageButton3"
+                                android:layout_width="match_parent"
+                                android:layout_height="32dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/imageButton2"
+                                android:layout_marginTop="7dp"
+                                android:adjustViewBounds="false"
+                                android:background="@android:color/transparent"
+                                android:contentDescription="@string/todo"
+                                android:cropToPadding="false"
+                                android:onClick="show_cm"
+                                android:paddingEnd="6dp"
+                                android:scaleType="fitEnd"
+                                android:visibility="visible"
+                                app:srcCompat="@drawable/ic_expand_more"
+                                tools:ignore="ObsoleteLayoutParam,RtlSymmetry" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton4"
+                                android:layout_width="match_parent"
+                                android:layout_height="32dp"
+                                android:layout_marginTop="7dp"
+                                android:adjustViewBounds="false"
+                                android:background="@android:color/transparent"
+                                android:contentDescription="@string/todo"
+                                android:cropToPadding="false"
+                                android:onClick="hide_cm"
+                                android:paddingEnd="6dp"
+                                android:scaleType="fitEnd"
+                                android:visibility="gone"
+                                app:srcCompat="@drawable/ic_expand_less"
+                                tools:ignore="RtlSymmetry" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="10dp"
+                            android:layout_height="80dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:contentDescription="@string/todo"
+                            app:srcCompat="@android:color/transparent" />
+
+                        <TextView
+                            android:id="@+id/c0_t1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="19dp"
+                            android:layout_toEndOf="@+id/imageView6"
+                            android:text="@string/cm_title"
+                            android:textColor="?attr/colorAccent"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/c0_t2"
+                            android:layout_width="235dp"
+                            android:layout_height="35dp"
+                            android:layout_below="@+id/c0_t1"
+                            android:layout_toEndOf="@+id/imageView6"
+                            android:text="@string/cm_desc"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="48dp"
+                            android:layout_height="80dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="20dp"
+                            android:contentDescription="@string/todo"
+                            app:srcCompat="@drawable/ic_public" />
+
+                        <RelativeLayout
+                            android:id="@+id/cm_layouts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/imageView6"
+                            android:animateLayoutChanges="false"
+                            android:visibility="gone">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/github_card"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:id="@+id/textView6"
+                                        android:layout_width="235dp"
+                                        android:layout_height="35dp"
+                                        android:layout_below="@+id/textView7"
+                                        android:layout_toEndOf="@+id/imageView12"
+                                        android:text="@string/git_desc"
+                                        android:textSize="14sp" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView12"
+                                        android:layout_width="10dp"
+                                        android:layout_height="80dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_toEndOf="@+id/imageView14"
+                                        android:contentDescription="@string/todo"
+                                        app:srcCompat="@android:color/transparent" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView13"
+                                        android:layout_width="25dp"
+                                        android:layout_height="80dp"
+                                        android:contentDescription="@string/todo"
+                                        app:srcCompat="@android:color/transparent" />
+
+                                    <TextView
+                                        android:id="@+id/textView7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_toEndOf="@+id/imageView12"
+                                        android:text="@string/git_title"
+                                        android:textColor="?attr/colorAccent"
+                                        android:textSize="18sp" />
+
+                                    <Button
+                                        android:id="@+id/git_button"
+                                        style="@style/Widget.AppCompat.Button.Borderless"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:onClick="openGit" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView14"
+                                        android:layout_width="48dp"
+                                        android:layout_height="80dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_toEndOf="@+id/imageView13"
+                                        android:contentDescription="@string/todo"
+                                        app:srcCompat="@drawable/github" />
+                                </RelativeLayout>
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/telegram_card"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/github_card"
+                                android:animateLayoutChanges="true">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:id="@+id/textView5"
+                                        android:layout_width="235dp"
+                                        android:layout_height="35dp"
+                                        android:layout_below="@+id/textView4"
+                                        android:layout_toEndOf="@+id/imageView8"
+                                        android:text="@string/tg_Desc"
+                                        android:textSize="14sp" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView8"
+                                        android:layout_width="10dp"
+                                        android:layout_height="80dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_toEndOf="@+id/imageView11"
+                                        android:contentDescription="@string/todo"
+                                        app:srcCompat="@android:color/transparent" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView10"
+                                        android:layout_width="25dp"
+                                        android:layout_height="80dp"
+                                        android:contentDescription="@string/todo"
+                                        app:srcCompat="@android:color/transparent" />
+
+                                    <TextView
+                                        android:id="@+id/textView4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_toEndOf="@+id/imageView8"
+                                        android:text="@string/tg_title"
+                                        android:textColor="?attr/colorAccent"
+                                        android:textSize="18sp" />
+
+                                    <Button
+                                        android:id="@+id/tg_button"
+                                        style="@style/Widget.AppCompat.Button.Borderless"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_alignBottom="@+id/textView5"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:onClick="openTelegram" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView11"
+                                        android:layout_width="48dp"
+                                        android:layout_height="80dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_toEndOf="@+id/imageView10"
+                                        android:contentDescription="@string/todo"
+                                        app:srcCompat="@drawable/telegram" />
+                                </RelativeLayout>
+                            </android.support.v7.widget.CardView>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/caution"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/comunity_0"
+                    android:animateLayoutChanges="true"
+                    android:visibility="gone"
+                    app:cardCornerRadius="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:animateLayoutChanges="true">
+
+                        <TextView
+                            android:id="@+id/c1_t1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/rom_check_msg"
+                            android:textColor="?attr/colorAccent"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
         </android.support.v7.widget.CardView>
 
     </LinearLayout>

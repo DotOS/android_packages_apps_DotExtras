@@ -140,6 +140,8 @@
 	<string name="dot_ver">Dot Version : </string>
 	<string name="rom_check_msg">Please Install DotOS to use DotExtras</string>
     <string name="device">Device : </string>
+	<string name="informations">Informations </string>
+    <string name="cm_apt">Comunity and Aplication Theme</string>	
 	<string name="res_changer">Resolution Change</string>
 
     <!-- Dot colors -->
@@ -167,6 +169,7 @@
     <string name="about_extras">About Extras</string>
     <string name="supported_devices">Supported Devices</string>
     <string name="about_dot_extras_app">About Dot Extras app</string>
+	<string name="dot_version">dot_Ver</string>
 
     <!-- Path data for portrait battery -->
     <string name="battery_portrait_path_full" translatable="false">M 5 2 H 19 V 21 H 5 V 2 Z</string>
