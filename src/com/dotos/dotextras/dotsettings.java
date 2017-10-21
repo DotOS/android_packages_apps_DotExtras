@@ -132,10 +132,6 @@ public class dotsettings extends AppCompatActivity
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        spThemes = (Spinner) findViewById(R.id.acc_spinner);
-        prefs = getSharedPreferences(prefName, MODE_PRIVATE);
-        id=prefs.getInt("last_val",0);
-        spThemes.setSelection(id);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
