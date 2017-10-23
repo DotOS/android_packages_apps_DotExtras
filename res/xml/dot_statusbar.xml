@@ -102,6 +102,8 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+		<PreferenceCategory
+        android:title="@string/qs_columns_rows_title">
     <ListPreference
         android:key="qs_rows_portrait"
         android:title="@string/qs_rows_portrait_title"
@@ -119,5 +121,6 @@
         android:title="@string/qs_columns_title"
         android:entries="@array/qs_columns_entries"
         android:entryValues="@array/qs_columns_values" />
-	
+	   </PreferenceCategory>
+
 </PreferenceScreen>
