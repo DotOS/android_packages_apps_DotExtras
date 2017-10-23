@@ -37,6 +37,7 @@ import com.dotos.dotextras.fragments.NavbarFragment;
 import com.dotos.dotextras.fragments.PowerMenuFragment;
 import com.dotos.dotextras.fragments.RecentsFragment;
 import com.dotos.dotextras.fragments.StatusbarFragment;
+import com.dotos.dotextras.fragments.QuickSettingsFragment;
 import com.dotos.dotextras.fragments.SupportedDevicesFragment;
 import com.dotos.dotextras.utils.SystemProperties;
 import com.dotos.dotextras.utils.Utils;
@@ -228,6 +229,15 @@ public class dotsettings extends AppCompatActivity
             mainLayout.addView(layout);
             getFragmentManager().beginTransaction()
                     .replace(R.id.pref_view_layout, new StatusbarFragment())
+                    .commitAllowingStateLoss();
+	} else if (id == R.id.nav_dot_quicksettings) {
+            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
+            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View layout = inflater.inflate(R.layout.pref_view, null);
+            mainLayout.removeAllViews();
+            mainLayout.addView(layout);
+            getFragmentManager().beginTransaction()
+                    .replace(R.id.pref_view_layout, new QuickSettingsFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_buttons) {
             RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);

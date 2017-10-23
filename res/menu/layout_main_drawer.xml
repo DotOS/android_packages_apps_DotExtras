@@ -36,12 +36,16 @@
                 android:icon="@drawable/ic_dot_statusbar"
                 android:id="@+id/nav_dot_statusbar" />
             <item
+                android:title="@string/quicksettings"
+                android:icon="@drawable/ic_dot_qs"
+                android:id="@+id/nav_dot_quicksettings" />
+            <item
                 android:title="@string/buttons"
                 android:icon="@drawable/ic_dot_buttons"
                 android:id="@+id/nav_dot_buttons" />
             <item
                 android:title="@string/display"
-				android:visible="false"
+		android:visible="false"
                 android:icon="@drawable/ic_dot_display"
                 android:id="@+id/nav_dot_display" />
             <item

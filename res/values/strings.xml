@@ -94,6 +94,9 @@
     <string name="status_bar_icons_title">Status bar icons</string>
     <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
 
+<!-- QS SETTINGS SECTION -->
+    <string name="quicksettings">Quick Settings</string>
+
     <!-- Quick settings tiles -->
     <string name="sysui_qqs_count_title">Small QS tiles</string>
     <string name="qs_rows_portrait_title">No. of Rows (portrait)</string>
