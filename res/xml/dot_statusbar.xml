@@ -30,6 +30,11 @@
             </intent>
         </PreferenceScreen>
 
+        <PreferenceScreen
+            android:key="network_traffic_state"
+            android:fragment="com.dotos.dotextras.fragments.NetworkTraffic"
+            android:title="@string/network_traffic_title" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
