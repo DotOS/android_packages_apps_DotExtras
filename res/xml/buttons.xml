@@ -16,6 +16,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_title">
+	
+	<PreferenceCategory
+        android:title="@string/advanced_power_menu">
+         <Preference
+            android:key="powermenu"
+            android:title="@string/advanced_reboot_menu"
+            android:fragment="com.dot.dotextras.fragments.PowerMenu" />
+    </PreferenceCategory>
 
 
 </PreferenceScreen>
