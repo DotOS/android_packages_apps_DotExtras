@@ -283,4 +283,8 @@
     <string name="volume_answer_call_title">Volume keys answer</string>
 	<string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
 	
+	<!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+	
 </resources>
