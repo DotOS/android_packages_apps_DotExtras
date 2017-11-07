@@ -90,17 +90,12 @@ public class dotsettings extends AppCompatActivity
 
     public void displayDotVersion() {
         TextView d_ver = (TextView) findViewById(R.id.dot_version);
-        if (SystemProperties.get("ro.dot.version").contains("v1.0")) {
-            d_ver.setText("DotOS v1.0");
-        } else if (SystemProperties.get("ro.dot.version").contains("v1.1")) {
-            d_ver.setText("DotOS v1.1");
-        } else if (SystemProperties.get("ro.dot.version").contains("v1.2")) {
-            d_ver.setText("DotOS v1.2");
-        } else {
+        String ver=SystemProperties.get("ro.dot.build.version");
+            d_ver.setText(String.valueOf(d_ver));
+        if (ver == null) {
             CardView c2 = (CardView) findViewById(R.id.caution);
             c2.setVisibility(View.VISIBLE);
-            d_ver.setText("Unsupported ROM");
-
+            d_ver.setText("UNSUPPORTRD ROM");
         }
     }
 
