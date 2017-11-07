@@ -91,7 +91,7 @@ public class dotsettings extends AppCompatActivity
     public void displayDotVersion() {
         TextView d_ver = (TextView) findViewById(R.id.dot_version);
         String ver=SystemProperties.get("ro.dot.build.version");
-            d_ver.setText(String.valueOf(d_ver));
+            d_ver.setText(String.valueOf(ver));
         if (ver == null) {
             CardView c2 = (CardView) findViewById(R.id.caution);
             c2.setVisibility(View.VISIBLE);
