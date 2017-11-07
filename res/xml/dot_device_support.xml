@@ -49,5 +49,11 @@
             android:enabled="false"
             android:shouldDisableView="false"
             andorid:icon="@drawable/ic_default_device_icon" />
+        <PreferenceScreen
+            android:summary="Roman Yukovsky (mosya234)"
+            android:title="ZTE BLADE A610"
+            android:enabled="false"
+            android:shouldDisableView="false"
+            andorid:icon="@drawable/ic_default_device_icon" />
     </PreferenceCategory>
 </PreferenceScreen>
