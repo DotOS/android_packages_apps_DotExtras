@@ -163,15 +163,15 @@ public class dotsettings extends AppCompatActivity
         startActivity(intent);
     }
     public void black_magic(View v){
-        /*final Snackbar snackBar = Snackbar.make(getCurrentFocus(),"No Easteregg Found, nice try", Snackbar.LENGTH_INDEFINITE);
+        final Snackbar snackBar = Snackbar.make(getCurrentFocus(),"No Easteregg Found, nice try", Snackbar.LENGTH_INDEFINITE);
                 snackBar.setAction("Ok...", new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         snackBar.dismiss();
                     }
                 });
-                snackBar.show();*/
-        startActivity(new Intent(dotsettings.this, TheDrill.class));
+                snackBar.show();
+        //startActivity(new Intent(dotsettings.this, TheDrill.class));
     }
     public void show_cm(View v){
         ImageButton show = (ImageButton) findViewById(R.id.imageButton3);
