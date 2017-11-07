@@ -82,7 +82,7 @@ public class dotsettings extends AppCompatActivity
             NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
             View v = (View) navigationView.getHeaderView(0);
             TextView t1 = (TextView) v.findViewById(R.id.build_ver);
-            t1.setText("Build Version : " + versionName);
+            t1.setText("App Build Version : " + versionName);
         } catch (Exception ignored) {
 
         }
