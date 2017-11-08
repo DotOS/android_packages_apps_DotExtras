@@ -62,10 +62,12 @@
                 android:id="@+id/nav_dot_misc" />
             <item
                 android:title="@string/powermenu"
+		android:visible="false"
                 android:icon="@drawable/ic_dot_powermenu"
                 android:id="@+id/nav_dot_powermenu" />
             <item
                 android:title="@string/navigationbar"
+		android:visible="false"
                 android:icon="@drawable/ic_dot_navbar"
                 android:id="@+id/nav_dot_navbar" />
         </menu>
