@@ -120,6 +120,9 @@
     <string name="disable_fc_notifications_title">Disable force close</string>
     <string name="disable_fc_notifications_summary">Hide all force close notification dialogs</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
 <!-- LOCKSCREEN SECTION -->
 	<!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
