@@ -22,5 +22,12 @@
         android:summary="@string/screenshot_crop_and_share_summary"
         android:defaultValue="false" />
 
+        <!-- Camera shutter -->
+    <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
+            android:key="camera_sounds"
+            android:title="@string/camera_sounds_title"
+            android:summary="@string/camera_sounds_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 </PreferenceScreen>
