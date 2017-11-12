@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory android:title="Lockscreen">
+    <PreferenceCategory android:key="lockscreen_misc_category">
 
     	<com.dotos.dotextras.preferences.SystemSettingSwitchPreference
         android:key="fingerprint_success_vib"
@@ -14,6 +14,10 @@
             android:title="@string/fp_unlock_keystore_title"
             android:summary="@string/fp_unlock_keystore_summary"
             android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
 
         <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_enable_power_menu"

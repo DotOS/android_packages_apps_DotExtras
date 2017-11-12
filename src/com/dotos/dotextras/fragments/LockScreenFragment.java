@@ -41,7 +41,7 @@ public class LockScreenFragment extends PreferenceFragment implements Preference
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
             mFingerprintVib = (SwitchPreference) prefSet.findPreference(FP_SUCCESS_VIBRATION);
             if (!mFingerprintManager.isHardwareDetected()){
-                prefSet.removePreference(mFingerprintVib);
+                mMiscCategory.removePreference(mFingerprintVib);
             }
         // Fingerprint unlock keystore
             mFpKeystore = (SwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
