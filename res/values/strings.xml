@@ -134,6 +134,7 @@
 
 <!-- LOCKSCREEN SECTION -->
 	<!-- Fingerprint authentication vibration -->
+    <string name="fp_tweaks">Fingerprint Tweaks</string>
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
 
@@ -142,8 +143,25 @@
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
 
     <!--Power menu on Secure Lockscreen -->
+    <string name="power_tweaks">Powermenu Tweaks</string>
     <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
     <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+
+    <!--Power menu on Secure Lockscreen -->
+    <string name="lockscreen_tweaks">Lockscreen Tweaks</string>
+    <string name="lockscreen_targets_message">Lock screen shortcuts</string>
+    <!-- lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Display music visualizer</string>
+    <!-- title for lock screen weather preference -->
+    <string name="lockscreen_weather_enabled_title">Show weather</string>
+    <!-- title for lock screen blur preference -->
+    <string name="lockscreen_blur_enabled_title">Blur lock screen</string>
+    <!-- Whether the keyguard will directly show the password entry -->
+    <string name="lock_direct_show">Directly show password entry</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <!-- Double tap to sleep on keyguard -->
+    <string name="double_tap_sleep_anywhere_title">Double tap to sleep anywhere</string>
 
 <!-- APP PREFERENCES -->
     <string name="navigation_drawer_open">Open navigation drawer</string>

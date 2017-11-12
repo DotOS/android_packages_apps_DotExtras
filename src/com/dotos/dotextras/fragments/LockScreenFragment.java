@@ -16,6 +16,7 @@ import android.preference.PreferenceCategory;
 
 import com.dotos.R;
 
+import cyanogenmod.providers.CMSettings;
 
 public class LockScreenFragment extends PreferenceFragment implements Preference.OnPreferenceChangeListener {
 	private static final String FP_SUCCESS_VIBRATION = "fingerprint_success_vib";
