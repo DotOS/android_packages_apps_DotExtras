@@ -45,7 +45,6 @@
                 android:id="@+id/nav_dot_buttons" />
             <item
                 android:title="@string/display"
-		android:visible="false"
                 android:icon="@drawable/ic_dot_display"
                 android:id="@+id/nav_dot_display" />
             <item

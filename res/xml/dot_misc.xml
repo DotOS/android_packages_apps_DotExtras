@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+                  xmlns:cm="http://schemas.android.com/apk/res/cyanogenmod.platform">
 
-    <PreferenceCategory android:title="Misc">
+    <PreferenceCategory>
+
+        <dotos.dotextras.preferences.CMSecureSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/advanced_reboot_title"
+            android:summary="@string/advanced_reboot_summary" />
 
         <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
         android:key="disable_fc_notifications"

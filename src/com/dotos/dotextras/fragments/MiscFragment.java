@@ -10,6 +10,7 @@ import android.os.SystemProperties;
 
 import com.dotos.R;
 
+import cyanogenmod.providers.CMSettings;
 
 public class MiscFragment extends PreferenceFragment implements Preference.OnPreferenceChangeListener {
 	private static final String KEY_CAMERA_SOUNDS = "camera_sounds";
