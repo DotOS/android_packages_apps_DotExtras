@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-	<PreferenceCategory>
-		<PreferenceScreen
-	            android:key="@string/button_pref_title"
-        	    android:title="@string/button_pref_title">
-		</PreferenceScreen>   
-	</PreferenceCategory>
+	<PreferenceScreen
+	        android:key="@string/button_pref_title"
+        	android:title="@string/button_pref_title">
+	</PreferenceScreen>   
+	
 </PreferenceScreen>
