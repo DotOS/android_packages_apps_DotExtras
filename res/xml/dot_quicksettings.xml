@@ -9,6 +9,13 @@
         android:entryValues="@array/status_bar_quick_qs_pulldown_values"
         android:defaultValue="0" />
 
+    <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_title_visibility"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:summaryOn="@string/qs_tile_title_visibility_summary_on"
+            android:summaryOff="@string/qs_tile_title_visibility_summary_off"
+            android:defaultValue="true"/>
+
      <PreferenceCategory
         android:title="@string/status_bar_brightness_category">
 
