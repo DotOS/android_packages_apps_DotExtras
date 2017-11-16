@@ -108,7 +108,7 @@
     <!-- QS Header Icons -->
     <string name="qs_header_icon_settings">QS header icon tweaks</string>
     <string name="qs_settings_icon_title">Settings Shortcut</string>
-    <string name="qs_settings_icon_summary">Disable the settings shortcut in the header(You won't be able to open DotExtras on long press anymore!)</string>
+    <string name="qs_settings_icon_summary">Disable the settings shortcut in the header(You won\'t be able to open DotExtras on long press anymore!)</string>
     <string name="qs_edit_title">Edit Icon</string>
     <string name="qs_edit_summary">Disable the tile edit icon in the header</string>
     <string name="qs_multiuser_switch_title">Multi-user Switch</string>
@@ -117,6 +117,8 @@
     <string name="qs_expand_indicator_summary">Disable the expand indicator in the header</string>
     <string name="qs_expand_indicator_title">Expand Indicator</string>
     <string name="qs_expand_indicator_summary">Enable the expand indicator (^) in the header</string>
+    <string name="qs_settings_expanded_title">Settings Shortcut Expanded</string>
+    <string name="qs_settings_expanded_summary">Only enable the settings shortcut when expanded</string>
 
     <string name="qs_tile_title_visibility_title">QS tile titles</string>
     <string name="qs_tile_title_visibility_summary_on">QS tiles titles are now visible</string>
