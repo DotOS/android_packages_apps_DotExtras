@@ -1,0 +1,295 @@
+<resources>
+    <string name="app_name">DotExtras</string>
+    <string name="button_pref_title">Панель навигации</string>
+<!-- RECENTS SECTION -->
+    <!-- Recents panel -->
+    <string name="recents_panel_title">Недавние приложения</string>
+    <string name="recents_visual_tweaks">Визуальные настройки</string>
+    <string name="show_clear_all_recents_button_title">Показывать кнопку \"Очистить всё\"</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку \"Очистить всё\" в \"Недавних приложениях\"</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>
+    <string name="recents_clear_all_location_top_right">Верхний правый угол</string>
+    <string name="recents_clear_all_location_top_left">Верхний левый угол</string>
+    <string name="recents_clear_all_location_top_center">Сверху по центру</string>
+    <string name="recents_clear_all_location_bottom_right">Нижний правый угол</string>
+    <string name="recents_clear_all_location_bottom_left">Нижний левый угол</string>
+    <string name="recents_clear_all_location_bottom_center">Снизу по центру</string>
+
+    <!-- Immersive Recents -->
+    <string name="immersive_recents_title">Вид меню недавних приложений</string>
+    <string name="immersive_recents_summary">Изменить вид меню недавних приложений</string>
+    <string name="immersive_recents_dialog_title">Выберите вид меню недавних приложений</string>
+    <string name="immersive_recents_default">По умолчанию</string>
+    <string name="immersive_recents_fullscreen">Во весь экран</string>
+    <string name="immersive_recents_statusbar">Только строка состояния</string>
+    <string name="immersive_recents_navbar">Только панель навигации</string>
+
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_title">Показывать шкалу использования ОЗУ</string>
+    <string name="systemui_recents_mem_display_summaryOn">Включить шкалу ОЗУ </string>
+    <string name="systemui_recents_mem_display_summaryOff">Отключить шкалу ОЗУ</string>
+
+<!-- BUTTONS SECTION -->
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Управление курсором кнопками громкости</string>
+    <string name="volbtn_cursor_control_off">Выключено</string>
+    <string name="volbtn_cursor_control_on">Кнопки громкости +/- перемещают курсор влево/вправо</string>
+    <string name="volbtn_cursor_control_on_reverse">Кнопки громкости +/- перемещают курсор вправо/влево</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_title">Строка состояния</string>
+    <string name="status_bar_quick_qs_pulldown_title">Быстрый доступ</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s край строки состояния вытягивает быстрые настройки</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Слева</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Справа</string>
+    <string name="status_bar_quick_qs_pulldown_off">Выключить</string>
+    <string name="status_bar_quick_qs_pulldown_left">Слева</string>
+    <string name="status_bar_quick_qs_pulldown_right">Справа</string>
+    <string name="status_bar_double_tap_to_sleep_title">Двойное нажатие для сна</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Двойное нажатие по строке состояния для выключения экрана</string>
+
+    <!-- Status bar - icons -->
+    <string name="status_bar_icons_title">Значки в строке состояния</string>>
+    <string name="status_bar_notif_count_title">Счетчик уведомлений</string>
+    <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
+    <string name="status_bar_system_icons_title">Системные значки</string>
+    <string name="status_bar_system_icons_summary">Настройка видимости значков в строке состояния</string>
+
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_title">Часы</string>
+    <string name="status_bar_clock_position_title">Часы</string>
+    <string name="status_bar_clock_position_right">Справа</string>
+    <string name="status_bar_clock_position_left">Слева</string>
+    <string name="status_bar_clock_position_center">По центру</string>
+
+    <string name="status_bar_am_pm_title">Стиль индикатора «AM/PM»</string>
+    <string name="status_bar_am_pm_info">Включен 24-часовой формат времени</string>
+    <string name="status_bar_am_pm_normal">Обычный</string>
+    <string name="status_bar_am_pm_small">Небольшой</string>
+    <string name="status_bar_am_pm_hidden">Не показывать</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_title">Индикатор батареи</string>
+    <string name="status_bar_battery_style_title">Индикатор батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Не показывать</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Не показывать</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
+
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">Яркость</string>
+    <string name="status_bar_brightness_slider_title">Регулятор яркости</string>
+    <string name="status_bar_brightness_slider_summary">Отрегулируйте яркость в Быстрых Настройках</string>
+    <string name="status_bar_brightness_slider_auto_title">Автоматическая яркость</string>
+    <string name="status_bar_brightness_slider_auto_summary">Показывать переключатель для адаптивной регулировки яркости</string>
+    <string name="status_bar_toggle_brightness">Управление яркостью</string>
+    <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
+
+    <!-- Status bar - icon blacklist -->
+    <string name="status_bar_icons_title">Значки в строке состояния</string>
+    <string name="status_bar_icons_summary">Настройка видимости значков</string>
+
+<!-- QS SETTINGS SECTION -->
+    <string name="quicksettings">Плитки быстрых настройки</string>
+
+    <!-- Quick settings tiles -->
+    <string name="qs_tiles_category">Плитки</string>
+    <string name="sysui_qqs_count_title">Маленькие плитки в панели быстрых настроек</string>
+    <string name="qs_rows_portrait_title">Строки (портрет)</string>
+    <string name="qs_rows_landscape_title">Строки (ландшафт)</string>
+    <string name="qs_columns_title">Колонки</string>
+
+    <!-- QS Header Icons -->
+    <string name="qs_header_icon_settings">Настроить различные элементы в заголовке</string>
+    <string name="qs_settings_icon_title">Ярлык настроек</string>
+    <string name="qs_settings_icon_summary">Выключить ярлык настроек в заголовке</string>
+    <string name="qs_edit_title">Значок редактирования быстрых настроек</string>
+    <string name="qs_edit_summary">Выключить плитку значка редактирования в заголовке</string>
+    <string name="qs_multiuser_switch_title">Переключатель пользователей</string>
+    <string name="qs_multiuser_switch_summary">Выключить переключатель для смены пользователя в заголовке</string>
+    <string name="qs_expand_indicator_title">Индикатор расширения</string>
+    <string name="qs_expand_indicator_summary">Выключить индикатор расширения в заголовке</string>
+    <string name="qs_settings_expanded_title">Ярлык настроек</string>
+    <string name="qs_settings_expanded_summary">Показывать ярлык настроек только при развернутых быстрых настройках</string>
+
+    <string name="qs_tile_title_visibility_title">Названия плиток быстрых настроек</string>
+    <string name="qs_tile_title_visibility_summary_on">Названия плиток быстрых настроек теперь видны</string>
+    <string name="qs_tile_title_visibility_summary_off">Названия плиток быстрых настроек теперь не видны</string>
+
+<!-- MISC SECTION -->
+    <!-- Disable FC notifications -->
+    <string name="disable_fc_notifications_title">Отключить уведомления о принудительном закрытии</string>
+    <string name="disable_fc_notifications_summary">Это скроет все уведомления о принудительном закрытии</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук скриншота</string>
+
+    <!--Screenshot crop and share -->
+    <string name="screenshot_crop_and_share_title">Обрезать скриншот и поделиться</string>
+    <string name="screenshot_crop_and_share_summary">Показать окно редактора после создания скриншота для того, чтобы его можно было обрезать, сохранить или поделиться</string>
+
+    <!-- Camera shutter sound -->
+    <string name="camera_sounds_title">Звук затвора камеры</string>
+    <string name="camera_sounds_summary">Отключение может не работать в сторонних приложениях для камеры и в режиме HDR+</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Варианты перезагрузки</string>
+    <string name="advanced_reboot_summary">Показывать дополнительные опции перезагрузки устройства (в загрузчик, режим восстановления или перезапуска интерфейса) в меню при долгом нажатии</string>
+
+	<!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Свайп для создания скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
+	
+<!-- LOCKSCREEN SECTION -->
+	<!-- Fingerprint authentication vibration -->
+    <string name="fp_tweaks">Сканер отпечатка пальцев</string>
+    <string name="fprint_sucess_vib_title">Вибрация распознования отпечатка пальца</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешном распозновании отпечатка пальца</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Разблокировка по сканеру отпечатка пальцев</string>
+    <string name="fp_unlock_keystore_summary">Разблокировка по сканеру отпечатка пальцев после перезагрузки без ввода ПИН-кода/Пароля/Графического ключа\nПримечание: используйте на свой страх и риск!</string>
+
+    <!--Power menu on Secure Lockscreen -->
+    <string name="power_tweaks">Меню кнопки питания</string>
+    <string name="lockscreen_enable_power_menu_title">Показывать меню питания на экране блокировки</string>
+    <string name="lockscreen_enable_power_menu_summary">Эта опция отключит меню питания только на защищенном экране блокировки</string>
+
+    <!--Power menu on Secure Lockscreen -->
+    <string name="lockscreen_tweaks">Экран блокировки</string>
+    <string name="lockscreen_targets_message">Ярлыки в нижних углах экрана болкировки</string>
+    <!-- lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Визуализация спектра музыки</string>
+    <!-- title for lock screen weather preference -->
+    <string name="lockscreen_weather_enabled_title">Сведения о погоде</string>
+    <!-- title for lock screen blur preference -->
+    <string name="lockscreen_blur_enabled_title">Размытие фона</string>
+    <!-- Whether the keyguard will directly show the password entry -->
+    <string name="lock_direct_show">Сразу предлагать ввод пароля</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Показывать обложку альбома</string>
+    <!-- Double tap to sleep on keyguard -->
+    <string name="double_tap_sleep_anywhere_title">Двойное нажатие для прехода в режим сна</string>
+
+<!-- DISPLAY SECTION -->
+    <!-- Wake on plug -->
+   <string name="wake_when_plugged_or_unplugged_title">Включение при зарядке</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включать экран при подключении или отключении источника питания</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Режим \"В кармане\"</string>
+    <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
+    <!-- ANBI -->
+    <string name="anbi_title">Случайное нажатие</string>
+    <string name="anbi_summary">Предотвращение взаимодействия с кнопками навигации при нажатии на экран</string>
+
+<!-- APP PREFERENCES -->
+    <string name="navigation_drawer_open">Открыть</string>
+    <string name="navigation_drawer_close">Закрыть</string>
+    <string name="nav_full_header">Задать размер NavigationView в полноэкранном режиме</string>
+    <string name="nav_full_summary">Полноэкранный режим NavView</string>
+
+    <string name="sys_sucess">Системный интерфейс успешно перезагружен</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_manager_main">Менеджер Droid</string>
+    <!-- Buttons -->
+    <string name="hide_btn">Скрыть</string>
+    <string name="show_btn">Показать</string>
+    <!-- Main_Layout -->
+    <string name="main_title">Настройки Dots</string>
+    <string name="main_desc">Равняйтесь на Dots правильно, но самое главное, настравайте на свой вкус</string>
+    <string name="cm_title">Ссылки на сообщеста</string>
+    <string name="cm_desc">Вступайте в наши группы сообщества DotOS</string>
+    <string name="git_desc">Загрузите и попробуйте наш исходный код</string>
+    <string name="git_title">Github</string>
+    <string name="tg_Desc">Будьте в курсе</string>
+    <string name="tg_title">Группа сообщества Telegram</string>
+    <string name="app_pref">Настройки приложения</string>
+    <string name="app_pref_desc">Настройки кастомизации приложения</string>
+    <string name="phone_info">Информация о телефоне</string>
+    <string name="android_ver">Версия Android : </string>
+    <string name="sdk_ver">Версия SDK : </string>
+    <string name="chipset">ЦП : </string>
+    <string name="control_center">Центр управления</string>
+    <string name="prebuilt_profiles">Установленные профили</string>
+    <string name="back">По умолчанию</string>
+	<string name="back_home">Назад в главное меню</string>
+    <string name="supercar">Мне нравится суперкар V8</string>
+    <string name="lazy">Немного ленивая, но превосходная жизнь</string>
+    <string name="custom_profiles">Пользовательские профили</string>
+    <string name="wip">В разработке</string>
+    <string name="dotos_ver">dotOS : </string>
+    <string name="build_ver">Версия сборки : </string>
+	<string name="dot_ver">Версия Dot : </string>
+	<string name="rom_check_msg">Пожалуйста, установите DotOS для использования DotExtras</string>
+    <string name="device">Устройство : </string>
+	<string name="informations">Сведение </string>
+    <string name="cm_apt">Сообщество и Движок тем</string>
+	<string name="res_changer">Изменение разрешения</string>
+
+    <!-- Dot colors -->
+    <string name="colors_header">Выбрать тему</string>
+    <string name="app_theme">Движок тем</string>
+
+    <!-- Drawer Strings -->
+    <string name="action_settings">Параметы</string>
+    <string name="main">Главное меню</string>
+    <string name="home">Домой</string>
+    <string name="management">Управление</string>
+    <string name="system_manager">Менеджер Droid</string>
+    <string name="tools">Инструменты</string>
+    <string name="in_built_flasher">Встроеныый загрузчик</string>
+    <string name="extras">Extras</string>
+    <string name="statusbar">Строка состояния</string>
+    <string name="buttons">Кнопки</string>
+    <string name="display">Дисплей</string>
+    <string name="lockscreen">Экран блокировки</string>
+    <string name="recents">Меню недавних приложении</string>
+    <string name="misc">Разное</string>
+    <string name="powermenu">Меню кнопки питания</string>
+    <string name="navigationbar">Панель навигации</string>
+    <string name="support">Поддержка</string>
+    <string name="about_extras">Сведение о Extras</string>
+    <string name="supported_devices">Поддерживаемые устройства</string>
+    <string name="about_dot_extras_app">О приложении Dot Extras</string>
+	<string name="dot_version">dot_Ver</string>
+
+    <!-- Path data for portrait battery -->
+    <string name="battery_portrait_path_full" translatable="false">M 5 2 H 19 V 21 H 5 V 2 Z</string>
+    <string name="battery_portrait_path_empty" translatable="false">M 5 21 H 19 V 21 H 5 V 21 Z</string>
+    <string name="battery_portrait_clip_path" translatable="false">M6,21V4h3V2h6v2h3v17H6z</string>
+
+    <!-- Path data for landscape battery -->
+    <string name="battery_landscape_path_full" translatable="false">M 1 4 H 25 V 20 H 1 V 4 Z</string>
+    <string name="battery_landscape_path_empty" translatable="false">M 1 4 H 1 V 20 H 1 V 4 Z</string>
+    <string name="battery_landscape_clip_path" translatable="false">M25,16h-2v4H1V4h22v4h2V16z</string>
+
+        <!-- Path data for circle battery -->
+    <string name="battery_circle_path" translatable="false">M 12 3.5 C 16.6944203736 3.5 20.5 7.30557962644 20.5 12 C 20.5 16.6944203736 16.6944203736 20.5 12 20.5 C 7.30557962644 20.5 3.5 16.6944203736 3.5 12 C 3.5 7.30557962644 7.30557962644 3.5 12 3.5 Z</string>
+    <string name="phone_informations">Информация о телефоне</string>
+    <string name="todo">TODO</string>
+    <string name="android_version_s">Версия Android : %s</string>
+    <string name="sdk_version_s">Версия SDK : %s</string>
+    <string name="chipset_s">ЦП : %s</string>
+    <string name="tweak_the_dotos_more_than_is_necessary_with_prebuilt_configs">Tweak the DotOS more than is necessary with prebuilt configs</string>
+    <string name="control_center">Центр управления</string>
+    <string name="prebuilt_profiles">Установленыые профили</string>
+    <string name="be_free_to_change_colors">Выбрать тему</string>
+    <string name="set_application_theme">Движок тем</string>
+    <string name="set_navigationview_size_to_fullscreen">Задать размер NavigationView в полноэкранном режиме</string>
+    <string name="fullscreen_navview">Полноэкранный режим NavView</string>
+    <string name="dotos_vx_x">DotOS vX.X</string>
+    <string name="build_version_s">Версия сборки : %s</string>
+    <string name="device_s">Устройство : %s</string>
+
+	<!-- QS easy toggles -->
+  <string name="qs_easy_toggle_title">Расширенное переключение быстрых настроек</string>
+  <string name="qs_easy_toggle_summary">Включения bluetooth, передачи данных или wifi одиночным надатием вместо перехода в настройки</string>
+	
+</resources>

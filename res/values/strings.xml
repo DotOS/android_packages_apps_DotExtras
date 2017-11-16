@@ -4,6 +4,7 @@
 <!-- RECENTS SECTION -->
     <!-- Recents panel -->
     <string name="recents_panel_title">Recents panel</string>
+    <string name="recents_visual_tweaks">Recents visual tweaks</string>
     <string name="show_clear_all_recents_button_title">Clear all button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button</string>
     <string name="recents_clear_all_location_title">Clear all location</string>
@@ -191,6 +192,7 @@
     <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
 
 <!-- APP PREFERENCES -->
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_full_header">Set NavigationView size to fullscreen</string>

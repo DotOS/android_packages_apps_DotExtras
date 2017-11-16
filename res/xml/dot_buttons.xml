@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 		  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory android:title="Buttons">
+    <PreferenceCategory android:title="@string/buttons">
 
     <ListPreference
         android:key="volume_key_cursor_control"
