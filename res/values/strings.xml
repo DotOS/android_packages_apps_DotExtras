@@ -181,6 +181,9 @@
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Wake screen when connecting or disconnecting a power source</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 
 <!-- APP PREFERENCES -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
