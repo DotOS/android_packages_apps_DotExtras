@@ -44,7 +44,7 @@
             android:title="@string/qs_settings_icon_title"
             android:summary="@string/qs_settings_icon_summary"
             android:disableDependentsState="true"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
  
         <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
             android:key="qs_settings_expanded_toggle"
@@ -57,7 +57,7 @@
             android:key="qs_edit_toggle"
             android:title="@string/qs_edit_title"
             android:summary="@string/qs_edit_summary"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
  
         <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
             android:key="qs_multiuser_switch_toggle"
