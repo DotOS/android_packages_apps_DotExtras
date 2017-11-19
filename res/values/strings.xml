@@ -214,9 +214,9 @@
     <string name="app_pref">App Preferences</string>
     <string name="app_pref_desc">Customize Application Settings</string>
     <string name="phone_info">Phone info</string>
-    <string name="android_ver">Android Version : </string>
-    <string name="sdk_ver">SDK Version : </string>
-    <string name="chipset">Chipset : </string>
+    <string name="android_ver">Android Version: </string>
+    <string name="sdk_ver">SDK Version: </string>
+    <string name="chipset">Chipset: </string>
     <string name="control_center">Control Center</string>
     <string name="prebuilt_profiles">Prebuilt Profiles</string>
     <string name="back">Back to Default</string>
@@ -225,11 +225,11 @@
     <string name="lazy">A bit lazy but excelent lifetime</string>
     <string name="custom_profiles">Custom Profiles</string>
     <string name="wip">Work in Progress</string>
-    <string name="dotos_ver">dotOS : </string>
-    <string name="build_ver">Build Version : </string>
-	<string name="dot_ver">Dot Version : </string>
+    <string name="dotos_ver">dotOS: </string>
+    <string name="build_ver">Build Version: </string>
+	<string name="dot_ver">Dot Version: </string>
 	<string name="rom_check_msg">Please Install DotOS to use DotExtras</string>
-    <string name="device">Device : </string>
+    <string name="device">Device: </string>
 	<string name="informations">Informations </string>
     <string name="cm_apt">Community and Aplication Theme</string>
 	<string name="res_changer">Resolution Change</string>
@@ -275,8 +275,8 @@
     <string name="battery_circle_path" translatable="false">M 12 3.5 C 16.6944203736 3.5 20.5 7.30557962644 20.5 12 C 20.5 16.6944203736 16.6944203736 20.5 12 20.5 C 7.30557962644 20.5 3.5 16.6944203736 3.5 12 C 3.5 7.30557962644 7.30557962644 3.5 12 3.5 Z</string>
     <string name="phone_informations">Phone Informations</string>
     <string name="todo">TODO</string>
-    <string name="android_version_s">Android Version : %s</string>
-    <string name="sdk_version_s">SDK Version : %s</string>
+    <string name="android_version_s">Android Version: %s</string>
+    <string name="sdk_version_s">SDK Version: %s</string>
     <string name="chipset_s">Chipset : %s</string>
     <string name="tweak_the_dotos_more_than_is_necessary_with_prebuilt_configs">Tweak the DotOS more than is necessary with prebuilt configs</string>
     <string name="control_center">Control Center</string>
@@ -286,7 +286,7 @@
     <string name="set_navigationview_size_to_fullscreen">Set NavigationView size to fullscreen</string>
     <string name="fullscreen_navview">Fullscreen NavView</string>
     <string name="dotos_vx_x">DotOS vX.X</string>
-    <string name="build_version_s">Build Version : %s</string>
+    <string name="build_version_s">Build Version: %s</string>
     <string name="device_s">Device : %s</string>
 
 	<!-- QS easy toggles -->
