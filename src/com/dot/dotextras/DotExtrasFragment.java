@@ -54,6 +54,7 @@ import com.dot.dotextras.fragments.PowerMenu;
 import com.dot.dotextras.fragments.QuickSettings;
 import com.dot.dotextras.fragments.Recents;
 import com.dot.dotextras.fragments.Statusbar;
+import com.dot.dotextras.fragments.NavbarSettings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
@@ -123,11 +124,12 @@ public class DotExtrasFragment extends SettingsPreferenceFragment {
         public FragmentsAdapter(FragmentManager fm) {
             super(fm);
             frags[0] = new Statusbar();
-            frags[1] = new QuickSettings();
-            frags[2] = new Recents();
-            frags[3] = new PowerMenu();
-            frags[4] = new Lockscreen();
-			frags[5] = new System();
+            frags[1] = new NavbarSettings();
+            frags[2] = new QuickSettings();
+            frags[3] = new Recents();
+            frags[4] = new PowerMenu();
+            frags[5] = new Lockscreen();
+			frags[6] = new System();
         }
 
         @Override
@@ -150,6 +152,7 @@ public class DotExtrasFragment extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[]{
                     getString(R.string.statusbar),
+                    getString(R.string.navbar),
                     getString(R.string.quick_settings),
                     getString(R.string.recents),
                     getString(R.string.power_menu),
