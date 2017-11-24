@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
+<!--  Copyright (C) 2018 Project dotOS
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -15,19 +15,17 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 
-<resources>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/navigation"
+    android:layout="@layout/tab"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <dimen name="header_icon_width">28dp</dimen>
+         <Preference
+            android:key="navbar_settings"
+            android:fragment="com.dot.dotextras.NavbarSettings"
+            android:icon="@drawable/ic_navigation"
+            android:title="@string/navigationbar_settings_title" />
 
-    <dimen name="picker_circle_preview_size">26dp</dimen>
 
-    <!-- Navbar height -->
-    <integer name="navigation_bar_height_min_percent">65</integer>
-    <integer name="navigation_bar_height_max_percent">135</integer>
-    <integer name="navigation_bar_width_min_percent">65</integer>
-    <integer name="navigation_bar_width_max_percent">135</integer>
-
-    <!-- Shortcut picker -->
-    <dimen name="shortcut_picker_left_padding">70dip</dimen>
-
-</resources>
+</PreferenceScreen>
