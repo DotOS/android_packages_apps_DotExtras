@@ -33,6 +33,17 @@
             android:title="@string/wakeup_when_plugged_unplugged_title"
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
+			
+	<PreferenceCategory
+        android:key="misc_extras_icons_category"
+        android:title="@string/icons_category">
+		
+          <com.dot.dotextras.preference.SystemSettingSwitchPreference
+             android:key="roaming_indicator_icon"
+             android:title="@string/roaming_indicator_icon_title"
+             android:summary="@string/roaming_indicator_icon_summary"
+             android:defaultValue="true"/>
+     </PreferenceCategory>
 
 
 </PreferenceScreen>
