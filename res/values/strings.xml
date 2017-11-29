@@ -28,6 +28,7 @@
     <string name="dlg_ok">OK</string>
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
+	<string name="icons_category">Icons</string>
 	
     <!-- Fragments -->
     <string name="statusbar">Statusbar</string>
@@ -160,5 +161,9 @@
 	<!-- Face unlock -->
 	<string name="face_auto_unlock_title">Face auto unlock</string>
     <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+	
+	<!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
 
 </resources>
