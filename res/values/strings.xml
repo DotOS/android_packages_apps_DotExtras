@@ -28,6 +28,10 @@
     <string name="systemui_recents_mem_display_summaryOn">RAM bar enabled</string>
     <string name="systemui_recents_mem_display_summaryOff">RAM bar disabled</string>
 
+    <!-- Recents lock icon -->
+    <string name="recents_lock_icon_title">Lock Task</string>
+    <string name="recents_lock_icon_summary">Allow locking of tasks in recents view</string>
+
 <!-- BUTTONS SECTION -->
     <!-- Volume key cursor control -->
     <string name="volbtn_cursor_control_title">Volume key cursor control</string>

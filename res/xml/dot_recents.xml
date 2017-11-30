@@ -36,6 +36,12 @@
             android:entries="@array/immersive_recents_entries"
             android:entryValues="@array/immersive_recents_values"
             android:persistent="false" />
+
+        <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
+            android:key="recents_lock_icon"
+            android:title="@string/recents_lock_icon_title"
+            android:summary="@string/recents_lock_icon_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
 </PreferenceScreen>
