@@ -5,7 +5,7 @@
     <PreferenceCategory
         android:title="@string/status_bar_icons_title">
 
-        <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
+        <com.dotos.dotextras.preferences.CMSystemSettingSwitchPreference
             android:key="status_bar_notif_count"
             android:title="@string/status_bar_notif_count_title"
             android:summary="@string/status_bar_notif_count_summary"
