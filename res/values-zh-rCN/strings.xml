@@ -1,0 +1,289 @@
+<resources>
+    <string name="app_name">Dot高级设置</string>
+    <string name="button_pref_title">导航栏调整</string>
+<!-- RECENTS SECTION -->
+    <!-- Recents panel -->
+    <string name="recents_panel_title">最近任务面板</string>
+    <string name="show_clear_all_recents_button_title">清除所有按钮</string>
+    <string name="show_clear_all_recents_button_summary">显示清除所有按钮</string>
+    <string name="recents_clear_all_location_title">按钮位置</string>
+    <string name="recents_clear_all_location_top_right">右上方</string>
+    <string name="recents_clear_all_location_top_left">左上方</string>
+    <string name="recents_clear_all_location_top_center">上方中央</string>
+    <string name="recents_clear_all_location_bottom_right">右下方</string>
+    <string name="recents_clear_all_location_bottom_left">左下方</string>
+    <string name="recents_clear_all_location_bottom_center">下方中央</string>
+
+    <!-- Immersive Recents -->
+    <string name="immersive_recents_title">最近任务沉浸</string>
+    <string name="immersive_recents_summary">更改最近任务的视图</string>
+    <string name="immersive_recents_dialog_title">选择最近任务显示效果</string>
+    <string name="immersive_recents_default">默认</string>
+    <string name="immersive_recents_fullscreen">全屏</string>
+    <string name="immersive_recents_statusbar">仅状态栏</string>
+    <string name="immersive_recents_navbar">仅导航栏</string>
+
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_title">显示内存栏</string>
+    <string name="systemui_recents_mem_display_summaryOn">内存栏已启用</string>
+    <string name="systemui_recents_mem_display_summaryOff">内存栏已禁用</string>
+
+    <!-- Recents lock icon -->
+    <string name="recents_lock_icon_title">锁定任务</string>
+    <string name="recents_lock_icon_summary">允许在最近任务界面中锁定任务</string>
+
+<!-- BUTTONS SECTION -->
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">音量键控制光标</string>
+    <string name="volbtn_cursor_control_off">禁用</string>
+    <string name="volbtn_cursor_control_on">音量+/-控制光标向左/右</string>
+    <string name="volbtn_cursor_control_on_reverse">音量+/-控制光标向右/左</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_title">状态栏</string>
+    <string name="status_bar_quick_qs_pulldown_title">快速下拉</string>
+    <string name="status_bar_quick_qs_pulldown_summary">从状态栏%1$s侧下拉快速设置</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">左</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">右</string>
+    <string name="status_bar_quick_qs_pulldown_off">禁用</string>
+    <string name="status_bar_quick_qs_pulldown_left">左</string>
+    <string name="status_bar_quick_qs_pulldown_right">右</string>
+    <string name="status_bar_double_tap_to_sleep_title">双击锁屏</string>
+    <string name="status_bar_double_tap_to_sleep_summary">双击状态栏位置来关闭屏幕</string>
+
+    <!-- Status bar - icons -->
+    <string name="status_bar_icons_title">状态栏图标</string>
+    <string name="status_bar_notif_count_title">显示通知计数</string>
+    <string name="status_bar_notif_count_summary">显示未处理的通知数量</string>
+    <string name="status_bar_system_icons_title">系统图标</string>
+    <string name="status_bar_system_icons_summary">控制状态栏显示哪些图标</string>
+
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_title">时钟</string>
+    <string name="status_bar_clock_position_title">时钟位置</string>
+    <string name="status_bar_clock_position_right">右</string>
+    <string name="status_bar_clock_position_left">左</string>
+    <string name="status_bar_clock_position_center">中央</string>
+
+    <string name="status_bar_am_pm_title">上午/下午样式</string>
+    <string name="status_bar_am_pm_info">24小时制已启用</string>
+    <string name="status_bar_am_pm_normal">普通</string>
+    <string name="status_bar_am_pm_small">小号</string>
+    <string name="status_bar_am_pm_hidden">隐藏</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_title">电池图标</string>
+    <string name="status_bar_battery_style_title">电池图标样式</string>
+    <string name="status_bar_battery_style_icon_portrait">纵向图标</string>
+    <string name="status_bar_battery_style_icon_landscape">横向图标</string>
+    <string name="status_bar_battery_style_circle">圆形</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">电量百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏</string>
+    <string name="status_bar_battery_percentage_text_inside">在图标左侧</string>
+    <string name="status_bar_battery_percentage_text_next">在图标右侧</string>
+
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">亮度</string>
+    <string name="status_bar_brightness_slider_title">亮度条</string>
+    <string name="status_bar_brightness_slider_summary">调整快速设置的亮度条</string>
+    <string name="status_bar_brightness_slider_auto_title">自动亮度</string>
+    <string name="status_bar_brightness_slider_auto_summary">在亮度条旁显示自动亮度开关</string>
+    <string name="status_bar_toggle_brightness">亮度控制</string>
+    <string name="status_bar_toggle_brightness_summary">通过滑动状态栏来调整亮度</string>
+
+    <!-- Status bar - icon blacklist -->
+    <string name="status_bar_icons_title">通知栏图标</string>
+    <string name="status_bar_icons_summary">控制显示哪些状态栏图标</string>
+
+<!-- QS SETTINGS SECTION -->
+    <string name="quicksettings">快速设置</string>
+
+    <!-- Quick settings tiles -->
+    <string name="sysui_qqs_count_title">小快速设置图标</string>
+    <string name="qs_rows_portrait_title">行数（纵向）</string>
+    <string name="qs_rows_landscape_title">行数（横向）</string>
+    <string name="qs_columns_title">列数</string>
+    <string name="qs_columns_rows_title">调整行数和列数</string>
+
+    <!-- QS Header Icons -->
+    <string name="qs_header_icon_settings">顶栏调整</string>
+    <string name="qs_settings_icon_title">设置设置快捷方式</string>
+    <string name="qs_settings_icon_summary">禁用顶栏中的设置快捷方式（您将无法长按打开DotExtras！）</string>
+    <string name="qs_edit_title">编辑图标</string>
+    <string name="qs_edit_summary">禁用顶栏的编辑图标</string>
+    <string name="qs_multiuser_switch_title">多用户切换</string>
+    <string name="qs_multiuser_switch_summary">禁用顶栏的多用户切换图标</string>
+    <string name="qs_expand_indicator_title">展开标识</string>
+    <string name="qs_expand_indicator_summary">禁用顶栏的展开标识</string>
+    <string name="qs_expand_indicator_title">展开标识</string>
+    <string name="qs_expand_indicator_summary">启用顶栏的展开标识(^)</string>
+    <string name="qs_settings_expanded_title">设置快捷方式扩展</string>
+    <string name="qs_settings_expanded_summary">只有在展开时启用设置快捷方式</string>
+
+    <string name="qs_tile_title_visibility_title">快速设置标题</string>
+    <string name="qs_tile_title_visibility_summary_on">显示快速设置标题</string>
+    <string name="qs_tile_title_visibility_summary_off">不显示快速设置标题</string>
+
+<!-- MISC SECTION -->
+    <!-- Disable FC notifications -->
+    <string name="disable_fc_notifications_title">禁用强制关闭</string>
+    <string name="disable_fc_notifications_summary">隐藏所有FC通知对话框</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">截图提示音</string>
+
+    <!--Screenshot crop and share -->
+    <string name="screenshot_crop_and_share_title">截图裁剪和分享</string>
+    <string name="screenshot_crop_and_share_summary">截图后显示编辑窗口，以便进行如裁剪、保存或共享等操作</string>
+
+    <!-- Camera shutter sound -->
+    <string name="camera_sounds_title">相机快门声</string>
+    <string name="camera_sounds_summary">可能在第三方相机应用程序和HDR +模式下失效</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">高级重启</string>
+    <string name="advanced_reboot_summary">解锁后，在电源菜单中显示重启到恢复模式、引导模式和软重启选项</string>
+
+	<!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">三指手势</string>
+    <string name="three_finger_gesture_summary">滑动三根手指来截图</string>
+	
+<!-- LOCKSCREEN SECTION -->
+	<!-- Fingerprint authentication vibration -->
+    <string name="fp_tweaks">指纹选项</string>
+    <string name="fprint_sucess_vib_title">指纹认证振动</string>
+    <string name="fprint_sucess_vib_summary">指纹认证成功之后震动</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">指纹解锁</string>
+    <string name="fp_unlock_keystore_summary">"在重启后使用指纹解锁设备，无须 PIN/密码/图案\n注意：请注意风险！"</string>
+
+    <!--Power menu on Secure Lockscreen -->
+    <string name="power_tweaks">电源菜单调整</string>
+    <string name="lockscreen_enable_power_menu_title">在锁屏界面显示电源菜单</string>
+    <string name="lockscreen_enable_power_menu_summary">该选项只会禁用安全锁定屏幕上的电源菜单</string>
+
+    <!--Power menu on Secure Lockscreen -->
+    <string name="lockscreen_tweaks">锁屏界面调整</string>
+    <string name="lockscreen_targets_message">锁屏界面快捷方式</string>
+    <!-- lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">显示音乐可视化效果</string>
+    <!-- title for lock screen weather preference -->
+    <string name="lockscreen_weather_enabled_title">显示天气</string>
+    <!-- title for lock screen blur preference -->
+    <string name="lockscreen_blur_enabled_title">锁屏界面高斯模糊</string>
+    <!-- Whether the keyguard will directly show the password entry -->
+    <string name="lock_direct_show">直接显示密码输入</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">显示媒体封面</string>
+    <!-- Double tap to sleep on keyguard -->
+    <string name="double_tap_sleep_anywhere_title">双击任意位置关闭屏幕</string>
+
+<!-- DISPLAY SECTION -->
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">充电唤醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时唤醒屏幕</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋模式</string>
+    <string name="pocket_judge_summary">当设备在口袋里时阻止屏幕和按键输入</string>
+    <!-- ANBI -->
+    <string name="anbi_title">防误触</string>
+    <string name="anbi_summary">触摸屏幕时禁用导航按钮</string>
+
+<!-- APP PREFERENCES -->
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="nav_full_header">将导航视图大小设置为全屏</string>
+    <string name="nav_full_summary">全屏导航视图</string>
+
+    <string name="sys_sucess">成功重启系统用户界面</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_manager_main">Droid 管理</string>
+    <!-- Buttons -->
+    <string name="hide_btn">隐藏</string>
+    <string name="show_btn">显示</string>
+    <!-- Main_Layout -->
+    <string name="main_title">Dot 自定义</string>
+    <string name="main_desc">正确地自定义Dot，但最重要的是，调整你想要的</string>
+    <string name="cm_title">社区链接</string>
+    <string name="cm_desc">查看我们 DotOS 的社区群组</string>
+    <string name="git_desc">下载和尝试我们的源码</string>
+    <string name="git_title">Github</string>
+    <string name="tg_Desc">保持最新</string>
+    <string name="tg_title">Telegram 社区群组</string>
+    <string name="app_pref">App 优先</string>
+    <string name="app_pref_desc">自定义应用设置</string>
+    <string name="phone_info">设备信息</string>
+    <string name="android_ver">Android 版本：</string>
+    <string name="sdk_ver">SDK 版本：</string>
+    <string name="chipset">芯片：</string>
+    <string name="control_center">控制中心</string>
+    <string name="prebuilt_profiles">预设的配置文件</string>
+    <string name="back">返回到默认</string>
+    <string name="back_home">返回到主页</string>
+    <string name="supercar">就像一辆V8超级跑车</string>
+    <string name="lazy">有点懒，但一生都很优秀</string>
+    <string name="custom_profiles">自定义配置文件</string>
+    <string name="wip">工作中</string>
+    <string name="dotos_ver">dotOS：</string>
+    <string name="build_ver">构建版本：</string>
+    <string name="dot_ver">Dot 版本：</string>
+    <string name="rom_check_msg">安装 DotOS 后才能使用 Dot高级设置</string>
+    <string name="device">设备：</string>
+    <string name="informations">信息</string>
+    <string name="cm_apt">社区和应用主题</string>
+    <string name="res_changer">更改分辨率</string>
+
+    <!-- Dot colors -->
+    <string name="colors_header">随意更改颜色</string>
+    <string name="app_theme">设置应用主题</string>
+
+    <!-- Drawer Strings -->
+    <string name="action_settings">设置</string>
+    <string name="main">主界面</string>
+    <string name="home">主页</string>
+    <string name="management">管理</string>
+    <string name="system_manager">Droid 管理</string>
+    <string name="tools">工具</string>
+    <string name="in_built_flasher">In-Built Flasher</string>
+    <string name="extras">高级</string>
+    <string name="statusbar">状态栏</string>
+    <string name="buttons">按键</string>
+    <string name="display">显示</string>
+    <string name="lockscreen">锁屏</string>
+    <string name="recents">最近任务</string>
+    <string name="misc">其他</string>
+    <string name="powermenu">电压菜单</string>
+    <string name="navigationbar">导航栏</string>
+    <string name="support">支持</string>
+    <string name="about_extras">关于高级设置</string>
+    <string name="supported_devices">支持的设备</string>
+    <string name="about_dot_extras_app">关于 Dot 高级设置应用</string>
+    <string name="dot_version">dot 版本</string>
+
+    <!-- Path data for circle battery -->
+    <string name="phone_informations">设备信息</string>
+    <string name="todo">TODO</string>
+    <string name="android_version_s">Android 版本：%s</string>
+    <string name="sdk_version_s">SDK 版本：%s</string>
+    <string name="chipset_s">芯片：%s</string>
+    <string name="tweak_the_dotos_more_than_is_necessary_with_prebuilt_configs">DotOS 调整肯定比预先配置更多</string>
+    <string name="control_center">控制中心</string>
+    <string name="prebuilt_profiles">预设配置</string>
+    <string name="be_free_to_change_colors">自由改变颜色</string>
+    <string name="set_application_theme">设置应用主题</string>
+    <string name="set_navigationview_size_to_fullscreen">将导航视图大小设置为全屏</string>
+    <string name="fullscreen_navview">全屏导航视图</string>
+    <string name="dotos_vx_x">DotOS vX.X</string>
+    <string name="build_version_s">构建版本：%s</string>
+    <string name="device_s">设备：%s</string>
+
+	<!-- QS easy toggles -->
+    <string name="qs_easy_toggle_title">高级快速设置切换</string>
+    <string name="qs_easy_toggle_summary">单击切换蓝牙、数据和WiFi开关</string>
+	
+</resources>
