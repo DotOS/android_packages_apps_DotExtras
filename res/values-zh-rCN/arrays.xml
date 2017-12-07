@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- RECENTS SECTION -->
+	<!-- Droid Engine -->
+    <string-array name="theme_array">
+        <item>选择</item>
+        <item>水鸭青 (亮色)</item>
+        <item>Pixel 蓝 (亮色)</item>
+        <item>亮红 (亮色)</item>
+        <item>水鸭青 (暗色)</item>
+        <item>Pixel 蓝 (暗色)</item>
+        <item>亮红 (暗色)</item>
+    </string-array>
+
+</resources>

@@ -19,7 +19,7 @@
      </PreferenceCategory>
 
      <PreferenceCategory
-         android:title="Recents visual tweaks">
+         android:title="@string/recents">
 
 	    <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
             android:key="systemui_recents_mem_display"
