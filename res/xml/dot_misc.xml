@@ -43,6 +43,11 @@
          android:icon="@drawable/ic_dot_misc"
          android:defaultValue="false" />
 		
+       <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
+         android:key="sensor_block"
+         android:title="@string/sensor_block_title"
+         android:summary="@string/sensor_block_summary"
+         android:defaultValue="false" />
 			
     </PreferenceCategory>
 </PreferenceScreen>
