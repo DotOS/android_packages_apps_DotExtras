@@ -153,6 +153,10 @@
     <string name="three_finger_gesture">三指手势</string>
     <string name="three_finger_gesture_summary">滑动三根手指来截图</string>
 	
+        <!-- Sensor block per-package -->
+    <string name="sensor_block_title">阻止个别应用使用传感器</string>
+    <string name="sensor_block_summary">阻止有些应用访问特定的传感器以节省电量消耗</string>
+
 <!-- LOCKSCREEN SECTION -->
 	<!-- Fingerprint authentication vibration -->
     <string name="fp_tweaks">指纹选项</string>
