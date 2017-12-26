@@ -23,6 +23,11 @@
 	     android:key="power_menu"
              android:title="@string/power_menu"
 	     android:fragment="com.dot.dotextras.fragments.PowerMenu" />
+    <ListPreference
+        android:key="torch_power_button_gesture"
+        android:title="@string/torch_power_button_gesture_title"
+        android:entries="@array/torch_power_button_gesture_entries"
+        android:entryValues="@array/torch_power_button_gesture_values" />
     </PreferenceCategory>
 
     <PreferenceCategory android:key="hardware_keys"
