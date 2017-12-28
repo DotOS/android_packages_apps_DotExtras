@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">DotExtras</string>
+    <string name="button_pref_title">Customizar Barra de Navegação</string>
+<!-- RECENTS SECTION -->
+    <!-- Recents panel -->
+    <string name="recents_panel_title">Painel de Recentes</string>
+    <string name="show_clear_all_recents_button_title">Botão Limpar Tudo</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar botão</string>
+    <string name="recents_clear_all_location_title">Localização do botão</string>
+    <string name="recents_clear_all_location_top_right">Em cima à direita</string>
+    <string name="recents_clear_all_location_top_left">Em cima à esquerda</string>
+    <string name="recents_clear_all_location_top_center">Em cima centrado</string>
+    <string name="recents_clear_all_location_bottom_right">Em baixo à direita</string>
+    <string name="recents_clear_all_location_bottom_left">Em baixo à esquerda</string>
+    <string name="recents_clear_all_location_bottom_center">Em baixo centrado</string>
+
+    <!-- Immersive Recents -->
+    <string name="immersive_recents_title">Painel imersivo</string>
+    <string name="immersive_recents_summary">Altere a vista do painel de recentes</string>
+    <string name="immersive_recents_dialog_title">Selecione o tipo de vista</string>
+    <string name="immersive_recents_default">Por defeito</string>
+    <string name="immersive_recents_fullscreen">Ecrã inteiro</string>
+    <string name="immersive_recents_statusbar">Apenas barra de estado</string>
+    <string name="immersive_recents_navbar">Apenas barra de navegação</string>
+
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_title">Mostrar barra da RAM</string>
+    <string name="systemui_recents_mem_display_summaryOn">Barra da RAM ativada</string>
+    <string name="systemui_recents_mem_display_summaryOff">Barra da RAM desativada</string>
+
+    <!-- Recents lock icon -->
+    <string name="recents_lock_icon_title">Bloquear tarefa</string>
+    <string name="recents_lock_icon_summary">Permite o bloqueio de tarefas no painel de recentes</string>
+
+<!-- BUTTONS SECTION -->
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Controlo de cursor por teclas de volume</string>
+    <string name="volbtn_cursor_control_off">Desativado</string>
+    <string name="volbtn_cursor_control_on">Volume +/- move o cursor esq/dir</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume +/- move o cursor dir/esq</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_title">Barra de estado</string>
+    <string name="status_bar_quick_qs_pulldown_title">Baixar rápido</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Aba %1$s da barra de estado mostra tudo rapidamente</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Esquerda</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Direita</string>
+    <string name="status_bar_quick_qs_pulldown_off">Desligado</string>
+    <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
+    <string name="status_bar_quick_qs_pulldown_right">Direita</string>
+    <string name="status_bar_double_tap_to_sleep_title">Duplo toque para desligar</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Duplo toque na barra de estado para desligar o ecrã</string>
+
+    <!-- Status bar - icons -->
+    <string name="status_bar_icons_title">Ícones da barra de estado</string>
+    <string name="status_bar_notif_count_title">Mostrar contagem de notificações</string>
+    <string name="status_bar_notif_count_summary">Mostra o número de notificações pendentes</string>
+    <string name="status_bar_system_icons_title">Ícones de sistema</string>
+    <string name="status_bar_system_icons_summary">Controlar ícones de sistema a mostrar</string>
+
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_title">Relógio</string>
+    <string name="status_bar_clock_position_title">Posição do relógio</string>
+    <string name="status_bar_clock_position_right">Direita</string>
+    <string name="status_bar_clock_position_left">Esquerda</string>
+    <string name="status_bar_clock_position_center">Centrado</string>
+
+    <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+    <string name="status_bar_am_pm_info">Relógio de 24 horas está ativo</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Pequeno</string>
+    <string name="status_bar_am_pm_hidden">Escondido</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_title">Indicador de bateria</string>
+    <string name="status_bar_battery_style_title">Estilo do estado da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone vertical</string>
+    <string name="status_bar_battery_style_icon_landscape">Ícone horizontal</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Esconder</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Percentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Escondido</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
+
+    <!-- Status bar - Brightness -->
+    <string name="status_bar_brightness_category">Brightness</string>
+    <string name="status_bar_brightness_slider_title">Brightness slider</string>
+    <string name="status_bar_brightness_slider_summary">Adjust brightness from the Quick Settings</string>
+    <string name="status_bar_brightness_slider_auto_title">Auto brightness</string>
+    <string name="status_bar_brightness_slider_auto_summary">Show toggle for adaptive brightness near the slider</string>
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Status bar - icon blacklist -->
+    <string name="status_bar_icons_title">Ícones da barra de estado</string>
+    <string name="status_bar_icons_summary">Controlar ícones da barra de estado a mostrar</string>
+
+<!-- QS SETTINGS SECTION -->
+    <string name="quicksettings">Definições rápidas</string>
+
+    <!-- Quick settings tiles -->
+    <string name="sysui_qqs_count_title">Quadrados pequenos</string>
+    <string name="qs_rows_portrait_title">Nr. de linhas (modo retrato)</string>
+    <string name="qs_rows_landscape_title">Nr. delinhas (modo paisagem)</string>
+    <string name="qs_columns_title">Nr. de colunas</string>
+    <string name="qs_columns_rows_title">Ajustar o número de linhas e colunas</string>
+
+    <!-- QS Header Icons -->
+    <string name="qs_header_icon_settings">Personalizar ícones</string>
+    <string name="qs_settings_icon_title">Atalho para as Definições</string>
+    <string name="qs_settings_icon_summary">Destaivar o atalho para as Definições no cabeçalho(Deixará de ser possível aceder aos DotExtras ao manter pressionado!)</string>
+    <string name="qs_edit_title">Ícon de Edição</string>
+    <string name="qs_edit_summary">Desativar o ícone de edição no cabeçalho</string>
+    <string name="qs_multiuser_switch_title">Botão multi-utilizador</string>
+    <string name="qs_multiuser_switch_summary">Desativar o botão multi-utilizador no cabeçalho</string>
+    <string name="qs_expand_indicator_title">Indicador de expansão</string>
+    <string name="qs_expand_indicator_summary">Desativar o ícone indicador de expansão no cabeçalho</string>
+    <string name="qs_expand_indicator_title">Indicador de expansão</string>
+    <string name="qs_expand_indicator_summary">Ativar o ícone indicador de expansão (^) no cabeçalho</string>
+    <string name="qs_settings_expanded_title">Atalho para as Definições ao expandir</string>
+    <string name="qs_settings_expanded_summary">Apenas ativar o atalho para as definições ao expandir a barra de estado</string>
+
+    <string name="qs_tile_title_visibility_title">Texto de resumo</string>
+    <string name="qs_tile_title_visibility_summary_on">O texto de resumo está visível nas definições</string>
+    <string name="qs_tile_title_visibility_summary_off">O texto de resumo está escondido nas definições</string>
+
+<!-- MISC SECTION -->
+    <!-- Disable FC notifications -->
+    <string name="disable_fc_notifications_title">Desativar fechar forçado</string>
+    <string name="disable_fc_notifications_summary">Esconde todas os diálogos de notificações de fechar forçado</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Som de captura de ecrã</string>
+
+    <!--Screenshot crop and share -->
+    <string name="screenshot_crop_and_share_title">Editar &amp; partilhar captura de ecrã</string>
+    <string name="screenshot_crop_and_share_summary">Mostrar uma janela de edição após capturar o ecrã de modo a efetuar algumas operações, tais como cortar, guardar ou partilhar</string>
+
+    <!-- Camera shutter sound -->
+    <string name="camera_sounds_title">Som da Câmara ao capturar</string>
+    <string name="camera_sounds_summary">O destaivar poderá não funcionar noutras aplicações de câmara ou no modo HDR</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Reinício avançado</string>
+    <string name="advanced_reboot_summary">Quando desbloqueado, incluir no menu de reinício opções de reinício para a recuperação, bootloader ou reinício suave</string>
+
+	<!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Gesto com três dedos</string>
+    <string name="three_finger_gesture_summary">Deslizar três dedos para capturar ecrã</string>
+	
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Bloqueio de sensores por aplicação</string>
+    <string name="sensor_block_summary">Bloquear o acesso das aplicações a alguns sensores de modo a diminuir o consumo de bateria</string>
+
+<!-- LOCKSCREEN SECTION -->
+	<!-- Fingerprint authentication vibration -->
+    <string name="fp_tweaks">Personalizar impressão digital</string>
+    <string name="fprint_sucess_vib_title">Vibrar ao autenticar com impressão digital</string>
+    <string name="fprint_sucess_vib_summary">Vibrar quando a autenticação com impressão digital teve sucesso</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Desbloquear com impressão digital</string>
+    <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo com impressão digital após reiniciar sem recorrer a PIN/Palavra-passe/Padrão\nNota: use com precaução!</string>
+
+    <!--Power menu on Secure Lockscreen -->
+    <string name="power_tweaks">Personalizar menu desligar</string>
+    <string name="lockscreen_enable_power_menu_title">Mostrar o menu desligar no ecrã de bloqueio</string>
+    <string name="lockscreen_enable_power_menu_summary">Esta opção apenas irá desativar o menu desligar nos ecrã de bloqueio seguros</string>
+
+    <!--Power menu on Secure Lockscreen -->
+    <string name="lockscreen_tweaks">Personalizar ecrã de bloqueio</string>
+    <string name="lockscreen_targets_message">Atalhos do ecrã de bloqueio</string>
+    <!-- lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Mostar o visualizador de música</string>
+    <!-- title for lock screen weather preference -->
+    <string name="lockscreen_weather_enabled_title">Mostrar o estado do tempo</string>
+    <!-- title for lock screen blur preference -->
+    <string name="lockscreen_blur_enabled_title">Ecrã de bloqueio enevoado</string>
+    <!-- Whether the keyguard will directly show the password entry -->
+    <string name="lock_direct_show">Aceder diretamente para o modo de desbloqueio</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Mostrar a capa do álbum ou música</string>
+    <!-- Double tap to sleep on keyguard -->
+    <string name="double_tap_sleep_anywhere_title">Toque duplo para acordar em qualquer ponto do ecã</string>
+
+<!-- DISPLAY SECTION -->
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Acender o ecrã ao carregar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Acende o ecrã quando ao ligar ou desligar de uma fonte de alimentação</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Deteção de bolso</string>
+    <string name="pocket_judge_summary">Bloqueia ecrã e botões quando o dispositivo estiver guardado no bolso</string>
+    <!-- ANBI -->
+    <string name="anbi_title">Toque acidental</string>
+    <string name="anbi_summary">Previne iterações com os botões de navegação quando estiver a tocar no ecrã</string>
+
+<!-- APP PREFERENCES -->
+    <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar a gaveta de navegação</string>
+    <string name="nav_full_header">Definir a vista de navegação para ocupar o ecrã inteiro</string>
+    <string name="nav_full_summary">Vista de navegação ocupa o ecrã inteiro</string>
+
+    <string name="sys_sucess">A interface de sistema foi reiniciada com êxito</string>
+    <string name="action_settings">Definições</string>
+    <string name="title_activity_manager_main">Droid Manager</string>
+    <!-- Buttons -->
+    <string name="hide_btn">Esconder</string>
+    <string name="show_btn">Mostrar</string>
+    <!-- Main_Layout -->
+    <string name="main_title">Alinhe os Pontos</string>
+    <string name="main_desc">Alinhe os pontos corretamente mas, mais importante, alinhe apenas e como pretender</string>
+    <string name="cm_title">Links da comunidade</string>
+    <string name="cm_desc">Veja os nossos grupos da comunidade DotOS</string>
+    <string name="git_desc">Descarregue e experimente o nosso código fonte</string>
+    <string name="git_title">Github</string>
+    <string name="tg_Desc">Mantenha-se atualizado</string>
+    <string name="tg_title">Grupo Telegram da comunidade</string>
+    <string name="app_pref">Preferências da App</string>
+    <string name="app_pref_desc">Personalize as definições da aplicação</string>
+    <string name="phone_info">Informação do telefone</string>
+    <string name="android_ver">Versão de Android : </string>
+    <string name="sdk_ver">Versão SDK : </string>
+    <string name="chipset">Chipset : </string>
+    <string name="control_center">Centro de Controlo</string>
+    <string name="prebuilt_profiles">Perfis Pré-construídos</string>
+    <string name="back">Voltar ao padrão</string>
+	<string name="back_home">Voltar ao ínício</string>
+    <string name="supercar">Como um super carro V8</string>
+    <string name="lazy">Um pouco preguiçoso mas com um excelente tempo de vida</string>
+    <string name="custom_profiles">Perfis personalizados</string>
+    <string name="wip">Trabalho em progresso</string>
+    <string name="dotos_ver">dotOS : </string>
+    <string name="build_ver">Versão de compilação : </string>
+	<string name="dot_ver">Versão Dot : </string>
+	<string name="rom_check_msg">Por favor instale o DotOS para utilizar os DotExtras</string>
+    <string name="device">Dispositivo : </string>
+	<string name="informations">Informações </string>
+    <string name="cm_apt">Tema da Aplicação e Comunidade</string>
+	<string name="res_changer">Alterar resolução</string>
+
+    <!-- Dot colors -->
+    <string name="colors_header">Altere as cores ao seu gosto</string>
+    <string name="app_theme">Defina um tema para a Aplicação</string>
+
+    <!-- Drawer Strings -->
+    <string name="action_settings">Definições</string>
+    <string name="main">Principal</string>
+    <string name="home">Início</string>
+    <string name="management">Gestão</string>
+    <string name="system_manager">Droid Manager</string>
+    <string name="tools">Ferramentas</string>
+    <string name="in_built_flasher">Flasher imbutido</string>
+    <string name="extras">Extras</string>
+    <string name="statusbar">Barra de estado</string>
+    <string name="buttons">Botões</string>
+    <string name="display">Ecrã</string>
+    <string name="lockscreen">Ecrã de bloqueio</string>
+    <string name="recents">Recentes</string>
+    <string name="misc">Diversos</string>
+    <string name="powermenu">Menu Desligar</string>
+    <string name="navigationbar">Barra de navegação</string>
+    <string name="support">Suporte</string>
+    <string name="about_extras">Acerca dos Extras</string>
+    <string name="supported_devices">Dispositivos compatíveis</string>
+    <string name="about_dot_extras_app">Acerca da App DotExtras</string>
+	<string name="dot_version">dot_Ver</string>
+
+    <!-- Path data for portrait battery -->
+    <string name="battery_portrait_path_full" translatable="false">M 5 2 H 19 V 21 H 5 V 2 Z</string>
+    <string name="battery_portrait_path_empty" translatable="false">M 5 21 H 19 V 21 H 5 V 21 Z</string>
+    <string name="battery_portrait_clip_path" translatable="false">M6,21V4h3V2h6v2h3v17H6z</string>
+
+    <!-- Path data for landscape battery -->
+    <string name="battery_landscape_path_full" translatable="false">M 1 4 H 25 V 20 H 1 V 4 Z</string>
+    <string name="battery_landscape_path_empty" translatable="false">M 1 4 H 1 V 20 H 1 V 4 Z</string>
+    <string name="battery_landscape_clip_path" translatable="false">M25,16h-2v4H1V4h22v4h2V16z</string>
+
+        <!-- Path data for circle battery -->
+    <string name="battery_circle_path" translatable="false">M 12 3.5 C 16.6944203736 3.5 20.5 7.30557962644 20.5 12 C 20.5 16.6944203736 16.6944203736 20.5 12 20.5 C 7.30557962644 20.5 3.5 16.6944203736 3.5 12 C 3.5 7.30557962644 7.30557962644 3.5 12 3.5 Z</string>
+    <string name="phone_informations">Informações do telefone</string>
+    <string name="todo">A Fazer</string>
+    <string name="android_version_s">Versão de Android : %s</string>
+    <string name="sdk_version_s">Versão SDK : %s</string>
+    <string name="chipset_s">Chipset : %s</string>
+    <string name="tweak_the_dotos_more_than_is_necessary_with_prebuilt_configs">Personalize o DotOS mais do que é necessário com configurações pré-construídas</string>
+    <string name="control_center">Centro de Controlo</string>
+    <string name="prebuilt_profiles">Perfis Pré-construídos</string>
+    <string name="be_free_to_change_colors">Altere as cores ao seu gosto</string>
+    <string name="set_application_theme">Defina um tema para a Aplicação</string>
+    <string name="set_navigationview_size_to_fullscreen">Definir a vista de navegação para ocupar o ecrã inteiro</string>
+    <string name="fullscreen_navview">Vista de navegação de ecrã inteiro</string>
+    <string name="dotos_vx_x">DotOS vX.X</string>
+    <string name="build_version_s">Versão de compilação : %s</string>
+    <string name="device_s">Dispositivo : %s</string>
+
+	<!-- QS easy toggles -->
+    <string name="qs_easy_toggle_title">Definição rápida fácil</string>
+    <string name="qs_easy_toggle_summary">Apenas um toque para alterar o estado do bluetooth, dados, ou WiFi</string>
+	
+</resources>
