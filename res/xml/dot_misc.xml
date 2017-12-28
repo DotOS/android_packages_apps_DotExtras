@@ -3,8 +3,6 @@
                   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
                   xmlns:cm="http://schemas.android.com/apk/res/cyanogenmod.platform">
 
-    <PreferenceCategory>
-
         <com.dotos.dotextras.preferences.CMSecureSettingSwitchPreference
             android:key="advanced_reboot"
             android:title="@string/advanced_reboot_title"
@@ -48,6 +46,4 @@
          android:title="@string/sensor_block_title"
          android:summary="@string/sensor_block_summary"
          android:defaultValue="false" />
-			
-    </PreferenceCategory>
 </PreferenceScreen>
