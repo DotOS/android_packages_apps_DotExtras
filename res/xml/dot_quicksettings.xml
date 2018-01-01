@@ -63,6 +63,7 @@
             android:key="qs_multiuser_switch_toggle"
             android:title="@string/qs_multiuser_switch_title"
             android:summary="@string/qs_multiuser_switch_summary"
+	    android:enabled="false"
             android:defaultValue="true" />
 
         <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
