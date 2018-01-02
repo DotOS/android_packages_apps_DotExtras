@@ -29,7 +29,6 @@ import android.widget.Toast;
 
 import com.dotos.dotextras.drill.TheDrill;
 import com.dotos.dotextras.fragments.AboutExtrasFragment;
-import com.dotos.dotextras.fragments.ButtonFragment;
 import com.dotos.dotextras.fragments.DisplayFragment;
 import com.dotos.dotextras.fragments.LockScreenFragment;
 import com.dotos.dotextras.fragments.MiscFragment;
@@ -233,15 +232,6 @@ public class dotsettings extends AppCompatActivity
             mainLayout.addView(layout);
             getFragmentManager().beginTransaction()
                     .replace(R.id.pref_view_layout, new QuickSettingsFragment())
-                    .commitAllowingStateLoss();
-        } else if (id == R.id.nav_dot_buttons) {
-            RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);
-            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View layout = inflater.inflate(R.layout.pref_view, null);
-            mainLayout.removeAllViews();
-            mainLayout.addView(layout);
-            getFragmentManager().beginTransaction()
-                    .replace(R.id.pref_view_layout, new ButtonFragment())
                     .commitAllowingStateLoss();
         } else if (id == R.id.nav_dot_display) {
             RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.main_layout);

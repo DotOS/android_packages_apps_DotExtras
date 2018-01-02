@@ -32,13 +32,6 @@
     <string name="recents_lock_icon_title">Lock Task</string>
     <string name="recents_lock_icon_summary">Allow locking of tasks in recents view</string>
 
-<!-- BUTTONS SECTION -->
-    <!-- Volume key cursor control -->
-    <string name="volbtn_cursor_control_title">Volume key cursor control</string>
-    <string name="volbtn_cursor_control_off">Disabled</string>
-    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
-
     <!-- Status bar -->
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
@@ -256,7 +249,6 @@
     <string name="in_built_flasher">In-Built Flasher</string>
     <string name="extras">Extras</string>
     <string name="statusbar">Statusbar</string>
-    <string name="buttons">Buttons</string>
     <string name="display">Display</string>
     <string name="lockscreen">Lockscreen</string>
     <string name="recents">Recents</string>
