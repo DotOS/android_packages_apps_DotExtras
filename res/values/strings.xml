@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">DotExtras</string>
-    <string name="button_pref_title">Navigation Bar Tweaks</string>
+    <string name="button_pref_title">NavBar &amp; Buttons Tweaks</string>
 <!-- RECENTS SECTION -->
     <!-- Recents panel -->
     <string name="recents_panel_title">Recents panel</string>
@@ -262,7 +262,7 @@
     <string name="recents">Recents</string>
     <string name="misc">Misc</string>
     <string name="powermenu">Powermenu</string>
-    <string name="navigationbar">NavigationBar</string>
+    <string name="navigationbar">NavBar &amp; Buttons</string>
     <string name="support">Support</string>
     <string name="about_extras">About Extras</string>
     <string name="supported_devices">Supported Devices</string>
