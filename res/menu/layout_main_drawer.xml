@@ -42,7 +42,8 @@
             <item
                 android:title="@string/buttons"
                 android:icon="@drawable/ic_dot_buttons"
-                android:id="@+id/nav_dot_buttons" />
+                android:id="@+id/nav_dot_buttons" 
+		android:visible="false"/>
             <item
                 android:title="@string/display"
                 android:icon="@drawable/ic_dot_display"
