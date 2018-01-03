@@ -64,7 +64,7 @@
             android:title="@string/qs_multiuser_switch_title"
             android:summary="@string/qs_multiuser_switch_summary"
 	    android:enabled="false"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
 
         <com.dotos.dotextras.preferences.SystemSettingSwitchPreference
             android:key="qs_expand_indicator_toggle"
