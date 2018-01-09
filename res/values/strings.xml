@@ -267,6 +267,9 @@
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
 
+    <string name="qs_tile_title_visibility_title">QS tile titles</string>
+    <string name="qs_tile_title_visibility_summary">Show quick settings tiles titles</string>
+
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Power menu when locked</string>
     <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
