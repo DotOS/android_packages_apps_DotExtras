@@ -232,7 +232,7 @@
 	<string name="rom_check_msg">Please Install DotOS to use DotExtras</string>
     <string name="device">Device : </string>
 	<string name="informations">Informations </string>
-    <string name="cm_apt">Community and Aplication Theme</string>
+    <string name="cm_apt">Community and Application Theme</string>
 	<string name="res_changer">Resolution Change</string>
 
     <!-- Dot colors -->
