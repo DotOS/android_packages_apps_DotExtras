@@ -70,6 +70,9 @@
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
 
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">Carrier Label</string>
+
     <!-- Misc Extensions -->
     <string name="misc_extras_title">Misc Extras</string>
 
@@ -557,4 +560,15 @@
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
+    <!-- Carrier Label -->
+    <string name="carrier_options">Select display locations</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="show_carrier_title">Carrier label</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_keyguard">Lockscreen</string>
+    <string name="show_carrier_statusbar">Status bar</string>
+    <string name="show_carrier_enabled">Both</string>
 </resources>

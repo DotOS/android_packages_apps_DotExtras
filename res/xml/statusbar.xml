@@ -10,6 +10,12 @@
             android:fragment="com.dot.dotextras.fragments.StatusBarBattery"
             android:title="@string/battery_style_title" />
 
+         <Preference
+            android:key="carrier_label"
+            android:fragment="com.dot.dotextras.CarrierLabel"
+            android:icon="@drawable/ic_carrierlabel"
+            android:title="@string/carrierlabel_title" />
+
 	<Preference
             android:key="clock_settings"
             android:title="@string/status_bar_clock"
