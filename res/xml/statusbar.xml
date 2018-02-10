@@ -3,7 +3,13 @@
     android:title="@string/statusbar"
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-	
+
+	<Preference
+            android:key="clock_settings"
+            android:title="@string/status_bar_clock"
+            android:icon="@drawable/ic_clockdate"
+            android:fragment="com.dot.dotextras.fragments.ClockDateSettings" />
+
 	<Preference
             android:key="systemui_tuner_statusbar"
             android:title="@string/statusbar_items_category"
@@ -11,15 +17,15 @@
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-    </Preference>
+	</Preference>
 
-        <Preference
+	<Preference
             android:key="traffic"
             android:fragment="com.dot.dotextras.Traffic"
             android:icon="@drawable/ic_traffic"
             android:title="@string/traffic_title" />
-			
-		<Preference
+
+	<Preference
             android:key="misc_extras"
             android:fragment="com.dot.dotextras.MiscExtras"
             android:icon="@drawable/ic_misc_extras"
