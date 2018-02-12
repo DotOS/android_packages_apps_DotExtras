@@ -4,6 +4,13 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+	<ListPreference
+            android:key="battery_style"
+            android:title="@string/battery_style_title"
+            android:summary="@string/battery_style_summary"
+            android:entries="@array/battery_style_entries"
+            android:entryValues="@array/battery_style_values" />
+
 	<Preference
             android:key="clock_settings"
             android:title="@string/status_bar_clock"
