@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
+      Copyright (C) 2016 AospExtended ROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="dotextras_title">DotExtras</string>
+    <string name="build_tweaks_summary_title">Подреди точките по твой стил</string>
+    <string name="add">Добави</string>
+    <string name="advanced">Разширени</string>
+    <string name="cancel">Прекрати</string>
+    <string name="choose_app">Избери приложение</string>
+    <string name="light_category">Светлини</string>
+    <string name="dlg_ok">ОК</string>
+    <string name="loading">Зареждане\u2026</string>
+    <string name="reset">Рестартирай</string>
+	
+    <!-- Fragments -->
+    <string name="statusbar">Лента за състоянията</string>
+    <string name="quick_settings">Бързи настройки</string>
+    <string name="recents">Скорошни</string>
+    <string name="power_menu">Меню за захранване</string>
+    <string name="lockscreen">Заключен екран</string>
+    <string name="system">Система</string>
+    <string name="general_category">Общи</string>
+    <string name="notifications_panel_category">Известия</string>
+  
+
+    <!-- Frags -->
+    <!-- General Tweaks -->
+    <string name="general_tweaks_title">Общи настройки</string>
+
+    <!-- Network traffic -->
+    <string name="traffic_title">Индикатори за трафика</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Известия</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Избор на цветове</string>
+    <string name="press_color_to_apply">Натисни върху цвят отдолу, за да продължиш</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Задай</string>
+    <string name="color_default">По подразбиране</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Светлина при зареждане на батерията</string>
+    <string name="battery_light_enable">Светлина за батерията</string>
+    <string name="battery_light_allow_on_dnd_title">Светлина за батерията при режим "Не безпокой"</string>
+    <string name="battery_light_low_blinking_title">Мигаща светлина при ниска батерия</string>
+    <string name="battery_light_cat">Цвят на светлината при зареждане на батерията</string>
+    <string name="battery_light_low_color">Ниска батерия</string>
+    <string name="battery_light_medium_color">Средна батерия</string>
+    <string name="battery_light_full_color">Почти пълна батерия</string>
+    <string name="battery_light_reallyfull_color">Пълна (100) батерия</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Мрежови трафик</string>
+    <string name="network_traffic_type">Избери тип активност на мрежата</string>
+    <string name="show_network_traffic_up">Качване</string>
+    <string name="show_network_traffic_down">Сваляне</string>
+    <string name="show_network_traffic_all">Качване и сваляне</string>
+    <string name="network_traffic_state_title">Покажи активността на мрежата в лентата за състояния</string>
+    <string name="network_traffic_autohide_threshold_title">Праг за автоматично скриване на мрежовата активност (KB/s)</string>
+
+    <!-- Recent Membar	-->
+    <string name="recents_show_membar_title">Лента за налична оперативна памет</string>
+    <string name="recents_show_membar_summary">Покажи лентата за налична оперативна памет на устройството</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Принуди разширените известия</string>
+    <string name="force_expanded_notifications_summary">Достъпно само за приложения, които поддържат разширени известия</string>
+
+</resources>
