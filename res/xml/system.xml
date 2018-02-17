@@ -27,6 +27,12 @@
             android:title="@string/app_ops_category" />
 
          <Preference
+            android:key="weather"
+            android:fragment="org.aospextended.extensions.Weather"
+            android:icon="@drawable/ic_weather"
+            android:title="@string/weather_title" />
+
+         <Preference
             android:key="buttons"
             android:fragment="com.dot.dotextras.Buttons"
             android:icon="@drawable/ic_buttons"
