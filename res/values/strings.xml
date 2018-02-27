@@ -25,8 +25,6 @@
     <string name="advanced">Advanced</string>
     <string name="cancel">Cancel</string>
     <string name="choose_app">Choose app</string>
-    <string name="general_category">General</string>
-    <string name="gestures_category">Gestures</string>
     <string name="music_category">Music</string>
     <string name="security_category">Security</string>
     <string name="hardware_category">Hardware</string>
@@ -288,16 +286,6 @@
     <string name="pulse_filled_block_size">Block size</string>
     <string name="pulse_empty_block_size">Block spacing</string>
 	
-    <!-- Smart pulldown-->
-    <string name="smart_pulldown_title">Smart pulldown</string>
-    <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-    <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-    <string name="smart_pulldown_off">Off</string>
-    <string name="smart_pulldown_none">no notifications</string>
-    <string name="smart_pulldown_dismissable">no dismissable</string>
-    <string name="smart_pulldown_ongoing">no ongoing</string>
-
-
     <!-- Navbar height -->
     <string name="navigation_bar_size_title">Bar size</string>
     <string name="portrait_title">Portrait height</string>
