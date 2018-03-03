@@ -9,7 +9,7 @@
             android:title="@string/powermenu_power"
             android:defaultValue="true" />
 
-         <ocom.dot.dotextras.preference.SystemSettingSwitchPreference
+         <com.dot.dotextras.preference.SystemSettingSwitchPreference
             android:key="powermenu_restart"
             android:title="@string/powermenu_restart"
             android:defaultValue="true" />
