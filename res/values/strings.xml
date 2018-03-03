@@ -27,7 +27,7 @@
     <string name="choose_app">Choose app</string>
     <string name="general_category">General</string>
     <string name="gestures_category">Gestures</string>
-	<string name="lockscreen_category">Lockscreen</string>
+    <string name="lockscreen_category">Lockscreen</string>
     <string name="music_category">Music</string>
     <string name="security_category">Security</string>
     <string name="hardware_category">Hardware</string>
@@ -46,7 +46,6 @@
     <string name="lockscreen">Lockscreen</string>
     <string name="system">System</string>
     <string name="notifications_panel_category">Notifications</string>
-  
 
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -133,7 +132,7 @@
     <string name="powermenu_lockdown">Lock Down</string>
     <string name="powermenu_soundpanel">Sound Panel</string>
     <string name="powermenu_users">Users</string>
-	<string name="powermenu_torch">Flashlight</string>
+    <string name="powermenu_torch">Flashlight</string>
 
     <!-- DUI -->
     <!-- Navigation -->
@@ -358,9 +357,6 @@
     <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
     <string name="hide_lockscreen_items_title">Lockscreen items</string>
 
-    <!-- Double Tap -->
-    <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
-    <string name="double_tap_sleep_navbar_summary">Double-tap status bar to put the device to sleep</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
