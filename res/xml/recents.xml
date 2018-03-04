@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
  <!-- 
       Copyright (C) 2018 dotOS
  
@@ -15,7 +15,7 @@
       limitations under the License.
  -->
  
- <PreferenceScreen
+<PreferenceScreen
      xmlns:android="http://schemas.android.com/apk/res/android"
      android:title="@string/recents"
      android:layout="@layout/tab"
@@ -27,4 +27,4 @@
             android:icon="@drawable/ic_recents_ui"
             android:title="@string/recents_ui_title" />
  
- </PreferenceScreen>
+</PreferenceScreen>

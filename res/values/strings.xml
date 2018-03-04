@@ -31,7 +31,6 @@
     <string name="music_category">Music</string>
     <string name="security_category">Security</string>
     <string name="hardware_category">Hardware</string>
-    <string name="aosp_recents_category">AOSP recents</string>
     <string name="light_category">Lights</string>
     <string name="dlg_ok">OK</string>
     <string name="loading">Loading\u2026</string>
