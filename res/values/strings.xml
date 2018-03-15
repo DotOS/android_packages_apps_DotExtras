@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
       Copyright (C) 2016 AospExtended ROM Project
+	  Copyright (C) 2017 Project DotOS
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -46,10 +47,11 @@
     <!-- General Tweaks -->
     <string name="general_tweaks_title">General Tweaks</string>
 
-    <!-- Misc Extensions -->
+    <!-- Misc Extras -->
     <string name="misc_extras_title">Misc Extras</string>
 
-    <!-- Lockscreen UI -->
+    <!-- Lockscreen UI Tweaks -->
+    <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
     <string name="lockscreen_ui_title">Lockscreen UI</string>
 
     <!-- Statusbar Iten -->
@@ -57,4 +59,16 @@
 
     <!-- Notifications -->
     <string name="notifications_title">Notifications</string>
+	
+	<!-- Navigation Tweaks -->
+    <string name="navigation_category">Navigation</string>
+	
+	<!-- Quick Settings -->
+    <string name="quick_settings_title">Quick Settings</string>
+	
+	<!-- Recents UI -->
+    <string name="recents_ui_title">Recents UI</string>
+	
+	<!-- Buttons -->
+    <string name="buttons_title">Buttons</string>
 </resources>

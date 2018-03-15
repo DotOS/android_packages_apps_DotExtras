@@ -17,8 +17,7 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/navigation"
-    android:layout="@layout/tab"
+    android:title="@string/navigation_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
 </PreferenceScreen>

@@ -18,5 +18,7 @@
 <resources>
 
     <dimen name="header_icon_width">28dp</dimen>
+	
+	<dimen name="alert_dialog_padding_material">20dp</dimen>
 
 </resources>
