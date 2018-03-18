@@ -347,5 +347,9 @@
 	
 	<!-- Qs Style Picker -->
 	<string name="qs_styles_dialog_title">Select a QS tile style</string>
+	
+	<!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Opacity</string>
+    <string name="qs_opacity_category">QS panel opacity</string>
 
 </resources>
