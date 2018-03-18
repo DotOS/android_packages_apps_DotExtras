@@ -41,17 +41,23 @@
             android:key="powermenu_screenshot"
             android:title="@string/powermenu_screenshot"
             android:defaultValue="false" />
-
-         <SwitchPreference
-            android:key="powermenu_torch"
-            android:title="@string/powermenu_torch"
-            android:persistent="false" />
-
-         <com.dot.dotextras.preference.SystemSettingSwitchPreference
+			
+		<com.dot.dotextras.preference.SystemSettingSwitchPreference
             android:key="powermenu_airplane"
             android:title="@string/powermenu_airplane"
             android:defaultValue="false" />
 
+			
+		<com.dot.dotextras.preference.SystemSettingSwitchPreference
+            android:key="powermenu_users"
+            android:title="@string/powermenu_users"
+            android:defaultValue="false" />		
+
+ <!--    <SwitchPreference
+            android:key="powermenu_torch"
+            android:title="@string/powermenu_torch"
+            android:persistent="false" />
+		
          <com.dot.dotextras.preference.SystemSettingSwitchPreference
             android:key="powermenu_settings"
             android:title="@string/powermenu_settings"
@@ -62,13 +68,9 @@
             android:title="@string/powermenu_lockdown"
             android:defaultValue="false" />
 
-         <com.dot.dotextras.preference.SystemSettingSwitchPreference
-            android:key="powermenu_users"
-            android:title="@string/powermenu_users"
-            android:defaultValue="false" />
 
          <com.dot.dotextras.preference.SystemSettingSwitchPreference
             android:key="powermenu_soundpanel"
             android:title="@string/powermenu_soundpanel"
-            android:defaultValue="false" />
+            android:defaultValue="false" /> -->
 </PreferenceScreen>
