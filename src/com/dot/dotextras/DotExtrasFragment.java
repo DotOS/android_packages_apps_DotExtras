@@ -24,6 +24,8 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.util.Log;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -33,6 +35,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.provider.Settings;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
@@ -60,13 +63,28 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.dashboard.SummaryLoader;
+import com.dot.dotextras.dotstats.Constants;
+import com.dot.dotextras.dotstats.RequestInterface;
+import com.dot.dotextras.dotstats.models.ServerRequest;
+import com.dot.dotextras.dotstats.models.ServerResponse;
+import com.dot.dotextras.dotstats.models.StatsData;
+
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.schedulers.Schedulers;
+import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 import java.util.ArrayList;
 import java.util.List;
+import android.text.TextUtils;
 
 public class DotExtrasFragment extends SettingsPreferenceFragment {
 
     ViewGroup mContainer;
+	private SharedPreferences pref;
+    private CompositeDisposable mCompositeDisposable;
 
     static Bundle mSavedState;
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -81,6 +99,69 @@ public class DotExtrasFragment extends SettingsPreferenceFragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+		mCompositeDisposable = new CompositeDisposable();
+        pref=getActivity().getSharedPreferences("dotStatsPrefs", Context.MODE_PRIVATE);
+        if (!pref.getString(Constants.LAST_BUILD_DATE, "null").equals(SystemProperties.get(Constants.KEY_BUILD_DATE)) || pref.getBoolean(Constants.IS_FIRST_LAUNCH, true)) {
+            pushStats();
+        }
+    }
+
+private void pushStats() {
+        //Anonymous Stats
+
+        if (!TextUtils.isEmpty(SystemProperties.get(Constants.KEY_DEVICE))) { //Push only if installed ROM is DotOS
+            RequestInterface requestInterface = new Retrofit.Builder()
+                    .baseUrl(Constants.BASE_URL)
+                    .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .build().create(RequestInterface.class);
+
+            StatsData stats = new StatsData();
+            stats.setDevice(stats.getDevice());
+            stats.setModel(stats.getModel());
+            stats.setVersion(stats.getVersion());
+            stats.setBuildType(stats.getBuildType());
+            stats.setCountryCode(stats.getCountryCode(getActivity()));
+            stats.setBuildDate(stats.getBuildDate());
+            ServerRequest request = new ServerRequest();
+            request.setOperation(Constants.PUSH_OPERATION);
+            request.setStats(stats);
+            mCompositeDisposable.add(requestInterface.operation(request)
+                    .observeOn(AndroidSchedulers.mainThread(),false,100)
+                    .subscribeOn(Schedulers.io())
+                    .subscribe(this::handleResponse, this::handleError));
+        } else {
+            Log.d(Constants.TAG, "This ain't dotOS, Back Off!");
+        }
+
+    }
+
+    private void handleResponse(ServerResponse resp) {
+
+        if (resp.getResult().equals(Constants.SUCCESS)) {
+
+            SharedPreferences.Editor editor = pref.edit();
+            editor.putBoolean(Constants.IS_FIRST_LAUNCH, false);
+            editor.putString(Constants.LAST_BUILD_DATE, SystemProperties.get(Constants.KEY_BUILD_DATE));
+            editor.apply();
+            Log.d(Constants.TAG, "push successful");
+
+        } else {
+            Log.d(Constants.TAG, resp.getMessage());
+        }
+
+    }
+
+    private void handleError(Throwable error) {
+
+        Log.d(Constants.TAG, error.toString());
+
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        mCompositeDisposable.clear();
     }
 
     @Override
