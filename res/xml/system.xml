@@ -43,4 +43,10 @@
             android:fragment="com.dot.dotextras.Weather"
             android:icon="@drawable/ic_weather"
             android:title="@string/weather_title" />
+			
+		<Preference
+            android:key="animations"
+            android:fragment="com.dot.dotextras.Animations"
+            android:icon="@drawable/ic_animations"
+            android:title="@string/animations_title" />
 </PreferenceScreen>
