@@ -34,7 +34,7 @@
     <string name="recents">Recents</string>
     <string name="power_menu">Power Menu</string>
     <string name="lockscreen">Lockscreen</string>
-	<string name="system">System</string>
+    <string name="system">System</string>
 
     <!-- Power Menu -->
     <string name="powermenu_reboot_title">Reboot</string>
