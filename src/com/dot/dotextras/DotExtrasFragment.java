@@ -50,7 +50,6 @@ import android.widget.Toast;
 import com.dot.dotextras.fragments.System;
 import com.dot.dotextras.views.PagerSlidingTabStrip;
 import com.dot.dotextras.fragments.Lockscreen;
-import com.dot.dotextras.fragments.PowerMenu;
 import com.dot.dotextras.fragments.QuickSettings;
 import com.dot.dotextras.fragments.Recents;
 import com.dot.dotextras.fragments.Statusbar;
@@ -125,9 +124,8 @@ public class DotExtrasFragment extends SettingsPreferenceFragment {
             frags[0] = new Statusbar();
             frags[1] = new QuickSettings();
             frags[2] = new Recents();
-            frags[3] = new PowerMenu();
-            frags[4] = new Lockscreen();
-			frags[5] = new System();
+            frags[3] = new Lockscreen();
+            frags[4] = new System();
         }
 
         @Override
@@ -152,7 +150,6 @@ public class DotExtrasFragment extends SettingsPreferenceFragment {
                     getString(R.string.statusbar),
                     getString(R.string.quick_settings),
                     getString(R.string.recents),
-                    getString(R.string.power_menu),
                     getString(R.string.lockscreen),
                     getString(R.string.system)};
         return titleString;
