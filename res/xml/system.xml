@@ -38,6 +38,12 @@
             android:icon="@drawable/ic_general_tweaks"
             android:title="@string/general_tweaks_title" />
 
+	<com.dot.dotextras.preference.SystemSettingSwitchPreference
+	    android:key="system_default_animation"
+	    android:title="@string/system_default_animation_title"
+	    android:summary="@string/system_default_animation_summary"
+	    android:defaultValue="false" />
+
          <Preference
             android:key="weather"
             android:fragment="com.dot.dotextras.Weather"
