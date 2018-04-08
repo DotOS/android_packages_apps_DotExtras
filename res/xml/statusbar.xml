@@ -3,18 +3,6 @@
     android:title="@string/statusbar"
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-	
-     <com.dot.dotextras.preference.SystemSettingSwitchPreference
-        android:key="double_tap_sleep_gesture"
-        android:title="@string/double_tap_to_sleep_title"
-        android:summary="@string/double_tap_to_sleep_summary"
-        android:defaultValue="true" />
-
-     <com.dot.dotextras.preference.SystemSettingSwitchPreference
-            android:key="status_bar_brightness_control"
-            android:title="@string/status_bar_toggle_brightness"
-            android:summary="@string/status_bar_toggle_brightness_summary"
-            android:defaultValue="false" />
 
 	<Preference
             android:key="systemui_tuner_statusbar"
@@ -31,7 +19,7 @@
             android:icon="@drawable/ic_traffic"
             android:title="@string/traffic_title" />
 			
-		<Preference
+        <Preference
             android:key="misc_extras"
             android:fragment="com.dot.dotextras.MiscExtras"
             android:icon="@drawable/ic_misc_extras"
