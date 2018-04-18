@@ -17,16 +17,26 @@
     android:title="@string/notifications_panel_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <Preference
-            android:key="quick_settings"
-            android:fragment="com.dot.dotextras.QuickSettings"
-            android:icon="@drawable/ic_quick_settings"
-            android:title="@string/quick_settings_title" />
+    <PreferenceCategory
+        android:key="quick_settings_general_category"
+        android:title="@string/general_category">
 
-         <Preference
-            android:key="notifications"
-            android:fragment="com.dot.dotextras.Notifications"
-            android:icon="@drawable/ic_notifications"
-            android:title="@string/notifications_title" />
+        <com.dot.dotextras.preference.SecureSettingSwitchPreference
+        android:key="qs_show_brightness"
+        android:title="@string/qs_brightness_slider_title"
+        android:summary="@string/qs_brightness_slider_summary"
+        android:defaultValue="true"/>
+
+	<com.dot.dotextras.preference.SystemSettingSwitchPreference
+        android:key="qs_tile_title_visibility"
+        android:title="@string/qs_tile_title_visibility_title"
+        android:summary="@string/qs_tile_title_visibility_summary"
+        android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <Preference
+        android:key="qs_rows_columns"
+        android:fragment="com.dot.dotextras.QsRowsColumns"
+        android:title="@string/qs_rows_columns_title"/>
 
 </PreferenceScreen>
