@@ -47,96 +47,96 @@
   <string name="powermenu_lockscreen_summary">Включить возможность отображения и использования диалога меню питания во время блокировки экрана</string>
   <string name="powermenu_ls_reboot_summary">Показывать меню перезагрузки на экране блокировки</string>
   <string name="powermenu_ls_advanced_reboot_summary">Показывать расширенное меню перезагрузки на экране блокировки</string>
-  <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-  <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+  <string name="powermenu_ls_screenshot_summary">Показывать опцию снимка экрана на экране блокировки</string>
+  <string name="powermenu_ls_airplane_summary">Показывать опцию режима полёта на экране блокировки</string>
   <!-- Buttons -->
-  <string name="buttons_title">Buttons</string>
+  <string name="buttons_title">Кнопки</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
-  <string name="general_category">General</string>
-  <string name="lockscreen_category">Lockscreen</string>
-  <string name="notifications_panel_category">Notifications</string>
+  <string name="lockscreen_items_other">Другое</string>
+  <string name="general_category">Общее</string>
+  <string name="lockscreen_category">Экран блокировки</string>
+  <string name="notifications_panel_category">Уведомления</string>
   <!-- Frags -->
   <!-- General Tweaks -->
-  <string name="general_tweaks_title">General Tweaks</string>
+  <string name="general_tweaks_title">Основные настройки</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
+  <string name="traffic_title">Индикатор сетевого трафика</string>
   <!-- Misc Extensions -->
-  <string name="misc_extras_title">Misc Extras</string>
+  <string name="misc_extras_title">Разное экстра</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Recents UI</string>
-  <string name="aosp_recents_category">AOSP recents</string>
+  <string name="recents_ui_title">Недавние приложения</string>
+  <string name="aosp_recents_category">Панель недавних приложений AOSP</string>
   <!-- Lockscreen UI -->
-  <string name="lockscreen_ui_title">Lockscreen UI</string>
+  <string name="lockscreen_ui_title">Интерфейс экрана блокировки</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Statusbar items</string>
+  <string name="statusbar_items_category">Элементы строки состояния</string>
   <!-- Notifications -->
-  <string name="notifications_title">Notifications</string>
+  <string name="notifications_title">Уведомления</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Quick Settings</string>
+  <string name="quick_settings_title">Быстрые настройки</string>
   <!-- App Ops -->
-  <string name="app_ops_category">App Ops</string>
+  <string name="app_ops_category">Операции в приложениях</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="dialog_color_picker">Палитра</string>
+  <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
-  <string name="color_default">Default</string>
+  <string name="set">Набор</string>
+  <string name="color_default">По умолчанию</string>
   <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Immersive Recents</string>
-  <string name="immersive_recents_summary">Change the view of the recents screen</string>
-  <string name="immersive_recents_dialog_title">Select recents view</string>
-  <string name="immersive_recents_default">Default</string>
-  <string name="immersive_recents_fullscreen">Fullscreen</string>
-  <string name="immersive_recents_statusbar">Statusbar only</string>
-  <string name="immersive_recents_navbar">Navbar only</string>
+  <string name="immersive_recents_title">Расширенные недавние</string>
+  <string name="immersive_recents_summary">Изменить вид меню недавних приложений</string>
+  <string name="immersive_recents_dialog_title">Выберите вид недавних</string>
+  <string name="immersive_recents_default">По умолчанию</string>
+  <string name="immersive_recents_fullscreen">Полноэкранный режим</string>
+  <string name="immersive_recents_statusbar">Только строка состояния</string>
+  <string name="immersive_recents_navbar">Только панель навигации</string>
   <!-- DUI -->
   <!-- Navigation -->
-  <string name="navigationbar_settings_title">Navigation bar</string>
-  <string name="navbar_interface_title">Interface</string>
-  <string name="navbar_size">Bar size</string>
-  <string name="navbar_mode">Navigation mode</string>
-  <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
-  <string name="navbar_visibility">Allow navigation bar</string>
-  <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
-  <string name="navbar_general_title">Advanced</string>
-  <string name="navigation_bar_left_title">Left-handed mode</string>
-  <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
-  <string name="smartbar_interface">SmartBar</string>
-  <string name="icon_pack_picker_dialog_title">Icon packs</string>
-  <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
-  <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
-  <string name="picker_activities">Activities</string>
-  <string name="select_custom_app_title">Select custom app</string>
-  <string name="select_custom_activity_title">Select custom activity</string>
-  <string name="profile_applist_title">Applications</string>
-  <string name="default_string">Stock</string>
-  <string name="default_settings">Stock settings</string>
-  <string name="default_settings_summary">Stock AOSP navigation bar</string>
+  <string name="navigationbar_settings_title">Панель навигации</string>
+  <string name="navbar_interface_title">Интерфейс</string>
+  <string name="navbar_size">Размер панели</string>
+  <string name="navbar_mode">Режим навигации</string>
+  <string name="navbar_mode_summary">Выберите режим панели навигации для использования на вашем устройстве</string>
+  <string name="navbar_visibility">Разрешить панель навигации</string>
+  <string name="navigationbar_settings_summary">Настройка стиля и поведения панели навигации</string>
+  <string name="navbar_general_title">Расширенный</string>
+  <string name="navigation_bar_left_title">Режим для левшей</string>
+  <string name="navigation_bar_left_summary">Отображать панель навигации слева в альбомной ориентации экрана</string>
+  <string name="smartbar_interface">Умная панель</string>
+  <string name="icon_pack_picker_dialog_title">Наборы значков</string>
+  <string name="image_exceeds_max_allowed_size">Изображение не должно превышать размер 512x512</string>
+  <string name="invalid_icon_from_uri">Не удается загрузить изображения от контент-провайдера</string>
+  <string name="picker_activities">Активность</string>
+  <string name="select_custom_app_title">Выберите пользовательские приложения</string>
+  <string name="select_custom_activity_title">Выберите пользовательское действие</string>
+  <string name="profile_applist_title">Приложения</string>
+  <string name="default_string">по умолчанию</string>
+  <string name="default_settings">Настройки по умолчанию</string>
+  <string name="default_settings_summary">Панель навигации AOSP по умолчанию</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
-  <string name="choose_action_title">Choose action</string>
-  <string name="action_entry_default_action">Default settings</string>
-  <string name="action_entry_select_app">Select application</string>
-  <string name="action_entry_custom_action">Select custom action</string>
+  <string name="choose_action_title">Выбор действия</string>
+  <string name="action_entry_default_action">Настройки по умолчанию</string>
+  <string name="action_entry_select_app">Выбрать приложение</string>
+  <string name="action_entry_custom_action">Выберите пользовательские приложения</string>
   <!-- Fling -->
-  <string name="fling_settings">Fling settings</string>
-  <string name="fling_settings_summary">A very unique and fully-customizable gesture-based navigation bar</string>
-  <string name="fling_interface">Fling</string>
-  <string name="fling_enable_title">Enable Fling</string>
-  <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first.\n\nAlso, setting a double tap action will delay single tap a bit.</string>
-  <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar.</string>
-  <string name="fling_def_summary">No action set</string>
-  <string name="fling_swipe_actions">Swipe gestures</string>
-  <string name="fling_tap_actions">Tap gestures</string>
-  <string name="fling_short_swipe_right">Right short swipe</string>
-  <string name="fling_short_swipe_left">Left short swipe</string>
-  <string name="fling_long_swipe_right">Right long swipe</string>
-  <string name="fling_long_swipe_left">Left long swipe</string>
-  <string name="fling_right_up_swipe">Right side swipe up</string>
-  <string name="fling_left_up_swipe">Left side swipe up</string>
+  <string name="fling_settings">Управление жестами</string>
+  <string name="fling_settings_summary">Очень уникальная и полностью настраиваемая панель навигации на основе жестов</string>
+  <string name="fling_interface">Жесты</string>
+  <string name="fling_enable_title">Включить жесты</string>
+  <string name="fling_back_home_policy">\"Назад\" и \"Домой\" должны быть установлены всегда. Чтобы изменить назначение \"Назад\" или \"Домой\", сначала установите нужное назначение.\n\nТакже настройка двойного нажатия немного замедлит одиночное нажатие.</string>
+  <string name="fling_split_bar_policy">Когда назначено действие только справа или слева, оно выполняется на всей панели.</string>
+  <string name="fling_def_summary">Действие не выбрано</string>
+  <string name="fling_swipe_actions">Жесты свайпом</string>
+  <string name="fling_tap_actions">Жесты касанием</string>
+  <string name="fling_short_swipe_right">Короткий свайп вправо</string>
+  <string name="fling_short_swipe_left">Короткий свайп налево</string>
+  <string name="fling_long_swipe_right">Долгий свайп вправо</string>
+  <string name="fling_long_swipe_left">Длинный свайп влево</string>
+  <string name="fling_right_up_swipe">Смахивание вверх справа</string>
+  <string name="fling_left_up_swipe">Смахивание вверх справа</string>
   <string name="fling_single_tap">Single tap right</string>
   <string name="fling_double_tap">Double tap right</string>
   <string name="fling_long_press">Long press right</string>
@@ -189,12 +189,12 @@
   <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
   <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
   <string name="qs_tile_title_visibility_title">QS tile titles</string>
-  <string name="qs_tile_title_visibility_summary">Show quick settings tiles titles</string>
+  <string name="qs_tile_title_visibility_summary">Показать быстрые настройки</string>
   <!-- Pulse navigation bar music visualizer -->
-  <string name="pulse_help_policy_notice_summary">Pulse does not work with some audio sources when listening on device speaker</string>
-  <string name="pulse_settings">Pulse</string>
-  <string name="pulse_settings_summary">Navigation bar audio graphic equalizer</string>
-  <string name="fling_show_pulse_title">Allow Pulse</string>
+  <string name="pulse_help_policy_notice_summary">Пульсация не работает с некоторыми источниками звука во время прослушивания через динамик</string>
+  <string name="pulse_settings">Пульс</string>
+  <string name="pulse_settings_summary">Навигационной панели аудио графический эквалайзер</string>
+  <string name="fling_show_pulse_title">Разрешить пульс</string>
   <string name="fling_show_pulse_summary">Audio graphic equalizer on the navigation bar</string>
   <string name="pulse_render_mode_title">Render mode</string>
   <string name="pulse_render_mode_fading_bars">Fading blocks</string>
