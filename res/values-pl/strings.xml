@@ -17,71 +17,71 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="dotextras_title">DotExtras</string>
-  <string name="build_tweaks_summary_title">Align the Dots In your Style</string>
-  <string name="add">Add</string>
-  <string name="advanced">Advanced</string>
-  <string name="cancel">Cancel</string>
-  <string name="choose_app">Choose app</string>
-  <string name="icons_category">Icons</string>
-  <string name="light_category">Lights</string>
+  <string name="dotextras_title">Dodatki dotOS</string>
+  <string name="build_tweaks_summary_title">Dostosuj Dot w swoim stylu</string>
+  <string name="add">Dodaj</string>
+  <string name="advanced">Zaawansowane</string>
+  <string name="cancel">Anuluj</string>
+  <string name="choose_app">Wybierz aplikację</string>
+  <string name="icons_category">Ikony</string>
+  <string name="light_category">Światła</string>
   <string name="dlg_ok">OK</string>
-  <string name="loading">Loading\u2026</string>
-  <string name="reset">Reset</string>
+  <string name="loading">Ładowanie\u2026</string>
+  <string name="reset">Resetuj</string>
   <!-- Fragments -->
-  <string name="statusbar">Statusbar</string>
-  <string name="navigation">Navigation Bar</string>
-  <string name="quick_settings">Quick Settings</string>
-  <string name="recents">Recents</string>
-  <string name="power_menu">Power Menu</string>
-  <string name="lockscreen">Lockscreen</string>
+  <string name="statusbar">Pasek stanu</string>
+  <string name="navigation">Pasek nawigacji</string>
+  <string name="quick_settings">Szybkie ustawienia</string>
+  <string name="recents">Ostatnie</string>
+  <string name="power_menu">Menu zasilania </string>
+  <string name="lockscreen">Ekran blokady</string>
   <string name="system">System</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-  <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-  <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-  <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+  <string name="powermenu_reboot_title">Uruchom ponownie</string>
+  <string name="powermenu_advanced_reboot_title">Zaawansowany restart</string>
+  <string name="powermenu_advanced_reboot_summary">Włącza zaawansowane menu restartu w celu ponownego uruchomienia opcji takich jak hot, recovery i bootloader. Dodaje także jako opcję ponownego uruchomienia SystemUI</string>
+  <string name="powermenu_screenshot_title">Zrzut ekranu</string>
+  <string name="powermenu_airplane_title">Tryb samolotowy</string>
+  <string name="powermenu_category_visibility">Ustawienia ekranu blokady</string>
+  <string name="powermenu_lockscreen_title">Widoczność na ekranie blokady</string>
+  <string name="powermenu_lockscreen_summary">Włącz możliwość skorzystania z okna menu zasilania na ekranie blokady</string>
+  <string name="powermenu_ls_reboot_summary">Pokaż opcję restartu na ekranie blokady</string>
+  <string name="powermenu_ls_advanced_reboot_summary">Pokaż opcję zaawansowanego restartu na ekranie blokady</string>
+  <string name="powermenu_ls_screenshot_summary">Pokaż opcję zrzutu ekranu na ekranie blokady</string>
+  <string name="powermenu_ls_airplane_summary">Pokaż opcję trybu samolotowego na ekranie blokady</string>
   <!-- Buttons -->
-  <string name="buttons_title">Buttons</string>
+  <string name="buttons_title">Przycisk</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
-  <string name="general_category">General</string>
-  <string name="lockscreen_category">Lockscreen</string>
-  <string name="notifications_panel_category">Notifications</string>
+  <string name="lockscreen_items_other">Inne</string>
+  <string name="general_category">Główne</string>
+  <string name="lockscreen_category">Ekran blokady</string>
+  <string name="notifications_panel_category">Powiadomienia</string>
   <!-- Frags -->
   <!-- General Tweaks -->
-  <string name="general_tweaks_title">General Tweaks</string>
+  <string name="general_tweaks_title">Ogólne poprawki</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
+  <string name="traffic_title">Wskaźnik ruchu sieciowego</string>
   <!-- Misc Extensions -->
-  <string name="misc_extras_title">Misc Extras</string>
+  <string name="misc_extras_title">Różne dodatki</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Recents UI</string>
-  <string name="aosp_recents_category">AOSP recents</string>
+  <string name="recents_ui_title">Wygląd ostatnich</string>
+  <string name="aosp_recents_category">Ostatnie AOSP</string>
   <!-- Lockscreen UI -->
-  <string name="lockscreen_ui_title">Lockscreen UI</string>
+  <string name="lockscreen_ui_title">Wygląd ekranu blokady</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Statusbar items</string>
+  <string name="statusbar_items_category">Ikony paska stanu</string>
   <!-- Notifications -->
-  <string name="notifications_title">Notifications</string>
+  <string name="notifications_title">Powiadomienia</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Quick Settings</string>
+  <string name="quick_settings_title">Szybkie ustawienia</string>
   <!-- App Ops -->
-  <string name="app_ops_category">App Ops</string>
+  <string name="app_ops_category">Działania aplikacji</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="dialog_color_picker">Próbnik kolorów</string>
+  <string name="press_color_to_apply">Naciśnij na kolor poniżej, aby zastosować</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
-  <string name="hex">Hex:</string>
+  <string name="hex">Wartość szesnastkowa:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">Set</string>
   <string name="color_default">Default</string>
@@ -137,19 +137,19 @@
   <string name="fling_long_swipe_left">Left long swipe</string>
   <string name="fling_right_up_swipe">Right side swipe up</string>
   <string name="fling_left_up_swipe">Left side swipe up</string>
-  <string name="fling_single_tap">Single tap right</string>
-  <string name="fling_double_tap">Double tap right</string>
-  <string name="fling_long_press">Long press right</string>
-  <string name="fling_single_left_tap">Single tap left</string>
-  <string name="fling_double_left_tap">Double tap left</string>
-  <string name="fling_long_left_press">Long press left</string>
-  <string name="long_swipe_portrait_title">Portrait</string>
-  <string name="long_swipe_landscape_title">Landscape</string>
-  <string name="portrait_right_swipe_title">Portrait right swipe</string>
-  <string name="portrait_left_swipe_title">Portrait left swipe</string>
-  <string name="landscape_right_swipe_title">Landscape right swipe</string>
-  <string name="landscape_left_swipe_title">Landscape left swipe</string>
-  <string name="vertical_up_swipe_title">Vertical up swipe</string>
+  <string name="fling_single_tap">Pojedyńcze dotknięcie po prawej</string>
+  <string name="fling_double_tap">Dwukrotne dotknięcie po prawej</string>
+  <string name="fling_long_press">Dlugie przytrzymanie po prawej</string>
+  <string name="fling_single_left_tap">Dotknięcie po lewej</string>
+  <string name="fling_double_left_tap">Dwukrotne dotknięcie po lewej</string>
+  <string name="fling_long_left_press">Dlugie przytrzymanie po lewej</string>
+  <string name="long_swipe_portrait_title">Pionowo</string>
+  <string name="long_swipe_landscape_title">Poziomo</string>
+  <string name="portrait_right_swipe_title">Przesunięcie w prawo w trybie pionowym</string>
+  <string name="portrait_left_swipe_title">Przesunięcie w lewo w trybie pionowym</string>
+  <string name="landscape_right_swipe_title">Przesunięcie w prawo w trybie poziomym</string>
+  <string name="landscape_left_swipe_title">Przesunięcie w lewo w trybie poziomym</string>
+  <string name="vertical_up_swipe_title">Pionowe przesunięcie w górę</string>
   <string name="vertical_down_swipe_title">Vertical down swipe</string>
   <string name="up_swipe_title">Up swipe</string>
   <string name="down_swipe_title">Down swipe</string>
