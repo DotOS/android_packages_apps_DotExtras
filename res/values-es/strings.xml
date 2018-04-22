@@ -18,27 +18,27 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="dotextras_title">DotExtras</string>
-  <string name="build_tweaks_summary_title">Align the Dots In your Style</string>
-  <string name="add">Add</string>
-  <string name="advanced">Advanced</string>
-  <string name="cancel">Cancel</string>
-  <string name="choose_app">Choose app</string>
-  <string name="icons_category">Icons</string>
-  <string name="light_category">Lights</string>
-  <string name="dlg_ok">OK</string>
-  <string name="loading">Loading\u2026</string>
-  <string name="reset">Reset</string>
+  <string name="build_tweaks_summary_title">Alinee los puntos en su estilo</string>
+  <string name="add">Añadir</string>
+  <string name="advanced">Avanzado</string>
+  <string name="cancel">Cancelar </string>
+  <string name="choose_app">Elegir la aplicación</string>
+  <string name="icons_category">Iconos</string>
+  <string name="light_category">Leds</string>
+  <string name="dlg_ok">Aceptar</string>
+  <string name="loading">Cargando</string>
+  <string name="reset">Restaurar</string>
   <!-- Fragments -->
-  <string name="statusbar">Statusbar</string>
-  <string name="navigation">Navigation Bar</string>
-  <string name="quick_settings">Quick Settings</string>
-  <string name="recents">Recents</string>
-  <string name="power_menu">Power Menu</string>
-  <string name="lockscreen">Lockscreen</string>
-  <string name="system">System</string>
+  <string name="statusbar">Barra de estado</string>
+  <string name="navigation">Barra de navegación</string>
+  <string name="quick_settings">Configuración rápida</string>
+  <string name="recents">Recientes</string>
+  <string name="power_menu">Menú de apagado</string>
+  <string name="lockscreen">Bloqueo de pantalla</string>
+  <string name="system">Sistema</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
+  <string name="powermenu_reboot_title">Reiniciar</string>
+  <string name="powermenu_advanced_reboot_title">Reinicio avanzado</string>
   <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
   <string name="powermenu_screenshot_title">Screenshot</string>
   <string name="powermenu_airplane_title">Airplane mode</string>

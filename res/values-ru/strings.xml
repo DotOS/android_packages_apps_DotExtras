@@ -17,36 +17,36 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="dotextras_title">DotExtras</string>
-  <string name="build_tweaks_summary_title">Align the Dots In your Style</string>
-  <string name="add">Add</string>
-  <string name="advanced">Advanced</string>
-  <string name="cancel">Cancel</string>
-  <string name="choose_app">Choose app</string>
-  <string name="icons_category">Icons</string>
-  <string name="light_category">Lights</string>
+  <string name="dotextras_title">Дополнительные настройки Dot</string>
+  <string name="build_tweaks_summary_title">Выравнивание точек в вашем стиле</string>
+  <string name="add">Добавить</string>
+  <string name="advanced">Расширенный</string>
+  <string name="cancel">Отмена</string>
+  <string name="choose_app">Выберите приложение</string>
+  <string name="icons_category">Значки</string>
+  <string name="light_category">Индикация</string>
   <string name="dlg_ok">OK</string>
-  <string name="loading">Loading\u2026</string>
-  <string name="reset">Reset</string>
+  <string name="loading">Загрузка\u2026</string>
+  <string name="reset">Сброс</string>
   <!-- Fragments -->
-  <string name="statusbar">Statusbar</string>
-  <string name="navigation">Navigation Bar</string>
-  <string name="quick_settings">Quick Settings</string>
-  <string name="recents">Recents</string>
-  <string name="power_menu">Power Menu</string>
-  <string name="lockscreen">Lockscreen</string>
-  <string name="system">System</string>
+  <string name="statusbar">Строка состояния</string>
+  <string name="navigation">Панель навигации</string>
+  <string name="quick_settings">Быстрые настройки</string>
+  <string name="recents">Недавние</string>
+  <string name="power_menu">Меню выключения</string>
+  <string name="lockscreen">Экран блокировки</string>
+  <string name="system">Системa</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-  <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
+  <string name="powermenu_reboot_title">Перезагрузка</string>
+  <string name="powermenu_advanced_reboot_title">Расширенная перезагрузка</string>
+  <string name="powermenu_advanced_reboot_summary">Открывает меню расширенной перезагрузки с такими опциями, как: быстрая перезагрузка, режим восстановления и загрузчик. Также дает возможность перезапуска интерфейса системы</string>
+  <string name="powermenu_screenshot_title">Снимок экрана</string>
+  <string name="powermenu_airplane_title">Режим полёта</string>
+  <string name="powermenu_category_visibility">Опции экрана блокировки</string>
+  <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
+  <string name="powermenu_lockscreen_summary">Включить возможность отображения и использования диалога меню питания во время блокировки экрана</string>
+  <string name="powermenu_ls_reboot_summary">Показывать меню перезагрузки на экране блокировки</string>
+  <string name="powermenu_ls_advanced_reboot_summary">Показывать расширенное меню перезагрузки на экране блокировки</string>
   <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
   <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
   <!-- Buttons -->
