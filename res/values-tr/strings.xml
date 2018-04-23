@@ -120,7 +120,7 @@
   <string name="choose_action_title">Eylem seçin</string>
   <string name="action_entry_default_action">Varsayılan ayarlar</string>
   <string name="action_entry_select_app">Uygulama seç</string>
-  <string name="action_entry_custom_action">Özel eylem seç</string>
+  <string name="action_entry_custom_action">Özel eylem seçin</string>
   <!-- Fling -->
   <string name="fling_settings">Fling ayarları</string>
   <string name="fling_settings_summary">Çok özgün ve tamamen özelleştirilebilir hareket tabanlı bir gezinme çubuğu</string>

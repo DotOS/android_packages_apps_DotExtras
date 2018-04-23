@@ -19,43 +19,43 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="dotextras_title">DotExtras</string>
   <string name="build_tweaks_summary_title">Align the Dots In your Style</string>
-  <string name="add">Add</string>
+  <string name="add">新增</string>
   <string name="advanced">Advanced</string>
-  <string name="cancel">Cancel</string>
-  <string name="choose_app">Choose app</string>
-  <string name="icons_category">Icons</string>
+  <string name="cancel">取消</string>
+  <string name="choose_app">選擇應用程式</string>
+  <string name="icons_category">圖示</string>
   <string name="light_category">Lights</string>
-  <string name="dlg_ok">OK</string>
+  <string name="dlg_ok">確定</string>
   <string name="loading">Loading\u2026</string>
-  <string name="reset">Reset</string>
+  <string name="reset">重設</string>
   <!-- Fragments -->
-  <string name="statusbar">Statusbar</string>
+  <string name="statusbar">狀態列</string>
   <string name="navigation">Navigation Bar</string>
-  <string name="quick_settings">Quick Settings</string>
+  <string name="quick_settings">快速設定面板</string>
   <string name="recents">Recents</string>
-  <string name="power_menu">Power Menu</string>
-  <string name="lockscreen">Lockscreen</string>
-  <string name="system">System</string>
+  <string name="power_menu">電源選單</string>
+  <string name="lockscreen">鎖定畫面</string>
+  <string name="system">系統</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
+  <string name="powermenu_reboot_title">重新啟動</string>
+  <string name="powermenu_advanced_reboot_title">進階重新啟動</string>
   <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
+  <string name="powermenu_screenshot_title">螢幕擷取</string>
+  <string name="powermenu_airplane_title">飛航模式</string>
+  <string name="powermenu_category_visibility">鎖定畫面配置</string>
   <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
   <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-  <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-  <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-  <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+  <string name="powermenu_ls_reboot_summary">在鎖定畫面上顯示重新啟動選項</string>
+  <string name="powermenu_ls_advanced_reboot_summary">在鎖定畫面上顯示進階重新啟動選項</string>
+  <string name="powermenu_ls_screenshot_summary">在鎖定畫面上顯示螢幕擷取畫面選項</string>
+  <string name="powermenu_ls_airplane_summary">在鎖定畫面上顯示飛航模式選項</string>
   <!-- Buttons -->
-  <string name="buttons_title">Buttons</string>
+  <string name="buttons_title">按鍵</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
-  <string name="general_category">General</string>
-  <string name="lockscreen_category">Lockscreen</string>
-  <string name="notifications_panel_category">Notifications</string>
+  <string name="lockscreen_items_other">其它</string>
+  <string name="general_category">一般</string>
+  <string name="lockscreen_category">鎖定畫面</string>
+  <string name="notifications_panel_category">通知</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <string name="general_tweaks_title">General Tweaks</string>

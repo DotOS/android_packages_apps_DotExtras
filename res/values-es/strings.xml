@@ -39,74 +39,74 @@
   <!-- Power Menu -->
   <string name="powermenu_reboot_title">Reiniciar</string>
   <string name="powermenu_advanced_reboot_title">Reinicio avanzado</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
+  <string name="powermenu_advanced_reboot_summary">Habilita el menú de reinicio avanzado para reiniciar opciones tales como hot, recovery y bootloader. También se agrega como una opción para reiniciar SystemUI</string>
+  <string name="powermenu_screenshot_title">Captura de pantalla</string>
+  <string name="powermenu_airplane_title">Modo avión</string>
+  <string name="powermenu_category_visibility">Opciones de pantalla de bloqueo</string>
+  <string name="powermenu_lockscreen_title">Visibilidad en la pantalla de bloqueo</string>
+  <string name="powermenu_lockscreen_summary">Habilitar la capacidad para mostrar y usar el menú de apagado en la pantalla de bloqueo</string>
+  <string name="powermenu_ls_reboot_summary">Mostrar la opción de reinicio en la pantalla de bloqueo</string>
   <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
   <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
   <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
   <!-- Buttons -->
-  <string name="buttons_title">Buttons</string>
+  <string name="buttons_title">Botones</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
+  <string name="lockscreen_items_other">Otro</string>
   <string name="general_category">General</string>
-  <string name="lockscreen_category">Lockscreen</string>
-  <string name="notifications_panel_category">Notifications</string>
+  <string name="lockscreen_category">Pantalla de bloqueo</string>
+  <string name="notifications_panel_category">Notificaciones</string>
   <!-- Frags -->
   <!-- General Tweaks -->
-  <string name="general_tweaks_title">General Tweaks</string>
+  <string name="general_tweaks_title">Ajustes generales</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
+  <string name="traffic_title">Indicadores de tráfico</string>
   <!-- Misc Extensions -->
-  <string name="misc_extras_title">Misc Extras</string>
+  <string name="misc_extras_title">Extras</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Recents UI</string>
-  <string name="aosp_recents_category">AOSP recents</string>
+  <string name="recents_ui_title">Interfaz de usuario de recientes</string>
+  <string name="aosp_recents_category">Recientes de AOSP</string>
   <!-- Lockscreen UI -->
-  <string name="lockscreen_ui_title">Lockscreen UI</string>
+  <string name="lockscreen_ui_title">Interfaz de la pantalla de bloqueo</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Statusbar items</string>
+  <string name="statusbar_items_category">Elementos de la barra de estado</string>
   <!-- Notifications -->
-  <string name="notifications_title">Notifications</string>
+  <string name="notifications_title">Notificaciones</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Quick Settings</string>
+  <string name="quick_settings_title">Configuración rápida</string>
   <!-- App Ops -->
   <string name="app_ops_category">App Ops</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="dialog_color_picker">Selector de Color</string>
+  <string name="press_color_to_apply">Pulsa sobre el color debajo para aplicar</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
-  <string name="color_default">Default</string>
+  <string name="set">Establecer</string>
+  <string name="color_default">Predeterminado</string>
   <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Immersive Recents</string>
-  <string name="immersive_recents_summary">Change the view of the recents screen</string>
-  <string name="immersive_recents_dialog_title">Select recents view</string>
-  <string name="immersive_recents_default">Default</string>
-  <string name="immersive_recents_fullscreen">Fullscreen</string>
-  <string name="immersive_recents_statusbar">Statusbar only</string>
-  <string name="immersive_recents_navbar">Navbar only</string>
+  <string name="immersive_recents_title">Modo Inmersivo en la pantalla de Recientes</string>
+  <string name="immersive_recents_summary">Cambiar la vista de la pantalla de recientes</string>
+  <string name="immersive_recents_dialog_title">Seleccione la vista de recientes</string>
+  <string name="immersive_recents_default">Predeterminado</string>
+  <string name="immersive_recents_fullscreen">Pantalla completa</string>
+  <string name="immersive_recents_statusbar">Solo barra de estado</string>
+  <string name="immersive_recents_navbar">Sólo barra de navegación</string>
   <!-- DUI -->
   <!-- Navigation -->
-  <string name="navigationbar_settings_title">Navigation bar</string>
-  <string name="navbar_interface_title">Interface</string>
-  <string name="navbar_size">Bar size</string>
-  <string name="navbar_mode">Navigation mode</string>
-  <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
-  <string name="navbar_visibility">Allow navigation bar</string>
+  <string name="navigationbar_settings_title">Barra de navegación</string>
+  <string name="navbar_interface_title">Interfaz</string>
+  <string name="navbar_size">Tamaño de la barra</string>
+  <string name="navbar_mode">Modo de navegación</string>
+  <string name="navbar_mode_summary">Seleccione qué modo de navegación usar en tu dispositivo</string>
+  <string name="navbar_visibility">Permitir barra de navegación</string>
   <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
-  <string name="navbar_general_title">Advanced</string>
-  <string name="navigation_bar_left_title">Left-handed mode</string>
+  <string name="navbar_general_title">Avanzado</string>
+  <string name="navigation_bar_left_title">Modo para zurdos</string>
   <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
-  <string name="smartbar_interface">SmartBar</string>
-  <string name="icon_pack_picker_dialog_title">Icon packs</string>
+  <string name="smartbar_interface">Barra inteligente</string>
+  <string name="icon_pack_picker_dialog_title">Paquete de iconos</string>
   <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
   <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
   <string name="picker_activities">Activities</string>
@@ -114,12 +114,12 @@
   <string name="select_custom_activity_title">Select custom activity</string>
   <string name="profile_applist_title">Applications</string>
   <string name="default_string">Stock</string>
-  <string name="default_settings">Stock settings</string>
-  <string name="default_settings_summary">Stock AOSP navigation bar</string>
+  <string name="default_settings">Ajustes predeterminados</string>
+  <string name="default_settings_summary">Barra de navegación AOSP predeterminada</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
-  <string name="choose_action_title">Choose action</string>
-  <string name="action_entry_default_action">Default settings</string>
-  <string name="action_entry_select_app">Select application</string>
+  <string name="choose_action_title">Seleccionar acción</string>
+  <string name="action_entry_default_action">Ajustes predeterminados</string>
+  <string name="action_entry_select_app">Seleccionar aplicación</string>
   <string name="action_entry_custom_action">Select custom action</string>
   <!-- Fling -->
   <string name="fling_settings">Fling settings</string>
@@ -151,23 +151,23 @@
   <string name="landscape_left_swipe_title">Landscape left swipe</string>
   <string name="vertical_up_swipe_title">Vertical up swipe</string>
   <string name="vertical_down_swipe_title">Vertical down swipe</string>
-  <string name="up_swipe_title">Up swipe</string>
-  <string name="down_swipe_title">Down swipe</string>
-  <string name="long_swipe_reset">Reset</string>
-  <string name="fling_advanced">Advanced</string>
+  <string name="up_swipe_title">Deslizar hacia arriba</string>
+  <string name="down_swipe_title">Deslizar hacia abajo</string>
+  <string name="long_swipe_reset">Reestablecer</string>
+  <string name="fling_advanced">Avanzado</string>
   <string name="fling_long_swipe_title">Long swipe thresholds</string>
   <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
-  <string name="fling_trails_enable_title">Enable gesture trails</string>
+  <string name="fling_trails_enable_title">Habilitar rutas de gesto</string>
   <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
   <string name="fling_trails_color_title">Trail color</string>
   <string name="fling_trails_width_title">Trail width</string>
   <string name="fling_appearance">Appearance</string>
   <string name="fling_show_logo_title">Show Fling logo</string>
   <string name="fling_animate_logo_title">Animate logo</string>
-  <string name="fling_animate_logo_summary">Logo animates on touch events</string>
-  <string name="fling_logo_color">Logo color</string>
-  <string name="fling_logo_custom_logo_pick_title">Custom logo icon</string>
-  <string name="fling_logo_custom_logo_image_pick_title">Custom logo image</string>
+  <string name="fling_animate_logo_summary">La animación del logo se activa en eventos táctiles</string>
+  <string name="fling_logo_color">Color del logo</string>
+  <string name="fling_logo_custom_logo_pick_title">Icono de logo personalizado</string>
+  <string name="fling_logo_custom_logo_image_pick_title">Imagen de logotipo personalizado</string>
   <string name="fling_logo_custom_logo_reset_title">Reset logo icon</string>
   <string name="fling_show_ripple_title">Show ripple</string>
   <string name="fling_show_ripple_summary">Ripple effect on touch events</string>
@@ -198,12 +198,12 @@
   <string name="fling_show_pulse_summary">Audio graphic equalizer on the navigation bar</string>
   <string name="pulse_render_mode_title">Render mode</string>
   <string name="pulse_render_mode_fading_bars">Fading blocks</string>
-  <string name="pulse_render_mode_solid_lines">Solid lines</string>
-  <string name="fling_pulse_color">Pulse color</string>
+  <string name="pulse_render_mode_solid_lines">Líneas sólidas</string>
+  <string name="fling_pulse_color">Color de Pulse</string>
   <string name="fling_pulse_color_summary">Used also as fallback for automatic color</string>
-  <string name="eos_fling_lavalamp_title">Turn on Lava Lamp</string>
+  <string name="eos_fling_lavalamp_title">Encender la lámpara de lava</string>
   <string name="eos_fling_lavalamp_summary">Pulse animates a smooth lava lamp style color blend</string>
-  <string name="pulse_advanced_category">Advanced</string>
+  <string name="pulse_advanced_category">Avanzado</string>
   <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
   <string name="pulse_custom_fudge_factor">Sanity level</string>
   <string name="lavamp_solid_speed_title">Lava Lamp speed</string>
@@ -224,7 +224,7 @@
   <string name="portrait_title">Portrait height</string>
   <string name="land_vert_title">Landscape width</string>
   <string name="land_hor_title">Landscape height</string>
-  <string name="positive_done">Done</string>
+  <string name="positive_done">Listo</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Smartbar</string>
   <string name="smartbar_settings_title">Smartbar settings</string>
@@ -234,8 +234,8 @@
   <string name="smartbar_help_policy_notice_summary">When in editor mode, medium press and drag a button to change its position or long press a button to show the edit menu. Button position may be changed while menu is showing.\n\nSetting a double tap action will delay single tap a bit.</string>
   <string name="smartbar_context_menu_position_title">Context buttons layout position</string>
   <string name="smartbar_context_menu_position_summary">Set the position of contextual buttons such as menu and ime selector</string>
-  <string name="smartbar_right">Right</string>
-  <string name="smartbar_left">Left</string>
+  <string name="smartbar_right">Derecha</string>
+  <string name="smartbar_left">Izquierda</string>
   <string name="smartbar_button_animation_title">Button touch animation</string>
   <string name="smartbar_button_animation_summary">Set the animation style of the primary buttons when they are pressed</string>
   <string name="smartbar_button_animation_ripple">Ripple</string>
@@ -274,24 +274,24 @@
   <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Battery charging light</string>
-  <string name="battery_light_enable">Battery light</string>
+  <string name="battery_light_enable">Led de batería</string>
   <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
   <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
   <string name="battery_light_cat">Battery light color when charging</string>
-  <string name="battery_light_low_color">Low battery</string>
-  <string name="battery_light_medium_color">Medium battery</string>
-  <string name="battery_light_full_color">Almost full battery</string>
-  <string name="battery_light_reallyfull_color">Full (100) battery</string>
+  <string name="battery_light_low_color">Batería baja</string>
+  <string name="battery_light_medium_color">Batería a la mitad</string>
+  <string name="battery_light_full_color">Batería casi llena</string>
+  <string name="battery_light_reallyfull_color">Batería cargada (100%)</string>
   <!-- Network traffic -->
-  <string name="network_traffic_title">Network traffic</string>
-  <string name="network_traffic_type">Select net activity type</string>
-  <string name="show_network_traffic_up">Uplink</string>
-  <string name="show_network_traffic_down">Downlink</string>
-  <string name="show_network_traffic_all">Uplink and Downlink</string>
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
+  <string name="network_traffic_title">Tráfico de red</string>
+  <string name="network_traffic_type">Seleccionar el tipo de actividad de red</string>
+  <string name="show_network_traffic_up">Subida</string>
+  <string name="show_network_traffic_down">Bajada</string>
+  <string name="show_network_traffic_all">Subida y Bajada</string>
+  <string name="network_traffic_state_title">Mostrar actividad de la red en la barra de estado</string>
   <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
   <!-- Memory bar -->
-  <string name="recents_show_membar_title">Memory bar</string>
+  <string name="recents_show_membar_title">Barra de memoria</string>
   <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
   <!-- Toast icons -->
   <string name="toast_icon_title">Toast icon</string>
@@ -300,40 +300,40 @@
   <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
   <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Navbar Tuner</string>
+  <string name="navbar_tuner_title">Configuración Barra de Navegación</string>
   <!-- Lockscreen Tweaks -->
-  <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
+  <string name="lockscreen_tuner_title">Personalizar pantalla de bloqueo</string>
   <!-- Double Tap Lockscreen to Sleep -->
-  <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
+  <string name="double_tap_to_sleep_lockscreen_title">Doble toque en la pantalla de bloqueo para bloquear</string>
   <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
   <!-- Double tap-to-sleep -->
-  <string name="double_tap_to_sleep_title">Status bar</string>
-  <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+  <string name="double_tap_to_sleep_title">Barra de estado</string>
+  <string name="double_tap_to_sleep_summary">Bloquear dispositivo mediante un doble toque sobre la barra de estado</string>
   <!-- Brightness control -->
-  <string name="status_bar_toggle_brightness">Brightness control</string>
+  <string name="status_bar_toggle_brightness">Ajuste de brillo</string>
   <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
   <!-- Status bar clock options -->
-  <string name="status_bar_clock">Clock and Date</string>
+  <string name="status_bar_clock">Fecha y Hora</string>
   <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
   <string name="clock_title_enable">Alignment</string>
-  <string name="clock_enabled">Enabled</string>
-  <string name="clock_disabled">Disabled</string>
-  <string name="status_bar_clock_style_reset">Reset color</string>
-  <string name="status_bar_show_clock_title">Show clock and date</string>
-  <string name="status_bar_clock_seconds_title">Show seconds</string>
+  <string name="clock_enabled">Habilitado</string>
+  <string name="clock_disabled">Desabilitado</string>
+  <string name="status_bar_clock_style_reset">Restablecer color</string>
+  <string name="status_bar_show_clock_title">Mostrar fecha y hora</string>
+  <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
   <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-  <string name="enable_clock_weekday">Day of the week</string>
+  <string name="status_bar_am_pm_info">Reloj 24-horas habilitado</string>
+  <string name="enable_clock_weekday">Día de la semana</string>
   <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
-  <string name="right_clock">Right clock</string>
-  <string name="center_clock">Center clock</string>
-  <string name="left_clock">Left clock</string>
-  <string name="dont_show">Don\'t show</string>
-  <string name="clock_date_display">Date</string>
+  <string name="right_clock">Reloj a la derecha</string>
+  <string name="center_clock">Reloj en el centro</string>
+  <string name="left_clock">Reloj en la izquierda</string>
+  <string name="dont_show">No mostrar</string>
+  <string name="clock_date_display">Fecha</string>
   <string name="clock_date_display_summary">Display custom date before the clock</string>
-  <string name="clock_date_style">Date style</string>
-  <string name="clock_date_format">Date format</string>
-  <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+  <string name="clock_date_style">Estilo de la fecha</string>
+  <string name="clock_date_format">Formato de la fecha</string>
+  <string name="clock_date_string_edittext_title">Debe estar en FormatoFecha ej. dd/MM/yy</string>
   <string name="clock_date_string_edittext_summary">Enter string</string>
   <string name="am_pm_clock_normal">Normal font size</string>
   <string name="am_pm_clock_small">Small font size</string>
@@ -463,7 +463,7 @@
   <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
   <string name="status_bar_show_image">Show image</string>
   <!-- Lockscreen Weather -->
-  <string name="lock_screen_weather_category_title">Lockscreen</string>
+  <string name="lock_screen_weather_category_title">Pantalla de bloqueo</string>
   <string name="lock_screen_show_weather_title">Weather display</string>
   <string name="lock_screen_show_weather_summaryOn">Weather is shown on Lockscreen</string>
   <string name="lock_screen_show_weather_summaryOff">Weather is hidden on Lockscreen</string>
