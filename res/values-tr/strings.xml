@@ -98,7 +98,7 @@
   <string name="navigationbar_settings_title">Gezinme çubuğu</string>
   <string name="navbar_interface_title">Arayüz</string>
   <string name="navbar_size">Çubuk boyutu</string>
-  <string name="navbar_mode">Gezinme çubuğu modu</string>
+  <string name="navbar_mode">Gezinme modu</string>
   <string name="navbar_mode_summary">Kullanmak istediğiniz gezinme çubuğu modunu seçin</string>
   <string name="navbar_visibility">Gezinme çubuğunu etkinleştir</string>
   <string name="navigationbar_settings_summary">Gezinme çubuğu stilini ve davranışını özelleştirme</string>
