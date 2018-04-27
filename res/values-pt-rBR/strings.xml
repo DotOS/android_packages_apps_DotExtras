@@ -327,6 +327,7 @@
   <string name="navbar_tuner_title">Sintonizador da barra de navegação</string>
   <!-- Lockscreen Tweaks -->
   <string name="lockscreen_tuner_title">Sintonizador da tela de bloqueio</string>
+  <string name="hide_lockscreen_items_title">Lockscreen items</string>
   <!-- Double Tap Lockscreen to Sleep -->
   <string name="double_tap_to_sleep_lockscreen_title">Toque duas vezes na tela de bloqueio para desligar</string>
   <string name="double_tap_to_sleep_lockscreen_summary">Toque duas vezes na área superior ou inferior da tela de bloqueio para desligar a tela</string>
@@ -482,4 +483,7 @@
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Indicador de roaming ativado</string>
   <string name="roaming_indicator_icon_summary">Exibir o indicador de roaming no ícone de sinal quando em modo de roaming</string>
+  <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+  <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 </resources>
