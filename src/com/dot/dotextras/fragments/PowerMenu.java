@@ -63,7 +63,7 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
 
         mPowerMenuAdvancedReboot = (SwitchPreference) findPreference(KEY_POWERMENU_LS_ADVANCED_REBOOT);
         mPowerMenuAdvancedReboot.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.POWERMENU_LS_ADVANCED_REBOOT, 0) == 1));
+                Settings.System.POWERMENU_LS_ADVANCED_REBOOT, 1) == 1));
         mPowerMenuAdvancedReboot.setOnPreferenceChangeListener(this);
 
         mPowerMenuScreenshot = (SwitchPreference) findPreference(KEY_POWERMENU_LS_SCREENSHOT);
