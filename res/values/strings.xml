@@ -595,4 +595,8 @@
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+
+    <!-- Brightness icon-->
+    <string name="brightness_icon_title">Brightness icon </string>
+    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
 </resources>
