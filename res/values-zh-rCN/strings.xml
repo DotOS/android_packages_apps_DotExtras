@@ -327,7 +327,7 @@
   <string name="navbar_tuner_title">导航栏调节</string>
   <!-- Lockscreen Tweaks -->
   <string name="lockscreen_tuner_title">锁屏界面调节</string>
-  <string name="hide_lockscreen_items_title">Lockscreen items</string>
+  <string name="hide_lockscreen_items_title">锁屏项目</string>
   <!-- Double Tap Lockscreen to Sleep -->
   <string name="double_tap_to_sleep_lockscreen_title">双击锁屏界面休眠</string>
   <string name="double_tap_to_sleep_lockscreen_summary">连续点按锁屏界面上方或下方快捷方式区域来使设备睡眠</string>
@@ -484,6 +484,62 @@
   <string name="roaming_indicator_icon_title">漫游标志</string>
   <string name="roaming_indicator_icon_summary">漫游时在信号图标处显示漫游标志</string>
   <!-- Lockscreen battery info indicator  -->
-  <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-  <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+  <string name="lockscreen_battery_info_title">锁屏充电信息</string>
+  <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示适配充电器的最大电流电压以及电池温度</string>
+  <!-- Heads up -->
+  <string name="headsup_category">HeadsUp Settings</string>
+  <string name="heads_up_notifications">Heads up</string>
+  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+  <string name="add_heads_up_package">Add app</string>
+  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
+  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+  <string name="heads_up_stoplist_title">Stoplist</string>
+  <string name="heads_up_blacklist_title">Blacklist</string>
+  <string name="profile_choose_app">Choose app</string>
+  <string name="dialog_delete_title">Delete</string>
+  <string name="dialog_delete_message">Remove selected item?</string>
+  <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Time out</string>
+  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+  <string name="heads_up_time_out_2sec">2 seconds</string>
+  <string name="heads_up_time_out_4sec">4 seconds</string>
+  <string name="heads_up_time_out_5sec">5 seconds</string>
+  <string name="heads_up_time_out_6sec">6 seconds</string>
+  <string name="heads_up_time_out_8sec">8 seconds</string>
+  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <!-- Heads up snooze -->
+  <string name="heads_up_snooze_title">Snooze timer</string>
+  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
+  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+  <string name="heads_up_snooze_1min">1 minute</string>
+  <string name="heads_up_snooze_5min">5 minutes</string>
+  <string name="heads_up_snooze_10min">10 minutes</string>
+  <string name="heads_up_snooze_15min">15 minutes</string>
+  <string name="heads_up_snooze_20min">20 minutes</string>
+  <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+  <string name="torch_power_button_gesture_none">Disabled</string>
+  <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+  <!-- Brightness icon-->
+  <string name="brightness_icon_title">Brightness icon </string>
+  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <!-- Quick pull down-->
+  <string name="quick_pulldown_title">Quick pulldown</string>
+  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+  <string name="quick_pulldown_off">Off</string>
+  <string name="quick_pulldown_left">Left</string>
+  <string name="quick_pulldown_right">Right</string>
+  <string name="quick_pulldown_always">Always</string>
+  <!-- Smart pulldown-->
+  <string name="smart_pulldown_title">Smart pulldown</string>
+  <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
+  <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
+  <string name="smart_pulldown_off">Off</string>
+  <string name="smart_pulldown_none">no notifications</string>
+  <string name="smart_pulldown_dismissable">no dismissable</string>
+  <string name="smart_pulldown_ongoing">no ongoing</string>
 </resources>

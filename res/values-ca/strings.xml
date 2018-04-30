@@ -19,66 +19,66 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="dotextras_title">DotExtras</string>
   <string name="build_tweaks_summary_title">Align the Dots In your Style</string>
-  <string name="add">Add</string>
-  <string name="advanced">Advanced</string>
-  <string name="cancel">Cancel</string>
-  <string name="choose_app">Choose app</string>
-  <string name="icons_category">Icons</string>
+  <string name="add">Afegeix</string>
+  <string name="advanced">Avançat</string>
+  <string name="cancel">Cancelar</string>
+  <string name="choose_app">Escull l\'aplicació</string>
+  <string name="icons_category">Icones</string>
   <string name="light_category">Lights</string>
-  <string name="dlg_ok">OK</string>
-  <string name="loading">Loading\u2026</string>
-  <string name="reset">Reset</string>
+  <string name="dlg_ok">D\'acord</string>
+  <string name="loading">Carregant\u2026</string>
+  <string name="reset">Restablir</string>
   <!-- Fragments -->
-  <string name="statusbar">Statusbar</string>
-  <string name="navigation">Navigation Bar</string>
-  <string name="quick_settings">Quick Settings</string>
+  <string name="statusbar">Barra d\'estat</string>
+  <string name="navigation">Barra de navegació</string>
+  <string name="quick_settings">Configuració ràpida</string>
   <string name="recents">Recents</string>
-  <string name="power_menu">Power Menu</string>
-  <string name="lockscreen">Lockscreen</string>
-  <string name="system">System</string>
+  <string name="power_menu">Menú d\'energia</string>
+  <string name="lockscreen">Pantalla de bloqueig</string>
+  <string name="system">Sistema</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-  <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-  <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-  <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+  <string name="powermenu_reboot_title">Reinicia</string>
+  <string name="powermenu_advanced_reboot_title">Reinici avançat</string>
+  <string name="powermenu_advanced_reboot_summary">Permet el menú avançat de reinici per tornar a arrencar amb opcions com el reinici en calent, recovery i bootloader. També s\'afegeix com a opció per reiniciar la interfície del sistema</string>
+  <string name="powermenu_screenshot_title">Captura de pantalla</string>
+  <string name="powermenu_airplane_title">Mode avió</string>
+  <string name="powermenu_category_visibility">Opcions de la pantalla de bloqueig</string>
+  <string name="powermenu_lockscreen_title">Visibilitat en la pantalla de bloqueig</string>
+  <string name="powermenu_lockscreen_summary">Habilitar la funció de mostrar i utilitzar el menú d\'apagada a la pantalla de bloqueig</string>
+  <string name="powermenu_ls_reboot_summary">Mostra l\'opció de reiniciar a la pantalla de bloqueig</string>
+  <string name="powermenu_ls_advanced_reboot_summary">Mostra l\'opció avançada de reinici a la pantalla de bloqueig</string>
+  <string name="powermenu_ls_screenshot_summary">Mostra l\'opció de captura de pantalla a la pantalla de bloqueig</string>
+  <string name="powermenu_ls_airplane_summary">Mostra l\'opció del mode avió a la pantalla de bloqueig</string>
   <!-- Buttons -->
-  <string name="buttons_title">Buttons</string>
+  <string name="buttons_title">Butons</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
+  <string name="lockscreen_items_other">Altres</string>
   <string name="general_category">General</string>
-  <string name="lockscreen_category">Lockscreen</string>
-  <string name="notifications_panel_category">Notifications</string>
+  <string name="lockscreen_category">Pantalla de bloqueix</string>
+  <string name="notifications_panel_category">Notificacions</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <string name="general_tweaks_title">General Tweaks</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
+  <string name="traffic_title">Indicadors de transit</string>
   <!-- Misc Extensions -->
   <string name="misc_extras_title">Misc Extras</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">Recents UI</string>
-  <string name="aosp_recents_category">AOSP recents</string>
+  <string name="aosp_recents_category">Recents d\'AOSP</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Lockscreen UI</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Statusbar items</string>
+  <string name="statusbar_items_category">Elements de la barra d\'estat</string>
   <!-- Notifications -->
-  <string name="notifications_title">Notifications</string>
+  <string name="notifications_title">Notificacions</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Quick Settings</string>
+  <string name="quick_settings_title">Configuració ràpida</string>
   <!-- App Ops -->
   <string name="app_ops_category">App Ops</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="dialog_color_picker">Selector de colors</string>
+  <string name="press_color_to_apply">Premeu el color de sota per aplicar</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
@@ -130,38 +130,38 @@
   <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar.</string>
   <string name="fling_def_summary">No action set</string>
   <string name="fling_swipe_actions">Swipe gestures</string>
-  <string name="fling_tap_actions">Tap gestures</string>
-  <string name="fling_short_swipe_right">Right short swipe</string>
-  <string name="fling_short_swipe_left">Left short swipe</string>
-  <string name="fling_long_swipe_right">Right long swipe</string>
-  <string name="fling_long_swipe_left">Left long swipe</string>
-  <string name="fling_right_up_swipe">Right side swipe up</string>
-  <string name="fling_left_up_swipe">Left side swipe up</string>
-  <string name="fling_single_tap">Single tap right</string>
-  <string name="fling_double_tap">Double tap right</string>
-  <string name="fling_long_press">Long press right</string>
-  <string name="fling_single_left_tap">Single tap left</string>
-  <string name="fling_double_left_tap">Double tap left</string>
-  <string name="fling_long_left_press">Long press left</string>
-  <string name="long_swipe_portrait_title">Portrait</string>
-  <string name="long_swipe_landscape_title">Landscape</string>
-  <string name="portrait_right_swipe_title">Portrait right swipe</string>
-  <string name="portrait_left_swipe_title">Portrait left swipe</string>
-  <string name="landscape_right_swipe_title">Landscape right swipe</string>
-  <string name="landscape_left_swipe_title">Landscape left swipe</string>
-  <string name="vertical_up_swipe_title">Vertical up swipe</string>
-  <string name="vertical_down_swipe_title">Vertical down swipe</string>
-  <string name="up_swipe_title">Up swipe</string>
-  <string name="down_swipe_title">Down swipe</string>
-  <string name="long_swipe_reset">Reset</string>
-  <string name="fling_advanced">Advanced</string>
-  <string name="fling_long_swipe_title">Long swipe thresholds</string>
+  <string name="fling_tap_actions">Gestos al tocar</string>
+  <string name="fling_short_swipe_right">Lliscament curt a la dreta</string>
+  <string name="fling_short_swipe_left">Lliscament curt a la esquerra</string>
+  <string name="fling_long_swipe_right">Lliscament llarg a la dreta</string>
+  <string name="fling_long_swipe_left">Lliscament llarg a la esquerra</string>
+  <string name="fling_right_up_swipe">Lliscar des de la dreta cap amunt</string>
+  <string name="fling_left_up_swipe">Lliscar des de la esquerra cap amunt</string>
+  <string name="fling_single_tap">Un toc a la dreta</string>
+  <string name="fling_double_tap">Doble toc a la dreta</string>
+  <string name="fling_long_press">Pulsació llarga en la dreta</string>
+  <string name="fling_single_left_tap">Un toc a l\'esquerra</string>
+  <string name="fling_double_left_tap">Doble toc a la esquerra</string>
+  <string name="fling_long_left_press">Pulsació llarga en la esquerra</string>
+  <string name="long_swipe_portrait_title">Vertical</string>
+  <string name="long_swipe_landscape_title">Horitzontal</string>
+  <string name="portrait_right_swipe_title">Lliscar a la dreta en vertical</string>
+  <string name="portrait_left_swipe_title">Lliscar a la esquerra en vertical</string>
+  <string name="landscape_right_swipe_title">Lliscar a la dreta en horitzontal</string>
+  <string name="landscape_left_swipe_title">Lliscar a la esquerra en horitzontal</string>
+  <string name="vertical_up_swipe_title">Lliscar cap amunt en vertical</string>
+  <string name="vertical_down_swipe_title">Lliscar cap avall en vertical</string>
+  <string name="up_swipe_title">Deslliça cap amunt</string>
+  <string name="down_swipe_title">Deslliça cap avall</string>
+  <string name="long_swipe_reset">Restablir</string>
+  <string name="fling_advanced">Avançat</string>
+  <string name="fling_long_swipe_title">Llindar de lliscament llarg</string>
   <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
   <string name="fling_trails_enable_title">Enable gesture trails</string>
   <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
-  <string name="fling_trails_color_title">Trail color</string>
+  <string name="fling_trails_color_title">Color de la ruta</string>
   <string name="fling_trails_width_title">Trail width</string>
-  <string name="fling_appearance">Appearance</string>
+  <string name="fling_appearance">Aparença</string>
   <string name="fling_show_logo_title">Show Fling logo</string>
   <string name="fling_animate_logo_title">Animate logo</string>
   <string name="fling_animate_logo_summary">Logo animates on touch events</string>
@@ -172,8 +172,8 @@
   <string name="fling_show_ripple_title">Show ripple</string>
   <string name="fling_show_ripple_summary">Ripple effect on touch events</string>
   <string name="fling_ripple_color">Ripple color</string>
-  <string name="fling_longpress_timeout_label_left">Less delay</string>
-  <string name="fling_longpress_timeout_label_right">More delay</string>
+  <string name="fling_longpress_timeout_label_left">Menys retard</string>
+  <string name="fling_longpress_timeout_label_right">Més retard</string>
   <string name="fling_longpress_title">Long press delay</string>
   <string name="fling_longpress_summary">Increase or decrease the time it takes to execute a long press</string>
   <string name="fling_keyboard_cursors_title">Dynamic keyboard cursors action</string>
@@ -486,4 +486,60 @@
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
   <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+  <!-- Heads up -->
+  <string name="headsup_category">HeadsUp Settings</string>
+  <string name="heads_up_notifications">Heads up</string>
+  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+  <string name="add_heads_up_package">Add app</string>
+  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
+  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+  <string name="heads_up_stoplist_title">Stoplist</string>
+  <string name="heads_up_blacklist_title">Blacklist</string>
+  <string name="profile_choose_app">Choose app</string>
+  <string name="dialog_delete_title">Delete</string>
+  <string name="dialog_delete_message">Remove selected item?</string>
+  <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Time out</string>
+  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+  <string name="heads_up_time_out_2sec">2 seconds</string>
+  <string name="heads_up_time_out_4sec">4 seconds</string>
+  <string name="heads_up_time_out_5sec">5 seconds</string>
+  <string name="heads_up_time_out_6sec">6 seconds</string>
+  <string name="heads_up_time_out_8sec">8 seconds</string>
+  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <!-- Heads up snooze -->
+  <string name="heads_up_snooze_title">Snooze timer</string>
+  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
+  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+  <string name="heads_up_snooze_1min">1 minute</string>
+  <string name="heads_up_snooze_5min">5 minutes</string>
+  <string name="heads_up_snooze_10min">10 minutes</string>
+  <string name="heads_up_snooze_15min">15 minutes</string>
+  <string name="heads_up_snooze_20min">20 minutes</string>
+  <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+  <string name="torch_power_button_gesture_none">Disabled</string>
+  <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+  <!-- Brightness icon-->
+  <string name="brightness_icon_title">Brightness icon </string>
+  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <!-- Quick pull down-->
+  <string name="quick_pulldown_title">Quick pulldown</string>
+  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+  <string name="quick_pulldown_off">Off</string>
+  <string name="quick_pulldown_left">Left</string>
+  <string name="quick_pulldown_right">Right</string>
+  <string name="quick_pulldown_always">Always</string>
+  <!-- Smart pulldown-->
+  <string name="smart_pulldown_title">Smart pulldown</string>
+  <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
+  <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
+  <string name="smart_pulldown_off">Off</string>
+  <string name="smart_pulldown_none">no notifications</string>
+  <string name="smart_pulldown_dismissable">no dismissable</string>
+  <string name="smart_pulldown_ongoing">no ongoing</string>
 </resources>
