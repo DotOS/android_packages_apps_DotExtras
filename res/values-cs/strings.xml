@@ -487,59 +487,59 @@
   <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
   <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
   <!-- Heads up -->
-  <string name="headsup_category">HeadsUp Settings</string>
-  <string name="heads_up_notifications">Heads up</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-  <string name="add_heads_up_package">Add app</string>
-  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+  <string name="headsup_category">Nastavení plovoucího oznámení</string>
+  <string name="heads_up_notifications">Plovoucí oznámení</string>
+  <string name="summary_heads_up_enabled">Plovoucí oznámení jsou povolena</string>
+  <string name="summary_heads_up_disabled">Plovoucí oznámení jsou zakázána</string>
+  <string name="add_heads_up_package">Přidat aplikaci</string>
+  <string name="add_heads_up_stoplist_summary">Zakázat plovoucí oznámení v těchto aplikacích</string>
+  <string name="add_heads_up_blacklist_summary">Zakázat plovoucí oznámení z těchto aplikací</string>
   <string name="heads_up_stoplist_title">Stoplist</string>
   <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="profile_choose_app">Vybrat aplikaci</string>
+  <string name="dialog_delete_title">Smazat</string>
+  <string name="dialog_delete_message">Odstranit vybranou položku?</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_title">Délka zobrazení</string>
+  <string name="heads_up_time_out_summary">Prohlížení oznámení bude zobrazeno na <xliff:g id="number">%d</xliff:g> sekund</string>
+  <string name="heads_up_time_out_2sec">2 sekundy</string>
+  <string name="heads_up_time_out_4sec">4 sekundy</string>
+  <string name="heads_up_time_out_5sec">5 sekund</string>
+  <string name="heads_up_time_out_6sec">6 sekund</string>
+  <string name="heads_up_time_out_8sec">8 sekund</string>
+  <string name="heads_up_time_out_10sec">10 sekund</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_title">Časovač odložení</string>
+  <string name="heads_up_snooze_summary_one_minute">Potáhnutím nahoru dojde k odložení plovoucího oznámení po dobu 1 minuty</string>
+  <string name="heads_up_snooze_summary">Potáhnutím nahoru dojde k odložení plovoucího oznámení po dobu <xliff:g id="number">%d</xliff:g> minut</string>
+  <string name="heads_up_snooze_disabled_summary">Časovač odložení je zakázán</string>
+  <string name="heads_up_snooze_1min">1 minuta</string>
+  <string name="heads_up_snooze_5min">5 minut</string>
+  <string name="heads_up_snooze_10min">10 minut</string>
+  <string name="heads_up_snooze_15min">15 minut</string>
+  <string name="heads_up_snooze_20min">20 minut</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
-  <string name="torch_power_button_gesture_none">Disabled</string>
-  <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
-  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+  <string name="torch_power_button_gesture_title">Svítilna při vypnuté obrazovce</string>
+  <string name="torch_power_button_gesture_none">Zakázáno</string>
+  <string name="torch_power_button_gesture_dt">Dvojím klepnutím zapnout svítilnu (přidá malé zpoždění při jednom klepnutí)</string>
+  <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
   <!-- Brightness icon-->
-  <string name="brightness_icon_title">Brightness icon </string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">Ikona jasu </string>
+  <string name="brightness_icon_summary">Zobrazit ikonu jasu na levé straně posuvníku k přepnutí automatického jasu</string>
   <!-- Quick pull down-->
-  <string name="quick_pulldown_title">Quick pulldown</string>
-  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-  <string name="quick_pulldown_off">Off</string>
-  <string name="quick_pulldown_left">Left</string>
-  <string name="quick_pulldown_right">Right</string>
-  <string name="quick_pulldown_always">Always</string>
+  <string name="quick_pulldown_title">Rychlé vysunutí nabídky</string>
+  <string name="quick_pulldown_summary">%1$s okraj stavové lišty umožňuje rychlé vysunutí nabídky nastavení</string>
+  <string name="quick_pulldown_summary_always">Vždy zobrazovat rychlé nastavení na stavové liště</string>
+  <string name="quick_pulldown_off">Vypnuto</string>
+  <string name="quick_pulldown_left">Vlevo</string>
+  <string name="quick_pulldown_right">Vpravo</string>
+  <string name="quick_pulldown_always">Vždy</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Smart pulldown</string>
-  <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">no notifications</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_title">Chytré rozbalení lišty</string>
+  <string name="smart_pulldown_summary">Otevře nabídku rychlého nastavení, kde je přítomno %1$s oznámení</string>
+  <string name="smart_pulldown_none_summary">Otevře Rychlé Nastavení pokud nejsou přítomny žádné oznámení</string>
+  <string name="smart_pulldown_off">Vypnuto</string>
+  <string name="smart_pulldown_none">žádná oznámení</string>
+  <string name="smart_pulldown_dismissable">žádné zrušitelné</string>
+  <string name="smart_pulldown_ongoing">žádné probíhající</string>
 </resources>

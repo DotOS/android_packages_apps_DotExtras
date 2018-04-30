@@ -487,59 +487,59 @@
   <string name="lockscreen_battery_info_title">Töltés kijelzése a záróképernyőn</string>
   <string name="lockscreen_battery_info_summary">Megjeleníti a maximális töltőfeszültséget és az akkumulátor hőmérsékletét a záróképernyőn töltés közben</string>
   <!-- Heads up -->
-  <string name="headsup_category">HeadsUp Settings</string>
-  <string name="heads_up_notifications">Heads up</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-  <string name="add_heads_up_package">Add app</string>
-  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-  <string name="heads_up_stoplist_title">Stoplist</string>
-  <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="headsup_category">Lebegő értesítések beállításai</string>
+  <string name="heads_up_notifications">Lebegő értesítések</string>
+  <string name="summary_heads_up_enabled">A Lebegő értesítések engedélyezve lettek</string>
+  <string name="summary_heads_up_disabled">A Lebegő értesítések letiltásra kerültek</string>
+  <string name="add_heads_up_package">Alkalmazás hozzáadása</string>
+  <string name="add_heads_up_stoplist_summary">A Lebegő értesítések letiltása ezeknél az alkalmazásoknál</string>
+  <string name="add_heads_up_blacklist_summary">A Lebegő értesítések letiltása ezektől az alkalmazásoktól</string>
+  <string name="heads_up_stoplist_title">Leállítottak listája</string>
+  <string name="heads_up_blacklist_title">Tiltottak listája</string>
+  <string name="profile_choose_app">Alkalmazás választása</string>
+  <string name="dialog_delete_title">Törlés</string>
+  <string name="dialog_delete_message">Törli a kiválasztott elemet?</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_title">Időkorlát</string>
+  <string name="heads_up_time_out_summary">A Lebegő értesítések <xliff:g id="number">%d</xliff:g> másodpercig fognak megjelenni</string>
+  <string name="heads_up_time_out_2sec">2 másodperc</string>
+  <string name="heads_up_time_out_4sec">4 másodperc</string>
+  <string name="heads_up_time_out_5sec">5 másodperc</string>
+  <string name="heads_up_time_out_6sec">6 másodperc</string>
+  <string name="heads_up_time_out_8sec">8 másodperc</string>
+  <string name="heads_up_time_out_10sec">10 másodperc</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_title">Elhalasztás időzítése</string>
+  <string name="heads_up_snooze_summary_one_minute">A lebegő értesítésen való felfelé csúsztatás 1 percre késlelteti annak újbóli megjelenését</string>
+  <string name="heads_up_snooze_summary">A lebegő értesítésen való felfelé csúsztatás <xliff:g id="number">%d</xliff:g> percre késlelteti annak újbóli megjelenését</string>
+  <string name="heads_up_snooze_disabled_summary">Elhalasztás időzítése letiltva</string>
+  <string name="heads_up_snooze_1min">1 perc</string>
+  <string name="heads_up_snooze_5min">5 perc</string>
+  <string name="heads_up_snooze_10min">10 perc</string>
+  <string name="heads_up_snooze_15min">15 perc</string>
+  <string name="heads_up_snooze_20min">20 perc</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
-  <string name="torch_power_button_gesture_none">Disabled</string>
-  <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
-  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+  <string name="torch_power_button_gesture_title">Bekapcsológomb használata a Zseblámpához</string>
+  <string name="torch_power_button_gesture_none">Letiltva</string>
+  <string name="torch_power_button_gesture_dt">Zseblámpa indítása a bekapcsológomb kétszeri megnyomásával (egyszeri nyomásnál kis késést okoz)</string>
+  <string name="torch_power_button_gesture_lp">Zseblámpa indítása a bekapcsológomb hosszú nyomásával</string>
   <!-- Brightness icon-->
-  <string name="brightness_icon_title">Brightness icon </string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">Fényerő ikon </string>
+  <string name="brightness_icon_summary">Fényerő ikon megjelenítése a fényerőcsúszka bal oldalán az automatikus fényerőre állításhoz</string>
   <!-- Quick pull down-->
-  <string name="quick_pulldown_title">Quick pulldown</string>
-  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-  <string name="quick_pulldown_off">Off</string>
-  <string name="quick_pulldown_left">Left</string>
-  <string name="quick_pulldown_right">Right</string>
-  <string name="quick_pulldown_always">Always</string>
+  <string name="quick_pulldown_title">Gyors legördítés</string>
+  <string name="quick_pulldown_summary">Gyorsbeállítások megjelenítése az állapotsor %1$s oldalán történő lehúzáskor</string>
+  <string name="quick_pulldown_summary_always">Mindig jelenítse meg a Gyorsbeállításokat az állapotsor lehúzásakor</string>
+  <string name="quick_pulldown_off">Kikapcsolás</string>
+  <string name="quick_pulldown_left">Bal</string>
+  <string name="quick_pulldown_right">Jobb</string>
+  <string name="quick_pulldown_always">Mindig</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Smart pulldown</string>
-  <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">no notifications</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_title">Intelligens legördítés</string>
+  <string name="smart_pulldown_summary">Gyorsbeállítások megnyitása, ha %1$s értesítés található</string>
+  <string name="smart_pulldown_none_summary">Gyorsbeállítások megnyitása, ha nincsen értesítés</string>
+  <string name="smart_pulldown_off">Kikapcsolás</string>
+  <string name="smart_pulldown_none">nincsenek értesítések</string>
+  <string name="smart_pulldown_dismissable">nincs elküldhető</string>
+  <string name="smart_pulldown_ongoing">nincs folyamatban lévő</string>
 </resources>
