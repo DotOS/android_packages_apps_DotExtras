@@ -487,59 +487,59 @@
   <string name="lockscreen_battery_info_title">锁屏充电信息</string>
   <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示适配充电器的最大电流电压以及电池温度</string>
   <!-- Heads up -->
-  <string name="headsup_category">HeadsUp Settings</string>
-  <string name="heads_up_notifications">Heads up</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-  <string name="add_heads_up_package">Add app</string>
-  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-  <string name="heads_up_stoplist_title">Stoplist</string>
-  <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="headsup_category">浮动通知设置</string>
+  <string name="heads_up_notifications">浮动通知</string>
+  <string name="summary_heads_up_enabled">弹出式通知已启用</string>
+  <string name="summary_heads_up_disabled">弹出式通知已禁用</string>
+  <string name="add_heads_up_package">添加应用程序</string>
+  <string name="add_heads_up_stoplist_summary">禁用这些应用程序的浮动通知</string>
+  <string name="add_heads_up_blacklist_summary">禁用来自这些应用程序的浮动通知</string>
+  <string name="heads_up_stoplist_title">禁用名单</string>
+  <string name="heads_up_blacklist_title">黑名单</string>
+  <string name="profile_choose_app">选择应用</string>
+  <string name="dialog_delete_title">删除</string>
+  <string name="dialog_delete_message">移除选中的项目？</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_title">超时</string>
+  <string name="heads_up_time_out_summary">浮动通知将显示 <xliff:g id="number">%d</xliff:g> 秒</string>
+  <string name="heads_up_time_out_2sec">2 秒</string>
+  <string name="heads_up_time_out_4sec">4 秒</string>
+  <string name="heads_up_time_out_5sec">5 秒</string>
+  <string name="heads_up_time_out_6sec">6 秒</string>
+  <string name="heads_up_time_out_8sec">8 秒</string>
+  <string name="heads_up_time_out_10sec">10 秒</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_title">暂停计时器</string>
+  <string name="heads_up_snooze_summary_one_minute">上滑弹出通知将使此应用的浮动通知进入打盹状态1分钟</string>
+  <string name="heads_up_snooze_summary">上滑浮动通知将使此应用的浮动通知进入打盹状态<xliff:g id="number">%d</xliff:g>分钟</string>
+  <string name="heads_up_snooze_disabled_summary">暂停计时器已禁用</string>
+  <string name="heads_up_snooze_1min">1分钟</string>
+  <string name="heads_up_snooze_5min">5 分钟</string>
+  <string name="heads_up_snooze_10min">10 分钟</string>
+  <string name="heads_up_snooze_15min">15 分钟</string>
+  <string name="heads_up_snooze_20min">20 分钟</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
-  <string name="torch_power_button_gesture_none">Disabled</string>
-  <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
-  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+  <string name="torch_power_button_gesture_title">熄屏状态按电源键开启手电筒</string>
+  <string name="torch_power_button_gesture_none">禁用</string>
+  <string name="torch_power_button_gesture_dt">双击电源键开启手电筒（将会导致单击操作有微小延迟）</string>
+  <string name="torch_power_button_gesture_lp">长按电源键开启手电筒</string>
   <!-- Brightness icon-->
-  <string name="brightness_icon_title">Brightness icon </string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">亮度图标 </string>
+  <string name="brightness_icon_summary">在亮度滑块左侧显示一个用于调节是否开启自动调节亮度的图标</string>
   <!-- Quick pull down-->
-  <string name="quick_pulldown_title">Quick pulldown</string>
-  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-  <string name="quick_pulldown_off">Off</string>
-  <string name="quick_pulldown_left">Left</string>
-  <string name="quick_pulldown_right">Right</string>
-  <string name="quick_pulldown_always">Always</string>
+  <string name="quick_pulldown_title">快速下拉</string>
+  <string name="quick_pulldown_summary">从状态栏的%1$s边缘拉下时直接开启快速设置面板</string>
+  <string name="quick_pulldown_summary_always">从状态栏下拉总是显示快速设置</string>
+  <string name="quick_pulldown_off">关闭</string>
+  <string name="quick_pulldown_left">左</string>
+  <string name="quick_pulldown_right">右</string>
+  <string name="quick_pulldown_always">总是</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Smart pulldown</string>
-  <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">no notifications</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_title">智能下拉</string>
+  <string name="smart_pulldown_summary">当有%1$s条通知时打开快速设置</string>
+  <string name="smart_pulldown_none_summary">没有通知时打开快速设置</string>
+  <string name="smart_pulldown_off">关闭</string>
+  <string name="smart_pulldown_none">没有通知时</string>
+  <string name="smart_pulldown_dismissable">没有可清除通知时</string>
+  <string name="smart_pulldown_ongoing">没有正在进行的通知时</string>
 </resources>
