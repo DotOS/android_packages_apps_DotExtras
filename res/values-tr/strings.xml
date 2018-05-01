@@ -62,7 +62,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Ağ etkinliği</string>
   <!-- Misc Extensions -->
-  <string name="misc_extras_title">Çeşitli ekstralar</string>
+  <string name="misc_extras_title">Çeşitli eklentiler</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">Son uygulamalar arayüzü</string>
   <string name="aosp_recents_category">Aosp son uygulamalar</string>
@@ -77,8 +77,8 @@
   <!-- App Ops -->
   <string name="app_ops_category">Uygulama çalışma ayarları</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Renk seçici</string>
-  <string name="press_color_to_apply">Uygulamak istediğiniz renge dokunun</string>
+  <string name="dialog_color_picker">Renk seçin</string>
+  <string name="press_color_to_apply">Uygulamak istediğiniz rengin üzerine dokunun</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
@@ -164,16 +164,16 @@
   <string name="fling_appearance">Görünüm</string>
   <string name="fling_show_logo_title">Fling logosunu göster</string>
   <string name="fling_animate_logo_title">Logo animasyonu</string>
-  <string name="fling_animate_logo_summary">Dokunma etkinliklerinde logo animasyonu</string>
+  <string name="fling_animate_logo_summary">Dokunma hareketlerinde logo animasyonunu hareketlendirir</string>
   <string name="fling_logo_color">Logo rengi</string>
   <string name="fling_logo_custom_logo_pick_title">Özel logo simgesi</string>
   <string name="fling_logo_custom_logo_image_pick_title">Özel logo görüntüsü</string>
   <string name="fling_logo_custom_logo_reset_title">Logo simgesini sıfırla</string>
   <string name="fling_show_ripple_title">Dalgalanma göster</string>
-  <string name="fling_show_ripple_summary">Dokunma etkinliklerinde dalgalanma efekti</string>
+  <string name="fling_show_ripple_summary">Dokunma etkinliklerinde dalgalanma efekti gösterir</string>
   <string name="fling_ripple_color">Dalgalanma rengi</string>
-  <string name="fling_longpress_timeout_label_left">Daha az gecikmeli</string>
-  <string name="fling_longpress_timeout_label_right">Daha çok gecikmeli</string>
+  <string name="fling_longpress_timeout_label_left">Daha az gecikme</string>
+  <string name="fling_longpress_timeout_label_right">Daha çok gecikme</string>
   <string name="fling_longpress_title">Uzun dokunma gecikmesi</string>
   <string name="fling_longpress_summary">Uzun dokunma eylemini gerçekleştirmek için gereken süreyi arttırma veya azaltma</string>
   <string name="fling_keyboard_cursors_title">Dinamik klavye imleç eylemi</string>
@@ -189,7 +189,7 @@
   <string name="qs_columns_portrait_title">Dikey modda sütunlar</string>
   <string name="qs_columns_landscape_title">Yatay modda sütunlar</string>
   <string name="qs_tile_title_visibility_title">Kare başlıkları</string>
-  <string name="qs_tile_title_visibility_summary">Hızlı ayarlar kareleri altında başlıkları göster</string>
+  <string name="qs_tile_title_visibility_summary">Hızlı ayarlar karelerinin altında başlıkları göster</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse cihaz hoparlörünü dinlerken bazı ses kaynakları ile çalışmayabilir</string>
   <string name="pulse_settings">Pulse</string>
@@ -213,7 +213,7 @@
   <string name="pulse_solid_dimen_category">Düz çizgi modu ayarları</string>
   <string name="pulse_custom_buttons_opacity_title">Akıllı çubuk tuş opaklığı</string>
   <string name="pulse_auto_color_title">Otomatik pulse rengi</string>
-  <string name="pulse_auto_color_summary">Rengi albüm kapaklarıyla senkronize eder. Lav Lambası ve çizgilerinin opaklığını geçersiz kılar.</string>
+  <string name="pulse_auto_color_summary">Rengi albüm kapaklarıyla senkronize eder. Lav lambası ve çizgilerinin opaklığını geçersiz kılar.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Çubuk genişliği</string>
   <string name="pulse_custom_div">Çubuk aralığı</string>
@@ -267,7 +267,7 @@
   <string name="smartbar_longpress_delay_default">Varsayılan gecikme (hızlı)</string>
   <string name="smartbar_longpress_delay_normal">Normal gecikme</string>
   <string name="smartbar_longpress_delay_long">Uzun gecikme</string>
-  <string name="smartbar_custom_icon_size_title">Özel simge ölçeklendirme</string>
+  <string name="smartbar_custom_icon_size_title">Özel simge boyutu</string>
   <string name="one_handed_mode_title">Tek el modu</string>
   <string name="one_handed_mode_summary">Tek el modu etkinleştirmek için gezinme çubuğunda hızlıca kaydırmaya izin verir</string>
   <string name="smartbar_double_tap_sleep_title">Çift dokunuşla uyutma</string>
@@ -300,8 +300,8 @@
   <!-- Network traffic -->
   <string name="network_traffic_title">Ağ etkinliği</string>
   <string name="network_traffic_type">İnternet etkinlik türünü seç</string>
-  <string name="show_network_traffic_up">Yalnızca yükleme</string>
-  <string name="show_network_traffic_down">Yalnızca indirme</string>
+  <string name="show_network_traffic_up">Yükleme</string>
+  <string name="show_network_traffic_down">İndirme</string>
   <string name="show_network_traffic_all">Etkin</string>
   <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
   <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizleme eşiği (KB/s)</string>
@@ -330,10 +330,10 @@
   <string name="hide_lockscreen_items_title">Kilit ekranı öğeleri</string>
   <!-- Double Tap Lockscreen to Sleep -->
   <string name="double_tap_to_sleep_lockscreen_title">Çift dokunuşla uyutma</string>
-  <string name="double_tap_to_sleep_lockscreen_summary">Cihazı uyutmak için kilit ekranının boş bir alanına çift dokunun</string>
+  <string name="double_tap_to_sleep_lockscreen_summary">Cihazı uyutmak için kilit ekranının boş bir alanına iki kez hafifçe dokunun</string>
   <!-- Double tap-to-sleep -->
   <string name="double_tap_to_sleep_title">Durum çubuğu</string>
-  <string name="double_tap_to_sleep_summary">Cihazı uyutmak için durum çubuğuna çift dokunun</string>
+  <string name="double_tap_to_sleep_summary">Cihazı uyutmak için durum çubuğuna iki kez hafifçe dokunun</string>
   <!-- Brightness control -->
   <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
   <string name="status_bar_toggle_brightness_summary">Durum çubuğu üzerinde kaydırarak parlaklığı ayarla</string>
@@ -447,7 +447,7 @@
   <string name="header_weather_title">Başlık görünümünde hava durumu</string>
   <string name="header_weather_summary">Bildirim paneli başlığında hava durumu görüntüsünü etkinleştir</string>
   <string name="weather_icon_pack_title">Durum simge paketi</string>
-  <string name="weather_icon_pack_note">Not\u003a Play Store\'den \"Chronus simgeleri\" araması yaparak yeni simge paketleri yükleyebilirsiniz</string>
+  <string name="weather_icon_pack_note">Not\u003a Play Store\'den \"Chronus icons\" araması yaparak yeni simge paketleri yükleyebilirsiniz</string>
   <!-- StatusBar weather settings -->
   <string name="statusbar_weather_title">Durum çubuğunda hava durumu</string>
   <string name="statusbar_weather_summary">Durum çubuğunda hava durumunu yapılandırabilirsiniz</string>
@@ -484,7 +484,7 @@
   <string name="roaming_indicator_icon_title">Dolaşım göstergesi</string>
   <string name="roaming_indicator_icon_summary">Dolaşım modundayken sinyal simgesinde dolaşım göstergesini göster</string>
   <!-- Lockscreen battery info indicator  -->
-  <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
+  <string name="lockscreen_battery_info_title">Pil bilgisi</string>
   <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazı en yüksek akımını, voltajını ve pil sıcaklığını görüntüler</string>
   <!-- Heads up -->
   <string name="headsup_category">Üst bildirim</string>
