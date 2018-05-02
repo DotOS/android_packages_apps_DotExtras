@@ -487,59 +487,59 @@
   <string name="lockscreen_battery_info_title">Informacje o ładowaniu na ekranie blokady</string>
   <string name="lockscreen_battery_info_summary">Wyświetl szacowane maksymalne napięcie oraz temperaturę baterii na ekranie blokady podczas ładowania</string>
   <!-- Heads up -->
-  <string name="headsup_category">HeadsUp Settings</string>
-  <string name="heads_up_notifications">Heads up</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-  <string name="add_heads_up_package">Add app</string>
-  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-  <string name="heads_up_stoplist_title">Stoplist</string>
-  <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="headsup_category">Ustawienia powiadomień \"HeadsUp\"</string>
+  <string name="heads_up_notifications">Powiadomienia \"Heads up\"</string>
+  <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
+  <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
+  <string name="add_heads_up_package">Dodaj aplikację</string>
+  <string name="add_heads_up_stoplist_summary">Wyłącz powiadomienia \"HeadsUp\" w tych aplikacjach</string>
+  <string name="add_heads_up_blacklist_summary">Wyłącz powiadomienia \"HeadsUp\" z tych aplikacji</string>
+  <string name="heads_up_stoplist_title">Lista wstrzymanych</string>
+  <string name="heads_up_blacklist_title">Czarna lista</string>
+  <string name="profile_choose_app">Wybierz aplikację</string>
+  <string name="dialog_delete_title">Usuń</string>
+  <string name="dialog_delete_message">Usunąć wybrany element?</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_title">Koniec czasu</string>
+  <string name="heads_up_time_out_summary">Powiadomienia podglądowe będą wyświetlane przez <xliff:g id="number">%d</xliff:g> sek.</string>
+  <string name="heads_up_time_out_2sec">2s</string>
+  <string name="heads_up_time_out_4sec">4s</string>
+  <string name="heads_up_time_out_5sec">5s</string>
+  <string name="heads_up_time_out_6sec">6s</string>
+  <string name="heads_up_time_out_8sec">8s</string>
+  <string name="heads_up_time_out_10sec">10s</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-  <string name="heads_up_snooze_1min">1 minute</string>
-  <string name="heads_up_snooze_5min">5 minutes</string>
-  <string name="heads_up_snooze_10min">10 minutes</string>
-  <string name="heads_up_snooze_15min">15 minutes</string>
-  <string name="heads_up_snooze_20min">20 minutes</string>
+  <string name="heads_up_snooze_title">Drzemka</string>
+  <string name="heads_up_snooze_summary_one_minute">Przesunięcie palcem w górę na wyskakującym powiadomieniu usypia powiadomienia z tej aplikacji na 1 minutę</string>
+  <string name="heads_up_snooze_summary">Przesunięcie do góry na powiadomieniu, wyłączy je na <xliff:g id="number">%d </xliff:g> minuty</string>
+  <string name="heads_up_snooze_disabled_summary">Drzemka jest wyłączona</string>
+  <string name="heads_up_snooze_1min">1 minuta</string>
+  <string name="heads_up_snooze_5min">5 minut</string>
+  <string name="heads_up_snooze_10min">10 minut</string>
+  <string name="heads_up_snooze_15min">15 minut</string>
+  <string name="heads_up_snooze_20min">20 minut</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
-  <string name="torch_power_button_gesture_none">Disabled</string>
-  <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
-  <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+  <string name="torch_power_button_gesture_title">Przytrzymaj przycisk zasilania, aby włączyć latarkę, gdy ekran jest wyłączony</string>
+  <string name="torch_power_button_gesture_none">Wyłączony</string>
+  <string name="torch_power_button_gesture_dt">Naciśnij dwukrotnie przycisk zasilania (doda małe opóźnienie do pojedynczego dotknięcia)</string>
+  <string name="torch_power_button_gesture_lp">Naciśnij i przytrzymaj przycisk zasilania, aby włączyć latarkę</string>
   <!-- Brightness icon-->
-  <string name="brightness_icon_title">Brightness icon </string>
-  <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+  <string name="brightness_icon_title">Kontrola jasności </string>
+  <string name="brightness_icon_summary">Pokaż ikone jasności na lewo od suwaka dostosowania jasności, aby automatycznie dostoswać jasnośc</string>
   <!-- Quick pull down-->
-  <string name="quick_pulldown_title">Quick pulldown</string>
-  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-  <string name="quick_pulldown_off">Off</string>
-  <string name="quick_pulldown_left">Left</string>
-  <string name="quick_pulldown_right">Right</string>
-  <string name="quick_pulldown_always">Always</string>
+  <string name="quick_pulldown_title">Szybkie rozwijanie</string>
+  <string name="quick_pulldown_summary">%1$s krawędź ekranu rozwija szybkie ustawienia</string>
+  <string name="quick_pulldown_summary_always">Zawsze pokazuj szybkie ustawienia podczas rozwijania paska</string>
+  <string name="quick_pulldown_off">Wyłączony</string>
+  <string name="quick_pulldown_left">Lewa</string>
+  <string name="quick_pulldown_right">Prawa</string>
+  <string name="quick_pulldown_always">Zawsze</string>
   <!-- Smart pulldown-->
-  <string name="smart_pulldown_title">Smart pulldown</string>
-  <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-  <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
-  <string name="smart_pulldown_none">no notifications</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
+  <string name="smart_pulldown_summary">Otwórz szybkie ustawienia, gdy jest %1$s powiadomień</string>
+  <string name="smart_pulldown_none_summary">Otwórz panel przełączników gdy nie ma powiadomień</string>
+  <string name="smart_pulldown_off">Wyłączony</string>
+  <string name="smart_pulldown_none">brak powiadomień</string>
+  <string name="smart_pulldown_dismissable">brak usuwalnych</string>
+  <string name="smart_pulldown_ongoing">brak bieżących</string>
 </resources>
