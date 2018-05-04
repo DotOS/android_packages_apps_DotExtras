@@ -18,7 +18,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="dotextras_title">Дополнительные настройки Dot</string>
-  <string name="build_tweaks_summary_title">Выравнивание точек в вашем стиле</string>
+  <string name="build_tweaks_summary_title">Настройте DotOS в вашем стиле</string>
   <string name="add">Добавить</string>
   <string name="advanced">Расширенный</string>
   <string name="cancel">Отмена</string>
@@ -202,7 +202,7 @@
   <string name="fling_pulse_color">Цвет эффекта пульсации</string>
   <string name="fling_pulse_color_summary">Используется также как резерв для автоматического подбора цвета</string>
   <string name="eos_fling_lavalamp_title">Включить \"Lava Lamp\"</string>
-  <string name="eos_fling_lavalamp_summary">Анимированные пульсации смягченного оттенка lava lamp стиля</string>
+  <string name="eos_fling_lavalamp_summary">Случайные цвета в стиле Lava Lamp</string>
   <string name="pulse_advanced_category">Дополнительно</string>
   <string name="pulse_legacy_mode_advanced_category">Настройки режима затухающих блоков</string>
   <string name="pulse_custom_fudge_factor">Уровень чувствительности</string>
