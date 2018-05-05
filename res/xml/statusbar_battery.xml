@@ -29,4 +29,5 @@
         android:title="@string/show_battery_percent_title"
         android:entries="@array/battery_percent_entries"
         android:entryValues="@array/battery_percent_values" />
+
 </PreferenceScreen>
