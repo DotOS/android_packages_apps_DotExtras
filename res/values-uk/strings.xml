@@ -18,67 +18,67 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="dotextras_title">DotExtras</string>
-  <string name="build_tweaks_summary_title">Align the Dots In your Style</string>
-  <string name="add">Add</string>
-  <string name="advanced">Advanced</string>
-  <string name="cancel">Cancel</string>
-  <string name="choose_app">Choose app</string>
-  <string name="icons_category">Icons</string>
-  <string name="light_category">Lights</string>
+  <string name="build_tweaks_summary_title">Налаштуйте Dots у власному стилі</string>
+  <string name="add">Додати</string>
+  <string name="advanced">Додатково</string>
+  <string name="cancel">Скасувати</string>
+  <string name="choose_app">Оберіть додаток</string>
+  <string name="icons_category">Іконки</string>
+  <string name="light_category">Індикація</string>
   <string name="dlg_ok">OK</string>
-  <string name="loading">Loading\u2026</string>
-  <string name="reset">Reset</string>
+  <string name="loading">Завантаження\u2026</string>
+  <string name="reset">Скидання</string>
   <!-- Fragments -->
-  <string name="statusbar">Statusbar</string>
-  <string name="navigation">Navigation Bar</string>
-  <string name="quick_settings">Quick Settings</string>
-  <string name="recents">Recents</string>
-  <string name="power_menu">Power Menu</string>
-  <string name="lockscreen">Lockscreen</string>
-  <string name="system">System</string>
+  <string name="statusbar">Рядок стану</string>
+  <string name="navigation">Панель навігації</string>
+  <string name="quick_settings">Швидкі налаштування</string>
+  <string name="recents">Останні</string>
+  <string name="power_menu">Меню вимкнення</string>
+  <string name="lockscreen">Екран блокування</string>
+  <string name="system">Система</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-  <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-  <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-  <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+  <string name="powermenu_reboot_title">Перезавантаження</string>
+  <string name="powermenu_advanced_reboot_title">Розширений перезапуск</string>
+  <string name="powermenu_advanced_reboot_summary">Вмикає меню швидкого перезапуску з такими опціями: швидкий перезапуск, режим відновлення та завантажувач, та перезапуск системного інтерфейсу</string>
+  <string name="powermenu_screenshot_title">Знімок екрану</string>
+  <string name="powermenu_airplane_title">Режим \"У літаку\"</string>
+  <string name="powermenu_category_visibility">Параметри екрану блокування</string>
+  <string name="powermenu_lockscreen_title">Видимість на екрані блокування</string>
+  <string name="powermenu_lockscreen_summary">Увімкніть для можливості використання меню живлення на екрані блокування</string>
+  <string name="powermenu_ls_reboot_summary">Показувати меню перезапуску на екрані блокування</string>
+  <string name="powermenu_ls_advanced_reboot_summary">Показувати розширене меню перезапуску на екрані блокування</string>
+  <string name="powermenu_ls_screenshot_summary">Показувати опцію знімку екрану на екрані блокування</string>
+  <string name="powermenu_ls_airplane_summary">Показувати опцію режиму польоту на екрані блокування</string>
   <!-- Buttons -->
-  <string name="buttons_title">Buttons</string>
+  <string name="buttons_title">Кнопки</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
-  <string name="general_category">General</string>
-  <string name="lockscreen_category">Lockscreen</string>
-  <string name="notifications_panel_category">Notifications</string>
+  <string name="lockscreen_items_other">Інше</string>
+  <string name="general_category">Загальне</string>
+  <string name="lockscreen_category">Екран блокування</string>
+  <string name="notifications_panel_category">Сповіщення</string>
   <!-- Frags -->
   <!-- General Tweaks -->
-  <string name="general_tweaks_title">General Tweaks</string>
+  <string name="general_tweaks_title">Загальні налаштування</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
+  <string name="traffic_title">Індикатори трафіку</string>
   <!-- Misc Extensions -->
-  <string name="misc_extras_title">Misc Extras</string>
+  <string name="misc_extras_title">Додаткові налаштування</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Recents UI</string>
-  <string name="aosp_recents_category">AOSP recents</string>
+  <string name="recents_ui_title">Інтерфейс останніх програм</string>
+  <string name="aosp_recents_category">AOSP нещодавні</string>
   <!-- Lockscreen UI -->
-  <string name="lockscreen_ui_title">Lockscreen UI</string>
+  <string name="lockscreen_ui_title">Інтерфейс екрану блокування</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Statusbar items</string>
+  <string name="statusbar_items_category">Елементи рядку стану</string>
   <!-- Notifications -->
-  <string name="notifications_title">Notifications</string>
+  <string name="notifications_title">Сповіщення</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Quick Settings</string>
+  <string name="quick_settings_title">Швидкі налаштування</string>
   <!-- App Ops -->
-  <string name="app_ops_category">App Ops</string>
+  <string name="app_ops_category">Дозволи програм</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="dialog_color_picker">Палітра кольорів</string>
+  <string name="press_color_to_apply">Натисніть на колір для застосування</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
@@ -137,24 +137,24 @@
   <string name="fling_long_swipe_left">Left long swipe</string>
   <string name="fling_right_up_swipe">Right side swipe up</string>
   <string name="fling_left_up_swipe">Left side swipe up</string>
-  <string name="fling_single_tap">Single tap right</string>
-  <string name="fling_double_tap">Double tap right</string>
-  <string name="fling_long_press">Long press right</string>
-  <string name="fling_single_left_tap">Single tap left</string>
-  <string name="fling_double_left_tap">Double tap left</string>
-  <string name="fling_long_left_press">Long press left</string>
-  <string name="long_swipe_portrait_title">Portrait</string>
-  <string name="long_swipe_landscape_title">Landscape</string>
-  <string name="portrait_right_swipe_title">Portrait right swipe</string>
-  <string name="portrait_left_swipe_title">Portrait left swipe</string>
-  <string name="landscape_right_swipe_title">Landscape right swipe</string>
-  <string name="landscape_left_swipe_title">Landscape left swipe</string>
-  <string name="vertical_up_swipe_title">Vertical up swipe</string>
-  <string name="vertical_down_swipe_title">Vertical down swipe</string>
-  <string name="up_swipe_title">Up swipe</string>
-  <string name="down_swipe_title">Down swipe</string>
-  <string name="long_swipe_reset">Reset</string>
-  <string name="fling_advanced">Advanced</string>
+  <string name="fling_single_tap">Одинарне натискання справа</string>
+  <string name="fling_double_tap">Подвійне натискання справа</string>
+  <string name="fling_long_press">Тривале натискання справа</string>
+  <string name="fling_single_left_tap">Одинарне натискання зліва</string>
+  <string name="fling_double_left_tap">Подвійне натискання зліва</string>
+  <string name="fling_long_left_press">Тривале натискання зліва</string>
+  <string name="long_swipe_portrait_title">Книжкова орієнтація</string>
+  <string name="long_swipe_landscape_title">Альбомна орієнтація</string>
+  <string name="portrait_right_swipe_title">Свайп справа в книжковій орієнтації</string>
+  <string name="portrait_left_swipe_title">Свайп зліва в книжковій орієнтації</string>
+  <string name="landscape_right_swipe_title">Свайп справа в альбомній орієнтації</string>
+  <string name="landscape_left_swipe_title">Свайп зліва в альбомній орієнтації</string>
+  <string name="vertical_up_swipe_title">Вертикальний свайп вгору</string>
+  <string name="vertical_down_swipe_title">Вертикальний свайп вниз</string>
+  <string name="up_swipe_title">Провести вгору</string>
+  <string name="down_swipe_title">Провести вниз</string>
+  <string name="long_swipe_reset">Скидання</string>
+  <string name="fling_advanced">Додатково</string>
   <string name="fling_long_swipe_title">Long swipe thresholds</string>
   <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
   <string name="fling_trails_enable_title">Enable gesture trails</string>
@@ -180,15 +180,15 @@
   <string name="fling_keyboard_cursors_summary">Double tap left and right actions becomes left and right keyboard cursor actions if keyboard is open</string>
   <string name="fling_logo_opacity_title">Fling logo opacity</string>
   <!-- Quick Settings brightness slider -->
-  <string name="qs_brightness_slider_title">Brightness slider</string>
-  <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+  <string name="qs_brightness_slider_title">Повзунок яскравості</string>
+  <string name="qs_brightness_slider_summary">Показати повзунок яскравості на панелі швидкого налаштування</string>
   <!-- QS rows and columns -->
-  <string name="qs_rows_columns_title">QS rows and columns</string>
-  <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-  <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-  <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-  <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
-  <string name="qs_tile_title_visibility_title">QS tile titles</string>
+  <string name="qs_rows_columns_title">Рядки та стовпці в швидких налаштуваннях</string>
+  <string name="qs_rows_portrait_title">Кількість рядків (портрет)</string>
+  <string name="qs_rows_landscape_title">Кількість рядків (ландшафт)</string>
+  <string name="qs_columns_portrait_title">Кількість стовпців (портрет)</string>
+  <string name="qs_columns_landscape_title">Кількість стовпців (ландшафт)</string>
+  <string name="qs_tile_title_visibility_title">Підписи плиток швидких налаштувань</string>
   <string name="qs_tile_title_visibility_summary">Show quick settings tiles titles</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse does not work with some audio sources when listening on device speaker</string>
@@ -217,10 +217,10 @@
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Bar width</string>
   <string name="pulse_custom_div">Bar spacing</string>
-  <string name="pulse_filled_block_size">Block size</string>
-  <string name="pulse_empty_block_size">Block spacing</string>
+  <string name="pulse_filled_block_size">Розмір блоку</string>
+  <string name="pulse_empty_block_size">Відстань між блоками</string>
   <!-- Navbar height -->
-  <string name="navigation_bar_size_title">Bar size</string>
+  <string name="navigation_bar_size_title">Розмір панелі навігації</string>
   <string name="portrait_title">Portrait height</string>
   <string name="land_vert_title">Landscape width</string>
   <string name="land_hor_title">Landscape height</string>

@@ -33,7 +33,7 @@
   <string name="navigation">Barra di Navigazione</string>
   <string name="quick_settings">Impostazioni Rapide</string>
   <string name="recents">App Recenti</string>
-  <string name="power_menu">Menu di riavvio</string>
+  <string name="power_menu">Menù riavvio</string>
   <string name="lockscreen">Schermata di blocco</string>
   <string name="system">Sistema</string>
   <!-- Power Menu -->
@@ -42,8 +42,8 @@
   <string name="powermenu_advanced_reboot_summary">Abilita il riavvio avanzato con opzioni come recovery e bootloader. Include inoltre un opzione per riavviare la SystemUI</string>
   <string name="powermenu_screenshot_title">Cattura schermo</string>
   <string name="powermenu_airplane_title">Modalità aereo</string>
-  <string name="powermenu_category_visibility">Opzioni Schermata di Blocco</string>
-  <string name="powermenu_lockscreen_title">Visibilità sulla Schermata Di Blocco</string>
+  <string name="powermenu_category_visibility">Opzioni Schermata di blocco</string>
+  <string name="powermenu_lockscreen_title">Visibilità sulla Schermata di blocco</string>
   <string name="powermenu_lockscreen_summary">Attiva la possibilità di mostrare il menù di spegnimento nella schermata di blocco</string>
   <string name="powermenu_ls_reboot_summary">Visualizza l\'opzione di riavvio sulla schermata di blocco</string>
   <string name="powermenu_ls_advanced_reboot_summary">Visualizza l\'opzione di riavvio avanzato sulla schermata di blocco</string>

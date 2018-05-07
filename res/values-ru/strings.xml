@@ -17,8 +17,8 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="dotextras_title">Дополнительные настройки Dot</string>
-  <string name="build_tweaks_summary_title">Настройте DotOS в вашем стиле</string>
+  <string name="dotextras_title">Особые настройки dotOS</string>
+  <string name="build_tweaks_summary_title">Настройте систему на свой вкус</string>
   <string name="add">Добавить</string>
   <string name="advanced">Расширенный</string>
   <string name="cancel">Отмена</string>
@@ -30,9 +30,9 @@
   <string name="reset">Сброс</string>
   <!-- Fragments -->
   <string name="statusbar">Строка состояния</string>
-  <string name="navigation">Панель навигации</string>
+  <string name="navigation">Наэкранные кнопки</string>
   <string name="quick_settings">Быстрые настройки</string>
-  <string name="recents">Недавние</string>
+  <string name="recents">Окно недавних приложений</string>
   <string name="power_menu">Меню выключения</string>
   <string name="lockscreen">Экран блокировки</string>
   <string name="system">Системa</string>

@@ -166,9 +166,9 @@
   <string name="fling_animate_logo_title">Animer le logo</string>
   <string name="fling_animate_logo_summary">Logo animates on touch events</string>
   <string name="fling_logo_color">Logo color</string>
-  <string name="fling_logo_custom_logo_pick_title">Custom logo icon</string>
+  <string name="fling_logo_custom_logo_pick_title">Logo personnalisé</string>
   <string name="fling_logo_custom_logo_image_pick_title">Custom logo image</string>
-  <string name="fling_logo_custom_logo_reset_title">Reset logo icon</string>
+  <string name="fling_logo_custom_logo_reset_title">Réinitialiser le logo</string>
   <string name="fling_show_ripple_title">Show ripple</string>
   <string name="fling_show_ripple_summary">Ripple effect on touch events</string>
   <string name="fling_ripple_color">Ripple color</string>
@@ -340,7 +340,7 @@
   <!-- Status bar clock options -->
   <string name="status_bar_clock">Clock and Date</string>
   <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
-  <string name="clock_title_enable">Alignment</string>
+  <string name="clock_title_enable">Alignement</string>
   <string name="clock_enabled">Activée</string>
   <string name="clock_disabled">Désactivée</string>
   <string name="status_bar_clock_style_reset">Réinitialiser la couleur</string>
@@ -524,7 +524,7 @@
   <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
   <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
   <!-- Brightness icon-->
-  <string name="brightness_icon_title">Brightness icon </string>
+  <string name="brightness_icon_title">Icône de luminosité </string>
   <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Quick pulldown</string>

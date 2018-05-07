@@ -202,18 +202,18 @@
   <string name="fling_pulse_color">Pulse rengi</string>
   <string name="fling_pulse_color_summary">Otomatik renk için yedek olarak da kullanılır</string>
   <string name="eos_fling_lavalamp_title">Lava lambasını aç</string>
-  <string name="eos_fling_lavalamp_summary">Pulse animasyonu pürüzsüz bir lav lambası tarzı renk karışımı animasyonu</string>
+  <string name="eos_fling_lavalamp_summary">Pulse animasyonu pürüzsüz bir lava lambası tarzı renk karışımı animasyonu</string>
   <string name="pulse_advanced_category">Gelişmiş</string>
   <string name="pulse_legacy_mode_advanced_category">Fading bloklar modu ayarları</string>
   <string name="pulse_custom_fudge_factor">Davranış seviyesi</string>
-  <string name="lavamp_solid_speed_title">Lav lambası hızı</string>
+  <string name="lavamp_solid_speed_title">Lava lamba hızı</string>
   <string name="pulse_solid_units_count">Düz çizgi sayısı</string>
   <string name="pulse_solid_lines_count">Düz çizgi sayısı</string>
   <string name="pulse_solid_units_opacity">Düz çizgi opaklığı</string>
   <string name="pulse_solid_dimen_category">Düz çizgi modu ayarları</string>
   <string name="pulse_custom_buttons_opacity_title">Akıllı çubuk tuş opaklığı</string>
   <string name="pulse_auto_color_title">Otomatik pulse rengi</string>
-  <string name="pulse_auto_color_summary">Rengi albüm kapaklarıyla senkronize eder. Lav lambası ve çizgilerinin opaklığını geçersiz kılar.</string>
+  <string name="pulse_auto_color_summary">Rengi albüm kapaklarıyla senkronize eder. Lava lambası ve çizgilerinin opaklığını geçersiz kılar.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Çubuk genişliği</string>
   <string name="pulse_custom_div">Çubuk aralığı</string>
@@ -260,7 +260,7 @@
   <string name="smartbar_config_backup_success_toast">Akıllı çubuk profili başarıyla kaydedildi</string>
   <string name="smartbar_config_restore_success_toast">Akıllı çubuk profili başarıyla geri yüklendi</string>
   <string name="smartbar_config_backup_error_toast">Akıllı çubuk profili kaydedilirken hata oluştu</string>
-  <string name="smartbar_config_restore_error_toast">Akıllı çubuk profilini geri yükleme hatası</string>
+  <string name="smartbar_config_restore_error_toast">Akıllı çubuk profili geri yüklenirken hata oluştu</string>
   <string name="navbar_buttons_alpha_title">Tuş şeffaflığı</string>
   <string name="smartbar_longpress_delay_title">Tuşa uzun dokunma gecikmesi</string>
   <string name="smartbar_longpress_delay_summary">Sistemin uzun dokunma hareketini tetiklenmeden önce ne kadar süre bekleyeceğini seçin</string>
@@ -319,7 +319,7 @@
   <string name="recents_show_membar_summary">Son uygulamalar ekranında bellek çubuğunu göster</string>
   <!-- Toast icons -->
   <string name="toast_icon_title">Bildirim simgesi</string>
-  <string name="toast_icon_summary">Bildirim ile uyumlu uygulama simgesini göster</string>
+  <string name="toast_icon_summary">Bildirim ile uyumlu uygulama simgesini görüntüle</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Bildirimleri genişletmeye zorla</string>
   <string name="force_expanded_notifications_summary">Yalnızca genişletilmiş bildirimleri destekleyen uygulamalar için kullanılabilir</string>
@@ -332,7 +332,7 @@
   <string name="double_tap_to_sleep_lockscreen_title">Çift dokunuşla uyutma</string>
   <string name="double_tap_to_sleep_lockscreen_summary">Cihazı uyutmak için kilit ekranının boş bir alanına iki kez hafifçe dokunun</string>
   <!-- Double tap-to-sleep -->
-  <string name="double_tap_to_sleep_title">Durum çubuğu</string>
+  <string name="double_tap_to_sleep_title">Çift dokunuşla uyutma</string>
   <string name="double_tap_to_sleep_summary">Cihazı uyutmak için durum çubuğuna iki kez hafifçe dokunun</string>
   <!-- Brightness control -->
   <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
