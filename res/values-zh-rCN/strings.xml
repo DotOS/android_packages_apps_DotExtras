@@ -543,14 +543,14 @@
   <string name="smart_pulldown_dismissable">没有可清除通知时</string>
   <string name="smart_pulldown_ongoing">没有正在进行的通知时</string>
   <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">Clear all button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-  <string name="recents_clear_all_location_title">Clear all location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-  <string name="recents_clear_all_title">Clear all button tweaks</string>
+  <string name="show_clear_all_recents_button_title">清除全部按钮</string>
+  <string name="show_clear_all_recents_button_summary">显示清除全部按钮</string>
+  <string name="recents_clear_all_location_title">清除全部按钮位置</string>
+  <string name="recents_clear_all_location_top_right">右上角</string>
+  <string name="recents_clear_all_location_top_left">左上角</string>
+  <string name="recents_clear_all_location_top_center">顶部中间</string>
+  <string name="recents_clear_all_location_bottom_right">右下角</string>
+  <string name="recents_clear_all_location_bottom_left">左下角</string>
+  <string name="recents_clear_all_location_bottom_center">底部中间</string>
+  <string name="recents_clear_all_title">清除全部按钮设置</string>
 </resources>
