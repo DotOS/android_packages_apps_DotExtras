@@ -17,8 +17,8 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="dotextras_title">DotExtras</string>
-  <string name="build_tweaks_summary_title">Senin tarzın içinde nokta hizala</string>
+  <string name="dotextras_title">Eklentiler</string>
+  <string name="build_tweaks_summary_title">Çeşitli sistem eklentileri</string>
   <string name="add">Ekle</string>
   <string name="advanced">Gelişmiş</string>
   <string name="cancel">İptal</string>
@@ -211,7 +211,7 @@
   <string name="pulse_solid_lines_count">Düz çizgi sayısı</string>
   <string name="pulse_solid_units_opacity">Düz çizgi opaklığı</string>
   <string name="pulse_solid_dimen_category">Düz çizgi modu ayarları</string>
-  <string name="pulse_custom_buttons_opacity_title">Akıllı çubuk tuş opaklığı</string>
+  <string name="pulse_custom_buttons_opacity_title">Pulse de Akıllı çubuk tuş opaklığı</string>
   <string name="pulse_auto_color_title">Otomatik pulse rengi</string>
   <string name="pulse_auto_color_summary">Rengi albüm kapaklarıyla senkronize eder. Lava lambası ve çizgilerinin opaklığını geçersiz kılar.</string>
   <!-- Pulse config -->
@@ -543,14 +543,14 @@
   <string name="smart_pulldown_dismissable">kapatılabilir yoksa</string>
   <string name="smart_pulldown_ongoing">devam eden yoksa</string>
   <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">Clear all button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-  <string name="recents_clear_all_location_title">Clear all location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-  <string name="recents_clear_all_title">Clear all button tweaks</string>
+  <string name="show_clear_all_recents_button_title">Tümünü temizle tuşu</string>
+  <string name="show_clear_all_recents_button_summary">Tümünü temizleme tuşunu göster</string>
+  <string name="recents_clear_all_location_title">Tuş konumu</string>
+  <string name="recents_clear_all_location_top_right">Sağ üst</string>
+  <string name="recents_clear_all_location_top_left">Sol üst</string>
+  <string name="recents_clear_all_location_top_center">Orta üst</string>
+  <string name="recents_clear_all_location_bottom_right">Sağ alt</string>
+  <string name="recents_clear_all_location_bottom_left">Sol alt</string>
+  <string name="recents_clear_all_location_bottom_center">Orta alt</string>
+  <string name="recents_clear_all_title">Temizleme tuşu ayarları</string>
 </resources>

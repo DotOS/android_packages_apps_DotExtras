@@ -543,14 +543,14 @@
   <string name="smart_pulldown_dismissable">tidak dapat dihilangkan</string>
   <string name="smart_pulldown_ongoing">tidak sedang berlangsung</string>
   <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">Clear all button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-  <string name="recents_clear_all_location_title">Clear all location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-  <string name="recents_clear_all_title">Clear all button tweaks</string>
+  <string name="show_clear_all_recents_button_title">Tombol bersihkan semua</string>
+  <string name="show_clear_all_recents_button_summary">Tampilkan tombol hapus semua</string>
+  <string name="recents_clear_all_location_title">Hapus semua lokasi</string>
+  <string name="recents_clear_all_location_top_right">Kanan atas</string>
+  <string name="recents_clear_all_location_top_left">Kiri atas</string>
+  <string name="recents_clear_all_location_top_center">Tengah atas</string>
+  <string name="recents_clear_all_location_bottom_right">Kanan bawah</string>
+  <string name="recents_clear_all_location_bottom_left">Kiri bawah</string>
+  <string name="recents_clear_all_location_bottom_center">Tengah bawah</string>
+  <string name="recents_clear_all_title">Tweak tombol hapus semua</string>
 </resources>

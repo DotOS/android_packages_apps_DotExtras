@@ -543,14 +543,14 @@
   <string name="smart_pulldown_dismissable">nincs elküldhető</string>
   <string name="smart_pulldown_ongoing">nincs folyamatban lévő</string>
   <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">Clear all button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-  <string name="recents_clear_all_location_title">Clear all location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-  <string name="recents_clear_all_title">Clear all button tweaks</string>
+  <string name="show_clear_all_recents_button_title">Az Összes törlése gomb</string>
+  <string name="show_clear_all_recents_button_summary">Az Összes törlése gomb megjelenítése</string>
+  <string name="recents_clear_all_location_title">A Összes törlése gomb helye</string>
+  <string name="recents_clear_all_location_top_right">Fent a jobb oldalon</string>
+  <string name="recents_clear_all_location_top_left">Fent a bal oldalon</string>
+  <string name="recents_clear_all_location_top_center">Fent középen</string>
+  <string name="recents_clear_all_location_bottom_right">Lent a jobb oldalon</string>
+  <string name="recents_clear_all_location_bottom_left">Lent a bal oldalon</string>
+  <string name="recents_clear_all_location_bottom_center">Lent középen</string>
+  <string name="recents_clear_all_title">Az Összes törlése gomb beállításai</string>
 </resources>
