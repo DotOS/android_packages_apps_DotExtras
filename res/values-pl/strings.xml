@@ -543,14 +543,14 @@
   <string name="smart_pulldown_dismissable">brak usuwalnych</string>
   <string name="smart_pulldown_ongoing">brak bieżących</string>
   <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">Clear all button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-  <string name="recents_clear_all_location_title">Clear all location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-  <string name="recents_clear_all_title">Clear all button tweaks</string>
+  <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystko\"</string>
+  <string name="show_clear_all_recents_button_summary">Pokaż przycisk \"Wyczyść wszystko\"</string>
+  <string name="recents_clear_all_location_title">Pozycja przycisku \"Wyczyść wszystko\"</string>
+  <string name="recents_clear_all_location_top_right">Prawy góry róg</string>
+  <string name="recents_clear_all_location_top_left">Lewy górny róg</string>
+  <string name="recents_clear_all_location_top_center">Wyśrodkowany na górze</string>
+  <string name="recents_clear_all_location_bottom_right">Prawy dolny róg</string>
+  <string name="recents_clear_all_location_bottom_left">Lewy dolny róg</string>
+  <string name="recents_clear_all_location_bottom_center">Wyśrodkowany na dole</string>
+  <string name="recents_clear_all_title">Ulepszenia przycisku \"Wyczyść wszystko\"</string>
 </resources>
