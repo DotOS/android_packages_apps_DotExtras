@@ -553,4 +553,7 @@
   <string name="recents_clear_all_location_bottom_left">Dole vlevo</string>
   <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
   <string name="recents_clear_all_title">Nastavení tlačítka \"Vyčistit vše\"</string>
+  <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Opacity</string>
+  <string name="qs_opacity_category">QS panel opacity</string>
 </resources>
