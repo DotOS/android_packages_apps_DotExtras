@@ -553,4 +553,7 @@
   <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
   <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
   <string name="recents_clear_all_title">Impostazioni del pulsante Cancella tutto</string>
+  <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Opacity</string>
+  <string name="qs_opacity_category">QS panel opacity</string>
 </resources>
