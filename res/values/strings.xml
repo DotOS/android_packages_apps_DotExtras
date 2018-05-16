@@ -640,4 +640,13 @@
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Sensor block per-package</string>
     <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
+
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+    <string name="hide_lockscreen_indicator_display_title">Hide bottom status text</string>
+    <string name="hide_lockscreen_indicator_display_summary">Hide charging information and unlock hints</string>
+    <string name="hide_lockscreen_icon_title">Hide lock screen icon</string>
+    <string name="hide_lockscreen_icon_summary">Change the lock screen icon visibility</string>
+
 </resources>
