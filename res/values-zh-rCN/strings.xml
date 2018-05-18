@@ -554,6 +554,6 @@
   <string name="recents_clear_all_location_bottom_center">底部中间</string>
   <string name="recents_clear_all_title">清除全部按钮设置</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Opacity</string>
-  <string name="qs_opacity_category">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">不透明度</string>
+  <string name="qs_opacity_category">快速设置面板不透明度</string>
 </resources>
