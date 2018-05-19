@@ -11,9 +11,40 @@
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
-     limitations under the License.
--->
+     limitations under the License. -->
 <resources>
+
+    <!-- Lockscreen clock styles -->
+    <string-array name="lockscreen_clock_selection_entries" translatable="false">
+        <item>@string/lockscreen_clock_selection_digital</item>
+        <item>@string/lockscreen_clock_selection_digital_bold</item>
+        <item>@string/lockscreen_clock_selection_analog</item>
+        <item>@string/lockscreen_clock_selection_analog_deadpool</item>
+        <item>@string/lockscreen_clock_selection_sammy</item>
+        <item>@string/lockscreen_clock_selection_sammy_bold</item>
+    </string-array>
+
+    <string-array name="lockscreen_clock_selection_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- Lockscreen date styles -->
+    <string-array name="lockscreen_date_selection_entries" translatable="false">
+        <item>@string/lockscreen_date_selection_default</item>
+        <item>@string/lockscreen_date_selection_str_box</item>
+        <item>@string/lockscreen_date_selection_str_round</item>
+    </string-array>
+
+    <string-array name="lockscreen_date_selection_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 
     <!-- Ticker animation mode -->
     <string-array name="ticker_animation_mode_entries" translatable="false">
