@@ -430,6 +430,9 @@
   <string name="ticker_disabled">Wyłączony</string>
   <string name="ticker_enabled">Pasek powiadomień</string>
   <string name="ticker_media_enabled">Informacja powiadomień i muzyki</string>
+  <string name="ticker_animation_mode_title">Styl animacji kafelków</string>
+  <string name="ticker_animation_mode_alpha_fade">Zanikanie</string>
+  <string name="ticker_animation_mode_scroll">Przewijanie</string>
   <!-- Ambient music -->
   <string name="ambient_display_category">Opcje Ambient Display</string>
   <string name="force_ambient_for_media_pref_title">Powiadomienia muzyki na ekranie Ambient</string>
@@ -554,6 +557,10 @@
   <string name="recents_clear_all_location_bottom_center">Wyśrodkowany na dole</string>
   <string name="recents_clear_all_title">Ulepszenia przycisku \"Wyczyść wszystko\"</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Opacity</string>
-  <string name="qs_opacity_category">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">Przezroczystość
+</string>
+  <string name="qs_opacity_category">Przeźroczystość panelu Szybkich Ustawień</string>
+  <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Blokowanie czujników dla aplikacji</string>
+  <string name="sensor_block_summary">Blokuj dostęp do niektórych czujników dla części aplikacji, aby oszczędzać baterię</string>
 </resources>

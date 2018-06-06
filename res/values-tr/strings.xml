@@ -17,7 +17,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="dotextras_title">DotExtras</string>
+  <string name="dotextras_title">Eklentiler</string>
   <string name="build_tweaks_summary_title">Çeşitli sistem eklentileri</string>
   <string name="add">Ekle</string>
   <string name="advanced">Gelişmiş</string>
@@ -304,7 +304,7 @@
   <string name="show_network_traffic_down">İndirme</string>
   <string name="show_network_traffic_all">Etkin</string>
   <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
-  <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizleme eşiği (KB/s)</string>
+  <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
   <!-- Button brightness -->
   <string name="button_backlight_options_category">Arka ışık</string>
   <string name="button_backlight_enable_title">Tuş aydınlatılmasına izin ver</string>
@@ -411,7 +411,7 @@
   <string name="volume_keys_control_media_stream_summary">Ses tuşları ile medya sesini kontrol etmeye zorla</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">Oynatma kontrolü</string>
-  <string name="volume_rocker_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun dokunmak şarkıyı değiştirir</string>
+  <string name="volume_rocker_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun basmak şarkıyı değiştirir</string>
   <!-- Language options - Volume rocker cursor control -->
   <string name="cursor_section_header">İmleç</string>
   <string name="volume_key_cursor_control_title">Ses tuşları ile imleç kontrolü</string>
@@ -420,21 +420,24 @@
   <string name="volume_key_cursor_control_on_reverse">Ses seviyesi tuşlarına yukarı/aşağı basarak sağa/sola kaydırır</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Ses tuşlarıyla uyandır</string>
-  <string name="volume_rocker_wake_summary">Ses tuşlarına dokunulduğunda cihazı uyandır</string>
+  <string name="volume_rocker_wake_summary">Ses tuşlarına basıldığında cihazı uyandır</string>
   <!-- The volume key answer -->
   <string name="volume_answer_call_title">Ses tuşlarıyla cevapla</string>
-  <string name="volume_answer_call_summary">Ses tuşlarına dokunulduğunda çağrıya cevap ver</string>
+  <string name="volume_answer_call_summary">Ses tuşlarına basıldığında çağrıya cevap ver</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Şerit</string>
   <string name="ticker_mode_title">Durum çubuğu bildirim şeridi</string>
   <string name="ticker_disabled">Devre dışı</string>
   <string name="ticker_enabled">Bildirim şeridi</string>
   <string name="ticker_media_enabled">Bildirim ve müzik şeridi</string>
+  <string name="ticker_animation_mode_title">Şerit animasyon stili</string>
+  <string name="ticker_animation_mode_alpha_fade">Karart</string>
+  <string name="ticker_animation_mode_scroll">Kaydır</string>
   <!-- Ambient music -->
   <string name="ambient_display_category">Ortam ekranı</string>
   <string name="force_ambient_for_media_pref_title">Ortam müzik bilgisi</string>
-  <string name="force_ambient_for_media_pref_summary">Ortam ekranında müzik bilgisini yapılandırma</string>
-  <string name="ambient_ticker_footer">Bu özellik, Ortam ekranının etkinleştirilmiş veya aktif olmaması durumunda mevcut müzik parçası bilgilerini kilit ekranında gösterme yeteneğine izin verir.\n\nNormal ve minimum iki düzen arasından seçim yapabilirsiniz. Bu özellik ortam ekranından yararlanırken, buna bağımlı değildir. (Zorla) seçeneklerini kullanarak ortam ekranı etkinleştirmeden kullanılabilir.\n\nNormal görünüm, kilit ekranı saati, tarihi ve müzik bilgilerini içerir.\n\nMinimum görünüm, ekranın ortasında yalnızca müzik bilgisini içerir.</string>
+  <string name="force_ambient_for_media_pref_summary">Ortam ekranında müzik bilgisini yapılandır</string>
+  <string name="ambient_ticker_footer">Bu özellik, Ortam ekranının etkinleştirilmiş veya aktif olmaması durumunda mevcut müzik parça bilgilerini kilit ekranında gösterme yeteneğine izin verir.\n\nNormal ve minimum iki düzen arasından seçim yapabilirsiniz. Bu özellik ortam ekranından yararlanırken, buna bağımlı değildir. (Zorla) seçeneklerini kullanarak ortam ekranı etkinleştirmeden kullanılabilir.\n\nNormal görünüm, kilit ekranı saati, tarihi ve müzik bilgilerini içerir.\n\nMinimum görünüm, ekran ortasında yalnızca müzik bilgisini içerir.</string>
   <string name="force_ambient_for_media_title">Düzen seç</string>
   <string name="force_ambient_for_media_off">Devre dışı</string>
   <string name="force_ambient_for_media_on">Normal</string>
@@ -485,7 +488,7 @@
   <string name="roaming_indicator_icon_summary">Dolaşım modundayken sinyal simgesinde dolaşım göstergesini göster</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Pil bilgisi</string>
-  <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazı en yüksek akımını, voltajını ve pil sıcaklığını görüntüler</string>
+  <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
   <!-- Heads up -->
   <string name="headsup_category">Üst bildirim</string>
   <string name="heads_up_notifications">Bildirim pencereleri</string>
@@ -554,6 +557,9 @@
   <string name="recents_clear_all_location_bottom_center">Orta alt</string>
   <string name="recents_clear_all_title">Temizleme tuşu ayarları</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Opacity</string>
-  <string name="qs_opacity_category">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">Şeffaflık</string>
+  <string name="qs_opacity_category">Hızlı ayarlar panel şeffaflığı</string>
+  <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Uygulama başına sensör engelleme</string>
+  <string name="sensor_block_summary">Bazı uygulamaların pil tasarrufu yapmabilmesi için belirli sensörlere erişimini engelleyin.</string>
 </resources>
