@@ -430,6 +430,9 @@
   <string name="ticker_disabled">Dinonaktifkan</string>
   <string name="ticker_enabled">Pemberitahuan ticker</string>
   <string name="ticker_media_enabled">Pemberitahuan dan musik ticker</string>
+  <string name="ticker_animation_mode_title">Gaya animasi ticker</string>
+  <string name="ticker_animation_mode_alpha_fade">Memudar</string>
+  <string name="ticker_animation_mode_scroll">Gulung</string>
   <!-- Ambient music -->
   <string name="ambient_display_category">Opsi tampilan ambient</string>
   <string name="force_ambient_for_media_pref_title">Musik ticker ambient</string>
@@ -554,6 +557,9 @@
   <string name="recents_clear_all_location_bottom_center">Tengah bawah</string>
   <string name="recents_clear_all_title">Tweak tombol hapus semua</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Opacity</string>
-  <string name="qs_opacity_category">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">Keburaman</string>
+  <string name="qs_opacity_category">Keburaman panel QS</string>
+  <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Blokir sensor per-paket</string>
+  <string name="sensor_block_summary">Blokir akses ke sensor tertentu untuk beberapa aplikasi untuk menghemat baterai.</string>
 </resources>

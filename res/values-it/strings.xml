@@ -430,6 +430,9 @@
   <string name="ticker_disabled">Disabilitato</string>
   <string name="ticker_enabled">Ticker di notifica</string>
   <string name="ticker_media_enabled">Ticker musica e notifiche</string>
+  <string name="ticker_animation_mode_title">Stile animazione Ticker</string>
+  <string name="ticker_animation_mode_alpha_fade">Dissolvenza</string>
+  <string name="ticker_animation_mode_scroll">Scorrimento</string>
   <!-- Ambient music -->
   <string name="ambient_display_category">Opzioni Ambient Display</string>
   <string name="force_ambient_for_media_pref_title">Ticker Ambient musicale</string>
@@ -554,6 +557,9 @@
   <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
   <string name="recents_clear_all_title">Impostazioni del pulsante Cancella tutto</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Opacity</string>
-  <string name="qs_opacity_category">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">Trasparenza</string>
+  <string name="qs_opacity_category">Trasparenza pannello impostazioni rapide</string>
+  <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Blocco sensori per app</string>
+  <string name="sensor_block_summary">Impedisci l\'accesso a determinati sensori per alcune app per risparmiare batteria.</string>
 </resources>

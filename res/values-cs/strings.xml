@@ -430,6 +430,9 @@
   <string name="ticker_disabled">Zakázáno</string>
   <string name="ticker_enabled">Notifikační text oznámení</string>
   <string name="ticker_media_enabled">Notifikační a hudební oznámení</string>
+  <string name="ticker_animation_mode_title">Styl animace textu oznámení</string>
+  <string name="ticker_animation_mode_alpha_fade">Slábnutí</string>
+  <string name="ticker_animation_mode_scroll">Rolování</string>
   <!-- Ambient music -->
   <string name="ambient_display_category">Nastavení ambientního displeje</string>
   <string name="force_ambient_for_media_pref_title">Hudební oznámení na Ambientním displeji</string>
@@ -554,6 +557,9 @@
   <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
   <string name="recents_clear_all_title">Nastavení tlačítka \"Vyčistit vše\"</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Opacity</string>
-  <string name="qs_opacity_category">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">Neprůhlednost</string>
+  <string name="qs_opacity_category">Neprůhlednost panelu QS</string>
+  <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Blokování senzorů dle aplikací</string>
+  <string name="sensor_block_summary">Zamezení přístupu k některým senzorům pro některé aplikace za účelem úspory energie.</string>
 </resources>
