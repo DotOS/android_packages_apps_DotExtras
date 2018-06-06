@@ -430,6 +430,9 @@
   <string name="ticker_disabled">禁用</string>
   <string name="ticker_enabled">通知提示</string>
   <string name="ticker_media_enabled">通知和音乐提示</string>
+  <string name="ticker_animation_mode_title">通知提示动画样式</string>
+  <string name="ticker_animation_mode_alpha_fade">淡入淡出</string>
+  <string name="ticker_animation_mode_scroll">滚动</string>
   <!-- Ambient music -->
   <string name="ambient_display_category">主动显示选项</string>
   <string name="force_ambient_for_media_pref_title">环境音乐</string>
@@ -554,6 +557,9 @@
   <string name="recents_clear_all_location_bottom_center">底部中间</string>
   <string name="recents_clear_all_title">清除全部按钮设置</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Opacity</string>
-  <string name="qs_opacity_category">QS panel opacity</string>
+  <string name="qs_panel_alpha_title">不透明度</string>
+  <string name="qs_opacity_category">快速设置面板不透明度</string>
+  <!-- Sensor block per-package -->
+  <string name="sensor_block_title">阻止个別应用使用传感器</string>
+  <string name="sensor_block_summary">阻止某些应用使用特定的传感器以节省电量。</string>
 </resources>

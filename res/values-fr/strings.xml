@@ -83,7 +83,7 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
+  <string name="set">Définire</string>
   <string name="color_default">Par défaut</string>
   <!-- Immersive Recents -->
   <string name="immersive_recents_title">Immersive Recents</string>
@@ -430,6 +430,9 @@
   <string name="ticker_disabled">Disabled</string>
   <string name="ticker_enabled">Notification ticker</string>
   <string name="ticker_media_enabled">Notification and music ticker</string>
+  <string name="ticker_animation_mode_title">Ticker animation style</string>
+  <string name="ticker_animation_mode_alpha_fade">Fade</string>
+  <string name="ticker_animation_mode_scroll">Scroll</string>
   <!-- Ambient music -->
   <string name="ambient_display_category">Ambient display options</string>
   <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
@@ -556,4 +559,7 @@
   <!-- QuickSettings Panel Transparency -->
   <string name="qs_panel_alpha_title">Opacity</string>
   <string name="qs_opacity_category">QS panel opacity</string>
+  <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Sensor block per-package</string>
+  <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
 </resources>
