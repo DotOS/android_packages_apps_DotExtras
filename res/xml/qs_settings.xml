@@ -60,7 +60,7 @@
         android:fragment="com.dot.dotextras.QsRowsColumns"
         android:title="@string/qs_rows_columns_title"/>
 
-     <PreferenceCategory
+     <!-- <PreferenceCategory
         android:key="qs_opacity_category"
         android:title="@string/qs_opacity_category">
 
@@ -71,5 +71,5 @@
         settings:min="0"
         settings:units=""
         android:persistent="false" />
-     </PreferenceCategory>  
+     </PreferenceCategory>   -->
 </PreferenceScreen>
