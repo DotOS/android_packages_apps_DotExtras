@@ -34,7 +34,7 @@
         android:dependency="qs_show_brightness"
         android:defaultValue="false"/>
 
-       <com.dot.dotextras.preference.SystemSettingSwitchPreference
+	<com.dot.dotextras.preference.SystemSettingSwitchPreference
         android:key="qs_tile_title_visibility"
         android:title="@string/qs_tile_title_visibility_title"
         android:summary="@string/qs_tile_title_visibility_summary"
@@ -60,16 +60,4 @@
         android:fragment="com.dot.dotextras.QsRowsColumns"
         android:title="@string/qs_rows_columns_title"/>
 
-     <PreferenceCategory
-        android:key="qs_opacity_category"
-        android:title="@string/qs_opacity_category">
-
-    <com.dot.dotextras.preference.CustomSeekBarPreference
-        android:key="qs_panel_alpha"
-        android:title="@string/qs_panel_alpha_title"
-        android:max="255"
-        settings:min="0"
-        settings:units=""
-        android:persistent="false" />
-     </PreferenceCategory>  
 </PreferenceScreen>
