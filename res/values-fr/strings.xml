@@ -437,7 +437,7 @@
   <string name="ambient_display_category">Ambient display options</string>
   <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
   <string name="force_ambient_for_media_pref_summary">Configure the Ambient music ticker</string>
-  <string name="ambient_ticker_footer">This feature allows for the ability to show the current music track info on the lockscreen with or without Ambient display enabled.\n\nYou can select from two layouts, normal and minimal. While this feature takes advantage of ambient display, it does not depend on it. It can be triggered without having ambient display enabled by using the (forced) options.\n\nNormal view includes the lockscreen clock, date and ticker.\n\nMinimal view includes just the ticker at the center of the screen.</string>
+  <string name="ambient_ticker_footer">Cette fonctionnalité permet d\'afficher les informations sur la piste musicale en cours sur l\'écran de verrouillage avec ou sans l\'affichage d\'ambiance activé.\n\nVous pouvez choisir parmi deux mises en page, normales et minimales. Bien que cette fonction profite de l\'affichage d\'ambiance, elle n\'en dépend pas. Il peut être déclenché sans que l\'affichage ambiant ne soit activé en utilisant les options (forcées).\n\nLa vue normale inclut l\'horloge de l\'écran de verrouillage, la date et les informations musicales.\n\nLa vue en miniature inclut uniquement les informations musicales au centre de l\'écran.</string>
   <string name="force_ambient_for_media_title">Select layout</string>
   <string name="force_ambient_for_media_off">Disabled</string>
   <string name="force_ambient_for_media_on">Normal</string>
@@ -551,15 +551,38 @@
   <string name="recents_clear_all_location_title">Clear all location</string>
   <string name="recents_clear_all_location_top_right">Top right</string>
   <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_top_center">Top center</string>
+  <string name="recents_clear_all_location_top_center">En haut au milieu</string>
   <string name="recents_clear_all_location_bottom_right">Bottom right</string>
   <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+  <string name="recents_clear_all_location_bottom_center">En bas au milieu</string>
   <string name="recents_clear_all_title">Clear all button tweaks</string>
-  <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Opacity</string>
-  <string name="qs_opacity_category">QS panel opacity</string>
   <!-- Sensor block per-package -->
   <string name="sensor_block_title">Sensor block per-package</string>
   <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
+  <!-- Hide On Lockscreen -->
+  <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+  <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+  <string name="hide_lockscreen_indicator_display_title">Hide bottom status text</string>
+  <string name="hide_lockscreen_indicator_display_summary">Hide charging information and unlock hints</string>
+  <string name="hide_lockscreen_icon_title">Hide lock screen icon</string>
+  <string name="hide_lockscreen_icon_summary">Change the lock screen icon visibility</string>
+  <!-- Hide Lockscreen clock, date, alarm -->
+  <string name="lockscreen_item_category">Lockscreen items</string>
+  <string name="show_lockscreen_clock_title">Clock widget</string>
+  <string name="show_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
+  <string name="show_lockscreen_date_title">Date widget</string>
+  <string name="show_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
+  <string name="show_lockscreen_alarm_title">Alarm text</string>
+  <string name="show_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
+  <string name="lockscreen_clock_selection_title">Clock style</string>
+  <string name="lockscreen_clock_selection_digital">Default</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
+  <string name="lockscreen_clock_selection_analog">Analog</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analog (deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
+  <string name="lockscreen_date_selection_title">Date style</string>
+  <string name="lockscreen_date_selection_default">Default</string>
+  <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
+  <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
 </resources>
