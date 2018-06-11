@@ -45,4 +45,11 @@
             android:title="@string/status_bar_toggle_brightness"
             android:summary="@string/status_bar_toggle_brightness_summary"
             android:defaultValue="false" />
+			
+	<!-- Vibrate on plugged --> 
+    <com.dot.dotextras.preference.SystemSettingSwitchPreference 
+        android:key="vibration_on_charge_state_changed" 
+        android:title="@string/vibration_on_charge_state_changed_title" 
+        android:summary="@string/vibration_on_charge_state_changed_summary" 
+        android:defaultValue="false" /> 
 </PreferenceScreen>

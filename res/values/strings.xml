@@ -719,5 +719,9 @@
     <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
+	
+	<!-- Vibrate on plugged -->
+    <string name="vibration_on_charge_state_changed_title">Vibrate on plug</string>
+    <string name="vibration_on_charge_state_changed_summary">Vibrate device when device connected to power source</string>
 
 </resources>
