@@ -561,29 +561,30 @@
   <string name="sensor_block_title">Блокировка датчиков</string>
   <string name="sensor_block_summary">Заблокировать доступ к датчикам некоторым приложениям для экономии заряда батареи.</string>
   <!-- Hide On Lockscreen -->
-  <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
-  <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
-  <string name="hide_lockscreen_indicator_display_title">Hide bottom status text</string>
-  <string name="hide_lockscreen_indicator_display_summary">Hide charging information and unlock hints</string>
-  <string name="hide_lockscreen_icon_title">Hide lock screen icon</string>
-  <string name="hide_lockscreen_icon_summary">Change the lock screen icon visibility</string>
+  <string name="hide_lockscreen_status_bar_title">Скрыть строку состояния</string>
+  <string name="hide_lockscreen_status_bar_summary">Коснитесь строки состояния для переключения видимости</string>
+  <string name="hide_lockscreen_indicator_display_title">Скрыть текст состояния нижней</string>
+  <string name="hide_lockscreen_indicator_display_summary">Скрыть  информацию о зарядке и разблокировать подсказки</string>
+  <string name="hide_lockscreen_icon_title">Скрыть значки с экрана блокировки
+</string>
+  <string name="hide_lockscreen_icon_summary">Изменить видимость виджета часов на экране блокировки</string>
   <!-- Hide Lockscreen clock, date, alarm -->
-  <string name="lockscreen_item_category">Lockscreen items</string>
-  <string name="show_lockscreen_clock_title">Clock widget</string>
-  <string name="show_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
-  <string name="show_lockscreen_date_title">Date widget</string>
-  <string name="show_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
-  <string name="show_lockscreen_alarm_title">Alarm text</string>
-  <string name="show_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
-  <string name="lockscreen_clock_selection_title">Clock style</string>
-  <string name="lockscreen_clock_selection_digital">Default</string>
-  <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
-  <string name="lockscreen_clock_selection_analog">Analog</string>
-  <string name="lockscreen_clock_selection_analog_deadpool">Analog (deadpool)</string>
-  <string name="lockscreen_clock_selection_sammy">Sammy</string>
-  <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
-  <string name="lockscreen_date_selection_title">Date style</string>
-  <string name="lockscreen_date_selection_default">Default</string>
-  <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
-  <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+  <string name="lockscreen_item_category">Элементы экрана блокировки</string>
+  <string name="show_lockscreen_clock_title">Виджет часов</string>
+  <string name="show_lockscreen_clock_summary">Изменить видимость виджета часов</string>
+  <string name="show_lockscreen_date_title">Виджет даты</string>
+  <string name="show_lockscreen_date_summary">Изменить видимость даты под виджетом часов</string>
+  <string name="show_lockscreen_alarm_title">Текст будильника</string>
+  <string name="show_lockscreen_alarm_summary">Изменить видимость текста будильника под виджетом часов</string>
+  <string name="lockscreen_clock_selection_title">Стиль часов</string>
+  <string name="lockscreen_clock_selection_digital">По умолчанию</string>
+  <string name="lockscreen_clock_selection_digital_bold">Цифровые (жирный)</string>
+  <string name="lockscreen_clock_selection_analog">Аналоговые</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Аналоговые (Deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Вертикальные</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Вертикальные (жирные)</string>
+  <string name="lockscreen_date_selection_title">Стиль даты</string>
+  <string name="lockscreen_date_selection_default">По умолчанию</string>
+  <string name="lockscreen_date_selection_str_box">Полупрозрачная подложка</string>
+  <string name="lockscreen_date_selection_str_round">Полупрозрачная подложка (скругленная)</string>
 </resources>

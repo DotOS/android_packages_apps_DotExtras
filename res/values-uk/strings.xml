@@ -430,9 +430,9 @@
   <string name="ticker_disabled">Вимкнено</string>
   <string name="ticker_enabled">Сповіщення в рухомому рядку</string>
   <string name="ticker_media_enabled">Рухомий рядок сповіщень та музики</string>
-  <string name="ticker_animation_mode_title">Ticker animation style</string>
-  <string name="ticker_animation_mode_alpha_fade">Fade</string>
-  <string name="ticker_animation_mode_scroll">Scroll</string>
+  <string name="ticker_animation_mode_title">Стиль анімації біжучої стрічки</string>
+  <string name="ticker_animation_mode_alpha_fade">Згасання</string>
+  <string name="ticker_animation_mode_scroll">Прокрутка</string>
   <!-- Ambient music -->
   <string name="ambient_display_category">Параметри активного дисплею</string>
   <string name="force_ambient_for_media_pref_title">Індикатор назви музики на активному дисплеї</string>
@@ -557,10 +557,10 @@
   <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
   <string name="recents_clear_all_title">Розташування кнопки \"Очистити все\"</string>
   <!-- Sensor block per-package -->
-  <string name="sensor_block_title">Sensor block per-package</string>
-  <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
+  <string name="sensor_block_title">Блокування датчиків за додатками</string>
+  <string name="sensor_block_summary">Блокувати доступ до певних датчиків для деяких додатків для економії батареї.</string>
   <!-- Hide On Lockscreen -->
-  <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+  <string name="hide_lockscreen_status_bar_title">Приховати рядок стану</string>
   <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
   <string name="hide_lockscreen_indicator_display_title">Hide bottom status text</string>
   <string name="hide_lockscreen_indicator_display_summary">Hide charging information and unlock hints</string>
