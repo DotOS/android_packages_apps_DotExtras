@@ -29,7 +29,7 @@
   <string name="loading">Memuat\u2026</string>
   <string name="reset">Setel ulang</string>
   <!-- Fragments -->
-  <string name="statusbar">Bilah status</string>
+  <string name="statusbar">Statusbar</string>
   <string name="navigation">Bilah Navigasi</string>
   <string name="quick_settings">Pengaturan cepat</string>
   <string name="recents">Terbaru</string>
@@ -58,18 +58,18 @@
   <string name="notifications_panel_category">Pemberitahuan</string>
   <!-- Frags -->
   <!-- General Tweaks -->
-  <string name="general_tweaks_title">Tweak Umum</string>
+  <string name="general_tweaks_title">Pengaturan Umum</string>
   <!-- Network traffic -->
   <string name="traffic_title">Indikator lalu lintas</string>
   <!-- Misc Extensions -->
   <string name="misc_extras_title">Misc ekstra</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">UI Terkini</string>
+  <string name="recents_ui_title">Tampilan antarmuka terkini</string>
   <string name="aosp_recents_category">Tampilan Terkini AOSP</string>
   <!-- Lockscreen UI -->
-  <string name="lockscreen_ui_title">Ui layar kunci</string>
+  <string name="lockscreen_ui_title">Tampilan antarmuka layar kunci</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Item bilah status</string>
+  <string name="statusbar_items_category">Item statusbar</string>
   <!-- Notifications -->
   <string name="notifications_title">Pemberitahuan</string>
   <!-- Quick Settings -->
@@ -91,7 +91,7 @@
   <string name="immersive_recents_dialog_title">Pilih tampilan recent</string>
   <string name="immersive_recents_default">Bawaan</string>
   <string name="immersive_recents_fullscreen">Layar penuh</string>
-  <string name="immersive_recents_statusbar">Hanya bilah status</string>
+  <string name="immersive_recents_statusbar">Hanya statusbar</string>
   <string name="immersive_recents_navbar">Bilah navigasi saja</string>
   <!-- DUI -->
   <!-- Navigation -->
@@ -303,7 +303,7 @@
   <string name="show_network_traffic_up">Keluar</string>
   <string name="show_network_traffic_down">Masuk</string>
   <string name="show_network_traffic_all">Keluar dan Masuk</string>
-  <string name="network_traffic_state_title">Tampilkan aktivitas jaringan di bilah status</string>
+  <string name="network_traffic_state_title">Tampilkan aktivitas jaringan di statusbar</string>
   <string name="network_traffic_autohide_threshold_title">Ambang batas untuk otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
   <!-- Button brightness -->
   <string name="button_backlight_options_category">Pilihan lampu latar</string>
@@ -332,14 +332,14 @@
   <string name="double_tap_to_sleep_lockscreen_title">Ketuk dua kali pada layar kunci untuk tidur</string>
   <string name="double_tap_to_sleep_lockscreen_summary">Ketuk dua kali pada bagian atas atau bawah layar kunci akan membuat perangkat menjadi mode tidur</string>
   <!-- Double tap-to-sleep -->
-  <string name="double_tap_to_sleep_title">Bilah status</string>
-  <string name="double_tap_to_sleep_summary">Ketuk dua kali pada bilah status untuk mematikan layar</string>
+  <string name="double_tap_to_sleep_title">Statusbar</string>
+  <string name="double_tap_to_sleep_summary">Ketuk dua kali pada statusbar untuk mematikan layar</string>
   <!-- Brightness control -->
   <string name="status_bar_toggle_brightness">Kontrol kecerahan</string>
   <string name="status_bar_toggle_brightness_summary">Sesuaikan kecerahan dengan menggeser di statusbar</string>
-  <!-- Status bar clock options -->
+  <!-- statusbar clock options -->
   <string name="status_bar_clock">Jam dan Tanggal</string>
-  <string name="status_bar_clock_summary">Konfigurasi tampilan jam dan tanggal di bilah status</string>
+  <string name="status_bar_clock_summary">Konfigurasi tampilan jam dan tanggal di statusbar</string>
   <string name="clock_title_enable">Penyesuaian</string>
   <string name="clock_enabled">Diaktifkan</string>
   <string name="clock_disabled">Dinonaktifkan</string>
@@ -426,7 +426,7 @@
   <string name="volume_answer_call_summary">Menjawab panggilan saat tombol volume ditekan</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Notifikasi ticker</string>
-  <string name="ticker_mode_title">Pemberitahuan ticker bilah status</string>
+  <string name="ticker_mode_title">Pemberitahuan ticker statusbar</string>
   <string name="ticker_disabled">Dinonaktifkan</string>
   <string name="ticker_enabled">Pemberitahuan ticker</string>
   <string name="ticker_media_enabled">Pemberitahuan dan musik ticker</string>
@@ -452,9 +452,9 @@
   <string name="weather_icon_pack_title">Keadaan paket ikon</string>
   <string name="weather_icon_pack_note">Catatan\u003a anda dapat menginstal paket ikon baru dari play store dengan mencari \"Chronus ikon\"</string>
   <!-- StatusBar weather settings -->
-  <string name="statusbar_weather_title">Cuaca di bilah status</string>
+  <string name="statusbar_weather_title">Cuaca di statusbar</string>
   <string name="statusbar_weather_summary">Konfigurasikan dari setelan QS/Cuaca</string>
-  <string name="statusbar_weather_dialog_title">Gaya cuaca di status bar</string>
+  <string name="statusbar_weather_dialog_title">Gaya cuaca di statusbar</string>
   <string name="status_bar_weather_hidden">Sembunyikan cuaca</string>
   <string name="status_bar_temperature_image_show_scale">Menunjukkan suhu dengan skala dan gambar</string>
   <string name="status_bar_temperature_image_hide_scale">Tampilkan suhu dengan gambar tanpa skala</string>
@@ -531,8 +531,8 @@
   <string name="brightness_icon_summary">Tampilkan ikon kecerahan di sebelah kiri slider kecerahan untuk menyesuaikan kecerahan otomatis</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Keruntuhan cepat</string>
-  <string name="quick_pulldown_summary">Tepi %1$s dari status bar dapat di tarik kebawah untuk pengaturan cepat</string>
-  <string name="quick_pulldown_summary_always">Selalu tampilkan ikon Setelan Cepat pada keruntuhan status bar</string>
+  <string name="quick_pulldown_summary">Tepi %1$s dari statusbar dapat di tarik kebawah untuk pengaturan cepat</string>
+  <string name="quick_pulldown_summary_always">Selalu tampilkan ikon Setelan Cepat pada keruntuhan statusbar</string>
   <string name="quick_pulldown_off">Mati</string>
   <string name="quick_pulldown_left">Kiri</string>
   <string name="quick_pulldown_right">Kanan</string>
@@ -560,29 +560,29 @@
   <string name="sensor_block_title">Blokir sensor per-paket</string>
   <string name="sensor_block_summary">Blokir akses ke sensor tertentu untuk beberapa aplikasi untuk menghemat baterai.</string>
   <!-- Hide On Lockscreen -->
-  <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
-  <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
-  <string name="hide_lockscreen_indicator_display_title">Hide bottom status text</string>
-  <string name="hide_lockscreen_indicator_display_summary">Hide charging information and unlock hints</string>
-  <string name="hide_lockscreen_icon_title">Hide lock screen icon</string>
-  <string name="hide_lockscreen_icon_summary">Change the lock screen icon visibility</string>
+  <string name="hide_lockscreen_status_bar_title">Sembunyikan statusbar</string>
+  <string name="hide_lockscreen_status_bar_summary">Sentuh statusbar untuk merubah visibilitas</string>
+  <string name="hide_lockscreen_indicator_display_title">Sembunyikan tekst status di bawah</string>
+  <string name="hide_lockscreen_indicator_display_summary">Sembunyikan informasi pengisian daya dan petunjuk buka kunci</string>
+  <string name="hide_lockscreen_icon_title">Sembunyikan ikon layar kunci</string>
+  <string name="hide_lockscreen_icon_summary">Ubah visibilitas ikon layar kunci</string>
   <!-- Hide Lockscreen clock, date, alarm -->
-  <string name="lockscreen_item_category">Lockscreen items</string>
-  <string name="show_lockscreen_clock_title">Clock widget</string>
-  <string name="show_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
-  <string name="show_lockscreen_date_title">Date widget</string>
-  <string name="show_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
-  <string name="show_lockscreen_alarm_title">Alarm text</string>
-  <string name="show_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
-  <string name="lockscreen_clock_selection_title">Clock style</string>
-  <string name="lockscreen_clock_selection_digital">Default</string>
-  <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
+  <string name="lockscreen_item_category">Item layar kunci</string>
+  <string name="show_lockscreen_clock_title">Widget jam</string>
+  <string name="show_lockscreen_clock_summary">Ubah visibilitas widget jam</string>
+  <string name="show_lockscreen_date_title">Widget tanggal</string>
+  <string name="show_lockscreen_date_summary">Ubah visibilitas tanggal di bawah widget jam</string>
+  <string name="show_lockscreen_alarm_title">Teks alarm</string>
+  <string name="show_lockscreen_alarm_summary">Ubah visibilitas teks alarm di bawah widget jam</string>
+  <string name="lockscreen_clock_selection_title">Jenis jam/string>
+  <string name="lockscreen_clock_selection_digital">Bawaan</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digital (teks tebal)</string>
   <string name="lockscreen_clock_selection_analog">Analog</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analog (deadpool)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
-  <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
-  <string name="lockscreen_date_selection_title">Date style</string>
-  <string name="lockscreen_date_selection_default">Default</string>
-  <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
-  <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (teks tebal)</string>
+  <string name="lockscreen_date_selection_title">Jenis tanggal</string>
+  <string name="lockscreen_date_selection_default">Bawaan</string>
+  <string name="lockscreen_date_selection_str_box">Kotak semi transparan</string>
+  <string name="lockscreen_date_selection_str_round">Kotak semi transparan (bulat)</string>
 </resources>
