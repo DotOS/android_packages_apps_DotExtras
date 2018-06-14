@@ -56,12 +56,14 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
     private static final String KEY_FACE_UNLOCK_PACKAGE = "com.android.facelock";
     private static final String FP_CAT = "lockscreen_ui_general_category";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
 
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
 	private static final String LOCK_DATE_FONTS = "lock_date_fonts";
 
     private SwitchPreference mFaceUnlock;
     private SystemSettingSwitchPreference mFingerprintVib;
+    private SystemSettingSwitchPreference mFpKeystore;
     private FingerprintManager mFingerprintManager;
 	
     ListPreference mLockClockFonts;
@@ -89,6 +91,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
+        mFpKeystore = (SystemSettingSwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
 
         if (mFingerprintManager != null && mFingerprintManager.isHardwareDetected()){
         mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
@@ -96,6 +99,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mFingerprintVib.setOnPreferenceChangeListener(this);
         } else {
         fingerprintCategory.removePreference(mFingerprintVib);
+        fingerprintCategory.removePreference(mFpKeystore);
         }
 
         // Lockscren Clock Fonts
