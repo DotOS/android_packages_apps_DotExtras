@@ -32,8 +32,8 @@
   <string name="statusbar">Barra di stato</string>
   <string name="navigation">Barra di Navigazione</string>
   <string name="quick_settings">Impostazioni Rapide</string>
-  <string name="recents">App Recenti</string>
-  <string name="power_menu">Menu di riavvio</string>
+  <string name="recents">Recenti</string>
+  <string name="power_menu">Menù riavvio</string>
   <string name="lockscreen">Schermata di blocco</string>
   <string name="system">Sistema</string>
   <!-- Power Menu -->
@@ -64,7 +64,7 @@
   <!-- Misc Extensions -->
   <string name="misc_extras_title">Vari Extra</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Interfaccia App recenti</string>
+  <string name="recents_ui_title">Interfaccia recenti</string>
   <string name="aosp_recents_category">Recenti AOSP</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Interfaccia schermata di blocco</string>
@@ -578,7 +578,7 @@
   <string name="lockscreen_clock_selection_digital">Predefinito</string>
   <string name="lockscreen_clock_selection_digital_bold">Digitale (grassetto)</string>
   <string name="lockscreen_clock_selection_analog">Analogico</string>
-  <string name="lockscreen_clock_selection_analog_deadpool">Analogico (grassetto)</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analogico (deadpool)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
   <string name="lockscreen_date_selection_title">Stile data</string>

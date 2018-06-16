@@ -264,7 +264,7 @@
   <string name="navbar_buttons_alpha_title">ボタンの透明度</string>
   <string name="smartbar_longpress_delay_title">ボタン長押しの遅延</string>
   <string name="smartbar_longpress_delay_summary">長押し動作を検知するまでの待機時間を設定する</string>
-  <string name="smartbar_longpress_delay_default">規定の遅延（高速）</string>
+  <string name="smartbar_longpress_delay_default">既定の遅延（高速）</string>
   <string name="smartbar_longpress_delay_normal">通常の遅延</string>
   <string name="smartbar_longpress_delay_long">長い遅延</string>
   <string name="smartbar_custom_icon_size_title">カスタムアイコンスケーリング</string>
