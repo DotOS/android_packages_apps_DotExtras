@@ -17,68 +17,68 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="dotextras_title">Suplimente Dot</string>
-  <string name="build_tweaks_summary_title">Aliniere \"Puncte\" în stilul dvs.</string>
-  <string name="add">Adăugaţi</string>
-  <string name="advanced">Avansat</string>
-  <string name="cancel">Anulare</string>
-  <string name="choose_app">Alegeți aplicația</string>
-  <string name="icons_category">Pictograme</string>
-  <string name="light_category">Lumini</string>
+  <string name="dotextras_title">DotƏlavələri</string>
+  <string name="build_tweaks_summary_title">Dotsu öz stilində düzəlt</string>
+  <string name="add">Əlavə Et</string>
+  <string name="advanced">Qabaqcıl</string>
+  <string name="cancel">İmtina</string>
+  <string name="choose_app">Tətbiq seç</string>
+  <string name="icons_category">İkonlar</string>
+  <string name="light_category">İşıqlar</string>
   <string name="dlg_ok">OK</string>
-  <string name="loading">Încărcare\u2026</string>
-  <string name="reset">Resetare</string>
+  <string name="loading">Yüklənir\u2026</string>
+  <string name="reset">Sıfırla</string>
   <!-- Fragments -->
-  <string name="statusbar">Bară de stare</string>
-  <string name="navigation">Bară de navigare</string>
-  <string name="quick_settings">Setări rapide</string>
-  <string name="recents">Recente</string>
-  <string name="power_menu">Meniu de oprire</string>
-  <string name="lockscreen">Ecran de blocare</string>
+  <string name="statusbar">Status paneli</string>
+  <string name="navigation">Naviqasiya paneli</string>
+  <string name="quick_settings">Cəld Tənzimləmələr</string>
+  <string name="recents">Son İstifadə Edilənlər</string>
+  <string name="power_menu">Güc menyusu</string>
+  <string name="lockscreen">Kilid ekranı</string>
   <string name="system">Sistem</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Repornire</string>
-  <string name="powermenu_advanced_reboot_title">Repornire avansată</string>
+  <string name="powermenu_reboot_title">Yenidən Başlat</string>
+  <string name="powermenu_advanced_reboot_title">Qabaqcıl yenidən başlatma</string>
   <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Captură de ecran</string>
-  <string name="powermenu_airplane_title">Mod avion</string>
+  <string name="powermenu_screenshot_title">Screenshot</string>
+  <string name="powermenu_airplane_title">Airplane mode</string>
   <string name="powermenu_category_visibility">Lockscreen options</string>
   <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Permite posibilitatea de a afișa și utiliza meniul de alimentare în ecranul de blocare</string>
+  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
   <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
   <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
   <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
   <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
   <!-- Buttons -->
-  <string name="buttons_title">Butoane</string>
+  <string name="buttons_title">Buttons</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Altele</string>
+  <string name="lockscreen_items_other">Other</string>
   <string name="general_category">General</string>
-  <string name="lockscreen_category">Ecran de blocare</string>
-  <string name="notifications_panel_category">Notificări</string>
+  <string name="lockscreen_category">Lockscreen</string>
+  <string name="notifications_panel_category">Notifications</string>
   <!-- Frags -->
   <!-- General Tweaks -->
-  <string name="general_tweaks_title">Ajustări generale</string>
+  <string name="general_tweaks_title">General Tweaks</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Indicatori de trafic</string>
+  <string name="traffic_title">Traffic indicators</string>
   <!-- Misc Extensions -->
-  <string name="misc_extras_title">Extensii diverse</string>
+  <string name="misc_extras_title">Misc Extras</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Interfață Recente</string>
-  <string name="aosp_recents_category">Recente AOSP</string>
+  <string name="recents_ui_title">Recents UI</string>
+  <string name="aosp_recents_category">AOSP recents</string>
   <!-- Lockscreen UI -->
-  <string name="lockscreen_ui_title">Interfață ecran de blocare</string>
+  <string name="lockscreen_ui_title">Lockscreen UI</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Elemente bară de stare</string>
+  <string name="statusbar_items_category">Statusbar items</string>
   <!-- Notifications -->
-  <string name="notifications_title">Notificări</string>
+  <string name="notifications_title">Notifications</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Setări rapide</string>
+  <string name="quick_settings_title">Quick Settings</string>
   <!-- App Ops -->
-  <string name="app_ops_category">Permisiuni aplicații</string>
+  <string name="app_ops_category">App Ops</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Selector de culoare</string>
-  <string name="press_color_to_apply">Apăsaţi pe culoarea de mai jos pentru a aplica</string>
+  <string name="dialog_color_picker">Color Picker</string>
+  <string name="press_color_to_apply">Press on color below to apply</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
