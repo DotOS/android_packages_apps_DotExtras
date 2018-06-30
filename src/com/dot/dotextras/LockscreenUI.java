@@ -30,6 +30,7 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
@@ -45,14 +46,18 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import android.hardware.fingerprint.FingerprintManager;
 
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String PREF_FINGERPRINT_VIBE = "fingerprint_success_vib";
     private static final String KEY_LOCKSCREEN_CLOCK_SELECTION = "lockscreen_clock_selection";
     private static final String KEY_LOCKSCREEN_DATE_SELECTION = "lockscreen_date_selection";
 
+    private FingerprintManager mFingerprintManager;
     private ListPreference mLockscreenClockSelection;
     private ListPreference mLockscreenDateSelection;
+    private SwitchPreference mFingerprintSuccessVib;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -60,8 +65,8 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
         addPreferencesFromResource(R.xml.lockscreen_ui);
 
-        final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
 
         mLockscreenClockSelection = (ListPreference) findPreference(KEY_LOCKSCREEN_CLOCK_SELECTION);
         int clockSelection = Settings.System.getIntForUser(resolver,
@@ -76,6 +81,14 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mLockscreenDateSelection.setValue(String.valueOf(dateSelection));
         mLockscreenDateSelection.setSummary(mLockscreenDateSelection.getEntry());
         mLockscreenDateSelection.setOnPreferenceChangeListener(this);
+
+        // Remove the fingerprint success vibe switch if the device doesnt support it
+        mFingerprintManager = (FingerprintManager) this.getSystemService(
+                Context.FINGERPRINT_SERVICE);
+        mFingerprintSuccessVib = (SwitchPreference) findPreference(PREF_FINGERPRINT_VIBE);
+        if (mFingerprintManager == null) {
+            getPreferenceScreen().removePreference(mFingerprintSuccessVib);
+        }
     }
 
     @Override
