@@ -202,18 +202,18 @@
   <string name="fling_pulse_color">Pulse rengi</string>
   <string name="fling_pulse_color_summary">Otomatik renk için yedek olarak da kullanılır</string>
   <string name="eos_fling_lavalamp_title">Lava lambasını aç</string>
-  <string name="eos_fling_lavalamp_summary">Pulse animasyonu pürüzsüz bir lav lambası tarzı renk karışımı animasyonu</string>
+  <string name="eos_fling_lavalamp_summary">Pulse animasyonu pürüzsüz bir lava lambası tarzı renk karışımı animasyonu</string>
   <string name="pulse_advanced_category">Gelişmiş</string>
   <string name="pulse_legacy_mode_advanced_category">Fading bloklar modu ayarları</string>
   <string name="pulse_custom_fudge_factor">Davranış seviyesi</string>
-  <string name="lavamp_solid_speed_title">Lav lambası hızı</string>
+  <string name="lavamp_solid_speed_title">Lava lamba hızı</string>
   <string name="pulse_solid_units_count">Düz çizgi sayısı</string>
   <string name="pulse_solid_lines_count">Düz çizgi sayısı</string>
   <string name="pulse_solid_units_opacity">Düz çizgi şeffaflığı</string>
   <string name="pulse_solid_dimen_category">Düz çizgi modu ayarları</string>
   <string name="pulse_custom_buttons_opacity_title">Akıllı çubuk tuş şeffaflığı</string>
   <string name="pulse_auto_color_title">Otomatik pulse rengi</string>
-  <string name="pulse_auto_color_summary">Rengi albüm kapaklarıyla senkronize eder. Lav lambası ve çizgilerinin opaklığını geçersiz kılar.</string>
+  <string name="pulse_auto_color_summary">Rengi albüm kapaklarıyla senkronize eder. Lava lambası ve çizgilerinin opaklığını geçersiz kılar.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Çubuk genişliği</string>
   <string name="pulse_custom_div">Çubuk aralığı</string>
@@ -260,7 +260,7 @@
   <string name="smartbar_config_backup_success_toast">Akıllı çubuk profili başarıyla kaydedildi</string>
   <string name="smartbar_config_restore_success_toast">Akıllı çubuk profili başarıyla geri yüklendi</string>
   <string name="smartbar_config_backup_error_toast">Akıllı çubuk profili kaydedilirken hata oluştu</string>
-  <string name="smartbar_config_restore_error_toast">Akıllı çubuk profilini geri yükleme hatası</string>
+  <string name="smartbar_config_restore_error_toast">Akıllı çubuk profili geri yüklenirken hata oluştu</string>
   <string name="navbar_buttons_alpha_title">Tuş şeffaflığı</string>
   <string name="smartbar_longpress_delay_title">Tuşa uzun dokunma gecikmesi</string>
   <string name="smartbar_longpress_delay_summary">Sistemin uzun dokunma hareketini tetiklenmeden önce ne kadar süre bekleyeceğini seçin</string>
@@ -319,7 +319,7 @@
   <string name="recents_show_membar_summary">Son uygulamalar ekranında bellek çubuğunu göster</string>
   <!-- Toast icons -->
   <string name="toast_icon_title">Bildirim simgesi</string>
-  <string name="toast_icon_summary">Bildirim ile uyumlu uygulama simgesini göster</string>
+  <string name="toast_icon_summary">Bildirim ile uyumlu uygulama simgesini görüntüle</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Bildirimleri genişletmeye zorla</string>
   <string name="force_expanded_notifications_summary">Yalnızca genişletilmiş bildirimleri destekleyen uygulamalar için kullanılabilir</string>
@@ -332,7 +332,7 @@
   <string name="double_tap_to_sleep_lockscreen_title">Çift dokunuşla uyutma</string>
   <string name="double_tap_to_sleep_lockscreen_summary">Cihazı uyutmak için kilit ekranının boş bir alanına iki kez hafifçe dokunun</string>
   <!-- Double tap-to-sleep -->
-  <string name="double_tap_to_sleep_title">Durum çubuğu</string>
+  <string name="double_tap_to_sleep_title">Çift dokunuşla uyutma</string>
   <string name="double_tap_to_sleep_summary">Cihazı uyutmak için durum çubuğuna iki kez hafifçe dokunun</string>
   <!-- Brightness control -->
   <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
@@ -537,6 +537,9 @@
   <string name="quick_pulldown_left">Sol</string>
   <string name="quick_pulldown_right">Sağ</string>
   <string name="quick_pulldown_always">Her zaman</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
+  <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titre</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Akıllı aşağı çekme</string>
   <string name="smart_pulldown_summary">Mevcut %1$s bildirimler olduğunda hızlı ayarları açar</string>
@@ -558,7 +561,7 @@
   <string name="recents_clear_all_title">Temizleme tuşu ayarları</string>
   <!-- Sensor block per-package -->
   <string name="sensor_block_title">Uygulama başına sensör engelleme</string>
-  <string name="sensor_block_summary">Bazı uygulamaların pil tasarrufu yapmabilmesi için belirli sensörlere erişimini engelleyin.</string>
+  <string name="sensor_block_summary">Pil tasarrufu için bazı uygulamaların belirli sensörlere erişimini engelleyin.</string>
   <!-- Hide On Lockscreen -->
   <string name="hide_lockscreen_status_bar_title">Durum çubuğunu gizle</string>
   <string name="hide_lockscreen_status_bar_summary">Görünür yapmak için durum çubuğuna dokunun</string>
@@ -579,10 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Dijital (kalın)</string>
   <string name="lockscreen_clock_selection_analog">Analog</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analog (deadpool)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (kalın)</string>
+  <string name="lockscreen_clock_selection_small">Küçük dijital</string>
   <string name="lockscreen_date_selection_title">Tarih stili</string>
-  <string name="lockscreen_date_selection_default">Varsayılan</string>
+  <string name="lockscreen_date_selection_default_aosp">Varsayılan</string>
+  <string name="lockscreen_date_selection_default">Varsayılan (büyük boy)</string>
   <string name="lockscreen_date_selection_str_box">Yarı şeffaf kutu</string>
   <string name="lockscreen_date_selection_str_round">Yarı şeffaf kutu (yuvarlak)</string>
 </resources>

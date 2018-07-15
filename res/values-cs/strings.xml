@@ -18,13 +18,13 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="dotextras_title">DotExtras</string>
-  <string name="build_tweaks_summary_title">Zarovnejte body ve vašem stylu</string>
+  <string name="build_tweaks_summary_title">Nastavte dotOS ve vašem stylu</string>
   <string name="add">Přidat</string>
   <string name="advanced">Pokročilé</string>
   <string name="cancel">Zrušit</string>
   <string name="choose_app">Vybrat aplikaci</string>
   <string name="icons_category">Ikony</string>
-  <string name="light_category">Světla</string>
+  <string name="light_category">LED světla</string>
   <string name="dlg_ok">OK</string>
   <string name="loading">Načítání\u2026</string>
   <string name="reset">Resetovat</string>
@@ -86,7 +86,7 @@
   <string name="set">Nastavit</string>
   <string name="color_default">Výchozí</string>
   <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Imerzivní nedávné</string>
+  <string name="immersive_recents_title">Pohlcující Nedávne</string>
   <string name="immersive_recents_summary">Změna zobrazení nedávných aplikací</string>
   <string name="immersive_recents_dialog_title">Vyberte zobrazení nedávných aplikací</string>
   <string name="immersive_recents_default">Výchozí</string>
@@ -537,10 +537,13 @@
   <string name="quick_pulldown_left">Vlevo</string>
   <string name="quick_pulldown_right">Vpravo</string>
   <string name="quick_pulldown_always">Vždy</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Vibrovat při ověření otisků prstů</string>
+  <string name="fprint_sucess_vib_summary">Vibrovat při úspěšném ověření otisku prstu</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Chytré rozbalení lišty</string>
-  <string name="smart_pulldown_summary">Otevře nabídku rychlého nastavení, kde je přítomno %1$s oznámení</string>
-  <string name="smart_pulldown_none_summary">Otevře Rychlé Nastavení pokud nejsou přítomny žádné oznámení</string>
+  <string name="smart_pulldown_summary">Otevře nabídku rychlého nastavení, kde jsou přítomna %1$s oznámení</string>
+  <string name="smart_pulldown_none_summary">Otevře rychlé nastavení pokud nejsou přítomna žádné oznámení</string>
   <string name="smart_pulldown_off">Vypnuto</string>
   <string name="smart_pulldown_none">žádná oznámení</string>
   <string name="smart_pulldown_dismissable">žádné zrušitelné</string>
@@ -579,10 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Digitální (tučné)</string>
   <string name="lockscreen_clock_selection_analog">Analogové</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analogové (deadpool)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analogové (dotOS)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (tučné)</string>
+  <string name="lockscreen_clock_selection_small">Malé digitální</string>
   <string name="lockscreen_date_selection_title">Styl data</string>
-  <string name="lockscreen_date_selection_default">Výchozí</string>
+  <string name="lockscreen_date_selection_default_aosp">Výchozí</string>
+  <string name="lockscreen_date_selection_default">Výchozí (větší velikost)</string>
   <string name="lockscreen_date_selection_str_box">Poloprůhledný box</string>
   <string name="lockscreen_date_selection_str_round">Poloprůhledný box (kulatý)</string>
 </resources>

@@ -537,6 +537,9 @@
   <string name="quick_pulldown_left">Bal</string>
   <string name="quick_pulldown_right">Jobb</string>
   <string name="quick_pulldown_always">Mindig</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Ujjlenyomat-hitelesítési rezgés</string>
+  <string name="fprint_sucess_vib_summary">Rezgéssel jelzi a sikeres ujjlenyomat-hitelesítést</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Intelligens legördítés</string>
   <string name="smart_pulldown_summary">Gyorsbeállítások megnyitása, ha %1$s található</string>
@@ -579,10 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Digitális (félkövér)</string>
   <string name="lockscreen_clock_selection_analog">Analóg</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analóg (deadpool)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analóg (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (félkövér)</string>
+  <string name="lockscreen_clock_selection_small">Kis digitális</string>
   <string name="lockscreen_date_selection_title">A Dátum stílusa</string>
-  <string name="lockscreen_date_selection_default">Alapértelmezett</string>
+  <string name="lockscreen_date_selection_default_aosp">Alapértelmezett</string>
+  <string name="lockscreen_date_selection_default">Alapértelmezett (nagyobb méretű)</string>
   <string name="lockscreen_date_selection_str_box">Félig átlátszó doboz</string>
   <string name="lockscreen_date_selection_str_round">Félig átlátszó doboz (lekerekített)</string>
 </resources>

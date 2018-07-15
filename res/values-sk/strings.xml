@@ -537,6 +537,9 @@
   <string name="quick_pulldown_left">Vľavo</string>
   <string name="quick_pulldown_right">Vpravo</string>
   <string name="quick_pulldown_always">Vždy</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Inteligentné rozbalenie Rýchl. nastavení</string>
   <string name="smart_pulldown_summary">Otvoriť ponuku rýchlych nastaveni, keď sa nahromadilo %1$s upozornení</string>
@@ -579,10 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Digitálne (tučné)</string>
   <string name="lockscreen_clock_selection_analog">Analogové</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analogové (deadpool)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Vertikálne</string>
   <string name="lockscreen_clock_selection_sammy_bold">Vertikálne (tučné)</string>
+  <string name="lockscreen_clock_selection_small">Small Digital</string>
   <string name="lockscreen_date_selection_title">Štýl dátumu</string>
-  <string name="lockscreen_date_selection_default">Predvolený</string>
+  <string name="lockscreen_date_selection_default_aosp">Default</string>
+  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
   <string name="lockscreen_date_selection_str_box">Polopriehľadné okno</string>
   <string name="lockscreen_date_selection_str_round">Polopriehľadné okno (zaoblené)</string>
 </resources>

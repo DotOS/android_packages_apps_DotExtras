@@ -78,7 +78,7 @@
   <string name="app_ops_category">Fonctionnement des applications</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Définir une couleur</string>
-  <string name="press_color_to_apply">Appuyer sur la couleur pour l\'appliquer</string>
+  <string name="press_color_to_apply">Sélectionner la couleur ci-dessous pour l\'appliquer</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
@@ -160,7 +160,7 @@
   <string name="fling_trails_enable_title">Activer la trace des gestes</string>
   <string name="fling_trails_enable_summary">Afficher le tracé des gestes par swipe</string>
   <string name="fling_trails_color_title">Couleur du tracé</string>
-  <string name="fling_trails_width_title">Trail width</string>
+  <string name="fling_trails_width_title">Largeur de la police</string>
   <string name="fling_appearance">Apparence</string>
   <string name="fling_show_logo_title">Afficher le logo Fling</string>
   <string name="fling_animate_logo_title">Animer le logo</string>
@@ -169,43 +169,43 @@
   <string name="fling_logo_custom_logo_pick_title">Logo personnalisé</string>
   <string name="fling_logo_custom_logo_image_pick_title">Image personnalisée du logo</string>
   <string name="fling_logo_custom_logo_reset_title">Réinitialiser le logo</string>
-  <string name="fling_show_ripple_title">Show ripple</string>
+  <string name="fling_show_ripple_title">Afficher une ondulation</string>
   <string name="fling_show_ripple_summary">Effet d\'ondulation lors des appuis</string>
-  <string name="fling_ripple_color">Ripple color</string>
+  <string name="fling_ripple_color">Couleur de l\'ondulation</string>
   <string name="fling_longpress_timeout_label_left">Diminution du délai</string>
   <string name="fling_longpress_timeout_label_right">Augmentation du délai</string>
   <string name="fling_longpress_title">Délai d\'appui prolongé</string>
   <string name="fling_longpress_summary">Augmenter ou diminuer le délai d\'appui prolongé</string>
-  <string name="fling_keyboard_cursors_title">Dynamic keyboard cursors action</string>
+  <string name="fling_keyboard_cursors_title">Curseurs dynamiques du clavier</string>
   <string name="fling_keyboard_cursors_summary">Double appui à droite ou à gauche déplace le curseur si le clavier est ouvert</string>
-  <string name="fling_logo_opacity_title">Fling logo opacity</string>
+  <string name="fling_logo_opacity_title">Opacité du logo</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Curseur de luminosité</string>
-  <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+  <string name="qs_brightness_slider_summary">Afficher un curseur de luminosité dans le volet des réglages rapides</string>
   <!-- QS rows and columns -->
-  <string name="qs_rows_columns_title">QS rows and columns</string>
-  <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-  <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-  <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-  <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
-  <string name="qs_tile_title_visibility_title">QS tile titles</string>
+  <string name="qs_rows_columns_title">Lignes et colonnes des paramètres rapides</string>
+  <string name="qs_rows_portrait_title">Rangées de tuiles en mode portrait</string>
+  <string name="qs_rows_landscape_title">Rangées de tuiles en mode paysage</string>
+  <string name="qs_columns_portrait_title">Colonnes de tuiles en mode portrait</string>
+  <string name="qs_columns_landscape_title">Colonnes de tuiles en mode paysage</string>
+  <string name="qs_tile_title_visibility_title">Titres des tuiles QS</string>
   <string name="qs_tile_title_visibility_summary">Activer l\'affichage des noms sous les tuiles</string>
   <!-- Pulse navigation bar music visualizer -->
-  <string name="pulse_help_policy_notice_summary">Pulse does not work with some audio sources when listening on device speaker</string>
+  <string name="pulse_help_policy_notice_summary">Pulse ne fonctionne pas avec certaines sources audio lorsque le haut-parleur est utilisé</string>
   <string name="pulse_settings">Pulse</string>
-  <string name="pulse_settings_summary">Navigation bar audio graphic equalizer</string>
+  <string name="pulse_settings_summary">Égaliseur graphique dans la barre de navigation</string>
   <string name="fling_show_pulse_title">Activer Pulse</string>
   <string name="fling_show_pulse_summary">Spectre audio affiché dans la barre de navigation</string>
   <string name="pulse_render_mode_title">Mode de rendu</string>
-  <string name="pulse_render_mode_fading_bars">Fading blocks</string>
+  <string name="pulse_render_mode_fading_bars">Fondu des blocs</string>
   <string name="pulse_render_mode_solid_lines">Lignes pleines</string>
   <string name="fling_pulse_color">Couleur de Pulse</string>
-  <string name="fling_pulse_color_summary">Used also as fallback for automatic color</string>
+  <string name="fling_pulse_color_summary">Utilisé comme couleur par défaut</string>
   <string name="eos_fling_lavalamp_title">Activer la lampe à lave</string>
-  <string name="eos_fling_lavalamp_summary">Pulse animates a smooth lava lamp style color blend</string>
+  <string name="eos_fling_lavalamp_summary">Ajoute l\'effet de mélange de couleurs \"Lampe Lava\"</string>
   <string name="pulse_advanced_category">Options avancées</string>
-  <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-  <string name="pulse_custom_fudge_factor">Sanity level</string>
+  <string name="pulse_legacy_mode_advanced_category">Fondu des blocs</string>
+  <string name="pulse_custom_fudge_factor">Niveau d\'intensité</string>
   <string name="lavamp_solid_speed_title">Vitesse de la lampe à lave</string>
   <string name="pulse_solid_units_count">Nombre de lignes pleines</string>
   <string name="pulse_solid_lines_count">Nombre de lignes pleines</string>
@@ -283,7 +283,7 @@
   <string name="battery_light_full_color">Batterie presque pleine</string>
   <string name="battery_light_reallyfull_color">Batterie pleine (100)</string>
   <!-- Hardware button navigation -->
-  <string name="hardware_keys_volume_keys_title">Volume rocker</string>
+  <string name="hardware_keys_volume_keys_title">Réveiller l\'appareil en utilisant les boutons volume</string>
   <string name="hardware_keys_home_key_title">Bouton d\'accueil</string>
   <string name="hardware_keys_menu_key_title">Bouton menu</string>
   <string name="hardware_keys_assist_key_title">Bouton de recherche</string>
@@ -479,51 +479,51 @@
   <string name="three_finger_gesture_summary">Glissez trois doigts pour faire une capture d\'écran</string>
   <string name="screenshot_options_category">Options de capture d’écran</string>
   <!-- Incall vibrate options -->
-  <string name="incall_vibration_category">In-call vibration options</string>
-  <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-  <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-  <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+  <string name="incall_vibration_category">Options de vibration appel entrant</string>
+  <string name="incall_vibrate_connect_title">Vibrer lorsque la connexion est établie</string>
+  <string name="incall_vibrate_call_wait_title">Vibrer en cas d\'appel en attente</string>
+  <string name="incall_vibrate_disconnect_title">Vibrer lors de la déconnexion</string>
   <!-- Roaming indicator icon -->
-  <string name="roaming_indicator_icon_title">Roaming indicator</string>
-  <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+  <string name="roaming_indicator_icon_title">Indicateur d\'itinérance</string>
+  <string name="roaming_indicator_icon_summary">Afficher l\'indicateur d\'itinérance dans l\'icône du signal lorsque celle-ci est active</string>
   <!-- Lockscreen battery info indicator  -->
-  <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-  <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+  <string name="lockscreen_battery_info_title">Informations de charge sur l\'écran de verrouillage</string>
+  <string name="lockscreen_battery_info_summary">Afficher la tension de charge actuelle et la température de la batterie sur l\'écran de verrouillage pendant le chargement</string>
   <!-- Heads up -->
-  <string name="headsup_category">HeadsUp Settings</string>
-  <string name="heads_up_notifications">Heads up</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-  <string name="add_heads_up_package">Add app</string>
-  <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-  <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+  <string name="headsup_category">Paramètres des notifications flottantes</string>
+  <string name="heads_up_notifications">Notifications flottantes</string>
+  <string name="summary_heads_up_enabled">Les notifications flottantes sont activées</string>
+  <string name="summary_heads_up_disabled">Les notifications flottantes sont désactivées</string>
+  <string name="add_heads_up_package">Ajouter une application</string>
+  <string name="add_heads_up_stoplist_summary">Désactiver les notifications flottantes pour ces applications</string>
+  <string name="add_heads_up_blacklist_summary">Désactiver les flottantes pour ces applications</string>
   <string name="heads_up_stoplist_title">Stoplist</string>
-  <string name="heads_up_blacklist_title">Blacklist</string>
-  <string name="profile_choose_app">Choose app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="heads_up_blacklist_title">Liste noire</string>
+  <string name="profile_choose_app">Choisir une application</string>
+  <string name="dialog_delete_title">Supprimer</string>
+  <string name="dialog_delete_message">Voulez-vous supprimer l\'élément sélectionné ?</string>
   <!-- Heads up timeout -->
-  <string name="heads_up_time_out_title">Time out</string>
-  <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-  <string name="heads_up_time_out_2sec">2 seconds</string>
-  <string name="heads_up_time_out_4sec">4 seconds</string>
-  <string name="heads_up_time_out_5sec">5 seconds</string>
-  <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 seconds</string>
-  <string name="heads_up_time_out_10sec">10 seconds</string>
+  <string name="heads_up_time_out_title">Délai d\'affichage</string>
+  <string name="heads_up_time_out_summary">Affichage des notifications pendant <xliff:g id="number">%d</xliff:g> secondes</string>
+  <string name="heads_up_time_out_2sec">2 secondes</string>
+  <string name="heads_up_time_out_4sec">4 secondes</string>
+  <string name="heads_up_time_out_5sec">5 secondes</string>
+  <string name="heads_up_time_out_6sec">6 secondes</string>
+  <string name="heads_up_time_out_8sec">8 secondes</string>
+  <string name="heads_up_time_out_10sec">10 secondes</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Snooze timer</string>
-  <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-  <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+  <string name="heads_up_snooze_title">Rappel d\'alarme</string>
+  <string name="heads_up_snooze_summary_one_minute">Glisser les notifications désactivera les notifications flottantes de cette application pendant 1 minutes</string>
+  <string name="heads_up_snooze_summary">Glisser la notification vers le haut désactivera les notifications flottantes de cette application pendant <xliff:g id="number">%d</xliff:g> minutes</string>
+  <string name="heads_up_snooze_disabled_summary">La répétition de l\'alarme est désactivée</string>
   <string name="heads_up_snooze_1min">1 minute</string>
   <string name="heads_up_snooze_5min">5 minutes</string>
   <string name="heads_up_snooze_10min">10 minutes</string>
   <string name="heads_up_snooze_15min">15 minutes</string>
   <string name="heads_up_snooze_20min">20 minutes</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
-  <string name="torch_power_button_gesture_none">Disabled</string>
+  <string name="torch_power_button_gesture_title">Lampe de poche quand l\'écran est éteint</string>
+  <string name="torch_power_button_gesture_none">Désactivée</string>
   <string name="torch_power_button_gesture_dt">Appui double sur le bouton d\'alimentation pour activer/désactiver la lampe ( va ajouter un délai à l\'appui simple)</string>
   <string name="torch_power_button_gesture_lp">Appui long sur le bouton d\'alimentation pour activer la lampe de poche</string>
   <!-- Brightness icon-->
@@ -537,14 +537,17 @@
   <string name="quick_pulldown_left">Gauche</string>
   <string name="quick_pulldown_right">Droite</string>
   <string name="quick_pulldown_always">Toujours</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Déroulement intelligent</string>
   <string name="smart_pulldown_summary">Ouvrez les paramètres rapides quand il y a %1$s notifications</string>
   <string name="smart_pulldown_none_summary">Ouvrir les réglages rapides quand il n\'y a pas de notifications</string>
-  <string name="smart_pulldown_off">Off</string>
+  <string name="smart_pulldown_off">Arrêt</string>
   <string name="smart_pulldown_none">pas de notifications</string>
-  <string name="smart_pulldown_dismissable">no dismissable</string>
-  <string name="smart_pulldown_ongoing">no ongoing</string>
+  <string name="smart_pulldown_dismissable">non effaçable</string>
+  <string name="smart_pulldown_ongoing">aucune en cours</string>
   <!-- Recents panel settings -->
   <string name="show_clear_all_recents_button_title">Bouton de fermeture rapide</string>
   <string name="show_clear_all_recents_button_summary">Afficher le bouton de fermeture rapide dans les apps récentes</string>
@@ -579,10 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Numérique (gras)</string>
   <string name="lockscreen_clock_selection_analog">Analogique</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analogique (Deadpool)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Empilée</string>
   <string name="lockscreen_clock_selection_sammy_bold">Empilée (gras)</string>
+  <string name="lockscreen_clock_selection_small">Small Digital</string>
   <string name="lockscreen_date_selection_title">Style du widget Date</string>
-  <string name="lockscreen_date_selection_default">Par défaut</string>
+  <string name="lockscreen_date_selection_default_aosp">Default</string>
+  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
   <string name="lockscreen_date_selection_str_box">Semi-transparent</string>
   <string name="lockscreen_date_selection_str_round">Semi-transparent (arrondi)</string>
 </resources>

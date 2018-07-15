@@ -17,8 +17,8 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="dotextras_title">Дополнительные настройки Dot</string>
-  <string name="build_tweaks_summary_title">Настройте DotOS в вашем стиле</string>
+  <string name="dotextras_title">Особые настройки dotOS</string>
+  <string name="build_tweaks_summary_title">Настройте систему на свой вкус</string>
   <string name="add">Добавить</string>
   <string name="advanced">Расширенный</string>
   <string name="cancel">Отмена</string>
@@ -30,9 +30,9 @@
   <string name="reset">Сброс</string>
   <!-- Fragments -->
   <string name="statusbar">Строка состояния</string>
-  <string name="navigation">Панель навигации</string>
+  <string name="navigation">Наэкранные кнопки</string>
   <string name="quick_settings">Быстрые настройки</string>
-  <string name="recents">Недавние</string>
+  <string name="recents">Окно недавних приложений</string>
   <string name="power_menu">Меню выключения</string>
   <string name="lockscreen">Экран блокировки</string>
   <string name="system">Системa</string>
@@ -538,6 +538,9 @@
   <string name="quick_pulldown_left">Слева</string>
   <string name="quick_pulldown_right">Справа</string>
   <string name="quick_pulldown_always">Всегда</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Умная панель уведомлений</string>
   <string name="smart_pulldown_summary">Открыть панель быстрых настроек, когда там присутствует %1$s уведомлений</string>
@@ -581,10 +584,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Цифровые (жирный)</string>
   <string name="lockscreen_clock_selection_analog">Аналоговые</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Аналоговые (Deadpool)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Вертикальные</string>
   <string name="lockscreen_clock_selection_sammy_bold">Вертикальные (жирные)</string>
+  <string name="lockscreen_clock_selection_small">Small Digital</string>
   <string name="lockscreen_date_selection_title">Стиль даты</string>
-  <string name="lockscreen_date_selection_default">По умолчанию</string>
+  <string name="lockscreen_date_selection_default_aosp">Default</string>
+  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
   <string name="lockscreen_date_selection_str_box">Полупрозрачная подложка</string>
   <string name="lockscreen_date_selection_str_round">Полупрозрачная подложка (скругленная)</string>
 </resources>

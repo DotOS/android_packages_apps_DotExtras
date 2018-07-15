@@ -275,13 +275,13 @@
   <!-- Battery light -->
   <string name="battery_light_settings">バッテリー充電時のライト</string>
   <string name="battery_light_enable">バッテリーライト</string>
-  <string name="battery_light_allow_on_dnd_title">おやすみモード中のバッテリーライト</string>
+  <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
   <string name="battery_light_low_blinking_title">バッテリ低下時のライト点滅</string>
   <string name="battery_light_cat">バッテリー充電中のライトの色</string>
   <string name="battery_light_low_color">バッテリー残量低下</string>
   <string name="battery_light_medium_color">中程度のバッテリー残量</string>
-  <string name="battery_light_full_color">おおむねフル充電</string>
-  <string name="battery_light_reallyfull_color">フル充電</string>
+  <string name="battery_light_full_color">ほぼ充電完了</string>
+  <string name="battery_light_reallyfull_color">充電完了</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">音量ボタン制御</string>
   <string name="hardware_keys_home_key_title">ホームボタン</string>
@@ -384,7 +384,7 @@
   <string name="battery_style_square">正方形</string>
   <string name="battery_style_text">テキスト</string>
   <string name="battery_style_hidden">非表示</string>
-  <string name="show_battery_percent_title">電池残量をパーセントで表示</string>
+  <string name="show_battery_percent_title">電池残量のパーセント表示</string>
   <string name="battery_style_category_title">バッテリーアイコン</string>
   <string name="battery_percent_none">表示しない</string>
   <string name="battery_percent_outside">アイコンの近くに表示する</string>
@@ -400,7 +400,7 @@
   <!-- Headset ringtone audio focus -->
   <string name="ringtone_focus_mode_title">着信音の再生デバイスの指定</string>
   <string name="ringtone_focus_mode_dynamic">ヘッドセットを接続して音楽再生中ならヘッドセットから</string>
-  <string name="ringtone_focus_mode_stock">"内蔵スピーカー（AOSPデフォルト）"</string>
+  <string name="ringtone_focus_mode_stock">"内蔵スピーカー（AOSP既定）"</string>
   <!-- Buttons title -->
   <string name="volume_category">音量ボタン制御</string>
   <!-- Volume button orientation based on current rotation -->
@@ -437,7 +437,7 @@
   <string name="ambient_display_category">アンビエント表示のオプション</string>
   <string name="force_ambient_for_media_pref_title">アンビエントミュージックティッカー</string>
   <string name="force_ambient_for_media_pref_summary">アンビエントミュージックティッカーを設定する</string>
-  <string name="ambient_ticker_footer">この機能を使用すると、アンビエント表示を有効または無効にした時に、ロック画面上に現在の曲情報を表示することができます。\n\n通常表示と最小表示の2つのレイアウトから選択できます。この機能はアンビエントディスプレイを利用しますが、それに依存しません。「強制」オプションを使用することで周囲の表示を有効にせずにトリガーさせることができます。\n\n通常表示には、ロック画面の時計、日付、ティッカーが含まれます。\n\n最小表示には、画面中央にティッカーだけが含まれます。</string>
+  <string name="ambient_ticker_footer">この機能を使用すると、アンビエント表示を有効または無効にした時に、ロック画面上に現在の曲情報を表示することができます。\n\n通常表示と最小表示の2つのレイアウトから選択できます。この機能はアンビエント表示を利用しますが、それの設定に依存しません。「強制」オプションを使用することでアンビエント表示を有効にせずにトリガーさせることができます。\n\n通常表示には、ロック画面の時計、日付、ティッカーが含まれます。\n\n最小表示には、画面中央にティッカーだけが含まれます。</string>
   <string name="force_ambient_for_media_title">レイアウトの選択</string>
   <string name="force_ambient_for_media_off">無効</string>
   <string name="force_ambient_for_media_on">標準</string>
@@ -490,8 +490,8 @@
   <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
   <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の最大電流・最大電圧・バッテリー温度を表示する</string>
   <!-- Heads up -->
-  <string name="headsup_category">Heads Up通知の設定</string>
-  <string name="heads_up_notifications">Heads Up通知</string>
+  <string name="headsup_category">Heads Upの設定</string>
+  <string name="heads_up_notifications">Heads Up</string>
   <string name="summary_heads_up_enabled">ポップアップ通知は有効です</string>
   <string name="summary_heads_up_disabled">ポップアップ通知は無効です</string>
   <string name="add_heads_up_package">アプリを追加</string>
@@ -528,7 +528,7 @@
   <string name="torch_power_button_gesture_lp">電源ボタンを長押しでライト点灯</string>
   <!-- Brightness icon-->
   <string name="brightness_icon_title">明るさのアイコン</string>
-  <string name="brightness_icon_summary">明るさスライダーの隣に「画面の明るさ」ボタンを表示する</string>
+  <string name="brightness_icon_summary">明るさスライダーの隣に画面の明るさボタンを表示する</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">クイックプルダウン</string>
   <string name="quick_pulldown_summary">ステータスバーの%1$s端からプルダウンしてクイック設定を開く</string>
@@ -537,6 +537,9 @@
   <string name="quick_pulldown_left">左側</string>
   <string name="quick_pulldown_right">右側</string>
   <string name="quick_pulldown_always">常時</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
+  <string name="fprint_sucess_vib_summary">指紋認証が成功したときに振動させる</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">スマートプルダウン</string>
   <string name="smart_pulldown_summary">%1$s直接クイック設定を開く</string>
@@ -546,16 +549,16 @@
   <string name="smart_pulldown_dismissable">消せる通知が無い場合</string>
   <string name="smart_pulldown_ongoing">消せない通知が無い場合</string>
   <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">「全てを終了」ボタン</string>
-  <string name="show_clear_all_recents_button_summary">「全てを終了」ボタンを表示する</string>
-  <string name="recents_clear_all_location_title">ボタンの表示位置</string>
+  <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
+  <string name="show_clear_all_recents_button_summary">全て終了ボタンを表示する</string>
+  <string name="recents_clear_all_location_title">全て終了ボタンの表示位置</string>
   <string name="recents_clear_all_location_top_right">右上</string>
   <string name="recents_clear_all_location_top_left">左上</string>
   <string name="recents_clear_all_location_top_center">中央上</string>
   <string name="recents_clear_all_location_bottom_right">右下</string>
   <string name="recents_clear_all_location_bottom_left">左下</string>
   <string name="recents_clear_all_location_bottom_center">中央下</string>
-  <string name="recents_clear_all_title">「すべてを終了」ボタンの設定</string>
+  <string name="recents_clear_all_title">全て終了ボタンの設定</string>
   <!-- Sensor block per-package -->
   <string name="sensor_block_title">パッケージごとのセンサーの無効化</string>
   <string name="sensor_block_summary">バッテリーを節約するためにアプリから特定のセンサーへのアクセスを無効化</string>
@@ -563,7 +566,7 @@
   <string name="hide_lockscreen_status_bar_title">ステータスバーを隠す</string>
   <string name="hide_lockscreen_status_bar_summary">ステータスバーのタップで表示を切り替えます</string>
   <string name="hide_lockscreen_indicator_display_title">下部のステータステキストを隠す</string>
-  <string name="hide_lockscreen_indicator_display_summary">充電情報とロック解除ヒントを隠す</string>
+  <string name="hide_lockscreen_indicator_display_summary">充電情報とロック解除のヒントを非表示にする</string>
   <string name="hide_lockscreen_icon_title">ロック画面アイコンを隠す</string>
   <string name="hide_lockscreen_icon_summary">ロック画面の表示を変更する</string>
   <!-- Hide Lockscreen clock, date, alarm -->
@@ -579,10 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">デジタル（太字）</string>
   <string name="lockscreen_clock_selection_analog">アナログ</string>
   <string name="lockscreen_clock_selection_analog_deadpool">アナログ（デッドプール）</string>
+  <string name="lockscreen_clock_selection_analog_dot">アナログ（dotOS)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy（太字）</string>
+  <string name="lockscreen_clock_selection_small">小さなデジタル</string>
   <string name="lockscreen_date_selection_title">日付のスタイル</string>
-  <string name="lockscreen_date_selection_default">既定</string>
+  <string name="lockscreen_date_selection_default_aosp">既定</string>
+  <string name="lockscreen_date_selection_default">既定（大きなサイズ）</string>
   <string name="lockscreen_date_selection_str_box">半透明ボックス</string>
   <string name="lockscreen_date_selection_str_round">半透明ボックス（円形）</string>
 </resources>

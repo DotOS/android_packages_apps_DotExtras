@@ -18,67 +18,67 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="dotextras_title">DotExtras</string>
-  <string name="build_tweaks_summary_title">Align the Dots In your Style</string>
-  <string name="add">Add</string>
-  <string name="advanced">Advanced</string>
-  <string name="cancel">Cancel</string>
-  <string name="choose_app">Choose app</string>
-  <string name="icons_category">Icons</string>
-  <string name="light_category">Lights</string>
+  <string name="build_tweaks_summary_title">Налаштуйте Dots у власному стилі</string>
+  <string name="add">Додати</string>
+  <string name="advanced">Додатково</string>
+  <string name="cancel">Скасувати</string>
+  <string name="choose_app">Оберіть додаток</string>
+  <string name="icons_category">Іконки</string>
+  <string name="light_category">Індикація</string>
   <string name="dlg_ok">OK</string>
-  <string name="loading">Loading\u2026</string>
-  <string name="reset">Reset</string>
+  <string name="loading">Завантаження\u2026</string>
+  <string name="reset">Скидання</string>
   <!-- Fragments -->
-  <string name="statusbar">Statusbar</string>
-  <string name="navigation">Navigation Bar</string>
-  <string name="quick_settings">Quick Settings</string>
-  <string name="recents">Recents</string>
-  <string name="power_menu">Power Menu</string>
-  <string name="lockscreen">Lockscreen</string>
-  <string name="system">System</string>
+  <string name="statusbar">Рядок стану</string>
+  <string name="navigation">Панель навігації</string>
+  <string name="quick_settings">Швидкі налаштування</string>
+  <string name="recents">Останні</string>
+  <string name="power_menu">Меню вимкнення</string>
+  <string name="lockscreen">Екран блокування</string>
+  <string name="system">Система</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-  <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_airplane_title">Airplane mode</string>
-  <string name="powermenu_category_visibility">Lockscreen options</string>
-  <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-  <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-  <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-  <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-  <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-  <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+  <string name="powermenu_reboot_title">Перезавантаження</string>
+  <string name="powermenu_advanced_reboot_title">Розширений перезапуск</string>
+  <string name="powermenu_advanced_reboot_summary">Вмикає меню швидкого перезапуску з такими опціями: швидкий перезапуск, режим відновлення та завантажувач, та перезапуск системного інтерфейсу</string>
+  <string name="powermenu_screenshot_title">Знімок екрану</string>
+  <string name="powermenu_airplane_title">Режим \"У літаку\"</string>
+  <string name="powermenu_category_visibility">Параметри екрану блокування</string>
+  <string name="powermenu_lockscreen_title">Видимість на екрані блокування</string>
+  <string name="powermenu_lockscreen_summary">Увімкніть для можливості використання меню живлення на екрані блокування</string>
+  <string name="powermenu_ls_reboot_summary">Показувати меню перезапуску на екрані блокування</string>
+  <string name="powermenu_ls_advanced_reboot_summary">Показувати розширене меню перезапуску на екрані блокування</string>
+  <string name="powermenu_ls_screenshot_summary">Показувати опцію знімку екрану на екрані блокування</string>
+  <string name="powermenu_ls_airplane_summary">Показувати опцію режиму польоту на екрані блокування</string>
   <!-- Buttons -->
-  <string name="buttons_title">Buttons</string>
+  <string name="buttons_title">Кнопки</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="lockscreen_items_other">Other</string>
-  <string name="general_category">General</string>
-  <string name="lockscreen_category">Lockscreen</string>
-  <string name="notifications_panel_category">Notifications</string>
+  <string name="lockscreen_items_other">Інше</string>
+  <string name="general_category">Загальне</string>
+  <string name="lockscreen_category">Екран блокування</string>
+  <string name="notifications_panel_category">Сповіщення</string>
   <!-- Frags -->
   <!-- General Tweaks -->
-  <string name="general_tweaks_title">General Tweaks</string>
+  <string name="general_tweaks_title">Загальні налаштування</string>
   <!-- Network traffic -->
-  <string name="traffic_title">Traffic indicators</string>
+  <string name="traffic_title">Індикатори трафіку</string>
   <!-- Misc Extensions -->
-  <string name="misc_extras_title">Misc Extras</string>
+  <string name="misc_extras_title">Додаткові налаштування</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Recents UI</string>
-  <string name="aosp_recents_category">AOSP recents</string>
+  <string name="recents_ui_title">Інтерфейс останніх програм</string>
+  <string name="aosp_recents_category">AOSP нещодавні</string>
   <!-- Lockscreen UI -->
-  <string name="lockscreen_ui_title">Lockscreen UI</string>
+  <string name="lockscreen_ui_title">Інтерфейс екрану блокування</string>
   <!-- Statusbar Iten -->
-  <string name="statusbar_items_category">Statusbar items</string>
+  <string name="statusbar_items_category">Елементи рядку стану</string>
   <!-- Notifications -->
-  <string name="notifications_title">Notifications</string>
+  <string name="notifications_title">Сповіщення</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Quick Settings</string>
+  <string name="quick_settings_title">Швидкі налаштування</string>
   <!-- App Ops -->
-  <string name="app_ops_category">App Ops</string>
+  <string name="app_ops_category">Дозволи програм</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="dialog_color_picker">Палітра кольорів</string>
+  <string name="press_color_to_apply">Натисніть на колір для застосування</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
@@ -180,8 +180,8 @@
   <string name="fling_keyboard_cursors_summary">Подвійні натискання зліва і справа рухають курсор клавіатури вліво і вправо при відкритій клавіатурі</string>
   <string name="fling_logo_opacity_title">Непрозорість логотипу Fling</string>
   <!-- Quick Settings brightness slider -->
-  <string name="qs_brightness_slider_title">Brightness slider</string>
-  <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+  <string name="qs_brightness_slider_title">Повзунок яскравості</string>
+  <string name="qs_brightness_slider_summary">Показати повзунок яскравості на панелі швидкого налаштування</string>
   <!-- QS rows and columns -->
   <string name="qs_rows_columns_title">Рядки та стовпці в швидких налаштуваннях</string>
   <string name="qs_rows_portrait_title">Кількість рядків (портрет)</string>
@@ -537,6 +537,9 @@
   <string name="quick_pulldown_left">Ліворуч</string>
   <string name="quick_pulldown_right">Праворуч</string>
   <string name="quick_pulldown_always">Завжди</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">\"Розумна\" панель сповіщень</string>
   <string name="smart_pulldown_summary">Відкрити швидкі налаштування при %1$s сповіщеннях</string>
@@ -579,10 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Цифровий (жирний шрифт)</string>
   <string name="lockscreen_clock_selection_analog">Аналоговий</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Аналоговий (Дедпул)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Семмі</string>
   <string name="lockscreen_clock_selection_sammy_bold">Семмі (жирний шрифт)</string>
+  <string name="lockscreen_clock_selection_small">Small Digital</string>
   <string name="lockscreen_date_selection_title">Стиль дати</string>
-  <string name="lockscreen_date_selection_default">За замовчуванням</string>
+  <string name="lockscreen_date_selection_default_aosp">Default</string>
+  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
   <string name="lockscreen_date_selection_str_box">Напівпрозорий прямокутник</string>
   <string name="lockscreen_date_selection_str_round">Напівпрозорий прямокутник (закруглений)</string>
 </resources>

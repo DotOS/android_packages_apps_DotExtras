@@ -537,6 +537,9 @@
   <string name="quick_pulldown_left">Links</string>
   <string name="quick_pulldown_right">Rechts</string>
   <string name="quick_pulldown_always">Immer</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Vibration bei Fingerabdruck-Authentifizierung</string>
+  <string name="fprint_sucess_vib_summary">Bei erfolgreicher Fingerabdruck-Erkennung vibrieren</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Intelligentes Herunterziehen</string>
   <string name="smart_pulldown_summary">Schnelleinstellungen öffnen, wenn keine Benachrichtigungen vorhanden sind</string>
@@ -579,10 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Digital (Fett)</string>
   <string name="lockscreen_clock_selection_analog">Analog</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analog (Deadpool)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analog (Dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (Fett)</string>
+  <string name="lockscreen_clock_selection_small">Digital (Klein)</string>
   <string name="lockscreen_date_selection_title">Stil des Datums</string>
-  <string name="lockscreen_date_selection_default">Standard</string>
+  <string name="lockscreen_date_selection_default_aosp">Standard</string>
+  <string name="lockscreen_date_selection_default">Standard (größer)</string>
   <string name="lockscreen_date_selection_str_box">Halbtransparente Box</string>
   <string name="lockscreen_date_selection_str_round">Halbtransparente Box (Rund)</string>
 </resources>
