@@ -22,5 +22,4 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
-
 </PreferenceScreen>

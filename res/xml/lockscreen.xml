@@ -9,4 +9,10 @@
             android:fragment="com.dot.dotextras.LockscreenUI"
             android:icon="@drawable/ic_lockscreen_ui"
             android:title="@string/lockscreen_ui_title" />
+
+    <com.dot.dotextras.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>
