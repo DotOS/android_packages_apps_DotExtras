@@ -65,8 +65,14 @@
     <!-- Notifications -->
     <string name="notifications_title">Notifications</string>
 	
+	<!-- Navigation -->
+    <string name="navigationbar_settings_title">Navigation bar</string>
+	
 	<!-- Navigation Tweaks -->
     <string name="navigation_category">Navigation</string>
+	
+	<!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar tuner</string>
 	
 	<!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
