@@ -51,8 +51,13 @@
     <string name="misc_extras_title">Misc Extras</string>
 
     <!-- Lockscreen UI Tweaks -->
-    <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
     <string name="lockscreen_ui_title">Lockscreen UI</string>
+
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
 
     <!-- Statusbar Iten -->
     <string name="statusbar_items_category">Statusbar items</string>

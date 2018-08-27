@@ -9,4 +9,13 @@
             android:fragment="com.dot.dotextras.LockscreenUI"
             android:icon="@drawable/ic_lockscreen_ui"
             android:title="@string/lockscreen_ui_title" />
+			
+         <Preference
+            android:key="lockscreen_shortcuts"
+            android:fragment="com.dot.dotextras.fragments.LockscreenShortcuts"
+            android:icon="@drawable/ic_lockscreen_shortcuts"
+            android:title="@string/lockscreen_shortcuts" />
+
+
+
 </PreferenceScreen>
