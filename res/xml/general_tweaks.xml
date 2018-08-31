@@ -20,12 +20,14 @@
         android:key="general_tweaks_general_category"
         android:title="@string/general_category">
 
-		<com.dot.dotextras.preference.SystemSettingSwitchPreference
+    <com.dot.dotextras.preference.SystemSettingSwitchPreference
         android:key="toast_icon"
         android:title="@string/toast_icon_title"
         android:summary="@string/toast_icon_summary"
         android:defaultValue="false" />
-		
+
+    </PreferenceCategory>
+
 	<PreferenceCategory
         android:key="light_category"
         android:title="@string/light_category">
@@ -36,8 +38,4 @@
          android:title="@string/battery_light_settings" />
 
     </PreferenceCategory>	
-		
-
-    </PreferenceCategory>
-
 </PreferenceScreen>
