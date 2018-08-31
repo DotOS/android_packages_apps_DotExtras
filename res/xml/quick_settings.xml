@@ -4,7 +4,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quick_settings_title">
 
-<PreferenceCategory
+    <PreferenceCategory
         android:key="qs_opacity_category"
         android:title="@string/qs_opacity_category">
 
@@ -17,7 +17,25 @@
         android:persistent="false" />
 
      </PreferenceCategory>
-	 
+
+    <PreferenceCategory
+        android:key="qs_show_brightness"
+        android:title="@string/qs_brightness_category">
+
+	 <com.dot.dotextras.preference.SecureSettingSwitchPreference
+        android:key="qs_show_brightness"
+        android:title="@string/qs_show_brightness_title"
+        android:summary="@string/qs_show_brightness_summary"
+        android:defaultValue="true" />
+
+	 <com.dot.dotextras.preference.SecureSettingSwitchPreference
+        android:key="qs_brightness_position_bottom"
+        android:title="@string/qs_brightness_position_bottom_title"
+        android:summary="@string/qs_brightness_position_bottom_summary"
+        android:defaultValue="false"
+        android:dependency="qs_show_brightness" />
+     </PreferenceCategory>
+
 	 <com.dot.dotextras.preference.SystemSettingSwitchPreference
         android:key="qs_footer_warnings"
         android:title="@string/qs_footer_warnings_title"
