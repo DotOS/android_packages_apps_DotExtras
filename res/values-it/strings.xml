@@ -538,8 +538,8 @@
   <string name="quick_pulldown_right">Destra</string>
   <string name="quick_pulldown_always">Sempre</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Vibrazione all\'autenticazione con l\'impronta digitale</string>
+  <string name="fprint_sucess_vib_summary">Vibra all\'avvenuta autenticazione tramite impronta digitale</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Discesa intelligente</string>
   <string name="smart_pulldown_summary">Apri le impostazioni rapide quando ci sono %1$s notifiche presenti</string>
@@ -582,13 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Digitale (grassetto)</string>
   <string name="lockscreen_clock_selection_analog">Analogico</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analogico (deadpool)</string>
-  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Predefinito (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
-  <string name="lockscreen_clock_selection_small">Small Digital</string>
+  <string name="lockscreen_clock_selection_small">Orologio piccolo</string>
   <string name="lockscreen_date_selection_title">Stile data</string>
-  <string name="lockscreen_date_selection_default_aosp">Default</string>
-  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
+  <string name="lockscreen_date_selection_default_aosp">Predefinito</string>
+  <string name="lockscreen_date_selection_default">Predefinito (dimensioni maggiori)</string>
   <string name="lockscreen_date_selection_str_box">Riquadro semi-trasparente</string>
   <string name="lockscreen_date_selection_str_round">Riquadro semi-trasparente (tondo)</string>
 </resources>

@@ -24,7 +24,7 @@
   <string name="cancel">Cancelar</string>
   <string name="choose_app">Escull l\'aplicació</string>
   <string name="icons_category">Icones</string>
-  <string name="light_category">Lights</string>
+  <string name="light_category">Llums</string>
   <string name="dlg_ok">D\'acord</string>
   <string name="loading">Carregant\u2026</string>
   <string name="reset">Restablir</string>
@@ -83,13 +83,13 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
-  <string name="color_default">Default</string>
+  <string name="set">Establir</string>
+  <string name="color_default">Per defecte</string>
   <!-- Immersive Recents -->
   <string name="immersive_recents_title">Immersive Recents</string>
   <string name="immersive_recents_summary">Change the view of the recents screen</string>
   <string name="immersive_recents_dialog_title">Select recents view</string>
-  <string name="immersive_recents_default">Default</string>
+  <string name="immersive_recents_default">Per defecte</string>
   <string name="immersive_recents_fullscreen">Fullscreen</string>
   <string name="immersive_recents_statusbar">Statusbar only</string>
   <string name="immersive_recents_navbar">Navbar only</string>

@@ -538,8 +538,8 @@
   <string name="quick_pulldown_right">Kanan</string>
   <string name="quick_pulldown_always">Selalu</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Getaran otentikasi sidik jari</string>
+  <string name="fprint_sucess_vib_summary">Bergetar saat otentikasi sidik jari sukses</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Keruntuhan pintar</string>
   <string name="smart_pulldown_summary">Buka pengaturan cepat ketika ada %1$s pemberitahuan</string>
@@ -587,8 +587,8 @@
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (huruf tebal)</string>
   <string name="lockscreen_clock_selection_small">Small Digital</string>
   <string name="lockscreen_date_selection_title">Gaya tanggal</string>
-  <string name="lockscreen_date_selection_default_aosp">Default</string>
-  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
+  <string name="lockscreen_date_selection_default_aosp">Standar</string>
+  <string name="lockscreen_date_selection_default">Standar ( dengan ukuran yang lebih besar)</string>
   <string name="lockscreen_date_selection_str_box">Kotak semi transparan</string>
   <string name="lockscreen_date_selection_str_round">Kotak semi transparan (bulat)</string>
 </resources>

@@ -538,8 +538,8 @@
   <string name="quick_pulldown_right">Droite</string>
   <string name="quick_pulldown_always">Toujours</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Vibration capteur d\'empreinte digitale</string>
+  <string name="fprint_sucess_vib_summary">Vibrer lors de l\'authentification réussie de l\'empreinte digitale</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Déroulement intelligent</string>
   <string name="smart_pulldown_summary">Ouvrez les paramètres rapides quand il y a %1$s notifications</string>
@@ -582,13 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Numérique (gras)</string>
   <string name="lockscreen_clock_selection_analog">Analogique</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analogique (Deadpool)</string>
-  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analogique (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Empilée</string>
   <string name="lockscreen_clock_selection_sammy_bold">Empilée (gras)</string>
-  <string name="lockscreen_clock_selection_small">Small Digital</string>
+  <string name="lockscreen_clock_selection_small">Petite numérique</string>
   <string name="lockscreen_date_selection_title">Style du widget Date</string>
-  <string name="lockscreen_date_selection_default_aosp">Default</string>
-  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
+  <string name="lockscreen_date_selection_default_aosp">Par défaut</string>
+  <string name="lockscreen_date_selection_default">Par défaut (grande taille)</string>
   <string name="lockscreen_date_selection_str_box">Semi-transparent</string>
   <string name="lockscreen_date_selection_str_round">Semi-transparent (arrondi)</string>
 </resources>

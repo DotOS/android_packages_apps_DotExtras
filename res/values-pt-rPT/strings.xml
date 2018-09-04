@@ -538,8 +538,8 @@
   <string name="quick_pulldown_right">Direita</string>
   <string name="quick_pulldown_always">Sempre</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Vibração na autenticação da impressão digital</string>
+  <string name="fprint_sucess_vib_summary">Vibrar na autenticação bem sucedida da impressão digital</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Deslizar para baixo inteligente</string>
   <string name="smart_pulldown_summary">Abrir o painel de definições rápidas quando estiver %1$s</string>
@@ -582,13 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Digital (negrito)</string>
   <string name="lockscreen_clock_selection_analog">Analógico</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analógico (deadpool)</string>
-  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analógico (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (negrito)</string>
-  <string name="lockscreen_clock_selection_small">Small Digital</string>
+  <string name="lockscreen_clock_selection_small">Pequeno Digital</string>
   <string name="lockscreen_date_selection_title">Estilo da data</string>
-  <string name="lockscreen_date_selection_default_aosp">Default</string>
-  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
+  <string name="lockscreen_date_selection_default_aosp">Padrão</string>
+  <string name="lockscreen_date_selection_default">Tamanho do vídeo predefinido</string>
   <string name="lockscreen_date_selection_str_box">Semi-transparente</string>
   <string name="lockscreen_date_selection_str_round">Caixa semi-transparente (redonda)</string>
 </resources>

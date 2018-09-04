@@ -538,8 +538,8 @@
   <string name="quick_pulldown_right">Phải</string>
   <string name="quick_pulldown_always">Luôn luôn</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Rung khi xác thực bằng vân tay</string>
+  <string name="fprint_sucess_vib_summary">Rung khi xác thực vân tay thành công</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Kéo xuống thông minh</string>
   <string name="smart_pulldown_summary">Mở cài đặt nhanh khi có %1$s thông báo</string>
@@ -582,13 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Đồng hồ số (in đậm)</string>
   <string name="lockscreen_clock_selection_analog">Đồng hồ kim</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Đồng hồ kim (mặt Deadpool)</string>
-  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Đồng hồ Analog (dotos)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (đậm)</string>
-  <string name="lockscreen_clock_selection_small">Small Digital</string>
+  <string name="lockscreen_clock_selection_small">Đồng hồ số nhỏ</string>
   <string name="lockscreen_date_selection_title">Kiểu ngày</string>
-  <string name="lockscreen_date_selection_default_aosp">Default</string>
-  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
+  <string name="lockscreen_date_selection_default_aosp">Mặc định</string>
+  <string name="lockscreen_date_selection_default">Mặc định (kích thước lớn hơn)</string>
   <string name="lockscreen_date_selection_str_box">Hộp bán trong suốt</string>
   <string name="lockscreen_date_selection_str_round">Hộp bán trong suốt (bo tròn)</string>
 </resources>
