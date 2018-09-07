@@ -52,7 +52,6 @@ public class SystemSettingListPreference extends ListPreference {
         return value == null ? defaultReturnValue : value;
     }
 
-    @Override
     protected boolean isPersisted() {
         return Settings.System.getString(getContext().getContentResolver(), getKey()) != null;
     }
