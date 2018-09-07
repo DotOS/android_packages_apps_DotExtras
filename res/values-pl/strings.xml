@@ -39,7 +39,7 @@
   <!-- Power Menu -->
   <string name="powermenu_reboot_title">Uruchom ponownie</string>
   <string name="powermenu_advanced_reboot_title">Zaawansowany restart</string>
-  <string name="powermenu_advanced_reboot_summary">Włącza zaawansowane menu restartu w celu ponownego uruchomienia opcji takich jak hot, recovery i bootloader. Dodaje także jako opcję ponownego uruchomienia SystemUI</string>
+  <string name="powermenu_advanced_reboot_summary">Włącza zaawansowane menu restartu w celu ponownego uruchomienia opcji takich jak hot, recovery i bootloader. Dodaje także opcję ponownego uruchomienia SystemUI</string>
   <string name="powermenu_screenshot_title">Zrzut ekranu</string>
   <string name="powermenu_airplane_title">Tryb samolotowy</string>
   <string name="powermenu_category_visibility">Ustawienia ekranu blokady</string>
@@ -538,8 +538,8 @@
   <string name="quick_pulldown_right">Prawa</string>
   <string name="quick_pulldown_always">Zawsze</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Wibracja uwierzytelniania odcisku palca</string>
+  <string name="fprint_sucess_vib_summary">Wibracje po udanym uwierzytelnieniu odcisku palca</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
   <string name="smart_pulldown_summary">Otwórz szybkie ustawienia, gdy jest %1$s powiadomień</string>
@@ -582,13 +582,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Cyfrowy (pogrubiony)</string>
   <string name="lockscreen_clock_selection_analog">Analogowy</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Analogowy (deadpool)</string>
-  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Analogowy (dotOS)</string>
   <string name="lockscreen_clock_selection_sammy">Sammy</string>
   <string name="lockscreen_clock_selection_sammy_bold">Sammy (pogrubiony)</string>
-  <string name="lockscreen_clock_selection_small">Small Digital</string>
+  <string name="lockscreen_clock_selection_small">Mały cyfrowy</string>
   <string name="lockscreen_date_selection_title">Wygląd daty</string>
-  <string name="lockscreen_date_selection_default_aosp">Default</string>
-  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
+  <string name="lockscreen_date_selection_default_aosp">Domyślna</string>
+  <string name="lockscreen_date_selection_default">Domyślna (większa)</string>
   <string name="lockscreen_date_selection_str_box">Półprzezroczysty</string>
   <string name="lockscreen_date_selection_str_round">Półprzezroczysty (zaokrąglony)</string>
 </resources>

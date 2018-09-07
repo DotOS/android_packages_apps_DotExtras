@@ -539,8 +539,8 @@
   <string name="quick_pulldown_right">Справа</string>
   <string name="quick_pulldown_always">Всегда</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-  <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+  <string name="fprint_sucess_vib_title">Вибрация сканера отпечатка</string>
+  <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальцев</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Умная панель уведомлений</string>
   <string name="smart_pulldown_summary">Открыть панель быстрых настроек, когда там присутствует %1$s уведомлений</string>
@@ -584,13 +584,13 @@
   <string name="lockscreen_clock_selection_digital_bold">Цифровые (жирный)</string>
   <string name="lockscreen_clock_selection_analog">Аналоговые</string>
   <string name="lockscreen_clock_selection_analog_deadpool">Аналоговые (Deadpool)</string>
-  <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
+  <string name="lockscreen_clock_selection_analog_dot">Аналоговые</string>
   <string name="lockscreen_clock_selection_sammy">Вертикальные</string>
   <string name="lockscreen_clock_selection_sammy_bold">Вертикальные (жирные)</string>
-  <string name="lockscreen_clock_selection_small">Small Digital</string>
+  <string name="lockscreen_clock_selection_small">Цифровые (маленькие)</string>
   <string name="lockscreen_date_selection_title">Стиль даты</string>
-  <string name="lockscreen_date_selection_default_aosp">Default</string>
-  <string name="lockscreen_date_selection_default">Default (bigger size)</string>
+  <string name="lockscreen_date_selection_default_aosp">По умолчанию</string>
+  <string name="lockscreen_date_selection_default">По умолчанию (большие)</string>
   <string name="lockscreen_date_selection_str_box">Полупрозрачная подложка</string>
   <string name="lockscreen_date_selection_str_round">Полупрозрачная подложка (скругленная)</string>
 </resources>
