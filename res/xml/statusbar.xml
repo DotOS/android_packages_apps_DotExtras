@@ -1,32 +1,38 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/statusbar"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-			
-		<Preference
+
+        <Preference
             android:key="misc_extras"
             android:fragment="com.dot.dotextras.MiscExtras"
             android:icon="@drawable/ic_misc_extras"
             android:title="@string/misc_extras_title" />
 
-		<Preference
-		android:key="battery_settings"
-		android:title="@string/battery_style_category_title"
-		android:summary="@string/battery_style_category_summary"
-		android:fragment="com.dot.dotextras.fragments.StatusBarBattery" />
+        <Preference
+            android:key="battery_settings"
+            android:title="@string/battery_style_category_title"
+            android:summary="@string/battery_style_category_summary"
+            android:fragment="com.dot.dotextras.fragments.StatusBarBattery" />
+            
+        <Preference
+            android:key="clock_settings"
+            android:title="@string/clock_style_category_title"
+            android:summary="@string/clock_style_category_summary"
+            android:fragment="com.superior.settings.fragments.ClockSettings" />
 
-		<Preference
-        android:key="traffic"
-        android:fragment="com.dot.dotextras.fragments.Traffic"
-        android:icon="@drawable/ic_traffic"
-        android:title="@string/traffic_title" />
-		
-		<Preference
+        <Preference
+            android:key="traffic"
+            android:fragment="com.dot.dotextras.fragments.Traffic"
+            android:icon="@drawable/ic_traffic"
+            android:title="@string/traffic_title" />
+            
+        <Preference
             android:key="systemui_tuner_statusbar"
             android:title="@string/statusbar_items_category"
             android:icon="@drawable/ic_systemui_tuner_statusbaritems" >
             <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
 </PreferenceScreen>
