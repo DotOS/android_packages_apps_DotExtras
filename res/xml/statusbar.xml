@@ -15,6 +15,12 @@
         android:title="@string/battery_style_category_title" />
 
     <Preference
+        android:key="clock_settings"
+        android:title="@string/clock_style_category_title"
+        android:summary="@string/clock_style_category_summary"
+        android:fragment="com.dot.dotextras.fragments.ClockSettings" />
+
+    <Preference
         android:fragment="com.dot.dotextras.fragments.Traffic"
         android:icon="@drawable/ic_traffic"
         android:key="traffic"
