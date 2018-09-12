@@ -51,8 +51,11 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     private static final String KEY_FACE_AUTO_UNLOCK = "face_auto_unlock";
     private static final String KEY_FACE_UNLOCK_PACKAGE = "com.android.facelock";
+    private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
 
     private SwitchPreference mFaceUnlock;
+	
+    ListPreference mLockClockFonts;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -72,6 +75,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             mFaceUnlock.setOnPreferenceChangeListener(this);
         }
 
+        // Lockscren Clock Fonts
+        mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
+        mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 29)));
+        mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+        mLockClockFonts.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -90,6 +99,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             boolean value = (Boolean) objValue;
             Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.FACE_AUTO_UNLOCK, value ? 1 : 0);
+            return true;
+			} else if (preference == mLockClockFonts) {
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_CLOCK_FONTS,
+                    Integer.valueOf((String) newValue));
+            mLockClockFonts.setValue(String.valueOf(newValue));
+            mLockClockFonts.setSummary(mLockClockFonts.getEntry());
             return true;
         }
         return false;
