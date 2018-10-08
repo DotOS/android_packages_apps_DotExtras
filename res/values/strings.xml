@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
       Copyright (C) 2016 AospExtended ROM Project
@@ -290,5 +291,9 @@
 	<!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
-	
+
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Recents Style</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
 </resources>
