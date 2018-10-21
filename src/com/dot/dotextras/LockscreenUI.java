@@ -52,10 +52,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
     private static final String KEY_FACE_AUTO_UNLOCK = "face_auto_unlock";
     private static final String KEY_FACE_UNLOCK_PACKAGE = "com.android.facelock";
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
+	private static final String LOCK_DATE_FONTS = "lock_date_fonts";
 
     private SwitchPreference mFaceUnlock;
 	
     ListPreference mLockClockFonts;
+	ListPreference mLockDateFonts;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -81,6 +83,13 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
                 getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 29)));
         mLockClockFonts.setSummary(mLockClockFonts.getEntry());
         mLockClockFonts.setOnPreferenceChangeListener(this);
+		
+		// Lockscren Date Fonts
+        mLockDateFonts = (ListPreference) findPreference(LOCK_DATE_FONTS);
+        mLockDateFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_DATE_FONTS, 29)));
+        mLockDateFonts.setSummary(mLockDateFonts.getEntry());
+        mLockDateFonts.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -105,6 +114,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
                     Integer.valueOf((String) newValue));
             mLockClockFonts.setValue(String.valueOf(newValue));
             mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+            return true;
+		} else if (preference == mLockDateFonts) {
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_DATE_FONTS,
+                    Integer.valueOf((String) newValue));
+            mLockDateFonts.setValue(String.valueOf(newValue));
+            mLockDateFonts.setSummary(mLockDateFonts.getEntry());
             return true;
         }
         return false;
