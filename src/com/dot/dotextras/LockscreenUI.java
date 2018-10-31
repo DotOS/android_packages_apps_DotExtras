@@ -49,6 +49,7 @@ import com.dot.dotextras.Utils;
 
 import android.hardware.fingerprint.FingerprintManager;
 import com.dot.dotextras.preference.SystemSettingSwitchPreference;
+import com.android.internal.util.custom.weather.WeatherClient;
 
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -57,6 +58,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
     private static final String FP_CAT = "lockscreen_ui_general_category";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
     private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
+    private static final String WEATHER_LS_CAT = "weather_lockscreen_key";
 
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
 	private static final String LOCK_DATE_FONTS = "lock_date_fonts";
@@ -77,6 +79,13 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        final PreferenceCategory weatherCategory = (PreferenceCategory) prefSet
+                .findPreference(WEATHER_LS_CAT);
+
+        if (!WeatherClient.isAvailable(getContext())) {
+            prefSet.removePreference(weatherCategory);
+        }
 
         mFaceUnlock = (SwitchPreference) findPreference(KEY_FACE_AUTO_UNLOCK);
         if (!Utils.isPackageInstalled(getActivity(), KEY_FACE_UNLOCK_PACKAGE)){
