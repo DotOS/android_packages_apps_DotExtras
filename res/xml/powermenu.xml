@@ -33,10 +33,10 @@
         android:title="@string/powermenu_screenshot_title"
         android:defaultValue="false" />
 
-    <com.dot.dotextras.preference.SystemSettingSwitchPreference
+    <!-- <com.dot.dotextras.preference.SystemSettingSwitchPreference
         android:key="powermenu_airplane"
         android:title="@string/powermenu_airplane_title"
-        android:defaultValue="false" />
+        android:defaultValue="false" /> -->
 
     <PreferenceCategory
         android:key="powermenu_category_visibility"
@@ -69,12 +69,12 @@
             android:dependency="powermenu_screenshot"
             android:defaultValue="false" />
 
-        <SwitchPreference
+        <!-- <SwitchPreference
             android:key="powermenu_ls_airplane"
             android:title="@string/powermenu_airplane_title"
             android:summary="@string/powermenu_ls_airplane_summary"
             android:dependency="powermenu_airplane"
-            android:defaultValue="false" />
+            android:defaultValue="false" /> -->
 
     </PreferenceCategory>
 </PreferenceScreen>
