@@ -1,32 +1,34 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/statusbar"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-			
-		<Preference
-            android:key="misc_extras"
-            android:fragment="com.dot.dotextras.MiscExtras"
-            android:icon="@drawable/ic_misc_extras"
-            android:title="@string/misc_extras_title" />
+    android:title="@string/statusbar">
 
-		<Preference
-		android:key="battery_settings"
-		android:title="@string/battery_style_category_title"
-		android:summary="@string/battery_style_category_summary"
-		android:fragment="com.dot.dotextras.fragments.StatusBarBattery" />
+    <Preference
+        android:fragment="com.dot.dotextras.MiscExtras"
+        android:icon="@drawable/ic_misc_extras"
+        android:key="misc_extras"
+        android:title="@string/misc_extras_title" />
 
-		<Preference
-        android:key="traffic"
+    <Preference
+        android:fragment="com.dot.dotextras.fragments.StatusBarBattery"
+        android:key="battery_settings"
+		android:icon="@drawable/ic_battery_styles"
+        android:summary="@string/battery_style_category_summary"
+        android:title="@string/battery_style_category_title" />
+
+    <Preference
         android:fragment="com.dot.dotextras.fragments.Traffic"
         android:icon="@drawable/ic_traffic"
+        android:key="traffic"
         android:title="@string/traffic_title" />
-		
-		<Preference
-            android:key="systemui_tuner_statusbar"
-            android:title="@string/statusbar_items_category"
-            android:icon="@drawable/ic_systemui_tuner_statusbaritems" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+
+    <Preference
+        android:icon="@drawable/ic_systemui_tuner_statusbaritems"
+        android:key="systemui_tuner_statusbar"
+        android:title="@string/statusbar_items_category">
+
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity"
+            android:targetPackage="com.android.systemui" />
     </Preference>
 
 </PreferenceScreen>
