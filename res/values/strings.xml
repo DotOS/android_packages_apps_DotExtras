@@ -28,6 +28,7 @@
     <string name="dlg_ok">OK</string>
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
+    <string name="go_back">Go back</string>
 	
     <!-- Fragments -->
     <string name="statusbar">Statusbar</string>
@@ -35,7 +36,7 @@
     <string name="recents">Recents</string>
     <string name="power_menu">Power Menu</string>
     <string name="lockscreen">Lockscreen</string>
-
+    <string name="navigationbar">Navigation Bar</string>
     <string name="system">System</string>
 
 
