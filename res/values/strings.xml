@@ -376,4 +376,9 @@
 	<!-- Lockscreen visualizer -->
     <string name="lockscreen_visualizer_title">Lockscreen visualizer</string>
     <string name="lockscreen_visualizer_summary">Displays a live design on lockscreen while music is playing</string>
+	
+	<!-- dotos logo -->
+    <string name="statusbar_logo_category">Status bar logo</string>
+    <string name="dot_logo_title">Show our logo on Statusbar</string>
+    <string name="dot_logo_summary">Add our custom logo on your statusbar to brag about what ROM are you on</string>
 </resources>
