@@ -15,6 +15,12 @@
         android:title="@string/battery_style_category_title" />
 
     <Preference
+        android:key="battery_bar_category"
+        android:fragment="com.dot.dotextras.fragments.BatteryBar"
+        android:title="@string/battery_bar_title"
+        android:summary="@string/battery_bar_summary" />
+
+    <Preference
         android:key="clock_settings"
 		android:icon="@drawable/ic_clock_styles"
         android:title="@string/clock_style_category_title"
