@@ -49,7 +49,7 @@ import com.dot.dotextras.Utils;
 
 import android.hardware.fingerprint.FingerprintManager;
 import com.dot.dotextras.preference.SystemSettingSwitchPreference;
-import com.android.internal.util.custom.weather.WeatherClient;
+import com.android.internal.util.dotos.DOTUtils;
 
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -83,7 +83,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         final PreferenceCategory weatherCategory = (PreferenceCategory) prefSet
                 .findPreference(WEATHER_LS_CAT);
 
-        if (!WeatherClient.isAvailable(getContext())) {
+        if (!DOTUtils.isPackageInstalled(getActivity(), "org.pixelexperience.weather.client")) {
             prefSet.removePreference(weatherCategory);
         }
 
