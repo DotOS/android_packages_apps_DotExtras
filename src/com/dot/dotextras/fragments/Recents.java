@@ -42,8 +42,13 @@ public class Recents extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "Recents";
-    private ListPreference mRecentsComponentType;
     private static final String RECENTS_COMPONENT_TYPE = "recents_component";
+
+    private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
+
+    private ListPreference mRecentsComponentType;
+    private ListPreference mRecentsClearAllLocation;
+    private SwitchPreference mRecentsClearAll;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -60,6 +65,14 @@ public class Recents extends SettingsPreferenceFragment implements
         mRecentsComponentType.setValue(String.valueOf(type));
         mRecentsComponentType.setSummary(mRecentsComponentType.getEntry());
         mRecentsComponentType.setOnPreferenceChangeListener(this);
+
+        // clear all recents
+        mRecentsClearAllLocation = (ListPreference) findPreference(RECENTS_CLEAR_ALL_LOCATION);
+        int location = Settings.System.getIntForUser(resolver,
+                Settings.System.RECENTS_CLEAR_ALL_LOCATION, 3, UserHandle.USER_CURRENT);
+        mRecentsClearAllLocation.setValue(String.valueOf(location));
+        mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntry());
+        mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -89,6 +102,13 @@ public class Recents extends SettingsPreferenceFragment implements
                     Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
             }
             DOTUtils.showSystemUiRestartDialog(getContext());
+        return true;
+        } else if (preference == mRecentsClearAllLocation) {
+        int location = Integer.valueOf((String) objValue);
+        int index = mRecentsClearAllLocation.findIndexOfValue((String) objValue);
+        Settings.System.putIntForUser(getActivity().getContentResolver(),
+                Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
+        mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
         return true;
         }
         return true;
