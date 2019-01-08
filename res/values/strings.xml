@@ -47,6 +47,7 @@
     <string name="lockscreen_category">Lockscreen</string>
     <string name="notifications_panel_category">Notifications</string>
     <string name="aosp_recents_category">AOSP recents</string>
+    <string name="oreo_recents_category">Oreo recents</string>
     <string name="qs_brightness_category">Brightness</string>
 
     <!-- Frags -->
@@ -478,5 +479,16 @@
     <string name="smart_pixels_percent">Percent of pixels to disable</string>
     <string name="smart_pixels_shift_title">Burn-in protection</string>
     <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 
 </resources>
