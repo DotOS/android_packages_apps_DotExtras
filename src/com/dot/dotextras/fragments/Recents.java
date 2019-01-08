@@ -45,10 +45,12 @@ public class Recents extends SettingsPreferenceFragment implements
     private static final String RECENTS_COMPONENT_TYPE = "recents_component";
 
     private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
+    private static final int RECENTS_COMPONENT_OREO = 1;
 
     private ListPreference mRecentsComponentType;
     private ListPreference mRecentsClearAllLocation;
     private SwitchPreference mRecentsClearAll;
+    private PreferenceCategory oreoRecentsCat;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -73,6 +75,9 @@ public class Recents extends SettingsPreferenceFragment implements
         mRecentsClearAllLocation.setValue(String.valueOf(location));
         mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntry());
         mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
+
+        oreoRecentsCat = (PreferenceCategory)findPreference("recents_ui_oreo_recents_category");
+        oreoRecentsCat.setEnabled(type == RECENTS_COMPONENT_OREO);
     }
 
     @Override
@@ -97,7 +102,8 @@ public class Recents extends SettingsPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.RECENTS_COMPONENT, type);
             mRecentsComponentType.setSummary(mRecentsComponentType.getEntries()[index]);
-            if (type == 1) { // Disable swipe up gesture, if oreo type selected
+            oreoRecentsCat.setEnabled(type == RECENTS_COMPONENT_OREO);
+            if (type == RECENTS_COMPONENT_OREO) { // Disable swipe up gesture, if oreo type selected
                Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
             }
