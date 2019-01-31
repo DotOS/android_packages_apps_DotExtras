@@ -334,5 +334,9 @@
     <string name="force_ambient_for_media_pref_summary">Configure the Ambient music ticker</string>
     <string name="ambient_ticker_footer">Ambient Music Ticker shows playing music track info within Ambient display screen.\n\nIt\'s triggered also if Ambient Display is disabled when a new track is started, forcing a clean ambient screen with track info in the middle of the screen.\n\nYou can also double tap on track info to skip track.</string>
     <string name="force_ambient_for_media_title">Enable</string>
+	
+	<string name="profile_choose_app">Choose app</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
 
 </resources>
