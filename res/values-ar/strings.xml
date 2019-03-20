@@ -678,9 +678,6 @@
     <string name="smart_pixels_percent">نسبة الدقة لإيقافها</string>
     <string name="smart_pixels_shift_title">حماية الاحتراق</string>
     <string name="smart_pixels_shift_summary">منع الاحتراق في اجهزة OLED عن طريق نقل وحدات البكسل في كل مرة</string>
-    <!-- Disable QuickSettings on Secured lockscreen -->
-    <string name="block_on_secure_keyguard_title">تعطيل الإعدادات السريعة</string>
-    <string name="block_on_secure_keyguard_summary">تعطيل الاعدادات السريعة على شاشة القفل المؤمنة</string>
     <!-- ANBI -->
     <string name="anbi_title">اللمس الغير مقصود</string>
     <string name="anbi_summary">منع التفاعل مع أزرار التنقل أثناء لمس الشاشة</string>

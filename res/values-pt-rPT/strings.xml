@@ -678,9 +678,6 @@
     <string name="smart_pixels_percent">Percentagem de píxeis a desativar</string>
     <string name="smart_pixels_shift_title">Está protegido</string>
     <string name="smart_pixels_shift_summary">Impede burn-in em dispositivos OLED, deslocando pixels de vez em quando</string>
-    <!-- Disable QuickSettings on Secured lockscreen -->
-    <string name="block_on_secure_keyguard_title">Desativar as Definições rápidas</string>
-    <string name="block_on_secure_keyguard_summary">Desativa as definições rápidas no ecrã de bloqueio seguro</string>
     <!-- ANBI -->
     <string name="anbi_title">Toques acidentais</string>
     <string name="anbi_summary">Evitar a interação com os botões de navegação enquanto tocando no ecrã</string>

@@ -678,9 +678,6 @@
     <string name="smart_pixels_percent">Pourcentage de pixels à désactiver</string>
     <string name="smart_pixels_shift_title">Protection anti-brulûre</string>
     <string name="smart_pixels_shift_summary">Évite les brûlures d\'écran OLED en déplaçant les pixels de temps en temps</string>
-    <!-- Disable QuickSettings on Secured lockscreen -->
-    <string name="block_on_secure_keyguard_title">Désactiver les paramètres rapides</string>
-    <string name="block_on_secure_keyguard_summary">Désactiver les paramètres rapides sur l\'écran de verrouillage</string>
     <!-- ANBI -->
     <string name="anbi_title">Appui accidentel</string>
     <string name="anbi_summary">Empêcher l\'appui sur les boutons de navigation lorsque l\'écran est utilisé</string>

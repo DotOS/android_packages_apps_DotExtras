@@ -678,9 +678,6 @@
     <string name="smart_pixels_percent">禁用的像素数量</string>
     <string name="smart_pixels_shift_title">烧屏保护</string>
     <string name="smart_pixels_shift_summary">通过经常移动像素来防止 OLED 屏幕的设备发生烧屏</string>
-    <!-- Disable QuickSettings on Secured lockscreen -->
-    <string name="block_on_secure_keyguard_title">禁用快速设置</string>
-    <string name="block_on_secure_keyguard_summary">在安全锁屏界面禁用快速设置</string>
     <!-- ANBI -->
     <string name="anbi_title">误触</string>
     <string name="anbi_summary">在触摸屏幕时，暂时停用硬件导航按钮</string>

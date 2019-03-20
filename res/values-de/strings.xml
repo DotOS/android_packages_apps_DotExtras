@@ -678,9 +678,6 @@
     <string name="smart_pixels_percent">Prozentsatz der abzuschaltenden Pixel</string>
     <string name="smart_pixels_shift_title">Einbrenn-Schutz</string>
     <string name="smart_pixels_shift_summary">Verhindert das Einbrennen auf OLED-Displays durch das Verlagern von Pixeln</string>
-    <!-- Disable QuickSettings on Secured lockscreen -->
-    <string name="block_on_secure_keyguard_title">Schnelleinstellungen deaktivieren</string>
-    <string name="block_on_secure_keyguard_summary">Deaktiviert den Zugriff auf die Schnelleinstellungen bei gesichertem Sperrbildschirm</string>
     <!-- ANBI -->
     <string name="anbi_title">Versehentliches Berühren</string>
     <string name="anbi_summary">Verhindert die Interaktion mit den Navigationstasten, während der Bildschirm berührt wird</string>

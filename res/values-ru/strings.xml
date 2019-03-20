@@ -679,9 +679,6 @@
     <string name="smart_pixels_percent">Процент отключенных пикселей</string>
     <string name="smart_pixels_shift_title">Защита от выгорания</string>
     <string name="smart_pixels_shift_summary">Предотвращение выгорания на OLED устройствах благодаря перемещению пикселей с такой частотой</string>
-    <!-- Disable QuickSettings on Secured lockscreen -->
-    <string name="block_on_secure_keyguard_title">Отключить быстрые настройки</string>
-    <string name="block_on_secure_keyguard_summary">Отключает быстрые настройки на экране блокировки</string>
     <!-- ANBI -->
     <string name="anbi_title">Случайное прикосновение</string>
     <string name="anbi_summary">Предотвращения взаимодействия с кнопками навигации при касании экрана</string>

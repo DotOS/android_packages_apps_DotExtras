@@ -678,9 +678,6 @@
     <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
     <string name="smart_pixels_shift_title">Yanma koruması</string>
     <string name="smart_pixels_shift_summary">OLED cihazlarda yanmaları önler ve sık sık pikselleri kaydırır</string>
-    <!-- Disable QuickSettings on Secured lockscreen -->
-    <string name="block_on_secure_keyguard_title">Hızlı ayarlar</string>
-    <string name="block_on_secure_keyguard_summary">Güvenli kilit ekranında hızlı ayarları devre dışı bırak</string>
     <!-- ANBI -->
     <string name="anbi_title">Yanlışlıkla dokunma</string>
     <string name="anbi_summary">Ekrana dokunulduğunda gezinme tuşları ile etkileşimi önle</string>

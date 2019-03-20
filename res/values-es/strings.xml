@@ -635,8 +635,8 @@
     <string name="battery_bar_blend_color_title">Colores mezclados</string>
     <string name="battery_bar_blend_color_summary">Mezcla llena/colores según la carga de la batería</string>
     <string name="battery_bar_blend_color_reverse_title">Invertir dirección de colores</string>
-    <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
-    <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Completo &#8594; vacío: rojo &#8592; verde &#8592; azul &#8592; rojo</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Completo &#8594; Vacio: rojo &#8594; verde &#8594; azul &#8594; rojo</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Botón de forzar cierre</string>
     <string name="notification_guts_kill_app_button_summary">Mostrar botón para forzar cierre en el menú de notificaciones</string>
@@ -678,9 +678,6 @@
     <string name="smart_pixels_percent">Porcentaje de píxeles deshabilitados</string>
     <string name="smart_pixels_shift_title">Protección contra pantallas fantasmas</string>
     <string name="smart_pixels_shift_summary">Prevenir pantalla fantasma en pantallas OLED intercambiando píxeles</string>
-    <!-- Disable QuickSettings on Secured lockscreen -->
-    <string name="block_on_secure_keyguard_title">Quitar ajustes rápidos</string>
-    <string name="block_on_secure_keyguard_summary">Quitar ajustes rápidos en pantalla de bloqueo</string>
     <!-- ANBI -->
     <string name="anbi_title">Encendido accidental</string>
     <string name="anbi_summary">Prevenir el toque de botones físicos mientras tocas la pantalla</string>
