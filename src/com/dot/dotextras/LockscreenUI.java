@@ -49,6 +49,7 @@ import com.dot.dotextras.Utils;
 
 import android.hardware.fingerprint.FingerprintManager;
 import com.dot.dotextras.preference.SystemSettingSwitchPreference;
+import com.dot.dotextras.preference.SystemSettingListPreference;
 import com.android.internal.util.dotos.DOTUtils;
 
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
@@ -62,6 +63,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
 	private static final String LOCK_DATE_FONTS = "lock_date_fonts";
+    private static final String LOCKSCREEN_CLOCK_SELECTION  = "lockscreen_clock_selection";
 
     private SwitchPreference mFaceUnlock;
     private SystemSettingSwitchPreference mFingerprintVib;
@@ -70,6 +72,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 	
     ListPreference mLockClockFonts;
 	ListPreference mLockDateFonts;
+    SystemSettingListPreference mLockClockStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -118,6 +121,11 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mLockClockFonts.setSummary(mLockClockFonts.getEntry());
         mLockClockFonts.setOnPreferenceChangeListener(this);
 		
+        mLockClockStyle = (SystemSettingListPreference) findPreference(LOCKSCREEN_CLOCK_SELECTION);
+        mLockClockStyle.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCKSCREEN_CLOCK_SELECTION, 0)));
+        mLockClockStyle.setOnPreferenceChangeListener(this);
+		
 		// Lockscren Date Fonts
         mLockDateFonts = (ListPreference) findPreference(LOCK_DATE_FONTS);
         mLockDateFonts.setValue(String.valueOf(Settings.System.getInt(
@@ -160,6 +168,16 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);
+            return true;
+        } else if (preference == mLockClockStyle) {
+            int val = Integer.valueOf((String) objValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_CLOCK_SELECTION, val);
+            if (val == 15) {
+                Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_INFO, 0);
+            } else {
+                Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_INFO, 1);
+            }
             return true;
         }
         return false;
