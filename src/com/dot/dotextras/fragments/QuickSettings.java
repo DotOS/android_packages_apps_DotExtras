@@ -36,13 +36,9 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.Utils;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+        Preference.OnPreferenceChangeListener {
 
         private static final String TAG = "QuickSettings";
-
-        private static final String OMNI_QS_PANEL_BG_ALPHA = "qs_panel_bg_alpha";
-
-        private CustomSeekBarPreference mQsPanelAlpha;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -50,14 +46,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.quick_settings);
 
-        final ContentResolver resolver = getActivity().getContentResolver();
+        ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
-
-        mQsPanelAlpha = (CustomSeekBarPreference) findPreference(OMNI_QS_PANEL_BG_ALPHA);
-        int qsPanelAlpha = Settings.System.getIntForUser(resolver,
-                Settings.System.OMNI_QS_PANEL_BG_ALPHA, 255, UserHandle.USER_CURRENT);
-        mQsPanelAlpha.setValue(qsPanelAlpha);
-        mQsPanelAlpha.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -71,15 +61,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mQsPanelAlpha) {
-            int bgAlpha = (Integer) newValue;
-            Settings.System.putIntForUser(getContentResolver(),
-                    Settings.System.OMNI_QS_PANEL_BG_ALPHA, bgAlpha,
-                    UserHandle.USER_CURRENT);
-            return true;
-        }
-        return false;
+    public void onPause() {
+        super.onPause();
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        final String key = preference.getKey();
+        return true;
     }
 
 }
