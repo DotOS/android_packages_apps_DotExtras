@@ -285,7 +285,7 @@
     <!-- Ambient display music ticker -->
     <string name="force_ambient_for_media_pref_title">Функция Ambient Music Ticker</string>
     <string name="force_ambient_for_media_pref_summary">Настройка Ambient Music Ticker</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker отображает проигрываемый музыкальный трек на Ambient display.\n\nТакже срабатывает при выключенном Ambient display во время запуска нового трека, показывая пустой Ambient display с информацией о треке в центре экрана.\n\nВы также можете пропустить трек двойным нажатем по нему.\n\nЕсли у вас есть Pixel, включите функцию «Сейчас играет» и её уведомления в системных настройках звука. Ambient Music Ticker также будет работать с этой функцией.</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker отображает проигрываемый музыкальный трек на Ambient display.\n\nТакже срабатывает при выключенном Ambient display во время запуска нового трека, показывая пустой Ambient display с информацией о треке в центре экрана.\n\nВы также можете пропустить трек двойным нажатем по нему.\n\nЕсли у вас Pixel, включите функцию «Сейчас играет» и её уведомления в системных настройках звука. Ambient Music Ticker также будет работать с этой функцией.</string>
     <string name="force_ambient_for_media_title">Включить</string>
     <string name="profile_choose_app">Выберите приложение</string>
     <string name="dialog_delete_title">Удалить</string>
@@ -318,8 +318,8 @@
     <string name="lockscreen_visualizer_summary">Дисплей отображает картинку альбома на экране блокировки</string>
     <!-- dotos logo -->
     <string name="statusbar_logo_category">Логотип в строке состояния</string>
-    <string name="dot_logo_title">Показать наш логотип в строке состояния</string>
-    <string name="dot_logo_summary">Добавить логотип dotOS в строку состояния, чтобы все знали, какую прошивку вы используете</string>
+    <string name="dot_logo_title">Логотип dotOS в строке состояния</string>
+    <string name="dot_logo_summary">Добавить наш логотип в строку состояния, чтобы все знали, какую прошивку вы используете</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Жест тремя пальцами</string>
     <string name="three_finger_gesture_summary">Проведите тремя пальцами для создания скриншота</string>

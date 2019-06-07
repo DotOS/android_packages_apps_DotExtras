@@ -318,7 +318,7 @@
     <string name="lockscreen_visualizer_summary">Дисплей отображает картинку альбома на экране блокировки</string>
     <!-- dotos logo -->
     <string name="statusbar_logo_category">Логотип в строке состояния</string>
-    <string name="dot_logo_title">Показать наш логотип в строке состояния</string>
+    <string name="dot_logo_title">Отображать наш логотип в строке состояния</string>
     <string name="dot_logo_summary">Добавить логотип dotOS в строку состояния, чтобы все знали, какую прошивку вы используете</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Жест тремя пальцами</string>

@@ -85,33 +85,33 @@
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Définir</string>
+    <string name="color_default">Par défaut</string>
     <!-- Power Menu -->
-    <string name="advanced_power_menu">Power menu options</string>
-    <string name="advanced_reboot_menu">Advanced reboot menu</string>
-    <string name="powermenu_reboot_title">Reboot</string>
-    <string name="powermenu_airplane_title">Airplane mode</string>
+    <string name="advanced_power_menu">Options du menu Marche/Arrêt</string>
+    <string name="advanced_reboot_menu">Redémarrage avancé</string>
+    <string name="powermenu_reboot_title">Redémarrage</string>
+    <string name="powermenu_airplane_title">Mode Avion</string>
     <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
     <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-    <string name="powermenu_screenshot_title">Screenshot</string>
+    <string name="powermenu_screenshot_title">Capture d\'écran</string>
     <string name="powermenu_category_visibility">Lockscreen options</string>
     <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
     <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
     <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
     <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-    <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+    <string name="powermenu_ls_airplane_summary">Afficher l\'option du mode avion sur l\'écran de verrouillage</string>
     <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Other</string>
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_title">Trafic réseau</string>
+    <string name="network_traffic_type">Sélectionnez le type d\'activité réseau</string>
+    <string name="show_network_traffic_up">Débit montant</string>
+    <string name="show_network_traffic_down">Débit descendant</string>
+    <string name="show_network_traffic_all">Débit montant et descendant</string>
+    <string name="network_traffic_state_title">Afficher l\'activité réseau dans la barre d\'état</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
@@ -120,13 +120,13 @@
     <string name="battery_style_category_title">Battery Styles</string>
     <string name="battery_style_category_summary">Customize Battery Icon</string>
     <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_default">Masqué</string>
+    <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
+    <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
     <!-- Status bar battery style-->
-    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_title">Icône de batterie</string>
     <string name="status_bar_battery_style_port">Portrait</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
     <string name="battery_style_dotted_circle">Cercle pointillé</string>
     <string name="status_bar_battery_style_text">Texte</string>
     <string name="status_bar_battery_style_hidden">Masqué</string>
@@ -185,13 +185,13 @@
     <string name="lock_clock_font_bold">Gras</string>
     <string name="lock_clock_font_italic">Italique</string>
     <string name="lock_clock_font_bold_italic">Gras italique</string>
-    <string name="lock_clock_font_light_italic">Light Italic</string>
-    <string name="lock_clock_font_thin_italic">Thin Italic</string>
-    <string name="lock_clock_font_light">Light</string>
-    <string name="lock_clock_font_thin">Thin</string>
-    <string name="lock_clock_font_condensed_normal">Condensed</string>
-    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
-    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
+    <string name="lock_clock_font_light_italic">Italique léger</string>
+    <string name="lock_clock_font_thin_italic">Italique fin</string>
+    <string name="lock_clock_font_light">Léger</string>
+    <string name="lock_clock_font_thin">Fin</string>
+    <string name="lock_clock_font_condensed_normal">Condensé</string>
+    <string name="lock_clock_font_condensed_italic">Condensé Italique</string>
+    <string name="lock_clock_font_condensed_bold">Condensé Gras</string>
     <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
     <string name="lock_clock_font_condensed_light">Condensed Light</string>
     <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string>
@@ -218,8 +218,8 @@
     <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>
     <string name="lock_date_font_dialog_title">Select lock date font</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Icône 4G</string>
+    <string name="show_fourg_icon_summary">Afficher l’icône 4G plutôt que LTE</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Toast app icon</string>
     <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
@@ -234,7 +234,7 @@
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
     <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_off">Désactivé</string>
     <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
     <!-- Volume rocker wake -->
@@ -247,15 +247,15 @@
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+    <string name="fp_unlock_keystore_title">Déverrouiller avec l\'empreinte digitale</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_enable">Voyant de batterie</string>
+    <string name="battery_light_allow_on_dnd_title">Voyant de batterie en mode Ne Pas Déranger</string>
+    <string name="battery_light_low_blinking_title">Voyant clignotant lorsque la batterie est faible</string>
+    <string name="battery_light_cat">Couleur du voyant de batterie pendant la charge</string>
+    <string name="battery_light_low_color">Batterie faible</string>
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>

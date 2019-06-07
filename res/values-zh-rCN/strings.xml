@@ -18,41 +18,41 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dotextras_title">Dot 扩展</string>
+    <string name="dotextras_title">Dot个性设置</string>
     <string name="build_tweaks_summary_title">用您自己的风格自定义 Dots</string>
     <string name="add">添加</string>
     <string name="advanced">高级</string>
     <string name="cancel">取消</string>
     <string name="choose_app">选择应用</string>
     <string name="dlg_ok">确定</string>
-    <string name="loading">载入中…</string>
+    <string name="loading">载入中\u2026</string>
     <string name="reset">重置</string>
     <string name="go_back">返回</string>
     <string name="icons_category">图标</string>
     <!-- Fragments -->
     <string name="statusbar">状态栏</string>
-    <string name="quick_settings">快速设置</string>
-    <string name="recents">最近任务</string>
+    <string name="quick_settings">通知面板</string>
+    <string name="recents">多任务</string>
     <string name="power_menu">电源菜单</string>
     <string name="lockscreen">锁屏</string>
     <string name="navigationbar">导航栏</string>
     <string name="system">系统</string>
     <string name="general_category">常规</string>
-    <string name="light_category">通知灯自定义设置</string>
+    <string name="light_category">呼吸灯设置</string>
     <string name="music_category">音乐</string>
     <string name="lockscreen_category">锁屏</string>
     <string name="notifications_panel_category">通知</string>
-    <string name="aosp_recents_category">AOSP 最近任务</string>
+    <string name="aosp_recents_category">AOSP的多任务</string>
     <string name="qs_brightness_category">亮度</string>
     <!-- Frags -->
     <!-- General Tweaks -->
     <string name="general_tweaks_title">常规设置</string>
     <!-- Misc Extras -->
-    <string name="misc_extras_title">杂项</string>
+    <string name="misc_extras_title">其他设置</string>
     <!-- Lockscreen UI Tweaks -->
     <string name="lockscreen_ui_title">锁屏界面</string>
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_shortcuts">锁屏界面快捷方式</string>
+    <string name="lockscreen_shortcuts">锁屏快捷操作</string>
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">锁屏界面调节</string>
     <!-- Statusbar Iten -->
@@ -66,9 +66,9 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">导航栏调节</string>
     <!-- Quick Settings -->
-    <string name="quick_settings_title">快速设置</string>
+    <string name="quick_settings_title">通知面板</string>
     <!-- Recents UI -->
-    <string name="recents_ui_title">最近任务界面</string>
+    <string name="recents_ui_title">多任务</string>
     <!-- Buttons -->
     <string name="buttons_title">按键</string>
     <!-- Gestures -->
@@ -80,12 +80,12 @@
     <string name="theme_accent_picker_default">默认</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">颜色选择器</string>
-    <string name="press_color_to_apply">按下面的颜色应用</string>
+    <string name="press_color_to_apply">点击下列颜色以应用</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">十六进制</string>
+    <string name="hex">十六进制：</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">组</string>
+    <string name="set">设置</string>
     <string name="color_default">默认</string>
     <!-- Power Menu -->
     <string name="advanced_power_menu">电源菜单选项</string>

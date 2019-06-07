@@ -86,68 +86,68 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Aplicar</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">Padrão</string>
     <!-- Power Menu -->
-    <string name="advanced_power_menu">Power menu options</string>
-    <string name="advanced_reboot_menu">Advanced reboot menu</string>
-    <string name="powermenu_reboot_title">Reboot</string>
-    <string name="powermenu_airplane_title">Airplane mode</string>
-    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-    <string name="powermenu_screenshot_title">Screenshot</string>
-    <string name="powermenu_category_visibility">Lockscreen options</string>
-    <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-    <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-    <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-    <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-    <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+    <string name="advanced_power_menu">Opções do menu de energia</string>
+    <string name="advanced_reboot_menu">Menu de reinício avançado</string>
+    <string name="powermenu_reboot_title">Reiniciar</string>
+    <string name="powermenu_airplane_title">Modo avião</string>
+    <string name="powermenu_advanced_reboot_title">Reinicio avançado</string>
+    <string name="powermenu_advanced_reboot_summary">Ativar o menu de reinício avançado para as opções de reinício rápido, recuperação e bootloader. Também adiciona uma opção para reiniciar interface de usuário</string>
+    <string name="powermenu_screenshot_title">Captura de tela</string>
+    <string name="powermenu_category_visibility">Opções da tela de bloqueio</string>
+    <string name="powermenu_lockscreen_title">Visibilidade na tela de bloqueio</string>
+    <string name="powermenu_lockscreen_summary">Permite exibir e usar o menu de energia na tela de bloqueio</string>
+    <string name="powermenu_ls_reboot_summary">Exibir a opção de reinicio na tela de bloqueio</string>
+    <string name="powermenu_ls_advanced_reboot_summary">Exibir a opção de reinício avançado na tela de bloqueio</string>
+    <string name="powermenu_ls_screenshot_summary">Exibir a captura de tela na tela de bloqueio</string>
+    <string name="powermenu_ls_airplane_summary">Exibir o modo avião na tela de bloqueio</string>
     <!-- Hide Lockscreen clock, date, & alarm -->
-    <string name="lockscreen_items_other">Other</string>
+    <string name="lockscreen_items_other">Outro</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="traffic_title">Indicador de tráfego de rede</string>
+    <string name="network_traffic_title">Tráfego de rede</string>
+    <string name="network_traffic_type">Selecione o tipo de atividade da rede</string>
+    <string name="show_network_traffic_up">Enviando</string>
+    <string name="show_network_traffic_down">Recebendo</string>
+    <string name="show_network_traffic_all">Enviando e recebendo</string>
+    <string name="network_traffic_state_title">Exibir a atividade da rede na barra de status</string>
+    <string name="network_traffic_autohide_threshold_title">Mínimo para ocultar automaticamente a atividade de rede (KB/s)</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Informação de carregamento na tela de bloqueio</string>
+    <string name="lockscreen_battery_info_summary">Exibir corrente/tensão máxima e temperatura da bateria na tela de bloqueio durante o carregamento</string>
     <!-- Battery percentage -->
-    <string name="battery_style_category_title">Battery Styles</string>
-    <string name="battery_style_category_summary">Customize Battery Icon</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="battery_style_category_title">Estilos de bateria</string>
+    <string name="battery_style_category_summary">Personalizar ícone da bateria</string>
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Ocultado</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
     <!-- Status bar battery style-->
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_port">Portrait</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="battery_style_dotted_circle">Dotted circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_title">Estilo do ícone da bateria</string>
+    <string name="status_bar_battery_style_port">Retrato</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="battery_style_dotted_circle">Círculo pontilhado</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Ocultado</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Toque duas vezes na tela de bloqueio para desligar a tela</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Toque duas vezes na área superior ou inferior da tela de bloqueio para desligar a tela</string>
     <!-- Double tap-to-sleep -->
-    <string name="double_tap_to_sleep_title">Status bar</string>
-    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_title">Barra de status</string>
+    <string name="double_tap_to_sleep_summary">Toque duplo na barra de status para desligar a tela</string>
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="wakeup_when_plugged_unplugged_title">Ligar a tela quando o carregador for conectado</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Ligar a tela se o dispositivo for conectado/desconectado.</string>
     <!-- Face unlock -->
-    <string name="face_auto_unlock_title">Face auto unlock</string>
-    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+    <string name="face_auto_unlock_title">Desbloqueio automático com o rosto</string>
+    <string name="face_auto_unlock_summary">Descartar o bloqueio após o desbloqueio com rosto</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">Indicador de Roaming</string>
+    <string name="roaming_indicator_icon_summary">Exibir o indicador no ícone de sinal quando o dispositivo estiver em Roaming</string>
     <!-- Statusbar Clock -->
-    <string name="clock_style_category_title">Clock Settings</string>
-    <string name="clock_style_category_summary">Statusbar Clock Tuner</string>
+    <string name="clock_style_category_title">Configurações do relógio</string>
+    <string name="clock_style_category_summary">Sintonizador da barra de status</string>
     <string name="status_bar_clock_title">Configurações do Relógio</string>
     <string name="status_bar_clock_show">Exibir data e hora</string>
     <string name="status_bar_clock_style_title">Estilo do relógio</string>
@@ -200,69 +200,69 @@
     <string name="lock_clock_font_black">Preto</string>
     <string name="lock_clock_font_black_italic">Itálico Preto</string>
     <string name="lock_clock_font_dancingscript">DancingScript</string>
-    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="lock_clock_font_dancingscript_bold">DancingScript Negrito</string>
     <string name="lock_clock_font_comingsoon">ComingSoon</string>
     <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
-    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
-    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
-    <string name="lock_clock_font_gobold">GoBold Light</string>
+    <string name="lock_clock_font_notoserif_italic">NotoSerif Itálico</string>
+    <string name="lock_clock_font_notoserif_bold">NotoSerif Negrito</string>
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Negrito Itálico</string>
+    <string name="lock_clock_font_gobold">GoBold Claro</string>
     <string name="lock_clock_font_roadrage">Road Rage</string>
-    <string name="lock_clock_font_snowstorm">Snowstorm</string>
+    <string name="lock_clock_font_snowstorm">SnowStorm</string>
     <string name="lock_clock_font_googlesans">Google Sans</string>
     <string name="lock_clock_font_neoneon">Neoneon</string>
-    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
+    <string name="lock_clock_font_themeable">Themeable (ou VCR OSD Mono)</string>
     <string name="lock_clock_font_samsung">Shamshung</string>
     <!-- Lock Date Fonts -->
-    <string name="lock_date_font_title">Date font options</string>
-    <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>
-    <string name="lock_date_font_dialog_title">Select lock date font</string>
+    <string name="lock_date_font_title">Opções de fontes da data</string>
+    <string name="lock_date_font_summary">Alterar a fonte padrão do widget de relógio na tela de bloqueio</string>
+    <string name="lock_date_font_dialog_title">Selecione a fonte da data na tela de bloqueio</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Ícone de 4G</string>
+    <string name="show_fourg_icon_summary">Exibir ícone 4G no ícone de sinal em vez LTE</string>
     <!-- Toast app icon -->
-    <string name="toast_icon_title">Toast app icon</string>
-    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
+    <string name="toast_icon_title">Ícone de notificação flutuante</string>
+    <string name="toast_icon_summary">Mostrar ícone do aplicativo na notificação flutuante</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon</string>
+    <string name="volte_icon_title">Ícone de VoLTE</string>
+    <string name="volte_icon_summary">Exibir ícone VoLTE</string>
     <!-- Buttons title -->
-    <string name="volume_category">Volume Rocker</string>
+    <string name="volume_category">Botões de volume</string>
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">Controle de reprodução</string>
+    <string name="volume_rocker_music_controls_summary">Com a tela desligada, mantenha pressionado o botão de volume para procurar músicas</string>
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="volume_key_cursor_control_title">Controlar o cursor com os botões de volume</string>
+    <string name="volume_key_cursor_control_off">Desativado</string>
+    <string name="volume_key_cursor_control_on">Botões de volume para cima/baixo move o cursor para a esquerda/direita</string>
+    <string name="volume_key_cursor_control_on_reverse">Botões de volume para cima/baixo move o cursor para direita/esquerda</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Ligar a tela do dispositivo com os botões de volume</string>
+    <string name="volume_rocker_wake_summary">Pressionar os botões de volume despertará seu dispositivo</string>
     <!-- The volume key answer -->
-    <string name="volume_answer_call_title">Volume keys answer</string>
-    <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
+    <string name="volume_answer_call_title">Atender com os botões de volume</string>
+    <string name="volume_answer_call_summary">Atender chamadas pressionando os botões de volume</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fprint_sucess_vib_title">Vibrar na autenticação da impressão digital</string>
+    <string name="fprint_sucess_vib_summary">Vibrar quando a autenticação de impressão digital for concluída</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+    <string name="fp_unlock_keystore_title">Desbloqueio com impressão digital</string>
+    <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo com impressão digital após reiniciar sem pedir o PIN/senha/padrão.\nAtenção: Tenha cuidado, use por sua conta e risco!</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">Luz de carregamento da bateria</string>
+    <string name="battery_light_enable">Luz da bateria</string>
+    <string name="battery_light_allow_on_dnd_title">Luz da bateria no modo \"Não perturbe\"</string>
+    <string name="battery_light_low_blinking_title">Piscar luz quando bateria estiver fraca</string>
+    <string name="battery_light_cat">Cor da luz da bateria ao carregar</string>
+    <string name="battery_light_low_color">Bateria fraca</string>
+    <string name="battery_light_medium_color">Bateria média</string>
+    <string name="battery_light_full_color">Bateria quase cheia</string>
+    <string name="battery_light_reallyfull_color">Bateria totalmente carregada</string>
     <!-- Hardware button navigation -->
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
+    <string name="hardware_keys_home_key_title">Botão de início</string>
+    <string name="hardware_keys_menu_key_title">Botão de menu</string>
+    <string name="hardware_keys_assist_key_title">Botão de pesquisa</string>
     <string name="hardware_keys_appswitch_key_title">Botão de visão geral</string>
     <string name="hardware_keys_back_key_title">Botão voltar</string>
     <string name="hardware_keys_double_tap_summary">Escolher ação para toque duplo</string>
@@ -280,16 +280,16 @@
     <string name="button_link_brightness_summary">Brilho da luz de fundo do botão irá se ajustar com base no nível de brilho da tela</string>
     <string name="button_manual_brightness">Nível do brilho</string>
     <string name="button_timeout_title">Tempo limite da luz de fundo</string>
-    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
-    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+    <string name="button_backlight_on_touch_only_title">Tempo de iluminação dos botões</string>
+    <string name="button_backlight_on_touch_only_summary">A iluminação do botões só aparece quando os botões são pressionados, em vez do tempo todo. O tempo limite ainda afeta esse recurso.</string>
     <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
-    <string name="force_ambient_for_media_pref_summary">Configure the Ambient music ticker</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker shows playing music track info within Ambient display screen.\n\nIt\'s triggered also if Ambient Display is disabled when a new track is started, forcing a clean ambient screen with track info in the middle of the screen.\n\nYou can also double tap on track info to skip track.\n\nIf you own a Pixel and enable Now Playing and its notification in system Audio settings, Ambient Music Ticker will also work within it.</string>
+    <string name="force_ambient_for_media_pref_title">Ícone de música ambiente</string>
+    <string name="force_ambient_for_media_pref_summary">Configurar o ícone de música ambiente</string>
+    <string name="ambient_ticker_footer">O ícone de música ambiente mostra as informações das músicas que estejam sendo reproduzidas na tela ambiente.\n\nTambém é ativado quando a tela ambiente está desativada quando uma nova música é reproduzida, forçando uma tela ambiente limpa com a informação da música no meio da tela.\n\nTambém pode tocar duas vezes na informação da música para pular a música.</string>
     <string name="force_ambient_for_media_title">Habilitar</string>
     <string name="profile_choose_app">Escolher aplicativo</string>
     <string name="dialog_delete_title">Excluir</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="dialog_delete_message">Remover ítem selecionado?</string>
     <!-- Weather -->
     <string name="weather_title">Clima</string>
     <string name="weather_unit">Unidade de temperatura</string>
@@ -297,55 +297,55 @@
     <string name="qs_styles_dialog_title">Escolha o estilo do QS Tile</string>
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Opacidade</string>
-    <string name="qs_opacity_category">QS panel opacity</string>
+    <string name="qs_opacity_category">Opacidade nas configurações rápidas</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">QS footer warnings</string>
-    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+    <string name="qs_footer_warnings_title">Avisos no rodapé das configurações rápidas</string>
+    <string name="qs_footer_warnings_summary">Exibir um aviso na parte inferior das configurações rápidas quando a rede é monitorada por aplicativos externos ou VPN</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
+    <string name="quick_settings_vibrate_summary">Vibrar ao tocar as configurações rápidas</string>
     <!-- AOSP Recents component Style -->
-    <string name="recents_component_type_title">Recents Style</string>
-    <string name="recents_pie">Pie</string>
-    <string name="recents_oreo">Oreo</string>
+    <string name="recents_component_type_title">Estilo da aba recentes</string>
+    <string name="recents_pie">Android Pie</string>
+    <string name="recents_oreo">Android Oreo</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Show a brightness slider in the quick settings panel</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider on bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+    <string name="qs_show_brightness_title">Barra de brilho</string>
+    <string name="qs_show_brightness_summary">Exibir o barra de brilho nas configurações rápidas</string>
+    <string name="qs_brightness_position_bottom_title">Barra de brilho na parte inferior</string>
+    <string name="qs_brightness_position_bottom_summary">Exibir barra de brilho nas configurações rápidas</string>
     <!-- Lockscreen visualizer -->
-    <string name="lockscreen_visualizer_title">Lockscreen visualizer</string>
-    <string name="lockscreen_visualizer_summary">Displays a live design on lockscreen while music is playing</string>
+    <string name="lockscreen_visualizer_title">Exibir na tela de bloqueio</string>
+    <string name="lockscreen_visualizer_summary">Exibir uma animação na tela de bloqueio enquanto estiver reproduzindo uma música</string>
     <!-- dotos logo -->
-    <string name="statusbar_logo_category">Status bar logo</string>
-    <string name="dot_logo_title">Show our logo on Statusbar</string>
-    <string name="dot_logo_summary">Add our custom logo on your statusbar to brag about what ROM are you on</string>
+    <string name="statusbar_logo_category">Logo na barra de status</string>
+    <string name="dot_logo_title">Exibir nosso logo na barra de status</string>
+    <string name="dot_logo_summary">Adicione nosso logo personalizado na barra de status para se gabar sobre a ROM que você está usando</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="three_finger_gesture">Deslize para capturar a tela</string>
+    <string name="three_finger_gesture_summary">Deslize três dedos para a captura da tela</string>
     <!-- Battery Bar -->
     <string name="battery_bar_title">Barra de bateria</string>
-    <string name="battery_bar_summary">Display and customize battery bar near status bar or navigation bar</string>
-    <string name="battery_bar">Battery bar location</string>
-    <string name="battery_bar_no_navbar">Battery bar location</string>
-    <string name="battery_bar_location_hide">Hide</string>
-    <string name="battery_bar_location_statusbar">Statusbar</string>
-    <string name="battery_bar_location_top_navbar">Top of navbar</string>
-    <string name="battery_bar_location_bottom_navbar">Bottom of navbar</string>
-    <string name="battery_bar_color">Battery bar color</string>
-    <string name="battery_bar_charging_color">Battery bar charging color</string>
-    <string name="battery_bar_battery_low_color">Battery bar low battery color</string>
-    <string name="battery_bar_cat">Battery bar style</string>
-    <string name="battery_bar_style_title">Battery bar alignment</string>
-    <string name="battery_bar_thickness_title">Battery bar thickness</string>
-    <string name="battery_bar_animate_title">Charging animation</string>
-    <string name="battery_bar_style_regular">Regular</string>
-    <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
-    <string name="battery_bar_style_reversed">Reversed</string>
-    <string name="battery_bar_use_charging_color">Custom charging color</string>
-    <string name="battery_bar_blend_color_title">Blend colors</string>
-    <string name="battery_bar_blend_color_summary">Blend full/empty colors corresponding to battery percentage</string>
-    <string name="battery_bar_blend_color_reverse_title">Reverse color direction</string>
-    <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
-    <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
+    <string name="battery_bar_summary">Exibir e personalizar a barra de bateria perto da barra de status ou da barra de navegação</string>
+    <string name="battery_bar">Localização da barra de bateria</string>
+    <string name="battery_bar_no_navbar">Localização da barra de bateria</string>
+    <string name="battery_bar_location_hide">Ocultar</string>
+    <string name="battery_bar_location_statusbar">Barra de status</string>
+    <string name="battery_bar_location_top_navbar">Parte superior da barra de navegação</string>
+    <string name="battery_bar_location_bottom_navbar">Parte inferior da barra de navegação</string>
+    <string name="battery_bar_color">Cor da barra de bateria</string>
+    <string name="battery_bar_charging_color">Cor de carregamento da barra de bateria</string>
+    <string name="battery_bar_battery_low_color">Cor da barra da bateria fraca</string>
+    <string name="battery_bar_cat">Estilo da barra de bateria</string>
+    <string name="battery_bar_style_title">Alinhamento da barra de bateria</string>
+    <string name="battery_bar_thickness_title">Espessura da barra de bateria</string>
+    <string name="battery_bar_animate_title">Animação de carregamento</string>
+    <string name="battery_bar_style_regular">Normal</string>
+    <string name="battery_bar_style_center_mirrored">Centralizado</string>
+    <string name="battery_bar_style_reversed">Invertido</string>
+    <string name="battery_bar_use_charging_color">Personalizar a cor de carregamento</string>
+    <string name="battery_bar_blend_color_title">Misturar cores</string>
+    <string name="battery_bar_blend_color_summary">Misturar cores correspondente a porcentagem da bateria</string>
+    <string name="battery_bar_blend_color_reverse_title">Inverter a direção da cor</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Cheio &#8594; vazio: vermelho &#8592; verde &#8592; azul &#8592; vermelho</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Cheio &#8594; vazio: vermelho &#8594; verde &#8594; azul &#8594; vermelho</string>
 </resources>

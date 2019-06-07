@@ -125,7 +125,7 @@
     <string name="status_bar_battery_percentage_text_inside">Всередині значка</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Стиль батареї</string>
-    <string name="status_bar_battery_style_port">Книжкова орієнтація</string>
+    <string name="status_bar_battery_style_port">Портрет</string>
     <string name="status_bar_battery_style_circle">Кільце</string>
     <string name="battery_style_dotted_circle">Пунктирне кільце</string>
     <string name="status_bar_battery_style_text">Текст</string>
@@ -297,7 +297,7 @@
     <string name="qs_styles_dialog_title">Вибрати стиль плиток Швидких налаштувань</string>
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Прозорість</string>
-    <string name="qs_opacity_category">Непрозорість панелі швидких налаштувань</string>
+    <string name="qs_opacity_category">Прозорість панелі швидких налаштувань</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Попередження знизу панелі швидких налаштувань</string>
     <string name="qs_footer_warnings_summary">Відображати попередження в нижній частині панелі налаштувань, коли мережа контролюється зовнішніми додатками або vpn</string>

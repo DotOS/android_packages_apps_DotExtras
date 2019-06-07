@@ -33,7 +33,7 @@
     <string name="statusbar">Barra di stato</string>
     <string name="quick_settings">Impostazioni Rapide</string>
     <string name="recents">App Recenti</string>
-    <string name="power_menu">Menù riavvio</string>
+    <string name="power_menu">Menù di spegnimento</string>
     <string name="lockscreen">Schermata di blocco</string>
     <string name="navigationbar">Barra di Navigazione</string>
     <string name="system">Sistema</string>
