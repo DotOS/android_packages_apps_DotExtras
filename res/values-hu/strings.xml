@@ -43,6 +43,7 @@
     <string name="lockscreen_category">Záróképernyő</string>
     <string name="notifications_panel_category">Értesítések</string>
     <string name="aosp_recents_category">AOSP-előzmények</string>
+    <string name="oreo_recents_category">Oreo-előzmények</string>
     <string name="qs_brightness_category">Fényerő</string>
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -130,6 +131,7 @@
     <string name="battery_style_dotted_circle">Pontozott kör</string>
     <string name="status_bar_battery_style_text">Szöveg</string>
     <string name="status_bar_battery_style_hidden">Rejtett</string>
+    <string name="status_bar_battery_style_q">Q stílusú</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Dupla érintésre alvómód (záróképernyőn)</string>
     <string name="double_tap_to_sleep_lockscreen_summary">A záróképernyő felső harmadának vagy alsó parancsikon területének dupla érintésére a készülék alvó állapotba kerül</string>
@@ -290,14 +292,8 @@
     <string name="profile_choose_app">Alkalmazásválasztás</string>
     <string name="dialog_delete_title">Törlés</string>
     <string name="dialog_delete_message">Törli a kiválasztott elemet?</string>
-    <!-- Weather -->
-    <string name="weather_title">Időjárás</string>
-    <string name="weather_unit">A hőmérséklet mértékegysége</string>
     <!-- Qs Style Picker -->
     <string name="qs_styles_dialog_title">Válasszon egy Gyorsbeállítás-csempestílust</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Átlátszóság</string>
-    <string name="qs_opacity_category">A Gyorsbeállítások-panel átlátszósága</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Figyelmeztetések a Gyorsbeállítások láblécén</string>
     <string name="qs_footer_warnings_summary">Figyelmeztetés megjelenítése a Gyorsbeállítások-panel alján, ha a hálózatot külső alkalmazás vagy a VPN figyeli</string>
@@ -348,4 +344,83 @@
     <string name="battery_bar_blend_color_reverse_title">Fordított irányú színek</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Tele &#8594; üres: piros &#8592; zöld &#8592; kék &#8592; piros</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Tele &#8594; üres: piros &#8594; zöld &#8594; kék &#8594; piros</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Hívás közbeni rezgésbeállítások</string>
+    <string name="incall_vibrate_connect_title">Rezgés a kapcsolat létrejöttekor</string>
+    <string name="incall_vibrate_call_wait_title">Rezgés hívásvárakoztatáskor</string>
+    <string name="incall_vibrate_disconnect_title">Rezgés a hívás bontásakor</string>
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">Művelet-felfüggesztés</string>
+    <string name="screen_state_toggles_enable_title">Engedélyezés</string>
+    <string name="screen_state_toggles_enable_summary">A műveletek a képernyő kikapcsolásakor kerülnek végrehajtásra. A képernyő bekapcsolása esetén az előző állapot áll vissza.</string>
+    <string name="screen_state_toggles_mobile_title">Mobilhálózatok</string>
+    <string name="screen_state_toggles_location_title">Tartózkodási hely</string>
+    <string name="screen_state_toggles_twog">2G-re váltás</string>
+    <string name="screen_state_toggles_twog_summary">A hálózati mód 2G-re vált a képernyő kikapcsolásakor</string>
+    <string name="screen_state_toggles_gps">GPS-letiltás</string>
+    <string name="screen_state_toggles_gps_summary">A GPS alapú helymeghatározás letiltásra kerül a képernyő kikapcsolása esetén</string>
+    <string name="screen_state_toggles_mobile_data">Mobiladat-letiltás</string>
+    <string name="screen_state_toggles_mobile_data_summary">A mobiladat-forgalom letiltásra kerül a képernyő kikapcsolása esetén</string>
+    <string name="screen_state_off_delay_title">A képernyő-kikapcsolási műveletek késleltetése</string>
+    <string name="screen_state_off_delay_summary">A képernyő kikapcsolásakor elvégzendő műveletek előtti várakozás időtartama másodpercben</string>
+    <string name="screen_state_on_delay_title">A képernyő-bekapcsolási műveletek késleltetése</string>
+    <string name="screen_state_on_delay_summary">A képernyő bekapcsolásakor elvégzendő műveletek előtti várakozás időtartama másodpercben</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">\"Kikapcsolt mobiladat\"-ikon megjelenítése</string>
+    <string name="data_disabled_icon_summary">A térerő-kijelző mellett jelenjen meg X , ha a mobiladat-forgalom le van tiltva</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_hide_items_category">Elemelrejtés</string>
+    <string name="lockscreen_clock_title">Óra kisalkalmazás</string>
+    <string name="lockscreen_clock_summary">Az Óra modul megjelenítése a zárképernyőn</string>
+    <string name="lockscreen_info_title">Elemek az óra alatt</string>
+    <string name="lockscreen_info_summary">Jelenítse meg a dátumot, az időjárást, az ébresztést és a \'zen\'-t a zárképernyőn az Óra alatt</string>
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Az Óra stílusa</string>
+    <string name="lockscreen_clock_selection_digital">Alapértelmezett</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitális (félkövér)</string>
+    <string name="lockscreen_clock_selection_analog">Analóg (Sötét Éjjel)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (félkövér)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (kiemeléssel)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy (alternatív kiemeléssel)</string>
+    <string name="lockscreen_clock_selection_spidey">Analóg (Spidey)</string>
+    <string name="lockscreen_clock_selection_analog_num">Analóg (Vakító fehér)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digitális (Kiemeléssel)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digitális (a percek kiemelésével)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digitális (az órák kiemelésével)</string>
+    <string name="lockscreen_clock_selection_dot">Analóg (DotOS)</string>
+    <string name="lockscreen_clock_selection_spectrum">Analóg (Spektrum)</string>
+    <string name="lockscreen_clock_selection_sneeky">Analóg (Sneeky)</string>
+    <string name="lockscreen_clock_selection_text">Szöveg</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Fényerő-szabályozás</string>
+    <string name="status_bar_toggle_brightness_summary">Engedélyezi, hogy az értesítési sávon az ujjaival szabályozhassa a fényerőt</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Intelligens pixelek</string>
+    <string name="smart_pixels_warning_text">Az Intelligens pixelek egy akkukímélő funkció. Attól függően, hogy Ön hány képpontot jelöl meg kikapcsolásra, akár az akkumulátor jelentős élettartam-javulását is tapasztalhatja. A felhasználói élmény megtartása érdekében javasoljuk állítsa a mennyiséget 75 százalékra.</string>
+    <string name="smart_pixels_summary">Akkumulátorkímélés extra képpontok kikapcsolásával</string>
+    <string name="smart_pixels_enable_title">Az Intelligens pixelek engedélyezése</string>
+    <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
+    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkumulátorkímélő-üzemmódban</string>
+    <string name="smart_pixels_on_power_save_summary">Engedélyezi az Intelligens pixelek funkciót, ha az akkumulátorkímélő-üzemmód be van kapcsolva</string>
+    <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
+    <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
+    <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED kijelzőkön a képpontok gyakori áthelyezésével</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Az Összes törlése gomb</string>
+    <string name="show_clear_all_recents_button_summary">Az Összes törlése gomb megjelenítése</string>
+    <string name="recents_clear_all_location_title">A Összes törlése gomb helye</string>
+    <string name="recents_clear_all_location_top_right">Jobb felül</string>
+    <string name="recents_clear_all_location_top_left">Bal felül</string>
+    <string name="recents_clear_all_location_top_center">Középen felül</string>
+    <string name="recents_clear_all_location_bottom_right">Jobb alul</string>
+    <string name="recents_clear_all_location_bottom_left">Bal alul</string>
+    <string name="recents_clear_all_location_bottom_center">Középen alul</string>
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Ikoncsomag</string>
+    <string name="recents_icon_pack_summary">Egyéni ikoncsomag alkalmazása az Előzmények panelre</string>
+    <string name="no_iconpacks_summary">Nincsenek telepítve ikoncsomagok</string>
+    <string name="dialog_pick_iconpack_title">Ikoncsomag-választás</string>
+    <string name="default_iconpack_title">Alapértelmezett ikonok</string>
 </resources>

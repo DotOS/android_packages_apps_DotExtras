@@ -43,6 +43,7 @@
     <string name="lockscreen_category">Zamykací obrazovka</string>
     <string name="notifications_panel_category">Oznámení</string>
     <string name="aosp_recents_category">AOSP nedávné</string>
+    <string name="oreo_recents_category">Nedávné aplikace Oreo</string>
     <string name="qs_brightness_category">Jas</string>
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -130,6 +131,7 @@
     <string name="battery_style_dotted_circle">Tečkovaný kruh</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Nezobrazovat</string>
+    <string name="status_bar_battery_style_q">Styl Q</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Dvojí poklepání na zamykací obrazovku uvede zařízení do režimu spánku</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Dvojí poklepání na horní nebo dolní třetinu zamykací obrazovky uvede zařízení do režimu spánku</string>
@@ -290,14 +292,8 @@
     <string name="profile_choose_app">Vybrat aplikaci</string>
     <string name="dialog_delete_title">Smazat</string>
     <string name="dialog_delete_message">Odstranit vybranou položku?</string>
-    <!-- Weather -->
-    <string name="weather_title">Počasí</string>
-    <string name="weather_unit">Jednotky teploty</string>
     <!-- Qs Style Picker -->
     <string name="qs_styles_dialog_title">Vybrat styl dlaždic QS</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Neprůhlednost</string>
-    <string name="qs_opacity_category">Neprůhlednost panelu QS</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Výstrahy ve spodní části panelu QS</string>
     <string name="qs_footer_warnings_summary">Zobrazit varování ve spodní části panelu QS při monitorování sítě externími aplikacemi nebo VPN</string>
@@ -348,4 +344,83 @@
     <string name="battery_bar_blend_color_reverse_title">Obrácený směr barev</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Nabito &#8594; Vybito: červená &#8592; zelená &#8592; modrá &#8592; červená</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Nabito &#8594; Vybito: červená &#8594; zelená &#8594; modrá &#8594; červená</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Možnosti vibrací při volání</string>
+    <string name="incall_vibrate_connect_title">Vibrovat při připojení</string>
+    <string name="incall_vibrate_call_wait_title">Vibrovat při čekajícím hovoru</string>
+    <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">Akce po zhasnutí obrazovky</string>
+    <string name="screen_state_toggles_enable_title">Povolit</string>
+    <string name="screen_state_toggles_enable_summary">Akce budou provedeny při vypnutí obrazovky. Při zapnutí a uvedení do předchozího stavu budou obnoveny.</string>
+    <string name="screen_state_toggles_mobile_title">Mobilní sítě</string>
+    <string name="screen_state_toggles_location_title">Poloha</string>
+    <string name="screen_state_toggles_twog">Přepnout na 2G</string>
+    <string name="screen_state_toggles_twog_summary">Po vypnutí obrazovky se mobilní síť přepne do režimu 2G</string>
+    <string name="screen_state_toggles_gps">Vypnout GPS</string>
+    <string name="screen_state_toggles_gps_summary">Po vypnutí obrazovky bude služba určování polohy GPS vypnuta</string>
+    <string name="screen_state_toggles_mobile_data">Vypnout mobilní data</string>
+    <string name="screen_state_toggles_mobile_data_summary">Po vypnutí obrazovky budou mobilní data vypnuta</string>
+    <string name="screen_state_off_delay_title">Zpoždění akcí po vypnutí obrazovky</string>
+    <string name="screen_state_off_delay_summary">Počet sekund čekání před provedením akce po vypnutí obrazovky</string>
+    <string name="screen_state_on_delay_title">Zpoždění akcí po zapnutí obrazovky</string>
+    <string name="screen_state_on_delay_summary">Počet sekund čekání před provedením akce po zapnutí obrazovky</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
+    <string name="data_disabled_icon_summary">Zobrazit křížek na ikoně signálu sítě při vypnutých datech</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_hide_items_category">Skrýt položky</string>
+    <string name="lockscreen_clock_title">Widget hodin</string>
+    <string name="lockscreen_clock_summary">Zobrazit widget hodin na zamykací obrazovce</string>
+    <string name="lockscreen_info_title">Položky pod hodinami</string>
+    <string name="lockscreen_info_summary">Zobrazit datum, počasí a budíky na zamykací obrazovce</string>
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Styl hodin</string>
+    <string name="lockscreen_clock_selection_digital">Výchozí</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitální (tučné)</string>
+    <string name="lockscreen_clock_selection_analog">Analogové (Hluboká noc)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (tučné)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (zvýraznění)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy (zvýraznění - staré)</string>
+    <string name="lockscreen_clock_selection_spidey">Analogové (spidey)</string>
+    <string name="lockscreen_clock_selection_analog_num">Analogové (Jasně bílé)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digitální (zvýraznění)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digitální (zvýraznění - minuty)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digitální (zvýraznění - hodiny)</string>
+    <string name="lockscreen_clock_selection_dot">Analogové (dotOS)</string>
+    <string name="lockscreen_clock_selection_spectrum">Analogové (Spektrum)</string>
+    <string name="lockscreen_clock_selection_sneeky">Analogové (Sneeky)</string>
+    <string name="lockscreen_clock_selection_text">Text</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Ovládání jasu</string>
+    <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_warning_text">Smart Pixels je funkce šetřící energii. V závislosti na na tom, kolik pixelů se rozhodnete vypnout, může dojít k výraznému zlepšení životnosti baterie. Pro dobrou efektivitu doporučujeme nastavit počet vypnutých pixelů na 75 procent.</string>
+    <string name="smart_pixels_summary">Ušetření baterie vypnutím nepotřebných pixelů</string>
+    <string name="smart_pixels_enable_title">Povolit Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Chcete-li snížit spotřebu energie, vypněte pixely</string>
+    <string name="smart_pixels_on_power_save_title">Automatické zapnutí při spořiči baterie</string>
+    <string name="smart_pixels_on_power_save_summary">Povolit Smart Pixels, pokud je aktivován spořič baterie</string>
+    <string name="smart_pixels_percent">Procenta pixelů k vypnutí</string>
+    <string name="smart_pixels_shift_title">Ochrana před vypálením obrazovky</string>
+    <string name="smart_pixels_shift_summary">Zabraňuje vypalování zařízení OLED častým přepínáním pixelů</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Tlačítko „Vyčistit vše“</string>
+    <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko „Vyčistit vše“</string>
+    <string name="recents_clear_all_location_title">Pozice tlačítka „Vyčistit vše“</string>
+    <string name="recents_clear_all_location_top_right">Nahoře vpravo</string>
+    <string name="recents_clear_all_location_top_left">Nahoře vlevo</string>
+    <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
+    <string name="recents_clear_all_location_bottom_right">Dole vpravo</string>
+    <string name="recents_clear_all_location_bottom_left">Dole vlevo</string>
+    <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Balíček ikon</string>
+    <string name="recents_icon_pack_summary">Použijte vlastní sadu ikon pro panel nedávných aplikací</string>
+    <string name="no_iconpacks_summary">Není nainstalován žádný balíček ikon</string>
+    <string name="dialog_pick_iconpack_title">Zvolit balíček ikon</string>
+    <string name="default_iconpack_title">Výchozí ikony</string>
 </resources>

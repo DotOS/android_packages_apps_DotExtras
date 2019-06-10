@@ -43,6 +43,7 @@
     <string name="lockscreen_category">Schermata di blocco</string>
     <string name="notifications_panel_category">Notifiche</string>
     <string name="aosp_recents_category">Recenti AOSP</string>
+    <string name="oreo_recents_category">Recenti Oreo</string>
     <string name="qs_brightness_category">Luminosità</string>
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -130,6 +131,7 @@
     <string name="battery_style_dotted_circle">Cerchio tratteggiato</string>
     <string name="status_bar_battery_style_text">Testo</string>
     <string name="status_bar_battery_style_hidden">Nascosta</string>
+    <string name="status_bar_battery_style_q">Stile Q</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Doppio tocco sulla schermata di blocco per spegnere lo schermo</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Tocca due volte la parte superiore o inferiore della schermata di blocco per spegnere lo schermo</string>
@@ -290,14 +292,8 @@
     <string name="profile_choose_app">Scegli app</string>
     <string name="dialog_delete_title">Elimina</string>
     <string name="dialog_delete_message">Eliminare l\'elemento selezionato?</string>
-    <!-- Weather -->
-    <string name="weather_title">Meteo</string>
-    <string name="weather_unit">Unità della temperatura</string>
     <!-- Qs Style Picker -->
     <string name="qs_styles_dialog_title">Seleziona uno stile per i tile</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Trasparenza</string>
-    <string name="qs_opacity_category">Trasparenza pannello impostazioni rapide</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Avvisi sotto impostazioni rapide</string>
     <string name="qs_footer_warnings_summary">Visualizza un avviso nella parte inferiore del pannello impostazioni rapide quando la rete viene controllata da applicazioni esterne o vpn</string>
@@ -348,4 +344,83 @@
     <string name="battery_bar_blend_color_reverse_title">Inverti la direzione del colore</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Completo &#8594; vuota: rosso &#8592; verde &#8592; blu &#8592; rosso</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Completo &#8594; vuota: rosso &#8594; verde &#8594; blu &#8594; rosso</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opzioni vibrazione chiamate in entrata</string>
+    <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
+    <string name="incall_vibrate_call_wait_title">Vibra per chiamata in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">Sospendi le azioni</string>
+    <string name="screen_state_toggles_enable_title">Abilita</string>
+    <string name="screen_state_toggles_enable_summary">Le azioni saranno eseguite a schermo spento. A schermo acceso verrà ripristinato allo stato precedente.</string>
+    <string name="screen_state_toggles_mobile_title">Reti mobili</string>
+    <string name="screen_state_toggles_location_title">Posizione</string>
+    <string name="screen_state_toggles_twog">Passa al 2G</string>
+    <string name="screen_state_toggles_twog_summary">La modalità di rete passerà a 2G a schermo spento</string>
+    <string name="screen_state_toggles_gps">Disabilita GPS</string>
+    <string name="screen_state_toggles_gps_summary">I servizi dipendenti dalla posizione GPS saranno disattivati a schermo spento</string>
+    <string name="screen_state_toggles_mobile_data">Disattivare i dati mobili</string>
+    <string name="screen_state_toggles_mobile_data_summary">I dati mobili saranno disattivati a schermo spento</string>
+    <string name="screen_state_off_delay_title">Ritardo azioni a schermo spento</string>
+    <string name="screen_state_off_delay_summary">Numero di secondi di attesa prima di eseguire le azioni dopo che lo schermo si è spento</string>
+    <string name="screen_state_on_delay_title">Ritardo azioni a schermo acceso</string>
+    <string name="screen_state_on_delay_summary">Numero di secondi di attesa prima di eseguire le azioni dopo che lo schermo si è acceso</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Mostra l\'icona dei dati disattivati</string>
+    <string name="data_disabled_icon_summary">Mostra una X accanto alla barra del segnale quando i dati sono disabilitati</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_hide_items_category">Nascondi elementi</string>
+    <string name="lockscreen_clock_title">Widget orologio</string>
+    <string name="lockscreen_clock_summary">Visualizza l\'orologio sulla schermata di blocco</string>
+    <string name="lockscreen_info_title">Elementi sotto l\'orologio</string>
+    <string name="lockscreen_info_summary">Mostra data, meteo, sveglie e stato nella schermata di blocco</string>
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Stile orologio</string>
+    <string name="lockscreen_clock_selection_digital">Predefinito</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitale (grassetto)</string>
+    <string name="lockscreen_clock_selection_analog">Analogico (notte profonda)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (accento)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy (accento - alternativo)</string>
+    <string name="lockscreen_clock_selection_spidey">Analogico (spidey)</string>
+    <string name="lockscreen_clock_selection_analog_num">Analogico (bianco luminoso)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digitale (accento)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digitale (accento - minuti)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digitale (accento - ore)</string>
+    <string name="lockscreen_clock_selection_dot">Analogico (dot)</string>
+    <string name="lockscreen_clock_selection_spectrum">Analogico (spettro)</string>
+    <string name="lockscreen_clock_selection_sneeky">Analogico (Sneeky)</string>
+    <string name="lockscreen_clock_selection_text">Testo</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Controllo luminosità</string>
+    <string name="status_bar_toggle_brightness_summary">Regola la luminosità facendo scorrere il dito sulla barra di stato</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixel</string>
+    <string name="smart_pixels_warning_text">\"Smart pixel\" è una funzionalità di risparmio energetico. A seconda di quanti pixel si decide di disattivare, si potrà notare un miglioramento significativo della durata della batteria. Per una buona esperienza utente, è consigliato impostare la quantità di pixel disabilitati al 75 per cento.</string>
+    <string name="smart_pixels_summary">Risparmia batteria spegnendo i pixel aggiuntivi</string>
+    <string name="smart_pixels_enable_title">Attiva Smart Pixel</string>
+    <string name="smart_pixels_enable_summary">Spegni i pixel per ridurre il consumo energetico</string>
+    <string name="smart_pixels_on_power_save_title">Abilita automaticamente insieme al risparmio energetico</string>
+    <string name="smart_pixels_on_power_save_summary">Attiva Smart Pixel quando il risparmio energetico viene attivato</string>
+    <string name="smart_pixels_percent">Percentuale di pixel da disattivare</string>
+    <string name="smart_pixels_shift_title">Protezione burn-in</string>
+    <string name="smart_pixels_shift_summary">Previene il burn-in su dispositivi OLED spostando ogni tanto i pixel</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Pulsante cancella tutto</string>
+    <string name="show_clear_all_recents_button_summary">Mostra il pulsante cancella tutto</string>
+    <string name="recents_clear_all_location_title">Posizione pulsante cancella tutto</string>
+    <string name="recents_clear_all_location_top_right">In alto a destra</string>
+    <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
+    <string name="recents_clear_all_location_top_center">In alto al centro</string>
+    <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
+    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+    <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Pacchetto icone</string>
+    <string name="recents_icon_pack_summary">Applica un pacchetto icone personalizzato per il pannello delle applicazioni recenti</string>
+    <string name="no_iconpacks_summary">Nessun pacchetto icone installato</string>
+    <string name="dialog_pick_iconpack_title">Seleziona un pacchetto icone</string>
+    <string name="default_iconpack_title">Icone predefinite</string>
 </resources>

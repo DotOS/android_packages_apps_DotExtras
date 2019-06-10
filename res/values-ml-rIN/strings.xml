@@ -18,69 +18,70 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dotextras_title">DotExtras</string>
-    <string name="build_tweaks_summary_title">Align the Dots In your Style</string>
-    <string name="add">Add</string>
-    <string name="advanced">Advanced</string>
-    <string name="cancel">Cancel</string>
-    <string name="choose_app">Choose app</string>
-    <string name="dlg_ok">OK</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="reset">Reset</string>
-    <string name="go_back">Go back</string>
-    <string name="icons_category">Icons</string>
+    <string name="dotextras_title">ഡോട് എക്സ്ട്രാസ്</string>
+    <string name="build_tweaks_summary_title">Dots നിങ്ങളുടെ ഇഷ്ടം പോലെ വെക്കൂ</string>
+    <string name="add">ചേര്‍ക്കുക</string>
+    <string name="advanced">സങ്കീർണ്ണമായ</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="choose_app">ആപ്പ് തിരഞ്ഞെടുക്കൂ</string>
+    <string name="dlg_ok">ഓക്കേ</string>
+    <string name="loading">ലോഡിംഗ്\u2026</string>
+    <string name="reset">റീസെറ്റ്</string>
+    <string name="go_back">തിരികെ പോവുക</string>
+    <string name="icons_category">ഐക്കൺ</string>
     <!-- Fragments -->
-    <string name="statusbar">Statusbar</string>
-    <string name="quick_settings">Quick Settings</string>
-    <string name="recents">Recents</string>
-    <string name="power_menu">Power Menu</string>
-    <string name="lockscreen">Lockscreen</string>
-    <string name="navigationbar">Navigation Bar</string>
-    <string name="system">System</string>
-    <string name="general_category">General</string>
-    <string name="light_category">Led Customization</string>
-    <string name="music_category">Music</string>
-    <string name="lockscreen_category">Lockscreen</string>
-    <string name="notifications_panel_category">Notifications</string>
-    <string name="aosp_recents_category">AOSP recents</string>
-    <string name="qs_brightness_category">Brightness</string>
+    <string name="statusbar">സ്റ്റാറ്റസ് ബാർ</string>
+    <string name="quick_settings">ദ്രുത ക്രമീകരണം</string>
+    <string name="recents">അവസാനം ഉപയോഗിച്ചവ</string>
+    <string name="power_menu">പവർ മെനു</string>
+    <string name="lockscreen">ലോക് സ്ക്രീൻ</string>
+    <string name="navigationbar">നാവിഗേഷൻ ബാർ</string>
+    <string name="system">സിസ്റ്റം</string>
+    <string name="general_category">പൊതുവായ</string>
+    <string name="light_category">എൽഇഡി മാറ്റം വരുത്തൽ</string>
+    <string name="music_category">സംഗീതം</string>
+    <string name="lockscreen_category">ലോക് സ്ക്രീൻ</string>
+    <string name="notifications_panel_category">അറിയിപ്പുകൾ</string>
+    <string name="aosp_recents_category">AOSP അവസാനം ഉപയോഗിച്ച ആപുകൾ</string>
+    <string name="oreo_recents_category">ഓറിയോ അവസാനം ഉപയോഗിച്ച ആപുകൾ</string>
+    <string name="qs_brightness_category">തെളിച്ചം</string>
     <!-- Frags -->
     <!-- General Tweaks -->
-    <string name="general_tweaks_title">General Tweaks</string>
+    <string name="general_tweaks_title">സാധാരണ ക്രമീകരണങ്ങൾ</string>
     <!-- Misc Extras -->
-    <string name="misc_extras_title">Misc Extras</string>
+    <string name="misc_extras_title">മറ്റു ചില എക്സ്ട്രാ</string>
     <!-- Lockscreen UI Tweaks -->
-    <string name="lockscreen_ui_title">Lockscreen UI</string>
+    <string name="lockscreen_ui_title">ലോക് സ്ക്രീൻ UI</string>
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
+    <string name="lockscreen_shortcuts">ലോക്ക് സ്ക്രീൻ കുറുക്കുവഴികൾ</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
+    <string name="lockscreen_tuner_title">ലോക്ക് സ്ക്രീൻ ട്യൂണർ</string>
     <!-- Statusbar Iten -->
-    <string name="statusbar_items_category">Statusbar items</string>
+    <string name="statusbar_items_category">സ്റ്റാറ്റസ് ബാർ ഐറ്റംസ്</string>
     <!-- Notifications -->
-    <string name="notifications_title">Notifications</string>
+    <string name="notifications_title">അറിയിപ്പുകൾ</string>
     <!-- Navigation -->
-    <string name="navigationbar_settings_title">Navigation bar</string>
+    <string name="navigationbar_settings_title">നാവിഗേഷൻ ബാർ</string>
     <!-- Navigation Tweaks -->
-    <string name="navigation_category">Navigation</string>
+    <string name="navigation_category">നാവിഗേഷൻ</string>
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar tuner</string>
+    <string name="navbar_tuner_title">നാവ്ബാർ ട്യൂണർ</string>
     <!-- Quick Settings -->
-    <string name="quick_settings_title">Quick Settings</string>
+    <string name="quick_settings_title">ദ്രുത ക്രമീകരണം</string>
     <!-- Recents UI -->
-    <string name="recents_ui_title">Recents UI</string>
+    <string name="recents_ui_title">അവസാനം ഉപയോഗിച്ചവയുടെ UI</string>
     <!-- Buttons -->
-    <string name="buttons_title">Buttons</string>
+    <string name="buttons_title">ബട്ടണുകൾ</string>
     <!-- Gestures -->
-    <string name="gestures_category">Gestures</string>
+    <string name="gestures_category">ആംഗ്യങ്ങൾ</string>
     <!-- System theme -->
-    <string name="accent_picker_dialog_title">Select an accent color</string>
-    <string name="theme_accent_picker_title">Accent color</string>
-    <string name="theme_accent_picker_summary">Select system theme accent color</string>
-    <string name="theme_accent_picker_default">Default</string>
+    <string name="accent_picker_dialog_title">Accent കളർ സെലക്ട് ചെയ്യുക</string>
+    <string name="theme_accent_picker_title">Accent നിറം</string>
+    <string name="theme_accent_picker_summary">സിസ്റ്റം തീം accent നിറം സെലക്ട് ചെയ്യുക</string>
+    <string name="theme_accent_picker_default">സ്ഥിരമായത്</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">നിറം തിരഞ്ഞെടുക്കാം</string>
+    <string name="press_color_to_apply">താഴെയുള്ള നിറം തിരഞ്ഞെടുക്കുക</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
@@ -130,6 +131,7 @@
     <string name="battery_style_dotted_circle">Dotted circle</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_q">Q style</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
@@ -146,21 +148,21 @@
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
     <!-- Statusbar Clock -->
-    <string name="clock_style_category_title">Clock Settings</string>
-    <string name="clock_style_category_summary">Statusbar Clock Tuner</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
+    <string name="clock_style_category_title">ക്ലോക്ക് ക്രെമീകരണം</string>
+    <string name="clock_style_category_summary">സ്റ്റാറ്റ്‌സ് ബാർ ക്ലോക്ക് ട്യൂണർ</string>
+    <string name="status_bar_clock_title">ക്ലോക്ക് ക്രെമീകരണം</string>
+    <string name="status_bar_clock_show">ക്ലോക്കും തീയതിയും കാണുക</string>
+    <string name="status_bar_clock_style_title">ക്ലോക്ക് സ്റ്റൈൽ</string>
+    <string name="status_bar_clock_style_right">വലത്</string>
+    <string name="status_bar_clock_style_center">സെന്റർ</string>
+    <string name="status_bar_clock_style_left">ഇടത്</string>
+    <string name="status_bar_am_pm_title">Am/pm സ്റ്റൈൽ</string>
+    <string name="status_bar_am_pm_info">24 മണിക്കൂർ ക്ലോക്ക് ഓണ്</string>
+    <string name="status_bar_am_pm_normal">സാധാരണ</string>
+    <string name="status_bar_am_pm_small">ചെറുത്</string>
+    <string name="status_bar_am_pm_hidden">ഇല്ല(default)</string>
+    <string name="clock_seconds_display">സെക്കന്റ് കാണുക</string>
+    <string name="clock_date_display">തിയതി</string>
     <string name="clock_date_display_summary">Display custom date before the clock</string>
     <string name="clock_date_display_none">Don\'t show</string>
     <string name="clock_date_display_small">Small font size</string>
@@ -290,14 +292,8 @@
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
-    <!-- Weather -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_unit">Temperature unit</string>
     <!-- Qs Style Picker -->
     <string name="qs_styles_dialog_title">Select a QS tile style</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacity</string>
-    <string name="qs_opacity_category">QS panel opacity</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">QS footer warnings</string>
     <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
@@ -348,4 +344,83 @@
     <string name="battery_bar_blend_color_reverse_title">Reverse color direction</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">Suspend Actions</string>
+    <string name="screen_state_toggles_enable_title">Enable</string>
+    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
+    <string name="screen_state_toggles_mobile_title">Mobile networks</string>
+    <string name="screen_state_toggles_location_title">Location</string>
+    <string name="screen_state_toggles_twog">Switch to 2G</string>
+    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
+    <string name="screen_state_toggles_gps">Disable GPS</string>
+    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
+    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
+    <string name="screen_state_off_delay_title">Screen Off actions delay</string>
+    <string name="screen_state_off_delay_summary">Number of seconds to wait before performing actions after screen off</string>
+    <string name="screen_state_on_delay_title">Screen On actions delay</string>
+    <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_hide_items_category">Hide items</string>
+    <string name="lockscreen_clock_title">Clock widget</string>
+    <string name="lockscreen_clock_summary">Show the clock widget on the lockscreen</string>
+    <string name="lockscreen_info_title">Items underneath the clock</string>
+    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Clock style</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
+    <string name="lockscreen_clock_selection_analog">Analog (Deep Night)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (Accent)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy (Accent - Alt)</string>
+    <string name="lockscreen_clock_selection_spidey">Analog (Spidey)</string>
+    <string name="lockscreen_clock_selection_analog_num">Analog (Bright White)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digital (Accent)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digital (Accent - Minutes)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (Accent - Hour)</string>
+    <string name="lockscreen_clock_selection_dot">Analog (Dot)</string>
+    <string name="lockscreen_clock_selection_spectrum">Analog (Spectrum)</string>
+    <string name="lockscreen_clock_selection_sneeky">Analog (Sneeky)</string>
+    <string name="lockscreen_clock_selection_text">Text</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend you set the amount of disabled pixels at 75 percent.</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift_title">Burn-in protection</string>
+    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Icon Pack</string>
+    <string name="recents_icon_pack_summary">Apply a custom icon pack for Recents panel</string>
+    <string name="no_iconpacks_summary">No icon packs installed</string>
+    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
+    <string name="default_iconpack_title">Default icons</string>
 </resources>

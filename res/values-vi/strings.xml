@@ -43,6 +43,7 @@
     <string name="lockscreen_category">Màn Hình Khóa</string>
     <string name="notifications_panel_category">Thông báo</string>
     <string name="aosp_recents_category">Màn Hình Đa Nhiệm</string>
+    <string name="oreo_recents_category">Đa nhiệm kiểu Oreo</string>
     <string name="qs_brightness_category">Độ Sáng</string>
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -130,6 +131,7 @@
     <string name="battery_style_dotted_circle">Vòng tròn chấm</string>
     <string name="status_bar_battery_style_text">Chỉ số</string>
     <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <string name="status_bar_battery_style_q">Android Q</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Nhấn đúp vào màn hình khóa để ngủ</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Nhấn đúp vào khu vực phím tắt 1/3 trên hoặc dưới của màn hình khóa để đặt thiết bị về chế độ ngủ</string>
@@ -290,14 +292,8 @@
     <string name="profile_choose_app">Chọn ứng dụng</string>
     <string name="dialog_delete_title">Xóa</string>
     <string name="dialog_delete_message">Xóa mục đã chọn?</string>
-    <!-- Weather -->
-    <string name="weather_title">Thời tiết</string>
-    <string name="weather_unit">Đơn vị nhiệt độ</string>
     <!-- Qs Style Picker -->
     <string name="qs_styles_dialog_title">Chọn kiểu ô cài đặt nhanh</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Độ trong suốt</string>
-    <string name="qs_opacity_category">Độ trong suốt bảng điều khiển nhanh</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Cảnh báo cuối trang Cài Đặt Nhanh</string>
     <string name="qs_footer_warnings_summary">Hiển thị cảnh báo ở cuối bảng điều khiển cài đặt nhanh khi mạng được theo dõi bởi các ứng dụng ngoài hoặc VPN</string>
@@ -348,4 +344,83 @@
     <string name="battery_bar_blend_color_reverse_title">Đảo ngược hướng màu sắc</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Đầy đủ &#8594; rỗng: đỏ &#8592; màu xanh lá cây &#8592; xanh &#8592; màu đỏ</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Đầy đủ &#8594; rỗng: đỏ &#8594; màu xanh lá cây &#8594; xanh &#8594; màu đỏ</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Các tùy chọn rung trong cuộc gọi</string>
+    <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
+    <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
+    <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">Đình Chỉ Hoạt Động</string>
+    <string name="screen_state_toggles_enable_title">Bật</string>
+    <string name="screen_state_toggles_enable_summary">Các hành động sẽ được thực hiện lúc màn hình tắt. Lúc màn hình bật trạng thái trước đó sẽ được khôi phục.</string>
+    <string name="screen_state_toggles_mobile_title">Mạng di động</string>
+    <string name="screen_state_toggles_location_title">Vị trí</string>
+    <string name="screen_state_toggles_twog">Chuyển sang 2G</string>
+    <string name="screen_state_toggles_twog_summary">Chế độ mạng sẽ được chuyển sang 2G lúc màn hình tắt</string>
+    <string name="screen_state_toggles_gps">Tắt GPS</string>
+    <string name="screen_state_toggles_gps_summary">Dịch vụ vị trí dựa trên GPS sẽ bị vô hiệu hóa lúc màn hình tắt</string>
+    <string name="screen_state_toggles_mobile_data">Tắt dữ liệu di động</string>
+    <string name="screen_state_toggles_mobile_data_summary">Dữ liệu di động sẽ bị tắt lúc màn hình tắt</string>
+    <string name="screen_state_off_delay_title">Độ trễ hành động khi tắt màn hình</string>
+    <string name="screen_state_off_delay_summary">Số giây chờ trước khi thực hiện hành động sau khi màn hình tắt</string>
+    <string name="screen_state_on_delay_title">Độ trễ hành động sau bật màn hình</string>
+    <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_hide_items_category">Hide items</string>
+    <string name="lockscreen_clock_title">Clock widget</string>
+    <string name="lockscreen_clock_summary">Show the clock widget on the lockscreen</string>
+    <string name="lockscreen_info_title">Items underneath the clock</string>
+    <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Clock style</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
+    <string name="lockscreen_clock_selection_analog">Analog (Deep Night)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (Accent)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy (Accent - Alt)</string>
+    <string name="lockscreen_clock_selection_spidey">Analog (Spidey)</string>
+    <string name="lockscreen_clock_selection_analog_num">Analog (Bright White)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digital (Accent)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digital (Accent - Minutes)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (Accent - Hour)</string>
+    <string name="lockscreen_clock_selection_dot">Analog (Dot)</string>
+    <string name="lockscreen_clock_selection_spectrum">Analog (Spectrum)</string>
+    <string name="lockscreen_clock_selection_sneeky">Analog (Sneeky)</string>
+    <string name="lockscreen_clock_selection_text">Text</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend you set the amount of disabled pixels at 75 percent.</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift_title">Burn-in protection</string>
+    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Icon Pack</string>
+    <string name="recents_icon_pack_summary">Apply a custom icon pack for Recents panel</string>
+    <string name="no_iconpacks_summary">No icon packs installed</string>
+    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
+    <string name="default_iconpack_title">Default icons</string>
 </resources>

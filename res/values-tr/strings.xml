@@ -43,6 +43,7 @@
     <string name="lockscreen_category">Kilit ekranı</string>
     <string name="notifications_panel_category">Bildirimler</string>
     <string name="aosp_recents_category">Aosp son uygulamalar</string>
+    <string name="oreo_recents_category">Oreo son uygulamalar</string>
     <string name="qs_brightness_category">Parlaklık</string>
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -130,6 +131,7 @@
     <string name="battery_style_dotted_circle">Noktalı daire</string>
     <string name="status_bar_battery_style_text">Metin</string>
     <string name="status_bar_battery_style_hidden">Gizli</string>
+    <string name="status_bar_battery_style_q">Q stili</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Çift dokunuşla uyutma</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Cihazı uyutmak için kilit ekranının boş bir alanına iki kez hafifçe dokunun</string>
@@ -290,14 +292,8 @@
     <string name="profile_choose_app">Uygulama seç</string>
     <string name="dialog_delete_title">Sil</string>
     <string name="dialog_delete_message">Seçili öge silinsin mi?</string>
-    <!-- Weather -->
-    <string name="weather_title">Hava durumu</string>
-    <string name="weather_unit">Sıcaklık birimi</string>
     <!-- Qs Style Picker -->
     <string name="qs_styles_dialog_title">Hızlı ayarlar kare stili seçin</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Şeffaflık</string>
-    <string name="qs_opacity_category">Hızlı ayarlar panel şeffaflığı</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Bilgi uyarıları</string>
     <string name="qs_footer_warnings_summary">Ağ harici uygulamalar veya VPN tarafından izlendiğinizde hızlı ayarlar panelinin altına bir uyarı gösterir</string>
@@ -348,4 +344,83 @@
     <string name="battery_bar_blend_color_reverse_title">Renk yönünü ters çevir</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Tam &#8594; boş: kırmızı &#8592; yeşil &#8592; mavi &#8592; kırmızı</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Tam &#8594; boş: kırmızı &#8594; yeşil &#8594; mavi &#8594; kırmızı</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Çağrı titreşimi</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Çağrı bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Ekranı kapattığınızda gerçekleştirilecek eylemler seçin</string>
+    <string name="screen_state_toggles_title">Eylemler</string>
+    <string name="screen_state_toggles_enable_title">Etkinleştir</string>
+    <string name="screen_state_toggles_enable_summary">Eylemler ekran kapandığında başlatılır. Ekran açılınca önceki durumuna geri getirilir.</string>
+    <string name="screen_state_toggles_mobile_title">Mobil ağlar</string>
+    <string name="screen_state_toggles_location_title">Konum</string>
+    <string name="screen_state_toggles_twog">2G\'ye geç</string>
+    <string name="screen_state_toggles_twog_summary">Ekran kapalıyken ağ modu 2G\'ye geçecek</string>
+    <string name="screen_state_toggles_gps">GPS\'yi kapat</string>
+    <string name="screen_state_toggles_gps_summary">GPS tabanlı konum hizmetleri ekran kapanınca devre dışı kalacak</string>
+    <string name="screen_state_toggles_mobile_data">Mobil veriyi kapat</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobil veri ekran kapanınca devre dışı bırakılacak</string>
+    <string name="screen_state_off_delay_title">Ekran kapandığında eylemlerin gecikmesi</string>
+    <string name="screen_state_off_delay_summary">Ekran kapandıktan sonra eylemleri gerçekleştirmek için beklenecek saniye miktarı</string>
+    <string name="screen_state_on_delay_title">Ekran açıldığında eylemlerin gecikmesi</string>
+    <string name="screen_state_on_delay_summary">Ekran açıldıktan sonra işlem gerçekleştirilmeden önce beklenecek saniye miktarı</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Devre dışı simgesi</string>
+    <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunun yanında çarpı simgesi görüntüle</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_hide_items_category">Öğeleri gizle</string>
+    <string name="lockscreen_clock_title">Saat widgeti</string>
+    <string name="lockscreen_clock_summary">Kilit ekranında saat widget\'ini göster</string>
+    <string name="lockscreen_info_title">Saatin altındaki öğeler</string>
+    <string name="lockscreen_info_summary">Kilit ekranında tarihi, hava durumunu ve alarmı göster</string>
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Saat stili</string>
+    <string name="lockscreen_clock_selection_digital">Varsayılan</string>
+    <string name="lockscreen_clock_selection_digital_bold">Dijital (kalın)</string>
+    <string name="lockscreen_clock_selection_analog">Analog (Karanlık)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (kalın)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (Vurgu renkli)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy (Vurgu renkli - Alternatif)</string>
+    <string name="lockscreen_clock_selection_spidey">Analog (Örümcek)</string>
+    <string name="lockscreen_clock_selection_analog_num">Analog (Aydınlık)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Dijital (Vurgu renkli)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Dijital (Vurgu renkli- Dakika)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Dijital (Vurgu renkli - Saat)</string>
+    <string name="lockscreen_clock_selection_dot">Analog (Dot)</string>
+    <string name="lockscreen_clock_selection_spectrum">Analog (Spektrum)</string>
+    <string name="lockscreen_clock_selection_sneeky">Analog (Sinsi)</string>
+    <string name="lockscreen_clock_selection_text">Metin</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
+    <string name="status_bar_toggle_brightness_summary">Durum çubuğu üzerinde kaydırarak parlaklığı ayarla</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Akıllı pikseller</string>
+    <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksele karar verdiğinize bağlı olarak pil ömründe önemli bir iyileşme görebilirsiniz. İyi bir kullanıcı deneyimi için devre dışı bırakılmış piksel miktarını yüzde 75 olarak ayarlamanızı öneririz.</string>
+    <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
+    <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
+    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
+    <string name="smart_pixels_on_power_save_title">Pil tasarrufu için otomatik etkinleştir</string>
+    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde akıllı pikselleri etkinleştir</string>
+    <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
+    <string name="smart_pixels_shift_title">Yanma koruması</string>
+    <string name="smart_pixels_shift_summary">Amoled cihazlarda yanmaları önler ve sık sık pikselleri kaydırır</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Tümünü temizle tuşu</string>
+    <string name="show_clear_all_recents_button_summary">Tümünü temizleme tuşunu göster</string>
+    <string name="recents_clear_all_location_title">Tuş konumu</string>
+    <string name="recents_clear_all_location_top_right">Sağ üst</string>
+    <string name="recents_clear_all_location_top_left">Sol üst</string>
+    <string name="recents_clear_all_location_top_center">Orta üst</string>
+    <string name="recents_clear_all_location_bottom_right">Sağ alt</string>
+    <string name="recents_clear_all_location_bottom_left">Sol alt</string>
+    <string name="recents_clear_all_location_bottom_center">Orta alt</string>
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Simge paketi</string>
+    <string name="recents_icon_pack_summary">Son uygulamalar için özel bir simge paketi uygula</string>
+    <string name="no_iconpacks_summary">Yüklü simge paketleri yok</string>
+    <string name="dialog_pick_iconpack_title">Simge paketi seçin</string>
+    <string name="default_iconpack_title">Varsayılan simgeler</string>
 </resources>
