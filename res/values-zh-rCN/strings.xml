@@ -43,6 +43,7 @@
     <string name="lockscreen_category">锁屏</string>
     <string name="notifications_panel_category">通知</string>
     <string name="aosp_recents_category">AOSP的多任务</string>
+    <string name="oreo_recents_category">Oreo 最近任务</string>
     <string name="qs_brightness_category">亮度</string>
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -130,6 +131,7 @@
     <string name="battery_style_dotted_circle">虚线圆圈</string>
     <string name="status_bar_battery_style_text">文本</string>
     <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_style_q">Q 样式</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">双击锁屏界面休眠</string>
     <string name="double_tap_to_sleep_lockscreen_summary">双击锁屏界面顶部三分之一或底部捷径区域使设备休眠</string>
@@ -290,14 +292,8 @@
     <string name="profile_choose_app">选择应用</string>
     <string name="dialog_delete_title">删除</string>
     <string name="dialog_delete_message">移除选中的项目？</string>
-    <!-- Weather -->
-    <string name="weather_title">天气</string>
-    <string name="weather_unit">温度单位</string>
     <!-- Qs Style Picker -->
     <string name="qs_styles_dialog_title">选择一个快速设置的样式</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">不透明度</string>
-    <string name="qs_opacity_category">快速设置面板不透明度</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">快速设置面板页脚警告</string>
     <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置底部显示一个警告</string>
@@ -348,4 +344,83 @@
     <string name="battery_bar_blend_color_reverse_title">反转颜色方向</string>
     <string name="battery_bar_blend_color_reverse_summary_off">满 &#8594; 电量低: 红 &#8592; 绿 &#8592; 蓝 &#8592; 红</string>
     <string name="battery_bar_blend_color_reverse_summary_on">满 &#8594; 电量低: 红 &#8594; 绿 &#8594; 蓝 &#8594; 红</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时震动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时震动</string>
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">暂停操作</string>
+    <string name="screen_state_toggles_enable_title">启用</string>
+    <string name="screen_state_toggles_enable_summary">操作将在屏幕关闭时执行。屏幕上的当前状态将会被还原。</string>
+    <string name="screen_state_toggles_mobile_title">移动网络</string>
+    <string name="screen_state_toggles_location_title">地理位置</string>
+    <string name="screen_state_toggles_twog">切换到 2G</string>
+    <string name="screen_state_toggles_twog_summary">网络将会在屏幕关闭时切换至 2G</string>
+    <string name="screen_state_toggles_gps">禁用 GPS</string>
+    <string name="screen_state_toggles_gps_summary">基于 GPS 的定位服务将在屏幕关闭时停用</string>
+    <string name="screen_state_toggles_mobile_data">禁用移动数据</string>
+    <string name="screen_state_toggles_mobile_data_summary">屏幕关闭后禁用数据连接</string>
+    <string name="screen_state_off_delay_title">屏幕关闭操作延迟</string>
+    <string name="screen_state_off_delay_summary">在屏幕关闭后执行操作前等待时长</string>
+    <string name="screen_state_on_delay_title">屏幕关闭操作延迟</string>
+    <string name="screen_state_on_delay_summary">在屏幕点亮后执行操作前等待的时长</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">显示数据连接停用图标</string>
+    <string name="data_disabled_icon_summary">停用数据连接时，显示信号图标旁的“×”图标</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_hide_items_category">隐藏项目</string>
+    <string name="lockscreen_clock_title">时钟小部件</string>
+    <string name="lockscreen_clock_summary">在锁屏上显示时钟小部件</string>
+    <string name="lockscreen_info_title">时钟下的项目</string>
+    <string name="lockscreen_info_summary">在锁屏上显示日期，天气，闹钟和提示</string>
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">时钟风格</string>
+    <string name="lockscreen_clock_selection_digital">默认</string>
+    <string name="lockscreen_clock_selection_digital_bold">数字时钟（粗体）</string>
+    <string name="lockscreen_clock_selection_analog">模拟时钟 (深夜)</string>
+    <string name="lockscreen_clock_selection_sammy">竖式时钟</string>
+    <string name="lockscreen_clock_selection_sammy_bold">竖式时钟（粗体）</string>
+    <string name="lockscreen_clock_selection_sammy_accent">三星样式 主题色</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">三星样式 主题色（其它）</string>
+    <string name="lockscreen_clock_selection_spidey">模拟时钟 (蜘蛛侠)</string>
+    <string name="lockscreen_clock_selection_analog_num">模拟时钟 (亮白色)</string>
+    <string name="lockscreen_clock_selection_digital_accent">数字时钟 (主题色)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">数字时钟 (主题色-分钟)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">数字时钟 (主题色-小时)</string>
+    <string name="lockscreen_clock_selection_dot">摸拟时钟 (dotos)</string>
+    <string name="lockscreen_clock_selection_spectrum">模拟时钟(Spectrum)</string>
+    <string name="lockscreen_clock_selection_sneeky">模拟时钟(Sneeky)</string>
+    <string name="lockscreen_clock_selection_text">文本</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">亮度控制</string>
+    <string name="status_bar_toggle_brightness_summary">通过在状态栏上滑动来调整亮度</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">智能像素</string>
+    <string name="smart_pixels_warning_text">智能像素是一种省电功能。根据您决定关闭的像素数量，您可以看到手机续航时间有了显著的改善。为了良好的用户体验，建议您将禁用的像素数量设置为75%。</string>
+    <string name="smart_pixels_summary">通过关闭额外的像素来节省电量</string>
+    <string name="smart_pixels_enable_title">启用智能像素</string>
+    <string name="smart_pixels_enable_summary">关闭像素以降低功耗</string>
+    <string name="smart_pixels_on_power_save_title">省电模式时自动启用</string>
+    <string name="smart_pixels_on_power_save_summary">开启省电模式时自动启用智能像素</string>
+    <string name="smart_pixels_percent">禁用的像素数量</string>
+    <string name="smart_pixels_shift_title">烧屏保护</string>
+    <string name="smart_pixels_shift_summary">通过经常移动像素来防止 OLED 屏幕的设备发生烧屏</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">清除全部按钮</string>
+    <string name="show_clear_all_recents_button_summary">显示清除全部按钮</string>
+    <string name="recents_clear_all_location_title">清除全部按钮位置</string>
+    <string name="recents_clear_all_location_top_right">右上角</string>
+    <string name="recents_clear_all_location_top_left">左上角</string>
+    <string name="recents_clear_all_location_top_center">顶部居中</string>
+    <string name="recents_clear_all_location_bottom_right">右下角</string>
+    <string name="recents_clear_all_location_bottom_left">左下角</string>
+    <string name="recents_clear_all_location_bottom_center">底部居中</string>
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">图标包</string>
+    <string name="recents_icon_pack_summary">对最近任务面板中的应用程序应用自定义图标包</string>
+    <string name="no_iconpacks_summary">没有图标包被安装</string>
+    <string name="dialog_pick_iconpack_title">选择图标包</string>
+    <string name="default_iconpack_title">默认图标</string>
 </resources>

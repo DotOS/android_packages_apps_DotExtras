@@ -43,6 +43,7 @@
     <string name="lockscreen_category">Экран блокировки</string>
     <string name="notifications_panel_category">Уведомления</string>
     <string name="aosp_recents_category">Панель недавних AOSP</string>
+    <string name="oreo_recents_category">Oreo недавние</string>
     <string name="qs_brightness_category">Яркость</string>
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -130,6 +131,7 @@
     <string name="battery_style_dotted_circle">Пунктирный круг</string>
     <string name="status_bar_battery_style_text">Текст</string>
     <string name="status_bar_battery_style_hidden">Скрытый</string>
+    <string name="status_bar_battery_style_q">Стиль Q</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Двойное нажатие на экране блокировки, чтобы перейти в режим сна</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь верхней части или в области ярлыков экрана блокировки, чтобы отправить устройство в режим сна</string>
@@ -290,14 +292,8 @@
     <string name="profile_choose_app">Выберите приложение</string>
     <string name="dialog_delete_title">Удалить</string>
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
-    <!-- Weather -->
-    <string name="weather_title">Погода</string>
-    <string name="weather_unit">Единицы измерения температуры</string>
     <!-- Qs Style Picker -->
     <string name="qs_styles_dialog_title">Выбор стиля плиток быстрых настроек</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Прозрачность</string>
-    <string name="qs_opacity_category">Прозрачность панели быстрых настроек</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Предупреждение в нижней части быстрых настроек</string>
     <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней части шторки, когда сеть мониторится приложениями или используется VPN</string>
@@ -348,4 +344,83 @@
     <string name="battery_bar_blend_color_reverse_title">Инвертировать</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Полный &#8594; пустой: красный &#8592; зелёный &#8592; синий &#8592; красный</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Полный &#8594; пустой: красный &#8594; зелёный &#8594; синий &#8594; красный</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Параметры вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании во время вызова</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отключении</string>
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">Действия при отключении экрана</string>
+    <string name="screen_state_toggles_enable_title">Включить</string>
+    <string name="screen_state_toggles_enable_summary">Действия будут выполняться при выключении экрана. При включении будет восстановлено предыдущее состояние.</string>
+    <string name="screen_state_toggles_mobile_title">Мобильные сети</string>
+    <string name="screen_state_toggles_location_title">Местоположение</string>
+    <string name="screen_state_toggles_twog">Использовать режим 2G</string>
+    <string name="screen_state_toggles_twog_summary">Режим сети будет переключен в 2G когда выключится экран</string>
+    <string name="screen_state_toggles_gps">Отключить GPS</string>
+    <string name="screen_state_toggles_gps_summary">Не использовать GPS при выключенном экране</string>
+    <string name="screen_state_toggles_mobile_data">Отключить передачу данных</string>
+    <string name="screen_state_toggles_mobile_data_summary">Мобильная передача данных будет отключена при выключении экрана</string>
+    <string name="screen_state_off_delay_title">Отложить действия при выключении экрана</string>
+    <string name="screen_state_off_delay_summary">Задержка перед выполнением действий после выключения экрана</string>
+    <string name="screen_state_on_delay_title">Отложить действия при включении экрана</string>
+    <string name="screen_state_on_delay_summary">Задержка перед выполнением действий после включения экрана</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Показывать значок отключенной передачи данных</string>
+    <string name="data_disabled_icon_summary">Показывать крест над значком сети, когда передача данных отключена</string>
+    <!-- Lockscreen items -->
+    <string name="lockscreen_hide_items_category">Скрыть элементы</string>
+    <string name="lockscreen_clock_title">Виджет часов</string>
+    <string name="lockscreen_clock_summary">Показывать виджет часов на экране блокировки</string>
+    <string name="lockscreen_info_title">Элементы под часами</string>
+    <string name="lockscreen_info_summary">Показывать дату, будильник, погоду и дзен на экране блокировки</string>
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Стиль часов</string>
+    <string name="lockscreen_clock_selection_digital">По умолчанию</string>
+    <string name="lockscreen_clock_selection_digital_bold">Цифровые (жирный)</string>
+    <string name="lockscreen_clock_selection_analog">Аналоговые (Темные)</string>
+    <string name="lockscreen_clock_selection_sammy">Вертикальные</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Вертикальные (жирные)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Вертикальные (Акцент)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Вертикальные (Акцент - Alt)</string>
+    <string name="lockscreen_clock_selection_spidey">Аналог (Паучок)</string>
+    <string name="lockscreen_clock_selection_analog_num">Аналоговые (Светлые)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Цифровые (Акцент)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Цифровые (Акцент - минуты)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Цифровые (Акцент - Часы)</string>
+    <string name="lockscreen_clock_selection_dot">Аналоговые (Dot)</string>
+    <string name="lockscreen_clock_selection_spectrum">Аналоговые (Спектр)</string>
+    <string name="lockscreen_clock_selection_sneeky">Аналоговые (Sneeky)</string>
+    <string name="lockscreen_clock_selection_text">Текст</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Управление яркостью</string>
+    <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Умные пиксели</string>
+    <string name="smart_pixels_warning_text">Умные пиксели - средство экономии заряда. В зависимости от того, сколько пикселей вы захотите отключить, это может привести к значительному увеличению времени жизни батареи. Для оптимального пользования устройством, советуем вам установить количество отключённых пикселей на 75%.</string>
+    <string name="smart_pixels_summary">Экономить батарею, выключая часть пикселей</string>
+    <string name="smart_pixels_enable_title">Включить умные пиксели</string>
+    <string name="smart_pixels_enable_summary">Выключить пиксели для снижения расхода заряда батареи</string>
+    <string name="smart_pixels_on_power_save_title">Включать автоматически в режиме экономии заряда</string>
+    <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включен режим экономии заряда</string>
+    <string name="smart_pixels_percent">Процент отключенных пикселей</string>
+    <string name="smart_pixels_shift_title">Защита от выгорания</string>
+    <string name="smart_pixels_shift_summary">Предотвращение выгорания на OLED устройствах благодаря перемещению пикселей с такой частотой</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Кнопка \"Очистить все\"</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку «Очистить всё»</string>
+    <string name="recents_clear_all_location_title">Очистить все местоположения</string>
+    <string name="recents_clear_all_location_top_right">Сверху справа</string>
+    <string name="recents_clear_all_location_top_left">Сверху слева</string>
+    <string name="recents_clear_all_location_top_center">Сверху по центру</string>
+    <string name="recents_clear_all_location_bottom_right">Снизу справа</string>
+    <string name="recents_clear_all_location_bottom_left">Снизу слева</string>
+    <string name="recents_clear_all_location_bottom_center">Снизу по центру</string>
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Наборы значков</string>
+    <string name="recents_icon_pack_summary">Применить пользовательский набор иконок для панели недавних приложений</string>
+    <string name="no_iconpacks_summary">Наборы значков не установлены</string>
+    <string name="dialog_pick_iconpack_title">Выбрать набор значков</string>
+    <string name="default_iconpack_title">Значки по умолчанию</string>
 </resources>
