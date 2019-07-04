@@ -2,12 +2,6 @@
     android:title="@string/statusbar">
 
     <Preference
-        android:fragment="com.dot.dotextras.MiscExtras"
-        android:icon="@drawable/ic_misc_extras"
-        android:key="misc_extras"
-        android:title="@string/misc_extras_title" />
-
-    <Preference
         android:fragment="com.dot.dotextras.fragments.StatusBarBattery"
         android:key="battery_settings"
 		android:icon="@drawable/ic_battery_styles"
@@ -44,5 +38,11 @@
             android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity"
             android:targetPackage="com.android.systemui" />
     </Preference>
+
+    <Preference
+        android:fragment="com.dot.dotextras.MiscExtras"
+        android:icon="@drawable/ic_misc_extras"
+        android:key="misc_extras"
+        android:title="@string/misc_extras_title" />
 
 </PreferenceScreen>
